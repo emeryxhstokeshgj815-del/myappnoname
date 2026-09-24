@@ -204,7 +204,17 @@ def main():
     extra = set()
     for w in words:
         extra.update(w["forms"])
-    app = {"meta": meta, "words": [{k: v for k, v in w.items() if k != "zipf"} for w in words], "known": known_words(extra)}
+    def compact(w):
+        """App copy: drop fields the app never reads and repeated boilerplate notes."""
+        out = {k: v for k, v in w.items() if k != "zipf"}
+        out["cefrEvidence"] = [{k: v for k, v in e.items() if k != "note"} for e in w["cefrEvidence"]]
+        out["corpusEvidence"] = {k: v for k, v in w["corpusEvidence"].items() if k != "note"}
+        out["examples"] = [{k: v for k, v in x.items() if not (k == "alternatives" and not v)} for x in w["examples"]]
+        if not out.get("senseNote"):
+            out.pop("senseNote", None)
+        return out
+
+    app = {"meta": meta, "words": [compact(w) for w in words], "known": known_words(extra)}
     json.dump(app, open(os.path.join(BUILD, "app-data.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     report["counts"] = {"words": len(words), "dropped": len(report["dropped"]), "skipped": len(report["skipped_by_authors"]),
                         "removed_in_review": len(report["removed_in_review"]), "optional_items_removed": len(report["item_errors"])}

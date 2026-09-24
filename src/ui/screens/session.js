@@ -273,9 +273,19 @@ export function renderSession(app) {
 
   document.addEventListener('keydown', onKey);
   document.addEventListener('keyup', onKeyUp);
+  // Keep the action bar above an on-screen keyboard that overlays the page (iOS).
+  const vv = window.visualViewport;
+  const onViewport = () => {
+    const kb = vv ? Math.max(0, window.innerHeight - vv.height - vv.offsetTop) : 0;
+    view.style.setProperty('--kb', (kb > 60 ? kb : 0) + 'px');
+  };
+  vv?.addEventListener('resize', onViewport);
+  vv?.addEventListener('scroll', onViewport);
   app.onCleanup(() => {
     alive = false;
     cleanup();
+    vv?.removeEventListener('resize', onViewport);
+    vv?.removeEventListener('scroll', onViewport);
   });
 
   if (session.mode === 'sprint') {

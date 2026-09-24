@@ -226,3 +226,20 @@ def derivation_verified(base, derived):
         if bases & derivational_links(c):
             return True
     return False
+
+
+WN_POS = {"noun": "n", "verb": "v", "adjective": "a", "adverb": "r"}
+
+
+def wn_synonyms(lemma, pos):
+    """All WordNet synonyms (same synset) of a lemma for a part of speech."""
+    wn = wordnet()
+    p = WN_POS.get(pos)
+    if not p:
+        return set()
+    out = set()
+    for syn in wn.synsets(lemma.replace(" ", "_"), pos=p) + (wn.synsets(lemma, pos="s") if p == "a" else []):
+        for l in syn.lemma_names():
+            out.add(l.lower().replace("_", " "))
+    out.discard(lemma.lower())
+    return out

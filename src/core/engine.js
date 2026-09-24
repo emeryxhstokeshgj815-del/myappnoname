@@ -120,6 +120,14 @@ export function grade(task, response, lex) {
     out.outcome = out.correct ? 'good' : 'bad';
     return out;
   }
+  if (task.mech === 'collocation' && task.variant === 'build') {
+    const built = (response.tiles || []).map((i) => task.tiles[i]).join(' ').toLowerCase();
+    out.built = built;
+    out.correct = built === task.answer.toLowerCase();
+    out.outcome = out.correct ? 'good' : 'bad';
+    out.expected = task.answer;
+    return out;
+  }
   if (task.options && response.choice !== undefined && task.mech !== 'fixit') {
     out.correct = response.choice === task.answerIndex;
     out.outcome = out.correct ? 'good' : 'bad';

@@ -5,7 +5,7 @@
 //   step -1  introduced today, not yet successfully recalled on a later day
 //   step 0..5  next interval = LADDER[step] days  (1, 3, 7, 14, 30, 60)
 //
-// One scheduling decision per word per local day:
+// One scheduling decision per word per local day, and only when the word is due:
 //   * the first successful unaided answer of the day moves the word one step
 //     up the ladder (due = today + LADDER[step]);
 //   * a hinted answer keeps the step and brings the word back tomorrow;
@@ -105,7 +105,8 @@ export function applyAnswer(rec, a) {
         ev.penalty = true;
         ev.scheduled = true;
       }
-    } else if (r.sched !== today && r.pen !== today) {
+    } else if (r.sched !== today && r.pen !== today && r.due <= today) {
+      // (answers on words that are not due yet — extra practice — never move them up)
       if (a.outcome === 'good') {
         if (r.lastOk) {
           const gap = diffDays(r.lastOk, today);

@@ -15,7 +15,7 @@ export function kickerFor(task) {
   const base = MECHANICS[task.mech]?.label || task.mech;
   if (task.mech === 'quickpick') return `${base} · ${task.variant === 'ru-en' ? 'RU → EN' : 'EN → RU'}`;
   if (task.mech === 'gap') return `${base} · ${task.variant === 'typed' ? 'type' : 'choose'}`;
-  if (task.mech === 'collocation') return `${base} · ${task.variant === 'odd' ? 'odd one out' : 'complete'}`;
+  if (task.mech === 'collocation') return `${base} · ${task.variant === 'odd' ? 'odd one out' : task.variant === 'build' ? 'build' : 'complete'}`;
   return base;
 }
 
@@ -301,6 +301,62 @@ export function buildExercise(task, ctx) {
     }
 
     case 'collocation': {
+      if (task.variant === 'build') {
+        let placed = [];
+        let done = false;
+        const line = h('div', { class: 'build-line', 'aria-label': 'Your phrase', 'aria-live': 'polite' });
+        const tiles = task.tiles.map((t, i) => h('button', { class: 'tile', 'data-i': String(i), onclick: () => toggle(i) }, t));
+        const bank = h('div', { class: 'build-bank', role: 'group', 'aria-label': 'Word tiles' }, tiles);
+        const paint = () => {
+          line.replaceChildren(
+            ...(placed.length
+              ? placed.map((i) => h('button', { class: 'tile placed', 'aria-label': `Remove ${task.tiles[i]}`, onclick: () => toggle(i) }, task.tiles[i]))
+              : [h('span', { class: 'tiny' }, 'Tap the words in order')]),
+          );
+          tiles.forEach((b, i) => {
+            const used = placed.includes(i);
+            b.classList.toggle('used', used);
+            b.setAttribute('aria-pressed', String(used));
+          });
+        };
+        function toggle(i) {
+          if (done) return;
+          app.audio.play('tap');
+          const at = placed.indexOf(i);
+          if (at >= 0) placed.splice(at, 1);
+          else if (placed.length < task.need) placed.push(i);
+          paint();
+          ctx.onInput();
+        }
+        paint();
+        const el = h('div', { class: 'task' }, instr(`Build a natural phrase with “${word.lemma}”. One tile is not needed.`), line, bank);
+        const ctl = {
+          el,
+          kind: 'typed',
+          hintsAllowed: false,
+          canSubmit: () => !done && placed.length === task.need,
+          response: () => ({ tiles: placed.slice() }),
+          submitNow() {
+            if (!ctl.canSubmit()) return;
+            done = true;
+            submit(ctl.response());
+          },
+          hint() {
+            return 0;
+          },
+          onResult(res) {
+            done = true;
+            tiles.forEach((b) => (b.disabled = true));
+            line.querySelectorAll('.tile').forEach((b) => (b.disabled = true));
+            line.classList.add(res.correct ? 'good' : 'bad');
+            if (!res.correct) line.classList.add('shake');
+          },
+          focus() {
+            tiles[0]?.focus({ preventScroll: true });
+          },
+        };
+        return ctl;
+      }
       const opts = optionList(task.options, (i) => ctl.choose(i));
       let head;
       let prompt = null;
@@ -614,7 +670,9 @@ export function feedbackFor(task, res, lex) {
       ru = `${task.base.toLowerCase()} → ${task.answer}. ${ruWord(word)}.`;
       break;
     case 'collocation':
-      if (res.outcome !== 'good') answerLine(task.variant === 'odd' ? 'Not natural:' : 'Answer:', task.options[task.answerIndex]);
+      if (task.variant === 'build') {
+        if (res.outcome !== 'good') answerLine('Natural phrase:', task.answer);
+      } else if (res.outcome !== 'good') answerLine(task.variant === 'odd' ? 'Not natural:' : 'Answer:', task.options[task.answerIndex]);
       ru = task.explanationRu;
       lines.push(h('p', { class: 'ex' }, 'Natural: ' + task.collocations.map(unmark).join(' · ')));
       break;

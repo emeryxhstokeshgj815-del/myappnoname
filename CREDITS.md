@@ -91,10 +91,12 @@ All downloads were made on **2026-09-24**.
 
 ## Learning content
 Definitions, Russian translations, example sentences, collocation lists, situations and
-all exercise items were written for Crux by the project's editors (with AI assistance)
-and checked by validation scripts and an editorial review pass. They are not quotations
-from dictionaries or corpora. Licence: **CC BY-NC-SA 4.0** (the non-commercial,
-share-alike terms follow EFLLex).
+all exercise items were written for Crux by AI editor agents (Claude) following
+`content/GUIDELINES.md`, checked by validation scripts, and revised in a second, independent
+AI editorial pass (`content/REVIEW.md`, logs in `content/reviews/`). No human
+native-speaker editor has reviewed them. They are not quotations from dictionaries or
+corpora. Licence: **CC BY-NC-SA 4.0** (the non-commercial, share-alike terms follow
+EFLLex).
 
 ## Sound effects
 * **Interface Sounds 1.0** by **Kenney** (<https://www.kenney.nl>), **CC0 1.0 Universal**.

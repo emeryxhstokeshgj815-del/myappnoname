@@ -33,6 +33,10 @@ Intervals: **1 → 3 → 7 → 14 → 30 → 60 days**.
 
 * Only the **first** successful answer of a day moves a word up, so repeating a word
   many times in one day cannot inflate its progress.
+* A word moves up only when it is **due** (or overdue). Extra practice before the due
+  date (fillers, Boss Round, Free Practice, Library practice) still counts as a
+  successful day, but it does not stretch the interval; a mistake in extra practice
+  does bring the word back sooner.
 * A correct answer after a mistake on the same day does not extend the interval
   (the word is due tomorrow anyway) but closes the open mistake.
 * **Practice** answers (Sprint, Match) only update skill tallies; they never change

@@ -334,6 +334,19 @@ input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--accent)
 .tok.is-wrong { background: var(--bad-soft); box-shadow: 0 0 0 2px var(--bad) inset; text-decoration: line-through; }
 .tok.is-target { background: var(--good-soft); box-shadow: 0 0 0 2px var(--good) inset; }
 .tok[disabled] { cursor: default; }
+.build-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; min-height: 64px; margin-top: 16px; padding: 10px; border-radius: var(--radius); background: var(--surface); box-shadow: 0 0 0 2px var(--line-2) inset; }
+.build-line.good { box-shadow: 0 0 0 3px var(--good) inset; background: var(--good-soft); }
+.build-line.bad { box-shadow: 0 0 0 3px var(--bad) inset; background: var(--bad-soft); }
+.build-bank { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.tile {
+  min-height: 48px; min-width: 48px; padding: 8px 14px; border: 0; border-radius: 12px; background: var(--surface); color: var(--ink);
+  font-size: 18px; font-weight: 600; box-shadow: 0 0 0 2px var(--line) inset, 0 4px 0 var(--line-2); cursor: pointer;
+  transition: transform 80ms, box-shadow 80ms, opacity .15s;
+}
+.tile:active { transform: translateY(3px); box-shadow: 0 0 0 2px var(--line) inset, 0 1px 0 var(--line-2); }
+.tile.used { opacity: .25; }
+.tile.placed { background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent) inset, 0 3px 0 var(--accent-edge); color: var(--accent-ink); }
+.tile[disabled] { cursor: default; }
 .chat { padding: 14px 16px; border-radius: 18px 18px 18px 6px; background: var(--surface); box-shadow: 0 0 0 1px var(--line) inset; font-size: 18px; }
 .match { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
 .match .col { display: grid; gap: 10px; align-content: start; }
@@ -373,6 +386,7 @@ input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--accent)
 
 .action-bar {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 16; padding: 12px 16px calc(12px + var(--safe-b));
+  transform: translateY(calc(-1 * var(--kb, 0px))); transition: transform .15s ease-out;
   background: rgba(245, 243, 238, .97); border-top: 1px solid var(--line);
 }
 .action-inner { max-width: 648px; margin: 0 auto; display: flex; gap: 10px; align-items: center; min-height: 56px; }
@@ -384,16 +398,19 @@ input[type="range"] { width: 100%; min-height: 44px; accent-color: var(--accent)
 .sum-stats .stat { text-align: center; }
 .hard-list { display: flex; flex-wrap: wrap; gap: 8px; }
 
-/* toasts: top of the screen, over the header only, never blocking input */
-.toasts { position: fixed; top: calc(8px + var(--safe-t)); left: 0; right: 0; z-index: 50; display: grid; justify-items: center; gap: 6px; pointer-events: none; }
+/* toasts: one at a time, a single line inside the header strip (between the header
+   buttons), so they never cover the question or the answer area; clicks pass through */
+.toasts { position: fixed; top: calc(10px + var(--safe-t)); left: 64px; right: 64px; z-index: 50; display: flex; justify-content: center; pointer-events: none; }
 .toast {
-  display: flex; align-items: center; gap: 10px; max-width: min(92vw, 520px); padding: 8px 14px 8px 8px; border-radius: 16px;
-  background: #1f1d2b; color: #fff; box-shadow: 0 6px 20px rgba(0,0,0,.16); font-weight: 600; font-size: 15px;
-  animation: toast-in .25s ease-out both;
+  display: flex; align-items: center; gap: 8px; max-width: min(100%, 460px); height: 44px; padding: 0 14px 0 6px; border-radius: 22px;
+  background: #1f1d2b; color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.16); font-weight: 600; font-size: 14px; line-height: 1.2;
+  white-space: nowrap; overflow: hidden; animation: toast-in .25s ease-out both;
 }
+.toast > span:last-child { overflow: hidden; text-overflow: ellipsis; }
 .toast.out { animation: toast-out .25s ease-in both; }
-.toast svg { width: 36px; height: 36px; flex: none; }
-.toast .sub { display: block; font-weight: 450; font-size: 13px; opacity: .8; }
+.toast svg { width: 32px; height: 32px; flex: none; }
+.toast .icon { width: 22px; height: 22px; margin-left: 6px; }
+.toast .sub { display: none; }
 
 /* motion */
 @keyframes pop-in { from { opacity: 0; transform: translateY(8px) scale(.985); } to { opacity: 1; transform: none; } }

@@ -118,3 +118,16 @@ test('isDue and date helpers', () => {
   assert.equal(isValidDay('2026-02-30'), false);
   assert.equal(isValidDay(dayKey(new Date(2026, 0, 5))), true);
 });
+
+test('practising a word before it is due does not move it up the ladder', () => {
+  let r = ans(null, 'good', D0); // due D0+1
+  r = ans(r, 'good', addDays(D0, 1)); // step 1, due D0+4
+  const before = { step: r.step, due: r.due };
+  r = ans(r, 'good', addDays(D0, 2)); // early practice
+  assert.equal(r.step, before.step);
+  assert.equal(r.due, before.due);
+  assert.equal(r.okDays.length, 3, 'still a successful day');
+  r = ans(r, 'bad', addDays(D0, 3)); // but a mistake still brings it back
+  assert.equal(r.due, addDays(D0, 4));
+  assert.equal(r.step, 0);
+});

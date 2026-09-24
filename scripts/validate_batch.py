@@ -190,6 +190,11 @@ def validate_entry(r, e, lemma_forms_all):
                 r.warn(wi, f"distractor {q!r} may not match the target form {m!r} ({','.join(sorted(tags))})")
             if " " not in q and L.zipf(q) < 1.5:
                 r.warn(wi, f"distractor {q!r} looks rare or non-existent")
+        syn = L.wn_synonyms(lemma, pos)
+        for q in low:
+            qls = L.lemmas_of(q, pos) | {q}
+            if qls & syn:
+                r.warn(wi, f"distractor {q!r} is a WordNet synonym of {lemma!r} in some sense — make sure it is clearly wrong here")
         triples.append(tuple(sorted(low)))
     if len(triples) != len(set(triples)):
         r.warn(w, "examples reuse the same distractor set")

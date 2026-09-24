@@ -121,19 +121,31 @@ export function createApp(root, data, sounds) {
   // ---------- toasts & celebrations ----------
   const toasts = h('div', { class: 'toasts', role: 'status', 'aria-live': 'polite' });
   document.body.appendChild(toasts);
-  app.toast = ({ title, sub = '', icon = null, badge = null, ms = 2800 }) => {
+  // Toasts are queued and shown one at a time; each is a single short line.
+  const queue = [];
+  let showing = false;
+  function pump() {
+    if (showing || !queue.length) return;
+    showing = true;
+    const { title, sub = '', icon = null, badge = null, ms = 2400 } = queue.shift();
     const el = h('div', { class: 'toast' });
-    if (badge) {
-      const b = h('span', { html: badgeSvg(badge, true) });
-      el.appendChild(b);
-    } else if (icon) el.appendChild(svg(ICONS[icon] || ICONS.info));
-    el.appendChild(h('span', null, title, sub ? h('span', { class: 'sub' }, sub) : null));
-    toasts.appendChild(el);
-    while (toasts.children.length > 2) toasts.firstChild.remove();
+    if (badge) el.appendChild(h('span', { html: badgeSvg(badge, true) }));
+    else if (icon) el.appendChild(svg(ICONS[icon] || ICONS.info));
+    el.appendChild(h('span', null, title, sub ? h('span', { class: 'sub' }, ' — ' + sub) : null));
+    el.title = sub ? `${title} — ${sub}` : title;
+    toasts.replaceChildren(el);
     setTimeout(() => {
       el.classList.add('out');
-      setTimeout(() => el.remove(), 260);
+      setTimeout(() => {
+        el.remove();
+        showing = false;
+        pump();
+      }, 260);
     }, ms);
+  }
+  app.toast = (t) => {
+    if (queue.length < 4) queue.push(t);
+    pump();
   };
   app.celebrate = (events, delay = 350) => {
     if (!events) return;
@@ -147,7 +159,7 @@ export function createApp(root, data, sounds) {
       setTimeout(() => {
         app.audio.play(it.sound);
         app.toast(it.toast);
-      }, delay + i * 700);
+      }, delay + i * 2700);
     });
   };
 

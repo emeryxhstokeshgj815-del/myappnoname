@@ -130,6 +130,18 @@ async function answer(page, mode = 'correct') {
       await page.click(`.match .col:first-child .opt[data-id="${id}"]`);
       await page.click(`.match .col:last-child .opt[data-id="${id}"]`);
     }
+  } else if (t.mech === 'collocation' && t.variant === 'build') {
+    const words = t.answer.split(' ');
+    const used = new Set();
+    const order = words.map((w) => {
+      const i = t.tiles.findIndex((x, k) => x === w && !used.has(k));
+      used.add(i);
+      return i;
+    });
+    if (mode === 'wrong') order.reverse();
+    if (mode === 'wrong' && words.length === 1) order[0] = t.tiles.findIndex((x, k) => !used.has(k));
+    for (const i of order) await page.click(`.build-bank .tile[data-i="${i}"]`);
+    await page.click('button:has-text("Check")');
   } else if (t.mech === 'fixit') {
     if (mode === 'wrong') await page.click(`.tok[data-i="${(t.wrongIndex + 1) % t.tokens.length}"]`);
     else {
@@ -261,7 +273,7 @@ await test('all exercise types render and can be answered', async () => {
   const mechs = ['quickpick', 'recall', 'gap', 'collocation', 'wordform', 'nuance', 'fixit', 'trio', 'reply', 'match', 'rewrite', 'listen'];
   const done = [];
   for (const m of mechs) {
-    const variants = m === 'gap' ? ['choice', 'typed'] : m === 'collocation' ? ['complete', 'odd'] : m === 'quickpick' ? ['en-ru', 'ru-en'] : [undefined];
+    const variants = m === 'gap' ? ['choice', 'typed'] : m === 'collocation' ? ['complete', 'odd', 'build'] : m === 'quickpick' ? ['en-ru', 'ru-en'] : [undefined];
     for (const v of variants) {
       const ok = await page.evaluate(({ m, v }) => {
         const app = window.__crux;
@@ -300,7 +312,7 @@ await test('all exercise types render and can be answered', async () => {
       });
     }
   }
-  assert(done.length >= 15, 'only ' + done.join(','));
+  assert(done.length >= 16, 'only ' + done.join(','));
   assert(problems.length === 0, problems.join('; '));
   await context.close();
 });

@@ -183,7 +183,12 @@ export function planBoss({ state, length, rng }) {
 
 export function planFree({ lex, state, today, length, rng, config }) {
   const topics = config.topics && config.topics.length ? config.topics : null;
-  const inTopic = (id) => !topics || topics.includes(lex.get(id).topic);
+  const mechs = config.mechanics && config.mechanics.length ? config.mechanics.filter((m) => m !== 'match') : null;
+  const fits = (id) => {
+    const w = lex.get(id);
+    return (!topics || topics.includes(w.topic)) && (!mechs || !mechs.length || mechs.some((m) => hasMechanic(w, m)));
+  };
+  const inTopic = fits;
   const due = dueIds(state, today).filter(inTopic);
   const known = knownIds(state).filter((id) => inTopic(id) && !due.includes(id));
   const specs = [];
@@ -191,7 +196,7 @@ export function planFree({ lex, state, today, length, rng, config }) {
     if (specs.length >= length) break;
     specs.push({ role: 'review', wordId: id });
   }
-  const unseen = newIds(lex, state, topics);
+  const unseen = newIds(lex, state, topics).filter(fits);
   const fresh = [];
   let slots = length - specs.length;
   while (slots >= 2 && fresh.length < unseen.length) {
@@ -228,6 +233,11 @@ export function makeTask(spec, env) {
   }
   if (spec.mech === 'match') {
     return { ...buildTask('match', word, { lex, rng, rec, pool: spec.pool }), role: spec.role };
+  }
+  const knownPool = Object.keys(state.words).filter((id) => state.words[id].ok >= 1);
+  if (mode === 'free' && allowed.includes('match') && spec.role === 'review' && knownPool.length >= 4 &&
+      (allowed.length === 1 || rng.next() < 1 / allowed.length)) {
+    return { ...buildTask('match', word, { lex, rng, rec, pool: knownPool }), role: spec.role };
   }
   let mech;
   let variant;

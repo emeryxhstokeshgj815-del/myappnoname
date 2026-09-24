@@ -246,3 +246,18 @@ test('achievements have unique ids, 20+ entries and derive from state', () => {
   state.stats.sessions = 1;
   assert.deepEqual(newlyUnlocked(state, lex, TODAY), ['first-session']);
 });
+
+test('free practice uses only the chosen exercise types and topics', () => {
+  const lex = makeLex(40);
+  const state = emptyState();
+  const s0 = startSession(state, lex, { mode: 'daily', length: 20, today: TODAY, seed: 31 });
+  playAll(state, lex, s0, correctResponse);
+  const s = startSession(state, lex, { mode: 'free', length: 10, today: TODAY, seed: 32, config: { topics: ['work', 'people'], mechanics: ['reply'] } });
+  assert.ok(s.tasks.length > 0);
+  for (const t of s.tasks) {
+    assert.ok(['work', 'people'].includes(lex.get(t.wordId).topic), 'topic filter');
+    assert.ok(t.mech === 'reply' || t.mech === 'intro', 'unexpected ' + t.mech);
+  }
+  const m = startSession(state, lex, { mode: 'free', length: 10, today: TODAY, seed: 33, config: { topics: [], mechanics: ['match'] } });
+  assert.ok(m.tasks.some((t) => t.mech === 'match'), 'match chosen');
+});

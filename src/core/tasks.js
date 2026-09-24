@@ -181,9 +181,29 @@ export function buildTask(mech, word, ctx) {
     case 'collocation': {
       const canOdd = !!word.badCollocation && (word.collocations || []).length >= 3;
       const canComplete = !!word.collocationTask;
+      const phrase = canComplete ? unmark(word.collocationTask.prompt.replace(/_{3,}/, word.collocationTask.answer)).replace(/[.,!?;:]+$/g, '').trim() : '';
+      const phraseWords = phrase.split(/\s+/).filter(Boolean);
+      const canBuild = canComplete && phraseWords.length >= 2 && phraseWords.length <= 7;
       let variant = ctx.variant;
-      if (!variant || (variant === 'odd' && !canOdd) || (variant === 'complete' && !canComplete)) {
-        variant = canComplete && (!canOdd || rng.next() < 0.6) ? 'complete' : 'odd';
+      if (!variant || (variant === 'odd' && !canOdd) || (variant === 'complete' && !canComplete) || (variant === 'build' && !canBuild)) {
+        const x = rng.next();
+        variant = canBuild && x < 0.3 ? 'build' : canComplete && (!canOdd || x < 0.7) ? 'complete' : 'odd';
+      }
+      if (variant === 'build') {
+        // "Build the collocation": word tiles in random order plus one wrong partner
+        const extra = word.collocationTask.distractors[0];
+        const tiles = rng.shuffle([...phraseWords.map((t, i) => ({ t, k: 'w' + i })), { t: extra, k: 'x' }]);
+        return {
+          ...base,
+          variant,
+          contextKey: `${word.id}#colb`,
+          tiles: tiles.map((x) => x.t),
+          answer: phrase,
+          accepted: [phrase],
+          need: phraseWords.length,
+          explanationRu: word.collocationTask.explanationRu,
+          collocations: word.collocations,
+        };
       }
       if (variant === 'complete') {
         const c = word.collocationTask;

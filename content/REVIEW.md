@@ -40,10 +40,10 @@ there still apply.
 * Fix the text in place (keep the schema). Prefer small, precise edits.
 * If an optional item (`reply`, `rewrite`, `wordFormation`, `nuance.reverse`) cannot be
   made unambiguous, delete that item.
-* If a whole entry cannot be made good (wrong level, offensive, no usable sense), remove
-  it from the batch file and add `{"lemma": ..., "pos": ..., "reason": ...}` to your log
-  under **Removed** (the build reads `content/reviews/removed.json`; the lead editor will
-  merge your list).
+* If a whole entry cannot be made good (wrong level, offensive, no usable sense), leave it
+  in the batch file but list it in `content/reviews/bNNN.removed.json` as a JSON array of
+  `{"lemma": ..., "pos": ..., "reason": ...}` objects (the build excludes these), and
+  mention it in your log under **Removed**.
 * Re-run `python3 scripts/validate_batch.py content/words/bNNN --assignment content/assignments/bNNN.json`
   until there are no errors.
 

@@ -320,12 +320,6 @@
     "fixIt": {"text": "Most experts expect a [[coalitional]] government after Sunday's election.",
               "answer": ["coalition"],
               "explanationRu": "Правительство из нескольких партий — coalition government: существительное coalition работает как определение. Форма coalitional почти не используется."},
-    "reply": {"context": "In a politics seminar, the tutor asks: \"What usually happens when no party wins a majority?\"",
-              "options": ["The biggest party forms a coalition on its own and simply governs alone.",
-                          "Well, they just kind of coalition up, or whatever.",
-                          "Often two or more parties form a coalition and agree to share power."],
-              "answer": 2,
-              "explanationRu": "Coalition — союз нескольких партий: в одиночку коалицию не создают. Второй ответ слишком небрежный для семинара, и coalition не бывает глаголом."},
     "rewrite": {"original": "After the election, two parties agreed to govern the country together.",
                 "frame": "After the election, two parties formed ____.",
                 "accepted": ["a coalition", "a coalition government", "a governing coalition", "a ruling coalition"],
@@ -434,13 +428,7 @@
               "explanationRu": "Psychic — «экстрасенсорный» (psychic powers). Память, внимание и логика — cognitive abilities, то есть познавательные способности."},
     "wordFormation": {"base": "cognitive",
                       "text": "Researchers are studying how poor sleep affects [[cognition]] in teenagers.",
-                      "answer": ["cognition"]},
-    "reply": {"context": "At an interview for a job at a nursery, you're asked: \"Why do you think play matters so much for small children?\"",
-              "options": ["Play builds cognitive skills like memory and problem-solving, and social skills too.",
-                          "Play is mostly cognitive — it's about running around and burning off energy.",
-                          "Play is, like, super cognitive and stuff, you know?"],
-              "answer": 0,
-              "explanationRu": "Cognitive — связанный с мышлением и памятью, а не с беготнёй и физической энергией. Третий ответ слишком разговорный и пустой для собеседования."}
+                      "answer": ["cognition"]}
   },
   {
     "lemma": "coincide",
@@ -548,13 +536,7 @@
               "answer": ["collaborated"],
               "explanationRu": "Работать вместе с кем-то — collaborate with someone. Contribute — вносить вклад (contribute to something), with после него в этом смысле не ставят."},
     "wordFormation": {"base": "collaborate",
-                      "text": "The course takes a [[collaborative]] approach, with students working in small teams.",
-                      "answer": ["collaborative"]},
-    "reply": {"context": "A colleague from another department messages: \"We're both working on customer surveys at the moment. Shall we join forces?\"",
-              "options": ["Great idea! Let's collaborate and share what we've found so far.",
-                          "Great idea! Let's collaborate, but work separately and not share anything.",
-                          "Your proposal to collaborate is hereby accepted in full."],
-              "answer": 0,
-              "explanationRu": "Collaborate — работать вместе, поэтому «сотрудничать, ничего не показывая друг другу» — противоречие. Третий ответ звучит как официальный приказ, а не ответ коллеге."}
+                      "text": "The professor and her [[collaborator]] published their findings last week.",
+                      "answer": ["collaborator"]}
   }
 ]

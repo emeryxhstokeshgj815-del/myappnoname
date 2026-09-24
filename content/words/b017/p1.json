@@ -1,0 +1,853 @@
+[
+  {
+    "lemma": "idiot",
+    "pos": "noun",
+    "definitionEn": "a person who acts in a very stupid or thoughtless way",
+    "translationsRu": ["идиот", "дурак", "болван"],
+    "acceptedAnswers": ["idiot"],
+    "register": "informal",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "Разговорное и грубоватое слово. О себе (I'm such an idiot!) звучит самоиронично, а в лицо другому — как оскорбление.",
+    "situation": "Talking about someone, often yourself, who has just done something really stupid or careless.",
+    "examples": [
+      {
+        "text": "I felt like a complete [[idiot]] when I realised I'd sent the email to the whole company.",
+        "distractors": ["coward", "miser", "bully"],
+        "alternatives": ["fool", "moron", "twit", "prat"]
+      },
+      {
+        "text": "You'd have to be a real [[idiot]] to go hiking in the mountains without checking the forecast.",
+        "distractors": ["snob", "cynic", "bore"],
+        "alternatives": ["fool", "moron", "twit"]
+      },
+      {
+        "text": "Our new manager treats us all like [[idiots]], explaining even the simplest tasks three times.",
+        "distractors": ["experts", "adults", "rivals"],
+        "alternatives": ["children", "fools", "beginners", "morons"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Some [[idiot]] left the fridge door open all night, and the milk went off.",
+        "He's no [[idiot]]: he read every line of the contract before signing.",
+        "Only a total [[idiot]] would ride a motorbike without a helmet."
+      ],
+      "alternatives": ["fool", "moron"]
+    },
+    "collocations": [
+      "a complete [[idiot]]",
+      "feel like an [[idiot]]",
+      "look like an [[idiot]]",
+      "treat someone like an [[idiot]]",
+      "I'm such an [[idiot]]!"
+    ],
+    "badCollocation": {
+      "text": "a full [[idiot]]",
+      "noteRu": "«Полный идиот» по-английски — a complete, total или absolute idiot. Full с этим словом не сочетается."
+    },
+    "collocationTask": {
+      "prompt": "I felt like a ___ idiot.",
+      "answer": "complete",
+      "distractors": ["full", "whole", "deep"],
+      "explanationRu": "«Полный идиот» — a complete idiot (или total, absolute). Full — калька с «полный», а whole и deep с idiot не сочетаются."
+    },
+    "nuance": {
+      "rival": "fool",
+      "text": "\"You [[idiot]], you've locked the keys in the car again!\" my sister laughed.",
+      "rivalForm": "fool",
+      "explanationRu": "В живой речи, даже в шутку, говорят you idiot. You fool звучит старомодно и театрально, как реплика из старой пьесы.",
+      "reverse": {
+        "text": "She's nobody's [[fool]]: she spotted the scam immediately.",
+        "targetForm": "idiot",
+        "explanationRu": "Nobody's fool — устойчивое выражение: «её не проведёшь». С idiot его не строят."
+      }
+    },
+    "fixIt": {
+      "text": "Some [[stupid]] has parked across our gate again, so I can't get the car out.",
+      "answer": ["idiot"],
+      "explanationRu": "Stupid — прилагательное, само по себе оно человека не обозначает. «Какой-то идиот» — some idiot."
+    },
+    "wordFormation": {
+      "base": "idiot",
+      "text": "Leaving the oven on all day was an [[idiotic]] mistake, and I paid for it.",
+      "answer": ["idiotic"]
+    },
+    "reply": {
+      "context": "Your friend texts: \"I just sent a message complaining about my boss — to my boss.\"",
+      "options": [
+        "Oh no! That message was a complete idiot.",
+        "Oh no! You must feel like a complete idiot. Has she replied yet?",
+        "Regrettably, your conduct has been that of an idiot. Yours faithfully."
+      ],
+      "answer": 1,
+      "explanationRu": "Feel like a complete idiot — «чувствовать себя полным идиотом». Idiot — это человек, а не поступок или сообщение (глупость — idiocy). Третий ответ звучит как официальное письмо, а не сообщение другу."
+    }
+  },
+  {
+    "lemma": "ignorance",
+    "pos": "noun",
+    "definitionEn": "lack of knowledge or information about something",
+    "translationsRu": ["незнание", "невежество", "неосведомлённость"],
+    "acceptedAnswers": ["ignorance"],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "Ignorance — «незнание, неосведомлённость», а не «игнорирование» (это ignoring).",
+    "situation": "Describing a situation where someone does not know important facts, often causing mistakes or unfair judgements.",
+    "examples": [
+      {
+        "text": "Visitors who break local customs usually do it out of [[ignorance]], not rudeness.",
+        "distractors": ["respect", "gratitude", "generosity"],
+        "alternatives": ["naivety", "inexperience", "confusion", "misunderstanding"]
+      },
+      {
+        "text": "Doctors say that much of the fear around the illness comes from [[ignorance]] about how it spreads.",
+        "distractors": ["research", "education", "expertise"],
+        "alternatives": ["misunderstanding", "confusion", "misinformation"]
+      },
+      {
+        "text": "I'm embarrassed to admit my [[ignorance]], but what exactly does a data analyst do?",
+        "distractors": ["talent", "success", "wisdom"],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The accident was blamed on the driver's [[ignorance]] of local traffic rules.",
+        "The article exposed widespread [[ignorance]] about how pensions actually work.",
+        "She kept her parents in [[ignorance]] of her plans to quit university."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[ignorance]] of the law",
+      "widespread [[ignorance]]",
+      "out of [[ignorance]]",
+      "in [[ignorance]] of",
+      "admit your [[ignorance]]"
+    ],
+    "badCollocation": {
+      "text": "[[ignorance]] of my messages",
+      "noteRu": "Ignorance — «незнание». Если человек не отвечает на сообщения, это ignoring: I'm tired of her ignoring my messages."
+    },
+    "collocationTask": {
+      "prompt": "___ of the law is no excuse.",
+      "answer": "ignorance",
+      "distractors": ["ignoring", "illiteracy", "innocence"],
+      "explanationRu": "Ignorance of the law — «незнание закона». Ignoring — «игнорирование», illiteracy — «неграмотность», innocence — «невиновность»."
+    },
+    "nuance": {
+      "rival": "disregard",
+      "text": "Most people who break this rule do so out of [[ignorance]]: they simply don't know it exists.",
+      "rivalForm": "disregard",
+      "explanationRu": "Ignorance — незнание: человек просто не в курсе. Disregard — сознательное пренебрежение: знает, но не обращает внимания. Здесь люди не знают о правиле, поэтому подходит только ignorance.",
+      "reverse": {
+        "text": "The company showed a complete [[disregard]] for its workers' safety.",
+        "targetForm": "ignorance",
+        "explanationRu": "Компания знала о рисках и сознательно ими пренебрегла — это disregard for. Ignorance — именно незнание, и с for оно не сочетается."
+      }
+    },
+    "fixIt": {
+      "text": "The survey revealed a shocking [[ignoring]] of geography: many adults couldn't find Canada on a map.",
+      "answer": ["ignorance"],
+      "explanationRu": "Ignoring — «игнорирование», сознательное невнимание. Здесь люди просто не знают географию — это ignorance, незнание."
+    },
+    "wordFormation": {
+      "base": "ignorance",
+      "text": "I'm completely [[ignorant]] about football, so please explain the offside rule.",
+      "answer": ["ignorant"]
+    },
+    "reply": {
+      "context": "In a meeting, a colleague asks: \"Does anyone know how the new expenses system works?\"",
+      "options": [
+        "Forgive my ignorance, but I didn't even know we had a new system.",
+        "No idea. Finance never answers my emails, so I'm treating them with ignorance now.",
+        "Total ignorance here, mate, no clue, lol."
+      ],
+      "answer": 0,
+      "explanationRu": "Forgive my ignorance — вежливое «простите мою неосведомлённость». Во втором ответе ignorance ошибочно значит «игнорирование» (это ignoring), а третий слишком небрежен для рабочей встречи."
+    },
+    "rewrite": {
+      "original": "Most tourists break this rule because they simply don't know about it.",
+      "frame": "Most tourists break this rule out of ____.",
+      "accepted": ["ignorance", "sheer ignorance", "pure ignorance", "simple ignorance", "plain ignorance"],
+      "explanationRu": "Out of ignorance — «по незнанию»."
+    }
+  },
+  {
+    "lemma": "imagery",
+    "pos": "noun",
+    "definitionEn": "language, pictures or symbols in art and writing that create vivid scenes in the mind",
+    "translationsRu": ["образность", "образы (в искусстве)", "образный ряд"],
+    "acceptedAnswers": ["imagery"],
+    "register": "neutral",
+    "topic": "culture",
+    "ambiguous": true,
+    "senseNote": "Здесь — «образы, образность» в литературе и искусстве. Satellite imagery — «спутниковые снимки», это другое значение.",
+    "situation": "Discussing how a poem, song, film or painting uses vivid descriptions or symbols to create pictures in your mind.",
+    "examples": [
+      {
+        "text": "The poem is full of dark [[imagery]]: storms, ruined towers and dying trees.",
+        "distractors": ["grammar", "punctuation", "rhythm"],
+        "alternatives": ["symbolism", "images", "metaphors"]
+      },
+      {
+        "text": "The director uses religious [[imagery]], such as candles and crosses, throughout the film.",
+        "distractors": ["dialogue", "music", "humour"],
+        "alternatives": ["symbolism", "symbols", "iconography"]
+      },
+      {
+        "text": "Car adverts love the [[imagery]] of freedom: empty roads, mountains and endless sky.",
+        "distractors": ["statistics", "economics", "chemistry"],
+        "alternatives": ["symbolism", "iconography"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her lyrics draw on the [[imagery]] of old fairy tales.",
+        "Critics praised the novel's striking [[imagery]] and simple, clear style.",
+        "Her photographs mix everyday objects with dreamlike [[imagery]]."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "vivid [[imagery]]",
+      "religious [[imagery]]",
+      "rich in [[imagery]]",
+      "powerful [[imagery]]",
+      "use [[imagery]]"
+    ],
+    "badCollocation": {
+      "text": "a beautiful [[imagery]]",
+      "noteRu": "Imagery — неисчисляемое: beautiful imagery, без a. Про одну картинку говорят a beautiful image."
+    },
+    "collocationTask": {
+      "prompt": "The poem is rich in ___.",
+      "answer": "imagery",
+      "distractors": ["image", "imaging", "portrait"],
+      "explanationRu": "Rich in imagery — «богат образами». Image — одно изображение или имидж, imaging — съёмка (например, медицинская), portrait — портрет."
+    },
+    "nuance": {
+      "rival": "image",
+      "text": "The advert's [[imagery]] (beaches, sunsets, smiling families) sells a dream rather than a product.",
+      "rivalForm": "image",
+      "explanationRu": "Imagery — вся совокупность образов: пляжи, закаты, семьи. Image — одно изображение или имидж; для целого ряда картинок нужно imagery.",
+      "reverse": {
+        "text": "The scandal has seriously damaged the bank's [[image]].",
+        "targetForm": "imagery",
+        "explanationRu": "Репутация, «имидж» — image. Imagery — образы в искусстве и рекламе, а не репутация."
+      }
+    },
+    "fixIt": {
+      "text": "The novel's [[imagination]] of burning forests and empty cities is hard to forget.",
+      "answer": ["imagery"],
+      "explanationRu": "Imagination — воображение, способность человека. Сами образы в тексте — imagery."
+    },
+    "wordFormation": {
+      "base": "image",
+      "text": "Poets often use the [[imagery]] of the seasons to write about growing old.",
+      "answer": ["imagery"]
+    },
+    "reply": {
+      "context": "In your book club chat, someone asks: \"So what did everyone think of this week's poems?\"",
+      "options": [
+        "The imagery therein was deemed satisfactory by the undersigned.",
+        "Nice, but the poet's imagery on TV last night was really arrogant.",
+        "I loved the imagery. I could almost smell the sea in the second one."
+      ],
+      "answer": 2,
+      "explanationRu": "Imagery — образы в стихах, вплоть до запаха моря. Во втором ответе imagery ошибочно значит «имидж», а первый звучит как канцелярский отчёт, а не сообщение в чате."
+    }
+  },
+  {
+    "lemma": "immense",
+    "pos": "adjective",
+    "definitionEn": "extremely large in size, amount or degree",
+    "translationsRu": ["огромный", "громадный", "колоссальный", "безмерный"],
+    "acceptedAnswers": ["immense"],
+    "register": "neutral",
+    "topic": "world",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing something so great in size, amount or importance that ordinary words like big seem too weak.",
+    "examples": [
+      {
+        "text": "Junior doctors work under [[immense]] pressure, and many leave the profession within five years.",
+        "distractors": ["slight", "gentle", "modest"],
+        "alternatives": ["enormous", "huge", "tremendous", "intense", "great", "extreme", "considerable"]
+      },
+      {
+        "text": "From the plane we could see the [[immense]] forest stretching to the horizon in every direction.",
+        "distractors": ["tiny", "narrow", "compact"],
+        "alternatives": ["vast", "huge", "enormous", "endless", "boundless"]
+      },
+      {
+        "text": "The old letters turned out to be of [[immense]] value, and the museum paid a fortune for them.",
+        "distractors": ["minor", "limited", "doubtful"],
+        "alternatives": ["enormous", "huge", "great", "tremendous", "considerable"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Building the bridge took [[immense]] skill and patience.",
+        "She takes [[immense]] pride in her garden.",
+        "Winning the award brought [[immense]] relief after years of rejection."
+      ],
+      "alternatives": ["enormous", "huge", "tremendous", "great"]
+    },
+    "collocations": [
+      "[[immense]] pressure",
+      "of [[immense]] importance",
+      "an [[immense]] amount of",
+      "take [[immense]] pride in",
+      "[[immense]] value"
+    ],
+    "badCollocation": {
+      "text": "very [[immense]]",
+      "noteRu": "Immense уже значит «огромный», поэтому very с ним не ставят. Говорят truly immense или просто immense."
+    },
+    "collocationTask": {
+      "prompt": "a decision of ___ importance",
+      "answer": "immense",
+      "distractors": ["big", "large", "heavy"],
+      "explanationRu": "Of immense importance — «огромной важности». Big и large с importance не сочетаются (калька с «большое значение»), heavy тоже."
+    },
+    "nuance": {
+      "rival": "intense",
+      "text": "The cathedral's [[immense]] dome can be seen from almost anywhere in the city.",
+      "rivalForm": "intense",
+      "explanationRu": "Immense — огромный по размеру или количеству. Intense — сильный, напряжённый (жара, боль, чувства). Купол может быть огромным, но не «интенсивным».",
+      "reverse": {
+        "text": "After weeks of [[intense]] training, she was ready for the race.",
+        "targetForm": "immense",
+        "explanationRu": "Тренировки бывают напряжёнными — intense. Immense описывает размер или количество, а не силу и напряжённость."
+      }
+    },
+    "fixIt": {
+      "text": "The storm caused [[big]] damage to farms across the region, costing millions.",
+      "answer": ["immense"],
+      "explanationRu": "С damage не говорят big: это калька с «большой ущерб». Огромный ущерб — immense (или huge, serious) damage."
+    },
+    "wordFormation": {
+      "base": "immense",
+      "text": "The show was [[immensely]] popular with teenagers in the nineties.",
+      "answer": ["immensely"]
+    },
+    "reply": {
+      "context": "Your colleague asks: \"How did you feel when the project was finally finished?\"",
+      "options": [
+        "Honestly? Immense relief. I slept for eleven hours that night.",
+        "I felt a very immense happiness, to be honest.",
+        "Immense, but only a tiny bit."
+      ],
+      "answer": 0,
+      "explanationRu": "Immense relief — «огромное облегчение». Very immense — ошибка: слово уже означает крайнюю степень. А immense не может значить «чуть-чуть»."
+    }
+  },
+  {
+    "lemma": "imminent",
+    "pos": "adjective",
+    "definitionEn": "about to happen very soon, especially something unpleasant or dangerous",
+    "translationsRu": ["надвигающийся", "неминуемый", "грозящий", "скорый"],
+    "acceptedAnswers": ["imminent"],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Warning that something, usually bad or dangerous, is going to happen very soon, perhaps within hours or days.",
+    "examples": [
+      {
+        "text": "Residents were told to leave their homes because a flood was [[imminent]].",
+        "distractors": ["unlikely", "harmless", "distant"],
+        "alternatives": ["expected", "likely", "approaching", "coming", "impending"]
+      },
+      {
+        "text": "When the managers started holding secret meetings, staff realised that job cuts were [[imminent]].",
+        "distractors": ["impossible", "unthinkable", "reversible"],
+        "alternatives": ["coming", "inevitable", "likely", "on the way", "on the cards"]
+      },
+      {
+        "text": "Astronomers insist that the asteroid poses no [[imminent]] threat to Earth.",
+        "distractors": ["previous", "ancient", "friendly"],
+        "alternatives": ["immediate", "real", "serious", "direct", "impending"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Forecasters say heavy snow is [[imminent]] across the north.",
+        "Rumours of the band's [[imminent]] break-up spread quickly online.",
+        "Thousands of species are in [[imminent]] danger of extinction."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[imminent]] danger",
+      "an [[imminent]] threat",
+      "in [[imminent]] danger of",
+      "the [[imminent]] arrival of",
+      "[[imminent]] collapse"
+    ],
+    "badCollocation": {
+      "text": "in the [[imminent]] future",
+      "noteRu": "«В ближайшем будущем» — in the near future. Imminent описывает само событие, которое вот-вот произойдёт: an imminent storm."
+    },
+    "collocationTask": {
+      "prompt": "The historic theatre is in ___ danger of closing.",
+      "answer": "imminent",
+      "distractors": ["near", "close", "early"],
+      "explanationRu": "In imminent danger of — «под угрозой, которая вот-вот осуществится». Near и close о времени так не употребляют, а early danger — бессмыслица."
+    },
+    "nuance": {
+      "rival": "inevitable",
+      "text": "Passengers were told that boarding was [[imminent]] and asked to stay near the gate.",
+      "rivalForm": "inevitable",
+      "explanationRu": "Imminent — «вот-вот начнётся». Inevitable — «неизбежный», но без указания, когда. Посадка на рейс не бывает «неизбежной»: важно, что она сейчас начнётся.",
+      "reverse": {
+        "text": "With costs rising every year, some price increases seem [[inevitable]] in the long run.",
+        "targetForm": "imminent",
+        "explanationRu": "In the long run («в долгосрочной перспективе») противоречит imminent — «вот-вот». Для «когда-нибудь, но обязательно» нужно inevitable."
+      }
+    },
+    "fixIt": {
+      "text": "Engineers warned that the dam was in [[eminent]] danger of bursting after the heavy rain.",
+      "answer": ["imminent"],
+      "explanationRu": "Eminent — «выдающийся, известный» (об учёном, враче). Опасность, которая вот-вот наступит, — imminent."
+    },
+    "reply": {
+      "context": "Your colleague messages: \"Is it true the office is moving to the other side of town?\"",
+      "options": [
+        "Affirmative. Relocation of personnel is imminent as per directive.",
+        "Looks like it. Apparently the announcement is imminent, maybe even this week.",
+        "Yes, but it's imminent, so probably not for another ten years."
+      ],
+      "answer": 1,
+      "explanationRu": "Imminent — «вот-вот, в ближайшие дни». «Лет через десять» ему противоречит, а первый ответ звучит как военный приказ, а не сообщение коллеге."
+    },
+    "rewrite": {
+      "original": "Forecasters said that the hurricane would hit the coast within hours.",
+      "frame": "Forecasters said that the hurricane's arrival was ____.",
+      "accepted": ["imminent"],
+      "explanationRu": "Imminent — «вот-вот произойдёт»."
+    }
+  },
+  {
+    "lemma": "implementation",
+    "pos": "noun",
+    "definitionEn": "the process of putting a plan, decision or system into action",
+    "translationsRu": ["внедрение", "реализация", "осуществление", "выполнение"],
+    "acceptedAnswers": ["implementation"],
+    "register": "formal",
+    "topic": "work",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about the stage when an agreed plan, law or new system actually starts being carried out in practice.",
+    "examples": [
+      {
+        "text": "The [[implementation]] of the new payroll software took six months and cost twice the budget.",
+        "distractors": ["prohibition", "celebration", "resignation"],
+        "alternatives": ["introduction", "installation", "rollout", "development", "launch"]
+      },
+      {
+        "text": "The new recycling law is sensible, but its [[implementation]] has been slow and confusing.",
+        "distractors": ["violation", "authorship", "popularity"],
+        "alternatives": ["enforcement", "introduction", "application", "rollout", "execution"]
+      },
+      {
+        "text": "Our group had great ideas, but our [[implementation]] was poor, so the final project disappointed our tutor.",
+        "distractors": ["imagination", "creativity", "inspiration"],
+        "alternatives": ["execution", "delivery", "follow-through"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The report recommends the immediate [[implementation]] of stricter safety checks.",
+        "Hospital managers are responsible for the [[implementation]] of the new rules.",
+        "Poor [[implementation]] ruined what was actually a clever marketing plan."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "the [[implementation]] of a plan",
+      "full [[implementation]]",
+      "successful [[implementation]]",
+      "oversee the [[implementation]]",
+      "the [[implementation]] stage"
+    ],
+    "badCollocation": {
+      "text": "the [[implementation]] of a dream",
+      "noteRu": "Мечта сбывается или осуществляется: the fulfilment (или realisation) of a dream. Implementation — о планах, решениях и системах."
+    },
+    "collocationTask": {
+      "prompt": "the successful ___ of the reforms",
+      "answer": "implementation",
+      "distractors": ["embodiment", "fulfilment", "incarnation"],
+      "explanationRu": "Реформы и планы воплощают в жизнь — implementation. Embodiment и incarnation — «олицетворение», fulfilment — исполнение обещания или мечты."
+    },
+    "nuance": {
+      "rival": "introduction",
+      "text": "The rules were introduced in January, but their [[implementation]] has been slow and patchy.",
+      "rivalForm": "introduction",
+      "explanationRu": "Introduction — момент, когда правило вводят. Implementation — постепенный процесс его применения на практике. Правила уже ввели в январе, а медленным бывает именно внедрение.",
+      "reverse": {
+        "text": "The [[introduction]] of smartphones changed the way people read the news.",
+        "targetForm": "implementation",
+        "explanationRu": "Появление нового продукта — introduction. Implementation — выполнение плана или внедрение системы, а не появление смартфонов."
+      }
+    },
+    "fixIt": {
+      "text": "The [[realisation]] of the new timetable caused chaos in the first week.",
+      "answer": ["implementation"],
+      "explanationRu": "Realisation в английском — прежде всего «осознание». «Реализация» плана, расписания или системы — implementation."
+    },
+    "wordFormation": {
+      "base": "implement",
+      "text": "Delays in the [[implementation]] of the reform frustrated teachers and parents.",
+      "answer": ["implementation"]
+    },
+    "reply": {
+      "context": "At a team meeting, your manager says: \"Everyone likes the plan. So what's our biggest risk now?\"",
+      "options": [
+        "Yo, the implementation thing is kinda sketchy, innit?",
+        "The biggest risk is the implementation of my summer holiday.",
+        "Implementation, I think. We've never rolled out anything this big before."
+      ],
+      "answer": 2,
+      "explanationRu": "Implementation — внедрение плана на практике, и это действительно главный риск. «Внедрение отпуска» — бессмыслица, а первый ответ слишком развязный для рабочей встречи."
+    },
+    "rewrite": {
+      "original": "The company put the new system into practice without any problems.",
+      "frame": "The ____ of the new system went without any problems.",
+      "accepted": ["implementation"],
+      "explanationRu": "Put into practice → implementation (внедрение)."
+    }
+  },
+  {
+    "lemma": "imprison",
+    "pos": "verb",
+    "definitionEn": "to lock someone up in jail, usually as a legal punishment",
+    "translationsRu": ["заключать в тюрьму", "сажать в тюрьму", "лишать свободы"],
+    "acceptedAnswers": ["imprison"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "Прямое значение — «заключать в тюрьму». В разговоре чаще говорят put in prison или jail.",
+    "situation": "A court or government decides to lock a person up for a crime, or to keep someone captive.",
+    "examples": [
+      {
+        "text": "The journalist was [[imprisoned]] for six years after a trial that lasted just one day.",
+        "distractors": ["interviewed", "acquitted", "elected"],
+        "alternatives": ["jailed", "locked up", "detained", "held", "incarcerated"]
+      },
+      {
+        "text": "In the nineteenth century, people could be [[imprisoned]] simply for failing to pay their debts.",
+        "distractors": ["promoted", "rewarded", "applauded"],
+        "alternatives": ["jailed", "locked up", "punished", "incarcerated"]
+      },
+      {
+        "text": "In the novel, the hero is wrongly [[imprisoned]] and spends years planning his revenge.",
+        "distractors": ["invited", "employed", "praised"],
+        "alternatives": ["jailed", "accused", "convicted", "locked up"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her grandfather was [[imprisoned]] for his political beliefs.",
+        "Nobody should be [[imprisoned]] without a fair trial.",
+        "The fraudster was [[imprisoned]] for stealing millions from pensioners."
+      ],
+      "alternatives": ["jailed", "locked up", "incarcerated"]
+    },
+    "collocations": [
+      "[[imprisoned]] for fraud",
+      "wrongly [[imprisoned]]",
+      "[[imprisoned]] without trial",
+      "[[imprisoned]] for life",
+      "[[imprison]] someone for ten years"
+    ],
+    "badCollocation": {
+      "text": "[[imprisoned]] on five years",
+      "noteRu": "Срок указывают с for: imprisoned for five years. On здесь — калька с «на пять лет»."
+    },
+    "collocationTask": {
+      "prompt": "wrongly ___ for twenty years",
+      "answer": "imprisoned",
+      "distractors": ["arrested", "sentenced", "convicted"],
+      "explanationRu": "Imprisoned for twenty years — «провёл в тюрьме двадцать лет». Arrest — задержать, sentence to — приговорить к сроку, convict — признать виновным; с for twenty years они так не сочетаются."
+    },
+    "nuance": {
+      "rival": "arrest",
+      "text": "After a two-day trial, he was [[imprisoned]] for eight years.",
+      "rivalForm": "arrested",
+      "explanationRu": "Arrest — задержание полицией, оно происходит до суда. Imprison — держать в тюрьме после приговора, поэтому «на восемь лет после суда» — только imprisoned.",
+      "reverse": {
+        "text": "Police [[arrested]] two men outside the bank late on Tuesday night.",
+        "targetForm": "imprisoned",
+        "explanationRu": "Полиция задерживает, а в тюрьму сажает суд. Поэтому здесь arrested."
+      }
+    },
+    "fixIt": {
+      "text": "During the war, the writer was [[sentenced]] in a cold, damp cell for almost two years.",
+      "answer": ["imprisoned"],
+      "explanationRu": "Sentence — «приговорить» (к сроку): sentenced to two years. Держать человека в камере — imprison: imprisoned in a cell."
+    },
+    "rewrite": {
+      "original": "The court sent him to prison for ten years.",
+      "frame": "He ____ for ten years.",
+      "accepted": ["was imprisoned", "got imprisoned"],
+      "explanationRu": "Нужен пассив: he was imprisoned."
+    }
+  },
+  {
+    "lemma": "imprisonment",
+    "pos": "noun",
+    "definitionEn": "the punishment of being kept in jail for a period of time",
+    "translationsRu": ["тюремное заключение", "лишение свободы", "заключение"],
+    "acceptedAnswers": ["imprisonment"],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about the punishment a court gives, when a person must spend a period of time locked in jail.",
+    "examples": [
+      {
+        "text": "The judge sentenced both men to five years' [[imprisonment]] for running the online scam.",
+        "distractors": ["retirement", "unemployment", "citizenship"],
+        "alternatives": ["detention", "incarceration"]
+      },
+      {
+        "text": "After twenty years of [[imprisonment]], he had never used a smartphone or a cash machine.",
+        "distractors": ["freedom", "travel", "shopping"],
+        "alternatives": ["isolation", "captivity", "incarceration"]
+      },
+      {
+        "text": "Company directors who hide safety problems could face [[imprisonment]] under the new law.",
+        "distractors": ["promotion", "applause", "retirement"],
+        "alternatives": ["prison", "jail", "prosecution", "fines"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The crime carries a maximum penalty of ten years' [[imprisonment]].",
+        "The novel describes the hero's long [[imprisonment]] on a remote island.",
+        "Life [[imprisonment]] replaced the death penalty in many countries."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "life [[imprisonment]]",
+      "ten years' [[imprisonment]]",
+      "a term of [[imprisonment]]",
+      "false [[imprisonment]]",
+      "face [[imprisonment]]"
+    ],
+    "badCollocation": {
+      "text": "lifelong [[imprisonment]]",
+      "noteRu": "«Пожизненное заключение» — life imprisonment (или a life sentence). Lifelong здесь — калька."
+    },
+    "collocationTask": {
+      "prompt": "sentenced to ___ imprisonment",
+      "answer": "life",
+      "distractors": ["lifelong", "entire", "eternal"],
+      "explanationRu": "Пожизненное заключение — life imprisonment. Lifelong, entire и eternal с imprisonment в этом значении не сочетаются."
+    },
+    "nuance": {
+      "rival": "prison",
+      "text": "The film tells the story of her [[imprisonment]] and eventual escape.",
+      "rivalForm": "prison",
+      "explanationRu": "Prison — место, здание тюрьмы. История заключения и побега — the story of her imprisonment; «her prison and escape» звучит так, будто речь о здании.",
+      "reverse": {
+        "text": "The old [[prison]] on the hill has been turned into a luxury hotel.",
+        "targetForm": "imprisonment",
+        "explanationRu": "Здание тюрьмы — prison. Imprisonment — само наказание, его нельзя превратить в отель."
+      }
+    },
+    "fixIt": {
+      "text": "She spent the first months of her [[conclusion]] writing letters to her children.",
+      "answer": ["imprisonment"],
+      "explanationRu": "Conclusion — «вывод, завершение». «Заключение» как наказание — imprisonment."
+    },
+    "wordFormation": {
+      "base": "imprison",
+      "text": "Years of [[imprisonment]] had left him pale, thin and nervous in crowds.",
+      "answer": ["imprisonment"]
+    },
+    "rewrite": {
+      "original": "He spent ten years in prison for the robbery.",
+      "frame": "He was sentenced to ten years' ____ for the robbery.",
+      "accepted": ["imprisonment"],
+      "explanationRu": "Ten years' imprisonment — «десять лет лишения свободы»."
+    }
+  },
+  {
+    "lemma": "inability",
+    "pos": "noun",
+    "definitionEn": "the fact that someone cannot do something",
+    "translationsRu": ["неспособность", "неумение", "невозможность (что-то сделать)"],
+    "acceptedAnswers": ["inability"],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Explaining that a person or organisation cannot manage to do something, often a problem that causes trouble.",
+    "examples": [
+      {
+        "text": "His [[inability]] to say no means he always ends up doing other people's work.",
+        "distractors": ["ability", "decision", "desire"],
+        "alternatives": ["failure", "reluctance"]
+      },
+      {
+        "text": "Investors were worried by the company's [[inability]] to explain where the money had gone.",
+        "distractors": ["readiness", "promise", "willingness"],
+        "alternatives": ["failure", "refusal", "reluctance", "unwillingness"]
+      },
+      {
+        "text": "Chronic stress can lead to an [[inability]] to concentrate, even on simple tasks.",
+        "distractors": ["eagerness", "obligation", "ambition"],
+        "alternatives": ["incapacity"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her [[inability]] to swim kept her away from the beach.",
+        "The report blamed the council's [[inability]] to act quickly.",
+        "An [[inability]] to sleep is often the first sign of stress."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "an [[inability]] to cope",
+      "[[inability]] to pay debts",
+      "an [[inability]] to concentrate",
+      "his apparent [[inability]] to",
+      "a total [[inability]] to"
+    ],
+    "badCollocation": {
+      "text": "[[inability]] of paying",
+      "noteRu": "После inability ставят инфинитив: inability to pay. Of + -ing здесь — ошибка."
+    },
+    "collocationTask": {
+      "prompt": "her ___ to cope with stress",
+      "answer": "inability",
+      "distractors": ["impossibility", "disability", "incompetence"],
+      "explanationRu": "Неспособность справиться — inability to cope. Impossibility описывает саму ситуацию, disability — инвалидность, incompetence — некомпетентность; с to cope их не употребляют."
+    },
+    "nuance": {
+      "rival": "disability",
+      "text": "His [[inability]] to make decisions drives his colleagues mad.",
+      "rivalForm": "disability",
+      "explanationRu": "Disability — инвалидность, физическое или психическое ограничение. Inability to do something — просто неспособность что-то сделать, как нерешительность этого коллеги.",
+      "reverse": {
+        "text": "The charity helps people with a physical [[disability]] find work.",
+        "targetForm": "inability",
+        "explanationRu": "Об инвалидности говорят disability. Inability всегда требует уточнения, что именно человек не может: inability to walk."
+      }
+    },
+    "fixIt": {
+      "text": "The firm's [[impossibility]] to pay its suppliers eventually led to bankruptcy.",
+      "answer": ["inability"],
+      "explanationRu": "«Невозможность заплатить» — калька. О человеке или компании говорят inability to pay; impossibility описывает саму ситуацию: the impossibility of the task."
+    },
+    "reply": {
+      "context": "Your manager asks: \"Why didn't you reply to the client's email yesterday?\"",
+      "options": [
+        "Due to inability, like, stuff happened, you know?",
+        "Sorry, the system was down, and my inability to log in held everything up.",
+        "I had a great inability to write it. It was my best email ever."
+      ],
+      "answer": 1,
+      "explanationRu": "My inability to log in — «я не мог войти в систему». Inability — неспособность, а не талант, а первый ответ слишком небрежный и бессвязный для разговора с начальником."
+    },
+    "rewrite": {
+      "original": "He can't concentrate, and this worries his teachers.",
+      "frame": "His ____ concentrate worries his teachers.",
+      "accepted": ["inability to"],
+      "explanationRu": "Inability to + инфинитив: his inability to concentrate."
+    }
+  },
+  {
+    "lemma": "inadequate",
+    "pos": "adjective",
+    "definitionEn": "not enough, or not good enough, for what is needed",
+    "translationsRu": ["недостаточный", "неудовлетворительный", "не отвечающий требованиям"],
+    "acceptedAnswers": ["inadequate"],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «недостаточный, неудовлетворительный». Не путайте с русским «неадекватный» (о странном поведении): это скорее irrational или out of line.",
+    "situation": "Complaining that the money, staff, equipment or explanation provided is not sufficient or not of acceptable quality.",
+    "examples": [
+      {
+        "text": "The hospital's staffing levels are dangerously [[inadequate]], according to a new report.",
+        "distractors": ["generous", "excessive", "impressive"],
+        "alternatives": ["low", "insufficient", "poor"]
+      },
+      {
+        "text": "The flat was cheap, but the heating was completely [[inadequate]] for a Siberian winter.",
+        "distractors": ["suitable", "ideal", "perfect"],
+        "alternatives": ["insufficient", "unsuitable", "useless"]
+      },
+      {
+        "text": "The teacher said my answer was [[inadequate]] because I hadn't supported it with any evidence.",
+        "distractors": ["brilliant", "convincing", "thorough"],
+        "alternatives": ["weak", "insufficient", "unsatisfactory", "incomplete", "poor"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Many schools still have [[inadequate]] funding for science labs.",
+        "The airline's apology was [[inadequate]], so I complained again.",
+        "Two bathrooms for forty guests is simply [[inadequate]]."
+      ],
+      "alternatives": ["insufficient"]
+    },
+    "collocations": [
+      "[[inadequate]] funding",
+      "wholly [[inadequate]]",
+      "[[inadequate]] for the task",
+      "woefully [[inadequate]]",
+      "[[inadequate]] resources"
+    ],
+    "badCollocation": {
+      "text": "an [[inadequate]] neighbour",
+      "noteRu": "«Неадекватный сосед» по-английски — an unpredictable или a difficult neighbour. Inadequate значит «недостаточный, не отвечающий требованиям»."
+    },
+    "collocationTask": {
+      "prompt": "The emergency plan was ___ inadequate.",
+      "answer": "woefully",
+      "distractors": ["strongly", "heavily", "highly"],
+      "explanationRu": "Woefully inadequate — «удручающе, совершенно недостаточный». Strongly, heavily и highly с inadequate не сочетаются."
+    },
+    "nuance": {
+      "rival": "inappropriate",
+      "text": "The heating was [[inadequate]], so we wore coats in the office all winter.",
+      "rivalForm": "inappropriate",
+      "explanationRu": "Inadequate — недостаточный по количеству или качеству: тепла просто не хватало. Inappropriate — неуместный, неподходящий для ситуации; об отоплении так не говорят.",
+      "reverse": {
+        "text": "Wearing shorts to a job interview would be [[inappropriate]].",
+        "targetForm": "inadequate",
+        "explanationRu": "Шорты на собеседовании неуместны — inappropriate. Inadequate значит «недостаточный» и к одежде в этом смысле не подходит."
+      }
+    },
+    "fixIt": {
+      "text": "The school's science labs are [[unsatisfied]] for a modern curriculum.",
+      "answer": ["inadequate"],
+      "explanationRu": "Unsatisfied описывает людей, которые чем-то недовольны. О недостаточном оборудовании говорят inadequate."
+    },
+    "wordFormation": {
+      "base": "inadequate",
+      "text": "The report highlighted the [[inadequacy]] of flood defences in the region.",
+      "answer": ["inadequacy"]
+    },
+    "reply": {
+      "context": "A colleague complains: \"We've got one printer for sixty people, and it breaks every week.\"",
+      "options": [
+        "I know. And the IT guy is so inadequate: he laughs at his own jokes all day.",
+        "One must concede that the printing provision is somewhat inadequate, sir.",
+        "I know. One printer is totally inadequate for an office this size."
+      ],
+      "answer": 2,
+      "explanationRu": "Totally inadequate — «совершенно недостаточно». В первом ответе inadequate использовано как русское «неадекватный» (странный), а второй звучит слишком чопорно для разговора с коллегой."
+    }
+  }
+]

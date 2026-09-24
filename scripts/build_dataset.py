@@ -94,10 +94,9 @@ def known_words(extra):
 def main():
     cands = load_candidates()
     removed = {}
-    rp = os.path.join(ROOT, "content", "reviews", "removed.json")
-    if os.path.exists(rp):
+    for rp in sorted(glob.glob(os.path.join(ROOT, "content", "reviews", "*removed.json"))):
         for x in json.load(open(rp, encoding="utf-8")):
-            removed[(x["lemma"], x["pos"])] = x["reason"]
+            removed[(x["lemma"].lower(), x["pos"])] = x.get("reason", "")
     report = {"dropped": [], "skipped_by_authors": [], "removed_in_review": [], "item_errors": []}
     words = []
     seen = set()

@@ -1,0 +1,1278 @@
+[
+  {
+    "lemma": "forge",
+    "pos": "verb",
+    "definitionEn": "to create a strong relationship, agreement or connection through hard work",
+    "translationsRu": [
+      "налаживать (связи)",
+      "устанавливать (отношения)",
+      "заключать (союз)",
+      "выстраивать"
+    ],
+    "acceptedAnswers": [
+      "forge"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «налаживать, выстраивать» (forge ties, forge an alliance); значение «подделывать» (forge a signature) не тренируем.",
+    "situation": "Two people, companies or countries work hard to build a lasting partnership, friendship or agreement.",
+    "examples": [
+      {
+        "text": "The two rival airlines [[forged]] a partnership that now lets passengers book both companies' flights on one ticket.",
+        "distractors": [
+          "ended",
+          "dissolved",
+          "blocked"
+        ],
+        "alternatives": [
+          "formed",
+          "built",
+          "established",
+          "created"
+        ]
+      },
+      {
+        "text": "The new principal wants to [[forge]] closer links between the college and local employers.",
+        "distractors": [
+          "weaken",
+          "forbid",
+          "cancel"
+        ],
+        "alternatives": [
+          "build",
+          "develop",
+          "establish",
+          "create",
+          "form"
+        ]
+      },
+      {
+        "text": "At university she [[forged]] friendships that are still going strong thirty years later.",
+        "distractors": [
+          "ruined",
+          "avoided",
+          "wasted"
+        ],
+        "alternatives": [
+          "formed",
+          "made",
+          "built",
+          "developed"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Small firms often struggle to [[forge]] ties with big retailers.",
+        "A difficult shared project can [[forge]] real team spirit.",
+        "The treaty helped the two former enemies [[forge]] a lasting peace."
+      ],
+      "alternatives": [
+        "build",
+        "create"
+      ]
+    },
+    "collocations": [
+      "[[forge]] an alliance",
+      "[[forge]] close ties with",
+      "[[forge]] a partnership",
+      "[[forge]] a consensus",
+      "[[forge]] a successful career"
+    ],
+    "badCollocation": {
+      "text": "[[forge]] a contract with a supplier",
+      "noteRu": "С документами forge значит «подделать»: forge a contract — подделать договор. Заключить договор — sign a contract; forge — про союзы и связи."
+    },
+    "collocationTask": {
+      "prompt": "___ an alliance with a rival company",
+      "answer": "forge",
+      "distractors": [
+        "do",
+        "take",
+        "draw"
+      ],
+      "explanationRu": "Forge an alliance — заключить союз, выстроить партнёрство. Do, take и draw с alliance не сочетаются: говорят form, build или forge an alliance."
+    },
+    "nuance": {
+      "rival": "make",
+      "text": "Over ten years, the museum has [[forged]] close ties with schools across the region.",
+      "rivalForm": "made",
+      "explanationRu": "Forge ties — выстроить прочные связи ценой усилий. Make с ties и partnership звучит неестественно: make обычно в make friends, make contacts.",
+      "reverse": {
+        "text": "She found it easy to [[make]] friends at her new school.",
+        "targetForm": "forge",
+        "explanationRu": "Заводить друзей — make friends. Forge сочетается не с людьми, а с отношениями: forge a friendship, forge ties."
+      }
+    },
+    "fixIt": {
+      "text": "The new ambassador hopes to [[adjust]] closer ties between our two countries.",
+      "answer": [
+        "forge"
+      ],
+      "explanationRu": "«Наладить связи» — не adjust (подстроить, отрегулировать), а forge ties: создать прочные отношения."
+    },
+    "reply": {
+      "context": "A colleague asks: \"How did the trade fair in Berlin go?\"",
+      "options": [
+        "Really well. We forged some useful links with two German suppliers.",
+        "Really well. We forged a lovely lunch at a German restaurant.",
+        "Affirmative. Strategic linkages were forged with supply-side stakeholders."
+      ],
+      "answer": 0,
+      "explanationRu": "Forge links — наладить полезные связи. Обед словом forge не описывают. Третий ответ звучит как канцелярский отчёт, а не разговор с коллегой."
+    },
+    "rewrite": {
+      "original": "The two companies built their partnership during the financial crisis.",
+      "frame": "The partnership between the two companies ____ during the financial crisis.",
+      "accepted": [
+        "was forged",
+        "had been forged",
+        "got forged"
+      ],
+      "explanationRu": "Нужен пассив: the partnership was forged — союз был выстроен."
+    }
+  },
+  {
+    "lemma": "formula",
+    "pos": "noun",
+    "definitionEn": "a method or set of principles that reliably produces a particular result",
+    "translationsRu": [
+      "формула (успеха)",
+      "рецепт",
+      "схема"
+    ],
+    "acceptedAnswers": [
+      "formula"
+    ],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «рецепт, способ добиться результата» (a formula for success); математическая или химическая формула — базовое значение.",
+    "situation": "Talking about a proven method or combination of things that usually leads to success or a particular result.",
+    "examples": [
+      {
+        "text": "The show's [[formula]] never changes: three amateur cooks, one mystery ingredient and a strict time limit.",
+        "distractors": [
+          "budget",
+          "audience",
+          "schedule"
+        ],
+        "alternatives": [
+          "format",
+          "recipe",
+          "concept"
+        ]
+      },
+      {
+        "text": "There's no magic [[formula]] for building a successful start-up; it takes luck and years of hard work.",
+        "distractors": [
+          "reward",
+          "danger",
+          "rumour"
+        ],
+        "alternatives": [
+          "recipe",
+          "solution",
+          "secret",
+          "bullet",
+          "wand"
+        ]
+      },
+      {
+        "text": "After weeks of talks, the parties agreed on a [[formula]] for sharing power in the new coalition.",
+        "distractors": [
+          "penalty",
+          "slogan",
+          "tradition"
+        ],
+        "alternatives": [
+          "framework",
+          "system",
+          "mechanism",
+          "plan",
+          "arrangement",
+          "method"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Good food and friendly staff: that's the [[formula]] behind their success.",
+        "Many romantic comedies follow the same predictable [[formula]].",
+        "There is no simple [[formula]] for raising happy children."
+      ],
+      "alternatives": [
+        "recipe"
+      ]
+    },
+    "collocations": [
+      "a [[formula]] for success",
+      "a winning [[formula]]",
+      "no magic [[formula]]",
+      "follow a [[formula]]",
+      "a peace [[formula]]"
+    ],
+    "badCollocation": {
+      "text": "the [[formula]] of success",
+      "noteRu": "«Формула успеха» — a formula for success, с предлогом for. The formula of — о химической или математической формуле: the formula of water."
+    },
+    "collocationTask": {
+      "prompt": "a ___ for success",
+      "answer": "formula",
+      "distractors": [
+        "receipt",
+        "form",
+        "formation"
+      ],
+      "explanationRu": "Формула успеха — a formula (или a recipe) for success. Receipt — чек, а не рецепт; form — бланк или форма, formation — образование или строй."
+    },
+    "nuance": {
+      "rival": "recipe",
+      "text": "Negotiators finally found a [[formula]] that allowed both sides to claim victory.",
+      "rivalForm": "recipe",
+      "explanationRu": "Formula — выработанная схема, способ решить задачу; так говорят и о переговорах. Recipe — прежде всего кулинарный рецепт, а в переносном смысле чаще a recipe for disaster.",
+      "reverse": {
+        "text": "Could you send me your [[recipe]] for that lemon cake?",
+        "targetForm": "formula",
+        "explanationRu": "Кулинарный рецепт — recipe. Formula рядом с тортом прозвучит как химическая формула или детская смесь."
+      }
+    },
+    "fixIt": {
+      "text": "There's no secret [[receipt]] for a happy marriage; you just keep talking to each other.",
+      "answer": [
+        "formula"
+      ],
+      "explanationRu": "Receipt — чек из магазина, а не «рецепт». Способ добиться результата — formula: a formula for a happy marriage."
+    },
+    "wordFormation": {
+      "base": "formula",
+      "text": "Critics called the film [[formulaic]]: the plot followed every rule of the genre.",
+      "answer": [
+        "formulaic"
+      ]
+    },
+    "reply": {
+      "context": "A colleague asks: \"Your team hit every target this year. How did you do it?\"",
+      "options": [
+        "Honestly, the formula was very kind to us and gave us extra time.",
+        "The formula underpinning our performance shall be disclosed in due course.",
+        "Honestly, there's no magic formula. We just planned carefully and talked a lot."
+      ],
+      "answer": 2,
+      "explanationRu": "No magic formula — «нет волшебного рецепта». Formula не может быть «добра» к людям, это не человек. Второй ответ звучит как пресс-релиз, а не разговор с коллегой."
+    }
+  },
+  {
+    "lemma": "formulate",
+    "pos": "verb",
+    "definitionEn": "to develop a plan, policy or idea carefully, working out all the details",
+    "translationsRu": [
+      "разрабатывать",
+      "вырабатывать",
+      "формулировать"
+    ],
+    "acceptedAnswers": [
+      "formulate"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "A team or government carefully develops a detailed plan, policy or strategy before acting.",
+    "examples": [
+      {
+        "text": "The ministry has six months to [[formulate]] a new policy on air pollution in cities.",
+        "distractors": [
+          "celebrate",
+          "tolerate",
+          "violate"
+        ],
+        "alternatives": [
+          "develop",
+          "draw up",
+          "devise",
+          "design",
+          "prepare",
+          "create",
+          "draft",
+          "work out"
+        ]
+      },
+      {
+        "text": "Before collecting any data, researchers should [[formulate]] a clear hypothesis.",
+        "distractors": [
+          "confirm",
+          "abandon",
+          "disprove"
+        ],
+        "alternatives": [
+          "develop",
+          "state",
+          "propose",
+          "frame",
+          "form",
+          "articulate",
+          "define"
+        ]
+      },
+      {
+        "text": "Our team spent the whole afternoon [[formulating]] a response to the client's complaint.",
+        "distractors": [
+          "ignoring",
+          "receiving",
+          "forgetting"
+        ],
+        "alternatives": [
+          "drafting",
+          "preparing",
+          "writing",
+          "crafting",
+          "working out",
+          "developing"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Parents and teachers met to [[formulate]] new rules on mobile phones.",
+        "It took the scientist years to [[formulate]] her theory of memory.",
+        "The new manager must [[formulate]] a clear strategy for growth."
+      ],
+      "alternatives": [
+        "develop",
+        "devise"
+      ]
+    },
+    "collocations": [
+      "[[formulate]] a policy",
+      "[[formulate]] a strategy",
+      "[[formulate]] a plan",
+      "[[formulate]] a hypothesis",
+      "carefully [[formulated]]"
+    ],
+    "badCollocation": {
+      "text": "[[formulate]] a decision",
+      "noteRu": "Решение не formulate, а make или reach: make a decision. Formulate — разрабатывать план, политику, теорию."
+    },
+    "collocationTask": {
+      "prompt": "___ a clear strategy",
+      "answer": "formulate",
+      "distractors": [
+        "compose",
+        "perform",
+        "pronounce"
+      ],
+      "explanationRu": "Разработать стратегию — formulate a strategy. Compose — сочинять музыку или письмо, perform — исполнять, pronounce — произносить."
+    },
+    "nuance": {
+      "rival": "form",
+      "text": "The committee spent months [[formulating]] detailed guidelines for online teaching.",
+      "rivalForm": "forming",
+      "explanationRu": "Formulate — продумать и разработать план, правила, теорию. Form — создать, образовать: form a committee, form a group. Продуманную разработку правил form не передаёт.",
+      "reverse": {
+        "text": "The students [[formed]] a committee to organise the graduation party.",
+        "targetForm": "formulated",
+        "explanationRu": "Создать комитет или группу — form. Formulate относится к идеям и планам, а не к организациям."
+      }
+    },
+    "fixIt": {
+      "text": "Our department has [[composed]] a new policy on working from home.",
+      "answer": [
+        "formulated"
+      ],
+      "explanationRu": "«Составить политику, план» — не compose (сочинять музыку, текст), а formulate или draw up."
+    },
+    "wordFormation": {
+      "base": "formulate",
+      "text": "The [[formulation]] of the new safety rules took almost a year.",
+      "answer": [
+        "formulation"
+      ]
+    },
+    "rewrite": {
+      "original": "The committee needs to develop a clear plan for the new library.",
+      "frame": "A clear plan for the new library needs to ____ by the committee.",
+      "accepted": [
+        "be formulated"
+      ],
+      "explanationRu": "Пассив после needs to: needs to be formulated."
+    }
+  },
+  {
+    "lemma": "forth",
+    "pos": "adverb",
+    "definitionEn": "forward, onward or out into view; mostly used in fixed formal phrases",
+    "translationsRu": [
+      "вперёд",
+      "далее",
+      "наружу, на свет"
+    ],
+    "acceptedAnswers": [
+      "forth"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "Почти всегда в устойчивых сочетаниях: set forth, put forth, come forth, hold forth, and so forth, back and forth.",
+    "situation": "Formal writing or speech about presenting ideas publicly, or about someone stepping out to be seen or heard.",
+    "examples": [
+      {
+        "text": "After the appeal on television, three new witnesses came [[forth]].",
+        "distractors": [
+          "apart",
+          "about",
+          "across"
+        ],
+        "alternatives": [
+          "forward"
+        ]
+      },
+      {
+        "text": "The treaty sets [[forth]] clear rules for fishing in shared waters.",
+        "distractors": [
+          "upon",
+          "back",
+          "behind"
+        ],
+        "alternatives": [
+          "out",
+          "down"
+        ]
+      },
+      {
+        "text": "My uncle loves to hold [[forth]] on politics at family dinners.",
+        "distractors": [
+          "out",
+          "up",
+          "down"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The committee put [[forth]] a bold plan to save the old harbour.",
+        "Nobody has come [[forth]] to claim the lost wallet.",
+        "Spring brings [[forth]] fresh green leaves on every tree."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "set [[forth]] the rules",
+      "put [[forth]] a proposal",
+      "come [[forth]] with information",
+      "hold [[forth]] on a subject",
+      "back and [[forth]]"
+    ],
+    "badCollocation": {
+      "text": "move [[forth]] with the project",
+      "noteRu": "«Продвигаться вперёд» с проектом — move forward или go ahead. Forth живёт в книжных сочетаниях: put forth, set forth, come forth."
+    },
+    "collocationTask": {
+      "prompt": "set ___ the terms of the agreement",
+      "answer": "forth",
+      "distractors": [
+        "about",
+        "apart",
+        "upon"
+      ],
+      "explanationRu": "Set forth (книжн.) — «излагать»: условия, правила, доводы. Set about — «браться за дело», set apart — «выделять», set upon — «нападать»."
+    },
+    "nuance": {
+      "rival": "forward",
+      "text": "In her opening speech, the lawyer set [[forth]] the main arguments for the defence.",
+      "rivalForm": "forward",
+      "explanationRu": "Set forth — книжное «изложить»: доводы, условия, правила. С глаголом set слово forward так не работает; в нейтральной речи говорят set out или put forward.",
+      "reverse": {
+        "text": "I'm really looking [[forward]] to seeing you next week.",
+        "targetForm": "forth",
+        "explanationRu": "«Ждать с нетерпением» — только look forward to. Forth — книжное слово из сочетаний put forth, set forth."
+      }
+    },
+    "fixIt": {
+      "text": "Bring your laptop, charger, notes and so [[further]].",
+      "answer": [
+        "forth"
+      ],
+      "explanationRu": "«И так далее» — and so on или более книжное and so forth. And so further — калька с русского."
+    }
+  },
+  {
+    "lemma": "forthcoming",
+    "pos": "adjective",
+    "definitionEn": "willing to give information or talk openly about something",
+    "translationsRu": [
+      "откровенный",
+      "охотно делящийся информацией",
+      "разговорчивый"
+    ],
+    "acceptedAnswers": [
+      "forthcoming"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — «охотно рассказывающий» (not very forthcoming about...); значение «предстоящий» (the forthcoming elections) проще.",
+    "situation": "Describing whether a person is willing to answer questions and share details openly.",
+    "examples": [
+      {
+        "text": "The manager wasn't very [[forthcoming]] about why three senior staff had suddenly left.",
+        "distractors": [
+          "punctual",
+          "generous",
+          "ambitious"
+        ],
+        "alternatives": [
+          "open",
+          "communicative",
+          "clear",
+          "specific",
+          "forthright"
+        ]
+      },
+      {
+        "text": "When we asked about the missing money, the treasurer was surprisingly [[forthcoming]] and showed us every receipt.",
+        "distractors": [
+          "reluctant",
+          "defensive",
+          "evasive"
+        ],
+        "alternatives": [
+          "open",
+          "cooperative",
+          "helpful",
+          "transparent",
+          "frank"
+        ]
+      },
+      {
+        "text": "Teenagers are rarely [[forthcoming]] about their social lives, so don't take it personally.",
+        "distractors": [
+          "curious",
+          "careless",
+          "grateful"
+        ],
+        "alternatives": [
+          "open",
+          "talkative",
+          "communicative",
+          "chatty"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The minister was not [[forthcoming]] with details of the deal.",
+        "My landlord is never very [[forthcoming]] about repair dates.",
+        "Ask her directly; she's usually quite [[forthcoming]]."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "not very [[forthcoming]]",
+      "[[forthcoming]] about something",
+      "[[forthcoming]] with information",
+      "less than [[forthcoming]]"
+    ],
+    "badCollocation": {
+      "text": "a [[forthcoming]] person who loves parties",
+      "noteRu": "Общительный человек — outgoing или sociable. Forthcoming — «охотно делящийся сведениями», обычно в ответ на вопросы."
+    },
+    "collocationTask": {
+      "prompt": "She wasn't very ___ about her reasons for leaving.",
+      "answer": "forthcoming",
+      "distractors": [
+        "upcoming",
+        "oncoming",
+        "outgoing"
+      ],
+      "explanationRu": "Forthcoming about — «охотно рассказывающий о чём-то». Upcoming — «предстоящий», oncoming — «встречный», outgoing — «общительный»; с about их так не используют."
+    },
+    "nuance": {
+      "rival": "outgoing",
+      "text": "The new tenant is polite but not very [[forthcoming]] about her past.",
+      "rivalForm": "outgoing",
+      "explanationRu": "Forthcoming — готов делиться сведениями, отвечать на вопросы. Outgoing — общительный по характеру; с about его не сочетают, и о готовности рассказывать оно не говорит.",
+      "reverse": {
+        "text": "He's very [[outgoing]] and loves meeting new people.",
+        "targetForm": "forthcoming",
+        "explanationRu": "Общительный, любящий компании — outgoing. Forthcoming говорит о готовности рассказывать, а не о характере в целом."
+      }
+    },
+    "fixIt": {
+      "text": "The company has been less than [[upcoming]] about the risks of the new product.",
+      "answer": [
+        "forthcoming"
+      ],
+      "explanationRu": "Upcoming — «предстоящий». Неохотно делиться сведениями — be less than forthcoming about something."
+    },
+    "reply": {
+      "context": "A friend asks: \"So, did your landlord explain why the rent is going up?\"",
+      "options": [
+        "Not really. He was very forthcoming, so he refused to tell me anything.",
+        "Not really. He wasn't very forthcoming; he just muttered something about costs.",
+        "Regrettably, the lessor was insufficiently forthcoming regarding the aforementioned increase."
+      ],
+      "answer": 1,
+      "explanationRu": "Not very forthcoming — «не особо рвался объяснять». Very forthcoming значит «охотно всё рассказал», это противоречит отказу говорить. Третий ответ — канцелярит, а не разговор с другом."
+    }
+  },
+  {
+    "lemma": "foster",
+    "pos": "verb",
+    "definitionEn": "to encourage a feeling, skill or idea to develop over time",
+    "translationsRu": [
+      "способствовать (развитию)",
+      "развивать",
+      "поощрять",
+      "укреплять"
+    ],
+    "acceptedAnswers": [
+      "foster"
+    ],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «способствовать развитию» (foster creativity); значение «взять ребёнка на воспитание» (foster a child) не тренируем.",
+    "situation": "A school, company or community creates conditions that help good qualities, habits or relationships grow.",
+    "examples": [
+      {
+        "text": "Good teachers [[foster]] curiosity by letting students ask questions instead of just memorising facts.",
+        "distractors": [
+          "punish",
+          "ignore",
+          "forbid"
+        ],
+        "alternatives": [
+          "encourage",
+          "nurture",
+          "develop",
+          "cultivate",
+          "promote",
+          "stimulate"
+        ]
+      },
+      {
+        "text": "Open-plan offices were supposed to [[foster]] teamwork, but many employees simply wear headphones all day.",
+        "distractors": [
+          "prevent",
+          "replace",
+          "discourage"
+        ],
+        "alternatives": [
+          "encourage",
+          "promote",
+          "boost",
+          "improve",
+          "support",
+          "facilitate"
+        ]
+      },
+      {
+        "text": "The street festival aims to [[foster]] understanding between the city's many different communities.",
+        "distractors": [
+          "avoid",
+          "blame",
+          "question"
+        ],
+        "alternatives": [
+          "promote",
+          "encourage",
+          "build",
+          "improve",
+          "deepen",
+          "nurture"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Shared meals can [[foster]] a strong sense of family.",
+        "The government offers tax breaks to [[foster]] innovation in small firms.",
+        "Coaches try to [[foster]] a positive attitude after every defeat."
+      ],
+      "alternatives": [
+        "encourage",
+        "promote",
+        "nurture"
+      ]
+    },
+    "collocations": [
+      "[[foster]] a sense of community",
+      "[[foster]] creativity",
+      "[[foster]] good relations",
+      "[[foster]] cooperation between",
+      "help to [[foster]] trust"
+    ],
+    "badCollocation": {
+      "text": "[[foster]] sales",
+      "noteRu": "Продажи и прибыль не foster, а boost или increase. Foster — про качества, отношения и идеи: foster trust, foster creativity."
+    },
+    "collocationTask": {
+      "prompt": "___ creativity in young children",
+      "answer": "foster",
+      "distractors": [
+        "raise",
+        "educate",
+        "bring up"
+      ],
+      "explanationRu": "Развивать качество — foster. Raise и bring up — растить детей, educate — давать образование; с creativity их не сочетают."
+    },
+    "nuance": {
+      "rival": "educate",
+      "text": "Good libraries [[foster]] curiosity and a love of reading.",
+      "rivalForm": "educate",
+      "explanationRu": "Foster — создавать условия, чтобы качество развивалось: foster curiosity. Educate — учить, просвещать людей; с curiosity или love of reading его не сочетают.",
+      "reverse": {
+        "text": "The charity [[educates]] the public about healthy eating.",
+        "targetForm": "fosters",
+        "explanationRu": "Просвещать людей о чём-то — educate someone about something. В значении «развивать» foster относится к качествам и отношениям, а не к людям."
+      }
+    },
+    "fixIt": {
+      "text": "Our aim is to [[raise]] a culture of openness in which everyone feels free to speak.",
+      "answer": [
+        "foster"
+      ],
+      "explanationRu": "Культуру, атмосферу, доверие не raise, а foster — «создавать условия для развития». Raise — растить детей или поднимать."
+    },
+    "reply": {
+      "context": "At a staff meeting, your manager asks: \"How can we get different departments to work together more?\"",
+      "options": [
+        "We could foster the printer in the corridor so everyone shares it.",
+        "We could run joint projects. That would foster cooperation without forcing it.",
+        "Dunno, just foster some good vibes or whatever."
+      ],
+      "answer": 1,
+      "explanationRu": "Foster cooperation — «способствовать сотрудничеству». Принтер нельзя foster: глагол говорит о развитии качеств и отношений. Третий ответ слишком небрежен для рабочей встречи."
+    }
+  },
+  {
+    "lemma": "fragile",
+    "pos": "adjective",
+    "definitionEn": "weak and uncertain, and therefore easily damaged or destroyed",
+    "translationsRu": [
+      "хрупкий",
+      "непрочный",
+      "шаткий"
+    ],
+    "acceptedAnswers": [
+      "fragile"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "Здесь — о мире, экономике, отношениях: «хрупкий, шаткий»; буквальное значение (fragile glass) проще.",
+    "situation": "Describing a peace deal, economy or relationship that could easily break down or collapse.",
+    "examples": [
+      {
+        "text": "The ceasefire is still [[fragile]], and both sides accuse each other of breaking it.",
+        "distractors": [
+          "solid",
+          "permanent",
+          "unbroken"
+        ],
+        "alternatives": [
+          "shaky",
+          "precarious",
+          "delicate",
+          "tenuous",
+          "uncertain",
+          "unstable",
+          "weak"
+        ]
+      },
+      {
+        "text": "After two years of recession, the recovery remains [[fragile]] and could easily stall.",
+        "distractors": [
+          "robust",
+          "complete",
+          "unstoppable"
+        ],
+        "alternatives": [
+          "weak",
+          "shaky",
+          "precarious",
+          "uncertain",
+          "tentative",
+          "delicate",
+          "tenuous"
+        ]
+      },
+      {
+        "text": "Their friendship was still [[fragile]] after the argument, so she chose her words carefully.",
+        "distractors": [
+          "unbreakable",
+          "boring",
+          "public"
+        ],
+        "alternatives": [
+          "delicate",
+          "shaky",
+          "tense",
+          "vulnerable"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The two parties formed a [[fragile]] coalition after the election.",
+        "Tourism is a [[fragile]] industry that depends on good news.",
+        "Her confidence is still [[fragile]] after months out of work."
+      ],
+      "alternatives": [
+        "shaky"
+      ]
+    },
+    "collocations": [
+      "a [[fragile]] peace",
+      "a [[fragile]] economy",
+      "a [[fragile]] recovery",
+      "a [[fragile]] ceasefire",
+      "remain [[fragile]]"
+    ],
+    "badCollocation": {
+      "text": "[[fragile]] to outside shocks",
+      "noteRu": "«Уязвимый к чему-то» — vulnerable to. Fragile не требует предлога: a fragile economy."
+    },
+    "collocationTask": {
+      "prompt": "a ___ ceasefire",
+      "answer": "fragile",
+      "distractors": [
+        "breakable",
+        "fragmentary",
+        "thin"
+      ],
+      "explanationRu": "Перемирие, которое легко сорвать, — a fragile ceasefire. Breakable — о бьющихся предметах, fragmentary — «отрывочный», thin — «тонкий»."
+    },
+    "nuance": {
+      "rival": "flimsy",
+      "text": "Relations between the two neighbours remain [[fragile]] after years of conflict.",
+      "rivalForm": "flimsy",
+      "explanationRu": "Fragile — о том, что легко разрушить: мир, отношения, восстановление экономики. Flimsy — «хлипкий»: тонкая ткань, шаткая конструкция, неубедительная отговорка.",
+      "reverse": {
+        "text": "He gave a [[flimsy]] excuse for missing the meeting.",
+        "targetForm": "fragile",
+        "explanationRu": "Неубедительная отговорка — a flimsy excuse. Fragile описывает то, что может разрушиться, а не слабый довод."
+      }
+    },
+    "fixIt": {
+      "text": "Experts warn that the peace between the two countries is still very [[breakable]].",
+      "answer": [
+        "fragile"
+      ],
+      "explanationRu": "Breakable говорят о посуде и других предметах. Хрупкий мир, хрупкая экономика — fragile."
+    },
+    "wordFormation": {
+      "base": "fragile",
+      "text": "The crisis exposed the [[fragility]] of the country's banking system.",
+      "answer": [
+        "fragility"
+      ]
+    },
+    "reply": {
+      "context": "Your colleague asks: \"Should we launch the new product now or wait until spring?\"",
+      "options": [
+        "I'd wait. Consumer confidence is still pretty fragile after the price rises.",
+        "Let's launch now. Our confidence is so fragile that nothing can shake it.",
+        "One would posit that the market's fragile disposition necessitates postponement."
+      ],
+      "answer": 0,
+      "explanationRu": "Fragile — «шаткий, легко разрушимый». Во втором ответе fragile противоречит словам «ничто не поколеблет». Третий звучит как научная статья, а не рабочий разговор."
+    }
+  },
+  {
+    "lemma": "franchise",
+    "pos": "noun",
+    "definitionEn": "permission to run a business using a big company's name and products",
+    "translationsRu": [
+      "франшиза",
+      "право работать под чужим брендом"
+    ],
+    "acceptedAnswers": [
+      "franchise"
+    ],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — деловое значение «франшиза»; «право голоса» (формальное) и «серия фильмов» (a film franchise) — другие значения.",
+    "situation": "Someone pays a large company to open a shop or café using its brand name and system.",
+    "examples": [
+      {
+        "text": "She bought a coffee-shop [[franchise]] instead of starting a business from scratch.",
+        "distractors": [
+          "uniform",
+          "receipt",
+          "menu"
+        ],
+        "alternatives": [
+          "licence"
+        ]
+      },
+      {
+        "text": "Each [[franchise]] pays the parent company a share of its monthly profits.",
+        "distractors": [
+          "customer",
+          "competitor",
+          "shareholder"
+        ],
+        "alternatives": [
+          "franchisee",
+          "outlet",
+          "branch"
+        ]
+      },
+      {
+        "text": "The pizza chain now has over 300 [[franchises]] across the country, mostly run by local families.",
+        "distractors": [
+          "recipes",
+          "customers",
+          "ingredients"
+        ],
+        "alternatives": [
+          "outlets",
+          "branches",
+          "restaurants",
+          "stores"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Opening a [[franchise]] usually costs less than launching your own brand.",
+        "The gym [[franchise]] in our town closed after two years.",
+        "He signed a ten-year [[franchise]] agreement with a burger chain."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "buy a [[franchise]]",
+      "run a [[franchise]]",
+      "a [[franchise]] agreement",
+      "a fast-food [[franchise]]",
+      "[[franchise]] fees"
+    ],
+    "badCollocation": {
+      "text": "an insurance [[franchise]] of 500 euros",
+      "noteRu": "Страховая «франшиза» по-английски — excess (брит.) или deductible (амер.). Franchise — право работать под чужим брендом."
+    },
+    "collocationTask": {
+      "prompt": "open a ___ of a well-known coffee chain",
+      "answer": "franchise",
+      "distractors": [
+        "filial",
+        "department",
+        "division"
+      ],
+      "explanationRu": "Работать под брендом сети — open a franchise. Filial значит «сыновний, дочерний», а не «филиал»; department и division — отделы внутри компании."
+    },
+    "nuance": {
+      "rival": "branch",
+      "text": "Instead of opening its own shops, the company sells [[franchises]] to local owners.",
+      "rivalForm": "branches",
+      "explanationRu": "Franchise — право вести бизнес под чужим брендом; точка принадлежит местному владельцу. Branch — филиал, которым владеет сама компания, поэтому продавать branches владельцам нельзя.",
+      "reverse": {
+        "text": "The bank is closing its [[branch]] in our village next month.",
+        "targetForm": "franchise",
+        "explanationRu": "Отделение банка, которым владеет сам банк, — branch. Franchise — бизнес, который владелец купил право вести под брендом."
+      }
+    },
+    "fixIt": {
+      "text": "My uncle bought a [[filial]] of a popular pizza chain and now runs it with his sons.",
+      "answer": [
+        "franchise"
+      ],
+      "explanationRu": "Filial — «сыновний», а не «филиал». Купить право работать под брендом сети — buy a franchise."
+    },
+    "wordFormation": {
+      "base": "franchise",
+      "text": "[[Franchising]] lets a brand grow quickly without opening its own shops.",
+      "answer": [
+        "franchising"
+      ]
+    },
+    "reply": {
+      "context": "A friend says: \"I'd love to open a café, but I've never run a business.\"",
+      "options": [
+        "Have you considered a franchise? It's when you insure your café against fire.",
+        "Might I propose the acquisition of a franchise, thereby mitigating operational risk?",
+        "Have you considered a franchise? You'd get a known brand, a tested menu and training."
+      ],
+      "answer": 2,
+      "explanationRu": "Franchise — право работать под известным брендом, с его меню и поддержкой. Страховка тут ни при чём. Второй ответ звучит как бизнес-презентация, а не совет другу."
+    }
+  },
+  {
+    "lemma": "frankly",
+    "pos": "adverb",
+    "definitionEn": "used to show that you are giving your honest opinion, even if it is unwelcome",
+    "translationsRu": [
+      "честно говоря",
+      "откровенно говоря",
+      "по правде говоря"
+    ],
+    "acceptedAnswers": [
+      "frankly"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "Здесь — вводное «честно говоря» (Frankly, ...); значение «откровенно» (speak frankly) проще.",
+    "situation": "Before giving an honest opinion or admitting something that the other person may not want to hear.",
+    "examples": [
+      {
+        "text": "[[Frankly]], your essay is too long, and the main argument gets lost halfway through.",
+        "distractors": [
+          "Fortunately",
+          "Secretly",
+          "Originally"
+        ],
+        "alternatives": [
+          "Honestly",
+          "Truthfully",
+          "Candidly",
+          "Bluntly"
+        ]
+      },
+      {
+        "text": "I'm not sure the new app is worth the money; [[frankly]], I preferred the old one.",
+        "distractors": [
+          "gradually",
+          "similarly",
+          "accidentally"
+        ],
+        "alternatives": [
+          "honestly",
+          "personally",
+          "truthfully"
+        ]
+      },
+      {
+        "text": "Thanks for asking my opinion, but [[frankly]], I think the plan is doomed.",
+        "distractors": [
+          "hopefully",
+          "luckily",
+          "eventually"
+        ],
+        "alternatives": [
+          "honestly",
+          "bluntly",
+          "candidly",
+          "personally",
+          "realistically"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Well, [[frankly]], I expected more from such an expensive hotel.",
+        "The service was slow and, [[frankly]], a little rude.",
+        "She's talented, but [[frankly]], she isn't ready to lead a team."
+      ],
+      "alternatives": [
+        "honestly",
+        "to be honest"
+      ]
+    },
+    "collocations": [
+      "quite [[frankly]]",
+      "[[frankly]], I don't care",
+      "[[frankly]] speaking",
+      "[[frankly]], I'm not surprised"
+    ],
+    "badCollocation": {
+      "text": "[[frankly]] saying",
+      "noteRu": "«Честно говоря» — frankly или frankly speaking, но не frankly saying: это калька с русского."
+    },
+    "collocationTask": {
+      "prompt": "Quite ___, I don't think he's the right person for the job.",
+      "answer": "frankly",
+      "distractors": [
+        "openly",
+        "directly",
+        "sincerely"
+      ],
+      "explanationRu": "Quite frankly — «если уж честно», перед неприятной правдой. Openly, directly и sincerely вводными словами в начале фразы не бывают."
+    },
+    "nuance": {
+      "rival": "sincerely",
+      "text": "[[Frankly]], I think we're paying far too much for this office.",
+      "rivalForm": "sincerely",
+      "explanationRu": "Frankly в начале фразы — «честно говоря», перед неприятной правдой. Sincerely — «искренне» (sincerely hope, sincerely thank); вводным словом его не ставят.",
+      "reverse": {
+        "text": "We [[sincerely]] apologise for the delay to your order.",
+        "targetForm": "frankly",
+        "explanationRu": "Искренние извинения — sincerely apologise. Frankly предупреждает о прямоте, а не выражает искренние чувства."
+      }
+    },
+    "fixIt": {
+      "text": "[[Openly]] speaking, I think the new logo looks cheap and old-fashioned.",
+      "answer": [
+        "frankly"
+      ],
+      "explanationRu": "«Откровенно говоря» — frankly (speaking), а не openly speaking. Openly — «открыто, не скрываясь»."
+    },
+    "wordFormation": {
+      "base": "frankly",
+      "text": "I really appreciated the [[frankness]] of her feedback on my presentation.",
+      "answer": [
+        "frankness"
+      ]
+    },
+    "reply": {
+      "context": "A colleague asks you: \"Be honest. Should I apply for the manager's job?\"",
+      "options": [
+        "Frankly, I think you're ready. You already do half of that job anyway.",
+        "Frankly, I'd rather keep my honest opinion a secret from you.",
+        "Frankly, the applicant's suitability shall be evaluated in accordance with procedure."
+      ],
+      "answer": 0,
+      "explanationRu": "Frankly вводит честное мнение. Во втором ответе слово противоречит смыслу: человек как раз не хочет говорить честно. Третий звучит как казённый документ."
+    }
+  },
+  {
+    "lemma": "frustrated",
+    "pos": "adjective",
+    "definitionEn": "annoyed and impatient because you cannot do or achieve what you want",
+    "translationsRu": [
+      "раздосадованный",
+      "раздражённый (от бессилия)",
+      "расстроенный"
+    ],
+    "acceptedAnswers": [
+      "frustrated"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "Основное значение — досада, когда что-то не получается; именно его Oxford относит к C1. Важно не путать с disappointed и upset.",
+    "situation": "You keep trying to do something, but problems or other people stop you, and you feel annoyed.",
+    "examples": [
+      {
+        "text": "After an hour on hold with the bank, I was so [[frustrated]] that I hung up.",
+        "distractors": [
+          "cheerful",
+          "relaxed",
+          "content"
+        ],
+        "alternatives": [
+          "annoyed",
+          "fed up",
+          "irritated",
+          "exasperated",
+          "angry",
+          "impatient"
+        ]
+      },
+      {
+        "text": "Many nurses are [[frustrated]] that endless paperwork keeps them away from their patients.",
+        "distractors": [
+          "grateful",
+          "proud",
+          "hopeful"
+        ],
+        "alternatives": [
+          "annoyed",
+          "irritated",
+          "exasperated",
+          "angry",
+          "upset"
+        ]
+      },
+      {
+        "text": "The striker looked [[frustrated]] as yet another shot hit the post.",
+        "distractors": [
+          "ecstatic",
+          "carefree",
+          "smug"
+        ],
+        "alternatives": [
+          "annoyed",
+          "exasperated",
+          "angry",
+          "irritated",
+          "upset",
+          "dejected"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Voters are [[frustrated]] with the slow pace of change.",
+        "I get [[frustrated]] when my laptop freezes during calls.",
+        "When you're learning a language, feeling [[frustrated]] is completely normal."
+      ],
+      "alternatives": [
+        "annoyed",
+        "fed up"
+      ]
+    },
+    "collocations": [
+      "[[frustrated]] with somebody",
+      "[[frustrated]] by the delays",
+      "[[frustrated]] at the lack of progress",
+      "feel [[frustrated]]",
+      "increasingly [[frustrated]]"
+    ],
+    "badCollocation": {
+      "text": "[[frustrated]] about a friend's death",
+      "noteRu": "Frustrated — досада от препятствий. О горе и печали говорят upset, sad или heartbroken."
+    },
+    "collocationTask": {
+      "prompt": "She grew increasingly ___ with the lack of progress.",
+      "answer": "frustrated",
+      "distractors": [
+        "frustrating",
+        "disappointing",
+        "upsetting"
+      ],
+      "explanationRu": "О чувствах человека — прилагательное на -ed: frustrated with something. Frustrating, disappointing и upsetting описывают то, что вызывает эти чувства."
+    },
+    "nuance": {
+      "rival": "disappointed",
+      "text": "I've been trying to fix this printer all morning, and I'm getting really [[frustrated]].",
+      "rivalForm": "disappointed",
+      "explanationRu": "Frustrated — раздражение, когда что-то раз за разом не получается. Disappointed — разочарование, когда ожидания не оправдались; к борьбе с принтером оно не подходит.",
+      "reverse": {
+        "text": "I was [[disappointed]] with the film; the book was much better.",
+        "targetForm": "frustrated",
+        "explanationRu": "Фильм не оправдал ожиданий — disappointed. Frustrated означает досаду от препятствий, а не разочарование."
+      }
+    },
+    "fixIt": {
+      "text": "I'm so [[frustrating]] with this website; it keeps logging me out!",
+      "answer": [
+        "frustrated"
+      ],
+      "explanationRu": "О своих чувствах — frustrated (-ed). Frustrating описывает то, что раздражает: this website is frustrating."
+    },
+    "wordFormation": {
+      "base": "frustrate",
+      "text": "Tenants are increasingly [[frustrated]] by the landlord's failure to fix the heating.",
+      "answer": [
+        "frustrated"
+      ]
+    },
+    "reply": {
+      "context": "A colleague messages you: \"How's the new accounting software going?\"",
+      "options": [
+        "Great! I'm so frustrated with how smoothly everything works.",
+        "Not great, to be honest. I'm frustrated because it crashes every time I save.",
+        "Current user status: frustrated. Awaiting technical intervention."
+      ],
+      "answer": 1,
+      "explanationRu": "Frustrated — досада, когда что-то мешает. Радоваться гладкой работе этим словом нельзя. Третий ответ звучит как сообщение робота, а не коллеги."
+    },
+    "rewrite": {
+      "original": "The long delays really annoyed the passengers.",
+      "frame": "The passengers were really ____ the long delays.",
+      "accepted": [
+        "frustrated by",
+        "frustrated with",
+        "frustrated at"
+      ],
+      "explanationRu": "Frustrated by/with/at something — «раздосадован чем-то»."
+    }
+  }
+]

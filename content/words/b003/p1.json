@@ -150,7 +150,7 @@
                         "explanationRu": "Наследие в виде зданий — architectural heritage. Structural — «несущий, конструкционный», constructive — «полезный», architect — существительное."},
     "nuance": {
       "rival": "structural",
-      "text": "With its arches and painted ceilings, the palace is an [[architectural]] masterpiece.",
+      "text": "With its arches and painted ceilings, the palace is one of Europe's great [[architectural]] masterpieces.",
       "rivalForm": "structural",
       "explanationRu": "Architectural — про стиль, красоту и замысел здания. Structural — про несущие конструкции и прочность, а арки и росписи хвалят не за прочность.",
       "reverse": {"text": "After the earthquake, engineers found serious [[structural]] damage in the bridge.", "targetForm": "architectural",
@@ -160,13 +160,7 @@
               "answer": ["architectural"],
               "explanationRu": "Перед design нужно прилагательное: architectural design. Architecture — существительное, «архитектура»."},
     "wordFormation": {"base": "architecture", "text": "The street is lined with houses of great [[architectural]] interest.",
-                      "answer": ["architectural"]},
-    "reply": {"context": "On a city tour, a friend asks: \"Why is everyone taking photos of that plain grey building?\"",
-              "options": ["Apparently it's very architectural — they sell nice souvenirs inside.",
-                          "Its architectural significance is considerable, as the scholarly literature attests.",
-                          "Apparently it's an architectural landmark — the first building of its kind in the country."],
-              "answer": 2,
-              "explanationRu": "Architectural landmark — здание, важное для архитектуры. «Very architectural» из-за сувениров — бессмыслица, а второй ответ звучит как научная статья, а не реплика другу."}
+                      "answer": ["architectural"]}
   },
   {
     "lemma": "archive",
@@ -215,13 +209,7 @@
               "answer": ["archive"],
               "explanationRu": "Русское «фонд» (собрание документов или фото) по-английски — archive или collection. Fund — это деньги."},
     "wordFormation": {"base": "archive", "text": "The historian based her book on years of careful [[archival]] research.",
-                      "answer": ["archival"]},
-    "reply": {"context": "A friend asks: \"How did you find out that your great-grandmother was an actress?\"",
-              "options": ["I found her name in a theatre archive — there were even photos of her on stage.",
-                          "I found it in my archive — I have a very good memory for family stories.",
-                          "Consultation of the relevant archive yielded the pertinent information."],
-              "answer": 0,
-              "explanationRu": "Archive — собрание документов и фото, в нём и нашлось имя. Archive не значит «память», а третий ответ звучит как отчёт, а не разговор с другом."}
+                      "answer": ["archival"]}
   },
   {
     "lemma": "arena",
@@ -236,7 +224,7 @@
     "situation": "You describe politics, business or international relations as a place of competition and conflict.",
     "examples": [
       {"text": "After twenty years as a doctor, she decided to enter the political [[arena]].",
-       "distractors": ["area", "district", "surface"],
+       "distractors": ["district", "surface", "climate"],
        "alternatives": ["scene", "stage", "fray"]},
       {"text": "Small start-ups often struggle to survive in the global business [[arena]].",
        "distractors": ["agenda", "calendar", "schedule"],
@@ -266,15 +254,9 @@
       "reverse": {"text": "Her main [[area]] of research is child psychology.", "targetForm": "arena",
                   "explanationRu": "Область исследований — area of research. Arena — поле борьбы и соперничества, к науке в таком значении не подходит."}
     },
-    "fixIt": {"text": "Many actors have tried their luck in the political [[area]], with mixed results.",
+    "fixIt": {"text": "Many actors have stepped into the political [[area]], with mixed results.",
               "answer": ["arena"],
-              "explanationRu": "Политика как поле борьбы — the political arena. Area — «район» или «область»; the political area звучит неестественно."},
-    "reply": {"context": "A colleague asks: \"Why did that famous surgeon suddenly quit medicine?\"",
-              "options": ["He's bought an arena for his hospital, so he's very busy now.",
-                          "He wants to enter the political arena — he's running for mayor next year.",
-                          "He hath resolved to enter the arena of public affairs, it is said."],
-              "answer": 1,
-              "explanationRu": "Enter the political arena — «выйти на политическую арену», пойти в политику. В первом ответе arena понято буквально как здание, третий звучит архаично."}
+              "explanationRu": "Политика как поле борьбы — the political arena. Area — «район» или «область»; the political area звучит неестественно."}
   },
   {
     "lemma": "arguably",
@@ -452,13 +434,13 @@
     "situation": "You manage to put complicated thoughts or feelings into clear words so that other people understand them.",
     "examples": [
       {"text": "Many patients find it hard to [[articulate]] exactly what is wrong with them.",
-       "distractors": ["pronounce", "tolerate", "imitate"],
+       "distractors": ["tolerate", "celebrate", "decorate"],
        "alternatives": ["explain", "describe", "express"]},
       {"text": "In her email, she [[articulated]] the team's concerns calmly and clearly.",
        "distractors": ["pronounced", "decorated", "calculated"],
        "alternatives": ["expressed", "outlined", "voiced", "explained", "set out"]},
       {"text": "A good essay [[articulates]] a clear argument and supports it with evidence.",
-       "distractors": ["pronounces", "imitates", "postpones"],
+       "distractors": ["imitates", "postpones", "abandons"],
        "alternatives": ["presents", "states", "develops", "makes", "sets out"]}
     ],
     "trio": {

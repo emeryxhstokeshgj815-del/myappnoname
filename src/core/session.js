@@ -222,14 +222,30 @@ export function allowedFor(mode, config) {
   return ALL;
 }
 
+// Remember which example sentences a session already used for each word, so the
+// same sentence is not shown twice in one session (card, then recall, then retry).
+function noteExample(env, task) {
+  if (!env.usedEx || task.exIndex === undefined) return task;
+  const list = (env.usedEx[task.wordId] = env.usedEx[task.wordId] || []);
+  if (!list.includes(task.exIndex)) list.push(task.exIndex);
+  return task;
+}
+
 export function makeTask(spec, env) {
+  const t = makeTaskInner(spec, env);
+  return noteExample(env, t);
+}
+
+function makeTaskInner(spec, env) {
   const { lex, state, rng, mode, voice, usage, prev, config } = env;
   const word = lex.get(spec.wordId);
   const rec = state.words[spec.wordId];
   const allowed = allowedFor(mode, config);
+  const avoidEx = (env.usedEx && env.usedEx[spec.wordId]) || [];
   if (spec.role === 'intro') {
-    const check = buildTask('quickpick', word, { lex, rng, rec, variant: 'en-ru', showContext: true });
-    return { ...check, mech: 'intro', check: true, role: 'intro', skills: ['rec'] };
+    const check = buildTask('quickpick', word, { lex, rng, rec, variant: 'en-ru', showContext: true, avoidEx });
+    // the card shows this example, so later tasks in the session pick another sentence
+    return { ...check, mech: 'intro', check: true, role: 'intro', skills: ['rec'], contextKey: `${word.id}#ex${check.contextIndex}` };
   }
   if (spec.mech === 'match') {
     return { ...buildTask('match', word, { lex, rng, rec, pool: spec.pool }), role: spec.role };
@@ -255,7 +271,7 @@ export function makeTask(spec, env) {
       if (mode === 'free' && config?.gapMode) variant = config.gapMode;
     }
   }
-  const task = buildTask(mech, word, { lex, rng, rec, variant, pool: env.pool, dirPref: state.settings?.quickDir });
+  const task = buildTask(mech, word, { lex, rng, rec, variant, pool: env.pool, dirPref: state.settings?.quickDir, avoidEx });
   task.role = spec.role;
   if (spec.filler) task.filler = true;
   return task;
@@ -268,9 +284,10 @@ export function makeFollowUp(task, env) {
   const rec = state.words[task.wordId];
   const allowed = allowedFor(mode, config).filter((m) => m !== task.mech && m !== 'match');
   const mech = chooseMechanic(word, rec, { allowed, usage: env.usage, prev: task.mech, voice, rng, avoid: [task.mech] });
-  const t = buildTask(mech, word, { lex, rng, rec, variant: mech === 'gap' ? (task.variant === 'typed' ? 'choice' : 'typed') : undefined, dirPref: state.settings?.quickDir });
+  const avoidEx = [...((env.usedEx && env.usedEx[task.wordId]) || [])];
+  const t = buildTask(mech, word, { lex, rng, rec, variant: mech === 'gap' ? (task.variant === 'typed' ? 'choice' : 'typed') : undefined, dirPref: state.settings?.quickDir, avoidEx });
   t.role = 'retry';
-  return t;
+  return noteExample(env, t);
 }
 
 export function sessionSeed() {

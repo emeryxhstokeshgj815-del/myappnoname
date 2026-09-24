@@ -77,20 +77,31 @@ export function createLexicon(data) {
       ...(w.trio?.alternatives || []),
     ].filter(Boolean).map((x) => x.toLowerCase()));
     for (const l of lemmaSet) link(w.id, lemmaToId.get(l));
-    // same first 5 letters = likely same family (accountable/accountability)
-    for (const other of byPos.get(w.partOfSpeech) || []) {
-      if (other.id !== w.id && other.lemma.slice(0, 5) === w.lemma.slice(0, 5)) link(w.id, other.id);
-    }
+  }
+  // same first 5 letters and part of speech = likely one family (accountable/accountability)
+  const byPrefix = new Map();
+  for (const w of words) {
+    const k = w.partOfSpeech + ':' + w.lemma.slice(0, 5);
+    if (!byPrefix.has(k)) byPrefix.set(k, []);
+    byPrefix.get(k).push(w.id);
+  }
+  for (const ids of byPrefix.values()) {
+    for (const a of ids) for (const b of ids) if (a !== b) link(a, b);
   }
 
-  const known = new Set();
-  for (const w of words) {
-    for (const f of w.forms || []) known.add(f.toLowerCase());
-    for (const e of w.examples || []) {
-      for (const d of e.distractors || []) known.add(d.toLowerCase());
+  // Common English word forms (for telling a typo from a different real word);
+  // built on first use to keep start-up fast.
+  let knownSet = null;
+  const getKnown = () => {
+    if (knownSet) return knownSet;
+    knownSet = new Set();
+    for (const w of words) {
+      for (const f of w.forms || []) knownSet.add(f.toLowerCase());
+      for (const e of w.examples || []) for (const d of e.distractors || []) knownSet.add(d.toLowerCase());
     }
-  }
-  if (typeof data.known === 'string') for (const k of data.known.split(' ')) if (k) known.add(k);
+    if (typeof data.known === 'string') for (const k of data.known.split(' ')) if (k) knownSet.add(k);
+    return knownSet;
+  };
 
   const searchText = new Map(
     words.map((w) => [w.id, `${w.lemma} ${(w.acceptedAnswers || []).join(' ')} | ${(w.translationsRu || []).join(' ').toLowerCase()}`]),
@@ -123,7 +134,9 @@ export function createLexicon(data) {
     byTopic,
     byPos,
     confusable,
-    known,
+    get known() {
+      return getKnown();
+    },
     search,
     get: (id) => byId.get(id),
   };

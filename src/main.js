@@ -1,6 +1,7 @@
 import { createApp } from './ui/app.js';
 
 function boot() {
+  performance.mark?.('crux-boot-start');
   const root = document.getElementById('app');
   const dataEl = document.getElementById('crux-data');
   const soundEl = document.getElementById('crux-sounds');
@@ -8,6 +9,7 @@ function boot() {
   let sounds = {};
   try {
     data = JSON.parse(dataEl.textContent);
+    performance.mark?.('crux-data-parsed');
   } catch (e) {
     root.textContent = 'The dictionary could not be loaded: ' + e.message;
     return;
@@ -19,7 +21,9 @@ function boot() {
   }
   const app = createApp(root, data, sounds);
   window.__crux = app; // handy for debugging and automated tests
+  performance.mark?.('crux-app-created');
   app.render();
+  performance.mark?.('crux-boot-end');
 }
 
 if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);

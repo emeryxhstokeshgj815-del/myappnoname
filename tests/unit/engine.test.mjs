@@ -261,3 +261,18 @@ test('free practice uses only the chosen exercise types and topics', () => {
   const m = startSession(state, lex, { mode: 'free', length: 10, today: TODAY, seed: 33, config: { topics: [], mechanics: ['match'] } });
   assert.ok(m.tasks.some((t) => t.mech === 'match'), 'match chosen');
 });
+
+test('within one session a word never shows the same example sentence twice', () => {
+  const lex = makeLex(40);
+  for (let seed = 1; seed <= 20; seed++) {
+    const state = emptyState();
+    const s = startSession(state, lex, { mode: 'daily', length: 20, today: TODAY, seed });
+    const seen = {};
+    for (const t of s.tasks) {
+      if (t.exIndex === undefined) continue;
+      const k = t.wordId + '#' + t.exIndex;
+      assert.ok(!seen[k], `seed ${seed}: ${k} used twice`);
+      seen[k] = true;
+    }
+  }
+});

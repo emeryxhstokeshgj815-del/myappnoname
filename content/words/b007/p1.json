@@ -355,7 +355,7 @@
        "distractors": ["celebration", "decoration", "reception"],
        "alternatives": ["idea", "understanding", "notion", "definition", "concept", "view"]},
       {"text": "The new manager's [[conception]] of teamwork seemed to mean everyone simply agreeing with her.",
-       "distractors": ["invention", "exception", "reduction"],
+       "distractors": ["exception", "correction", "extension"],
        "alternatives": ["idea", "notion", "understanding", "concept", "view"]}
     ],
     "trio": {

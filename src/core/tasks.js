@@ -68,7 +68,8 @@ function contextKeyFor(word, i) {
 // Pick the example sentence the learner has seen least recently.
 function pickExample(word, rec, rng, avoid = []) {
   const recent = rec?.ctx || [];
-  const idx = word.examples.map((_, i) => i).filter((i) => !avoid.includes(i));
+  let idx = word.examples.map((_, i) => i).filter((i) => !avoid.includes(i));
+  if (!idx.length) idx = word.examples.map((_, i) => i);
   const fresh = idx.filter((i) => !recent.includes(contextKeyFor(word, i)));
   const pool = fresh.length ? fresh : idx.sort((a, b) => recent.indexOf(contextKeyFor(word, b)) - recent.indexOf(contextKeyFor(word, a)));
   return fresh.length ? rng.pick(pool) : pool[0];
@@ -133,8 +134,10 @@ export function buildTask(mech, word, ctx) {
         t.optionIds = o.options;
         t.answerIndex = o.answerIndex;
         if (word.ambiguous || ctx.showContext) {
-          const i = pickExample(word, rec, rng);
+          const i = pickExample(word, rec, rng, ctx.avoidEx || []);
           t.context = word.examples[i].text;
+          t.contextIndex = i;
+          t.exIndex = i;
         }
       } else {
         const o = shuffleWithAnswer(rng, word.id, others.map((w) => w.id));
@@ -154,7 +157,7 @@ export function buildTask(mech, word, ctx) {
       };
     }
     case 'gap': {
-      const i = pickExample(word, rec, rng);
+      const i = pickExample(word, rec, rng, ctx.avoidEx || []);
       const ex = word.examples[i];
       const target = splitMarked(ex.text).target;
       const typed = ctx.variant ? ctx.variant === 'typed' : !!ctx.preferTyped;
@@ -162,6 +165,7 @@ export function buildTask(mech, word, ctx) {
         ...base,
         variant: typed ? 'typed' : 'choice',
         contextKey: contextKeyFor(word, i),
+        exIndex: i,
         sentence: ex.text,
         answer: target,
         accepted: [target],
@@ -336,12 +340,13 @@ export function buildTask(mech, word, ctx) {
       };
     }
     case 'listen': {
-      const i = pickExample(word, rec, rng);
+      const i = pickExample(word, rec, rng, ctx.avoidEx || []);
       const ex = word.examples[i];
       const target = splitMarked(ex.text).target;
       return {
         ...base,
         contextKey: contextKeyFor(word, i) + ':listen',
+        exIndex: i,
         sentence: ex.text,
         speak: unmark(ex.text),
         answer: target,

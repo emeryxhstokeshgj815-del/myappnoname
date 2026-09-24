@@ -1,0 +1,1093 @@
+[
+  {
+    "lemma": "anthropology",
+    "pos": "noun",
+    "definitionEn": "the study of human societies, cultures and how they develop",
+    "translationsRu": [
+      "антропология"
+    ],
+    "acceptedAnswers": [
+      "anthropology"
+    ],
+    "register": "neutral",
+    "topic": "education",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about the academic subject that studies how people live, their customs, beliefs and social groups.",
+    "examples": [
+      {
+        "text": "She studied [[anthropology]] and spent a year living with a fishing community in Indonesia.",
+        "distractors": [
+          "astronomy",
+          "accounting",
+          "dentistry"
+        ],
+        "alternatives": [
+          "ethnography",
+          "sociology"
+        ]
+      },
+      {
+        "text": "Tech companies now hire experts in [[anthropology]] to understand how people really use their phones.",
+        "distractors": [
+          "astrology",
+          "archaeology",
+          "zoology"
+        ],
+        "alternatives": [
+          "sociology",
+          "psychology",
+          "ethnography"
+        ]
+      },
+      {
+        "text": "The museum's new [[anthropology]] gallery displays masks, tools and clothing from dozens of cultures.",
+        "distractors": [
+          "geology",
+          "botany",
+          "aviation"
+        ],
+        "alternatives": [
+          "ethnography",
+          "ethnology"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "He took a course in [[anthropology]] to understand other cultures.",
+        "Her book combines history, [[anthropology]] and personal memories of the village.",
+        "Social [[anthropology]] looks at family, religion and power in different societies."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "social [[anthropology]]",
+      "cultural [[anthropology]]",
+      "a degree in [[anthropology]]",
+      "a professor of [[anthropology]]",
+      "the [[anthropology]] department"
+    ],
+    "badCollocation": {
+      "text": "the [[anthropology]] of dinosaurs",
+      "noteRu": "Динозавров изучает palaeontology. Anthropology — наука о людях, их обществах и культуре."
+    },
+    "collocationTask": {
+      "prompt": "a degree in social ___",
+      "answer": "anthropology",
+      "distractors": [
+        "humanity",
+        "astrology",
+        "humanism"
+      ],
+      "explanationRu": "Социальная антропология — social anthropology. Humanity — «человечество», astrology — «астрология», humanism — «гуманизм»; с social как название специальности они не работают."
+    },
+    "nuance": {
+      "rival": "archaeology",
+      "text": "For her [[anthropology]] project, she interviewed families about how they celebrate weddings today.",
+      "rivalForm": "archaeology",
+      "explanationRu": "Anthropology изучает общества и культуры, в том числе современные, через наблюдение и интервью. Archaeology изучает прошлое по раскопкам и находкам, интервью о свадьбах — не её метод.",
+      "reverse": {
+        "text": "The [[archaeology]] team found Roman coins under the car park.",
+        "targetForm": "anthropology",
+        "explanationRu": "Раскопки и древние находки — это archaeology. Anthropology изучает людей и культуры, а не копает землю."
+      }
+    },
+    "fixIt": {
+      "text": "She has a master's degree in social [[anthropologist]] from a university in Scotland.",
+      "answer": [
+        "anthropology"
+      ],
+      "explanationRu": "Anthropologist — это человек, специалист. Название науки и специальности — anthropology."
+    },
+    "wordFormation": {
+      "base": "anthropology",
+      "text": "The research team spent a year doing [[anthropological]] fieldwork on a remote island.",
+      "answer": [
+        "anthropological"
+      ]
+    }
+  },
+  {
+    "lemma": "appal",
+    "pos": "verb",
+    "definitionEn": "to shock and upset someone very much because something is so bad",
+    "translationsRu": [
+      "ужасать",
+      "возмущать",
+      "шокировать"
+    ],
+    "acceptedAnswers": [
+      "appal",
+      "appall"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Reacting to something so bad, cruel or shocking that you feel horrified and angry.",
+    "examples": [
+      {
+        "text": "Customers were [[appalled]] to discover that the company had sold their personal data.",
+        "distractors": [
+          "delighted",
+          "relieved",
+          "amused"
+        ],
+        "alternatives": [
+          "horrified",
+          "shocked",
+          "outraged",
+          "disgusted",
+          "dismayed"
+        ]
+      },
+      {
+        "text": "I was [[appalled]] by the state of the hotel bathroom: mould on the walls and hair in the sink.",
+        "distractors": [
+          "impressed",
+          "charmed",
+          "reassured"
+        ],
+        "alternatives": [
+          "horrified",
+          "disgusted",
+          "shocked",
+          "sickened"
+        ]
+      },
+      {
+        "text": "It [[appals]] me that some children still go to school hungry in such a rich country.",
+        "distractors": [
+          "amuses",
+          "flatters",
+          "comforts"
+        ],
+        "alternatives": [
+          "shocks",
+          "horrifies",
+          "disgusts",
+          "outrages",
+          "saddens"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Viewers were [[appalled]] by the way the contestants were treated.",
+        "Her parents were [[appalled]] when she left university to join a band.",
+        "Doctors are [[appalled]] at the long waiting times for surgery."
+      ],
+      "alternatives": [
+        "horrified",
+        "shocked",
+        "dismayed"
+      ]
+    },
+    "collocations": [
+      "be [[appalled]] by",
+      "be [[appalled]] at",
+      "[[appalled]] to hear that",
+      "absolutely [[appalled]]",
+      "it [[appals]] me that"
+    ],
+    "badCollocation": {
+      "text": "[[appalled]] by the beautiful view",
+      "noteRu": "Appalled — только о возмущении и ужасе. Если вид поразил красотой — amazed или stunned by the view."
+    },
+    "collocationTask": {
+      "prompt": "I was ___ by the terrible conditions.",
+      "answer": "appalled",
+      "distractors": [
+        "appealed",
+        "applauded",
+        "appeased"
+      ],
+      "explanationRu": "Прийти в ужас от чего-то — be appalled by. Appealed, applauded и appeased только похожи внешне: «обращаться», «аплодировать», «умиротворять»."
+    },
+    "nuance": {
+      "rival": "frighten",
+      "text": "We were [[appalled]] at how rudely the waiter spoke to the elderly couple.",
+      "rivalForm": "frightened",
+      "explanationRu": "Appal — вызывать ужас и возмущение чем-то недопустимым. Frighten — пугать, вызывать страх; грубость официанта возмущает, а не пугает.",
+      "reverse": {
+        "text": "The thunder [[frightened]] the children, so they hid under the table.",
+        "targetForm": "appalled",
+        "explanationRu": "Испугать громом — frighten. Appal — возмутить чем-то плохим или жестоким, гром здесь ни при чём."
+      }
+    },
+    "fixIt": {
+      "text": "Everyone was [[offended]] by the pictures of dead fish on the beach after the oil spill.",
+      "answer": [
+        "appalled"
+      ],
+      "explanationRu": "Offended — «обиженный, задетый» лично. Ужас и возмущение от экологической катастрофы — appalled."
+    },
+    "wordFormation": {
+      "base": "appal",
+      "text": "The service at the restaurant was [[appalling]]: we waited an hour for cold soup.",
+      "answer": [
+        "appalling"
+      ]
+    },
+    "reply": {
+      "context": "Your friend says: \"My landlord hasn't fixed the heating for three months, and it's January.\"",
+      "options": [
+        "Oh, I'm appalled! What a lovely surprise for you.",
+        "One is appalled; kindly lodge a formal grievance with the relevant authority forthwith.",
+        "Three months? I'm appalled. You should report him to the council."
+      ],
+      "answer": 2,
+      "explanationRu": "Appalled — «в ужасе, возмущён», о приятных сюрпризах так не говорят. Второй ответ звучит как канцелярское письмо, а не поддержка друга."
+    }
+  },
+  {
+    "lemma": "apparatus",
+    "pos": "noun",
+    "definitionEn": "a set of equipment or tools used for a particular scientific or technical job",
+    "translationsRu": [
+      "аппаратура",
+      "оборудование",
+      "аппарат (дыхательный)"
+    ],
+    "acceptedAnswers": [
+      "apparatus"
+    ],
+    "register": "technical",
+    "topic": "science",
+    "ambiguous": true,
+    "senseNote": "Здесь — «аппаратура, оборудование»; «государственный аппарат» (the state apparatus) — отдельное книжное значение.",
+    "situation": "Talking about the special equipment used in laboratories, by firefighters, divers or in gym and science lessons.",
+    "examples": [
+      {
+        "text": "Firefighters wearing breathing [[apparatus]] searched the smoke-filled building for survivors.",
+        "distractors": [
+          "space",
+          "technique",
+          "rhythm"
+        ],
+        "alternatives": [
+          "equipment",
+          "gear"
+        ]
+      },
+      {
+        "text": "Students must return all laboratory [[apparatus]] to the cupboard after the experiment.",
+        "distractors": [
+          "safety",
+          "research",
+          "procedure"
+        ],
+        "alternatives": [
+          "equipment",
+          "glassware",
+          "kit"
+        ]
+      },
+      {
+        "text": "The gymnasts warmed up on the floor before moving to the rings and other [[apparatus]].",
+        "distractors": [
+          "audience",
+          "music",
+          "scenery"
+        ],
+        "alternatives": [
+          "equipment"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The divers checked their breathing [[apparatus]] before going under the ice.",
+        "Early photographers carried heavy [[apparatus]] up mountains to take a single picture.",
+        "The lab bought new [[apparatus]] for measuring air pollution."
+      ],
+      "alternatives": [
+        "equipment"
+      ]
+    },
+    "collocations": [
+      "breathing [[apparatus]]",
+      "a piece of [[apparatus]]",
+      "laboratory [[apparatus]]",
+      "gymnastic [[apparatus]]",
+      "complex [[apparatus]]"
+    ],
+    "badCollocation": {
+      "text": "a photo [[apparatus]]",
+      "noteRu": "Фотоаппарат — a camera, телефонный аппарат — a phone. Apparatus — научное или техническое оборудование, а не бытовое устройство."
+    },
+    "collocationTask": {
+      "prompt": "a piece of scientific ___",
+      "answer": "apparatus",
+      "distractors": [
+        "device",
+        "instrument",
+        "appliance"
+      ],
+      "explanationRu": "Apparatus — неисчисляемое, поэтому «один прибор» — a piece of apparatus. Device, instrument и appliance исчисляемые: a device, an instrument."
+    },
+    "nuance": {
+      "rival": "appliance",
+      "text": "The researchers built special [[apparatus]] to measure tiny changes in temperature.",
+      "rivalForm": "appliance",
+      "explanationRu": "Apparatus — научное или техническое оборудование для особых задач. Appliance — бытовой электроприбор (холодильник, чайник); в лаборатории им ничего не измеряют.",
+      "reverse": {
+        "text": "Turn off every electrical [[appliance]] before you go on holiday.",
+        "targetForm": "apparatus",
+        "explanationRu": "Бытовые электроприборы — appliances. Apparatus — неисчисляемое слово для научного или технического оборудования."
+      }
+    },
+    "fixIt": {
+      "text": "The chemistry teacher set up the [[aggregate]] for the experiment on the front bench.",
+      "answer": [
+        "apparatus"
+      ],
+      "explanationRu": "Aggregate — «совокупность, общая сумма», а не «агрегат». Лабораторное оборудование — apparatus."
+    }
+  },
+  {
+    "lemma": "appealing",
+    "pos": "adjective",
+    "definitionEn": "attractive or interesting, so that you want to have or do it",
+    "translationsRu": [
+      "привлекательный",
+      "заманчивый",
+      "притягательный"
+    ],
+    "acceptedAnswers": [
+      "appealing"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — «привлекательный, заманчивый»; appealing как форма глагола appeal (обжаловать, обращаться) — другое.",
+    "situation": "Describing an idea, offer, place or design that attracts you and makes you want to try it.",
+    "examples": [
+      {
+        "text": "A four-day working week sounds [[appealing]], but it may not suit every business.",
+        "distractors": [
+          "pointless",
+          "awful",
+          "terrible"
+        ],
+        "alternatives": [
+          "attractive",
+          "tempting",
+          "great",
+          "good",
+          "nice",
+          "wonderful",
+          "inviting"
+        ]
+      },
+      {
+        "text": "After a long winter, the idea of a week on a warm beach was very [[appealing]].",
+        "distractors": [
+          "tedious",
+          "unpleasant",
+          "gloomy"
+        ],
+        "alternatives": [
+          "attractive",
+          "tempting",
+          "inviting"
+        ]
+      },
+      {
+        "text": "The designers made the packaging more [[appealing]] to younger buyers with bright colours and bold fonts.",
+        "distractors": [
+          "offensive",
+          "obscure",
+          "invisible"
+        ],
+        "alternatives": [
+          "attractive",
+          "interesting",
+          "exciting"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The job offer was [[appealing]], but the salary was too low.",
+        "Fresh herbs make any dish look more [[appealing]].",
+        "Living in the countryside has never been [[appealing]] to me."
+      ],
+      "alternatives": [
+        "attractive",
+        "tempting"
+      ]
+    },
+    "collocations": [
+      "an [[appealing]] idea",
+      "[[appealing]] to young people",
+      "visually [[appealing]]",
+      "sound [[appealing]]",
+      "an [[appealing]] prospect"
+    ],
+    "badCollocation": {
+      "text": "[[appealing]] for me",
+      "noteRu": "Привлекательный для кого-то — appealing to someone: The idea is appealing to me. Предлог for здесь звучит неестественно."
+    },
+    "collocationTask": {
+      "prompt": "visually ___",
+      "answer": "appealing",
+      "distractors": [
+        "attracting",
+        "tasty",
+        "lovely"
+      ],
+      "explanationRu": "Приятный на вид — visually appealing (или attractive). Attracting — форма глагола, а tasty и lovely с visually не сочетаются."
+    },
+    "nuance": {
+      "rival": "charming",
+      "text": "Lower fees make the online course more [[appealing]] than the classroom one.",
+      "rivalForm": "charming",
+      "explanationRu": "Appealing — «заманчивый»: такой, что хочется выбрать. Charming — «обаятельный, очаровательный» о людях и местах; низкая цена курс обаятельным не делает."
+    },
+    "fixIt": {
+      "text": "The idea of moving abroad seems very [[attracting]] to many young graduates.",
+      "answer": [
+        "appealing"
+      ],
+      "explanationRu": "Attracting — форма глагола, в роли прилагательного «привлекательный» не работает. Нужно appealing."
+    },
+    "wordFormation": {
+      "base": "appeal",
+      "text": "The flat is small, but its location makes it very [[appealing]] to commuters.",
+      "answer": [
+        "appealing"
+      ]
+    },
+    "reply": {
+      "context": "A friend asks: \"Do you fancy a weekend hiking trip in the mountains next month?\"",
+      "options": [
+        "That sounds really appealing. I haven't had a proper break in ages.",
+        "Sounds appealing! I hate hiking and I'm terrified of heights.",
+        "Your proposal is deemed appealing and will be duly considered."
+      ],
+      "answer": 0,
+      "explanationRu": "Appealing — «заманчивый», так говорят о том, чего хочется. Во втором ответе слово противоречит остальному, а третий звучит как ответ комиссии, а не другу."
+    }
+  },
+  {
+    "lemma": "appetite",
+    "pos": "noun",
+    "definitionEn": "a strong wish or demand for a particular activity or experience",
+    "translationsRu": [
+      "тяга (к чему-то)",
+      "интерес",
+      "спрос",
+      "желание"
+    ],
+    "acceptedAnswers": [
+      "appetite"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «тяга, интерес, спрос» (an appetite for risk); буквальный аппетит к еде — базовое значение.",
+    "situation": "Talking about how much people want something, such as risk, adventure, change, gossip or new products.",
+    "examples": [
+      {
+        "text": "Young investors often have a bigger [[appetite]] for risk than people close to retirement.",
+        "distractors": [
+          "reason",
+          "salary",
+          "punishment"
+        ],
+        "alternatives": [
+          "tolerance",
+          "taste",
+          "capacity"
+        ]
+      },
+      {
+        "text": "The public's [[appetite]] for celebrity gossip seems impossible to satisfy.",
+        "distractors": [
+          "contempt",
+          "dislike",
+          "respect"
+        ],
+        "alternatives": [
+          "hunger",
+          "thirst",
+          "craving",
+          "desire",
+          "demand"
+        ]
+      },
+      {
+        "text": "After two elections in one year, voters have little [[appetite]] for another campaign.",
+        "distractors": [
+          "talent",
+          "memory",
+          "responsibility"
+        ],
+        "alternatives": [
+          "enthusiasm",
+          "desire",
+          "patience",
+          "stomach",
+          "energy"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Travelling as a teenager gave her an [[appetite]] for adventure.",
+        "There is a growing [[appetite]] for plant-based food in supermarkets.",
+        "The board showed no [[appetite]] for another expensive merger."
+      ],
+      "alternatives": [
+        "enthusiasm"
+      ]
+    },
+    "collocations": [
+      "an [[appetite]] for risk",
+      "a growing [[appetite]] for",
+      "have no [[appetite]] for",
+      "whet someone's [[appetite]]",
+      "public [[appetite]] for"
+    ],
+    "badCollocation": {
+      "text": "an [[appetite]] to risk",
+      "noteRu": "Тяга к чему-то — appetite for something: an appetite for risk. Предлог to здесь — калька с русского «к»."
+    },
+    "collocationTask": {
+      "prompt": "an ___ for adventure",
+      "answer": "appetite",
+      "distractors": [
+        "appeal",
+        "apathy",
+        "addiction"
+      ],
+      "explanationRu": "Тяга к приключениям — an appetite for adventure. Appeal for — «призыв», apathy — «безразличие», а addiction требует предлога to."
+    },
+    "nuance": {
+      "rival": "appeal",
+      "text": "Teenagers have a huge [[appetite]] for short, funny videos.",
+      "rivalForm": "appeal",
+      "explanationRu": "У людей есть appetite for something — тяга к чему-то. Appeal — привлекательность самой вещи: short videos have huge appeal for teenagers, а не наоборот.",
+      "reverse": {
+        "text": "The film's [[appeal]] lies in its gentle humour.",
+        "targetForm": "appetite",
+        "explanationRu": "Привлекательность фильма — its appeal. Appetite бывает у людей (тяга к чему-то), а не у фильма."
+      }
+    },
+    "fixIt": {
+      "text": "After the crash, investors lost their [[wish]] for risky technology shares.",
+      "answer": [
+        "appetite"
+      ],
+      "explanationRu": "Wish — «пожелание, мечта», с «потерять интерес к акциям» не сочетается. О готовности рисковать говорят appetite for risk."
+    },
+    "reply": {
+      "context": "Your colleague asks: \"Management wants to relaunch the app next month. Will the team be up for it?\"",
+      "options": [
+        "Sure, the team's appetite is fine. They all had a big lunch today.",
+        "Honestly, after the last chaotic launch, there's not much appetite for another rush job.",
+        "The team's appetite for said relaunch shall be ascertained in due course."
+      ],
+      "answer": 1,
+      "explanationRu": "Здесь appetite — «желание, готовность» что-то делать, а не аппетит к еде. Третий ответ звучит как бюрократический отчёт, а не разговор с коллегой."
+    }
+  },
+  {
+    "lemma": "applaud",
+    "pos": "verb",
+    "definitionEn": "to publicly praise a decision, effort or quality you approve of",
+    "translationsRu": [
+      "одобрять",
+      "приветствовать (решение)",
+      "высоко оценивать"
+    ],
+    "acceptedAnswers": [
+      "applaud"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «одобрять, приветствовать» (applaud a decision); «аплодировать, хлопать» — базовое значение.",
+    "situation": "Saying publicly that you strongly approve of someone's decision, courage or effort, without actually clapping.",
+    "examples": [
+      {
+        "text": "I [[applaud]] your decision to tell the client the truth, even though it cost us the contract.",
+        "distractors": [
+          "resent",
+          "criticise",
+          "regret"
+        ],
+        "alternatives": [
+          "admire",
+          "praise",
+          "respect",
+          "commend",
+          "salute"
+        ]
+      },
+      {
+        "text": "Environmental groups [[applauded]] the city's plan to ban cars from the centre, calling it long overdue.",
+        "distractors": [
+          "opposed",
+          "condemned",
+          "mocked"
+        ],
+        "alternatives": [
+          "welcomed",
+          "praised",
+          "hailed",
+          "celebrated",
+          "supported",
+          "backed"
+        ]
+      },
+      {
+        "text": "Teachers should be [[applauded]] for keeping schools running during the floods.",
+        "distractors": [
+          "blamed",
+          "punished",
+          "fined"
+        ],
+        "alternatives": [
+          "praised",
+          "commended",
+          "thanked",
+          "celebrated",
+          "admired"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "We [[applaud]] the council for finally fixing the roads.",
+        "Critics were quick to [[applaud]] the director's brave choice of ending.",
+        "I [[applaud]] anyone who learns a new language after sixty."
+      ],
+      "alternatives": [
+        "praise",
+        "commend",
+        "salute"
+      ]
+    },
+    "collocations": [
+      "[[applaud]] a decision",
+      "[[applaud]] someone for doing something",
+      "[[applaud]] the efforts of",
+      "be widely [[applauded]]",
+      "[[applaud]] someone's courage"
+    ],
+    "badCollocation": {
+      "text": "[[applaud]] to the singer",
+      "noteRu": "Applaud — переходный глагол без предлога: applaud the singer, applaud her decision. Applaud to — калька с «аплодировать кому»."
+    },
+    "collocationTask": {
+      "prompt": "___ someone for their courage",
+      "answer": "applaud",
+      "distractors": [
+        "clap",
+        "approve",
+        "welcome"
+      ],
+      "explanationRu": "Похвалить кого-то за смелость — applaud someone for their courage. Clap — буквально «хлопать», approve требует of, а welcome — «приветствовать» гостя или новость."
+    },
+    "nuance": {
+      "rival": "clap",
+      "text": "Human rights groups [[applauded]] the court's decision.",
+      "rivalForm": "clapped",
+      "explanationRu": "Applaud может значить «одобрить, похвалить» без всяких хлопков. Clap — только буквально хлопать в ладоши, clap a decision не говорят.",
+      "reverse": {
+        "text": "The children [[clapped]] along to the music.",
+        "targetForm": "applauded",
+        "explanationRu": "Хлопать в такт музыке — clap along. Applaud — аплодировать выступлению или одобрять решение, в такт так не хлопают."
+      }
+    },
+    "fixIt": {
+      "text": "We [[applause]] your courage in speaking out about the problem.",
+      "answer": [
+        "applaud"
+      ],
+      "explanationRu": "Applause — существительное («аплодисменты»). Нужен глагол: we applaud your courage."
+    },
+    "wordFormation": {
+      "base": "applaud",
+      "text": "The decision to cut ticket prices drew [[applause]] from fans and players alike.",
+      "answer": [
+        "applause"
+      ]
+    },
+    "reply": {
+      "context": "Your colleague says: \"I've finally told the boss I won't answer work emails at weekends any more.\"",
+      "options": [
+        "Great! I'll come and applaud you every Saturday while you answer them.",
+        "Your assertiveness is hereby applauded by the undersigned.",
+        "Good for you! I applaud you for standing up for yourself."
+      ],
+      "answer": 2,
+      "explanationRu": "Applaud someone for something — похвалить, одобрить поступок. Первый ответ противоречит ситуации, а второй звучит как официальная грамота, а не реплика коллеги."
+    }
+  },
+  {
+    "lemma": "appliance",
+    "pos": "noun",
+    "definitionEn": "a machine used in the home, such as a fridge or washing machine",
+    "translationsRu": [
+      "бытовой прибор",
+      "электроприбор",
+      "бытовая техника"
+    ],
+    "acceptedAnswers": [
+      "appliance"
+    ],
+    "register": "neutral",
+    "topic": "world",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about fridges, cookers, dishwashers, kettles and other electrical machines people use at home.",
+    "examples": [
+      {
+        "text": "Old kitchen [[appliances]] like fridges and freezers can use a surprising amount of electricity.",
+        "distractors": [
+          "utensils",
+          "cupboards",
+          "recipes"
+        ],
+        "alternatives": [
+          "machines",
+          "devices"
+        ]
+      },
+      {
+        "text": "The shop sells washing machines, cookers and other household [[appliances]] at discount prices.",
+        "distractors": [
+          "chores",
+          "bills",
+          "names"
+        ],
+        "alternatives": [
+          "goods",
+          "machines",
+          "electricals"
+        ]
+      },
+      {
+        "text": "Never use an electrical [[appliance]] with a damaged cable, as it could start a fire.",
+        "distractors": [
+          "fault",
+          "engineer",
+          "shock"
+        ],
+        "alternatives": [
+          "device",
+          "item"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Energy-efficient [[appliances]] cost more but save money over time.",
+        "The flat comes fully furnished, with all [[appliances]] included.",
+        "Our electricity bill dropped after we replaced two old [[appliances]]."
+      ],
+      "alternatives": [
+        "machines",
+        "devices"
+      ]
+    },
+    "collocations": [
+      "household [[appliances]]",
+      "kitchen [[appliances]]",
+      "electrical [[appliances]]",
+      "energy-efficient [[appliances]]",
+      "a domestic [[appliance]]"
+    ],
+    "badCollocation": {
+      "text": "a phone [[appliance]]",
+      "noteRu": "Приложение для телефона — an app (или application). Appliance — бытовой прибор: холодильник, чайник, пылесос."
+    },
+    "collocationTask": {
+      "prompt": "kitchen ___",
+      "answer": "appliances",
+      "distractors": [
+        "mechanisms",
+        "aggregates",
+        "apparatus"
+      ],
+      "explanationRu": "Кухонная техника — kitchen appliances. Mechanisms — «механизмы», aggregates — не «агрегаты», а apparatus — научное оборудование."
+    },
+    "nuance": {
+      "rival": "device",
+      "text": "Large kitchen [[appliances]], like fridges and cookers, are usually delivered free of charge.",
+      "rivalForm": "devices",
+      "explanationRu": "Appliance — бытовой прибор для домашней работы: холодильник, плита, стиральная машина. Device — любое устройство, чаще небольшое и электронное; большие кухонные машины так обычно не называют.",
+      "reverse": {
+        "text": "Please switch off all electronic [[devices]], including phones and tablets, during the exam.",
+        "targetForm": "appliances",
+        "explanationRu": "Телефоны и планшеты — electronic devices. Appliances — бытовые приборы вроде холодильника, а не гаджеты."
+      }
+    },
+    "fixIt": {
+      "text": "We bought all our kitchen [[technics]] from one shop to get a bigger discount.",
+      "answer": [
+        "appliances"
+      ],
+      "explanationRu": "Technics — не «бытовая техника». Холодильники, плиты и чайники — kitchen appliances."
+    }
+  },
+  {
+    "lemma": "applicable",
+    "pos": "adjective",
+    "definitionEn": "relevant to or officially affecting a particular person, group or situation",
+    "translationsRu": [
+      "применимый",
+      "относящийся (к чему-то)",
+      "действующий (о правилах)"
+    ],
+    "acceptedAnswers": [
+      "applicable"
+    ],
+    "register": "formal",
+    "topic": "work",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Saying whether a rule, law, fee or question is relevant to a particular person or case.",
+    "examples": [
+      {
+        "text": "If a question on the form is not [[applicable]] to you, simply write N/A.",
+        "distractors": [
+          "grateful",
+          "similar",
+          "loyal"
+        ],
+        "alternatives": [
+          "relevant"
+        ]
+      },
+      {
+        "text": "The new dress code is [[applicable]] to all staff, including senior managers.",
+        "distractors": [
+          "allergic",
+          "opposed",
+          "indebted"
+        ],
+        "alternatives": [
+          "relevant"
+        ]
+      },
+      {
+        "text": "The findings of this small study may not be [[applicable]] to older patients.",
+        "distractors": [
+          "attractive",
+          "generous",
+          "faithful"
+        ],
+        "alternatives": [
+          "relevant",
+          "transferable"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Delivery charges are [[applicable]] only to orders under thirty euros.",
+        "This discount is not [[applicable]] during the summer sale.",
+        "Her advice is [[applicable]] to almost any job interview."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "where [[applicable]]",
+      "not [[applicable]]",
+      "[[applicable]] to all staff",
+      "the [[applicable]] rules",
+      "equally [[applicable]]"
+    ],
+    "badCollocation": {
+      "text": "[[applicable]] for this job",
+      "noteRu": "«Подходящий для работы» (о кандидате) — suitable for the job. Applicable — о правилах и законах: применимый, относящийся к кому-то."
+    },
+    "collocationTask": {
+      "prompt": "Delete where ___.",
+      "answer": "applicable",
+      "distractors": [
+        "applicant",
+        "application",
+        "applied"
+      ],
+      "explanationRu": "В анкетах пишут delete (или tick) where applicable — «где применимо». Applicant — «кандидат», application — «заявление», applied — форма глагола."
+    },
+    "nuance": {
+      "rival": "suitable",
+      "text": "The rules on overtime are not [[applicable]] to part-time staff.",
+      "rivalForm": "suitable",
+      "explanationRu": "Applicable to — «распространяется на кого-то» (о правилах, законах, тарифах). Suitable — «подходящий, годный» для цели или человека; о действии правил так не говорят.",
+      "reverse": {
+        "text": "This film is not [[suitable]] for young children.",
+        "targetForm": "applicable",
+        "explanationRu": "«Не подходит для детей» — not suitable for children. Applicable говорит о том, на кого распространяется правило, а не о том, что кому подходит."
+      }
+    },
+    "fixIt": {
+      "text": "The new safety rules are [[usable]] to all visitors, not just employees.",
+      "answer": [
+        "applicable"
+      ],
+      "explanationRu": "Usable — «пригодный для использования» о вещах. Правила, которые распространяются на кого-то, — applicable to them."
+    },
+    "wordFormation": {
+      "base": "applicable",
+      "text": "Critics questioned the [[applicability]] of the study to real classrooms.",
+      "answer": [
+        "applicability"
+      ]
+    },
+    "rewrite": {
+      "original": "These rules do not concern people who work part-time.",
+      "frame": "These rules are not ____ part-time workers.",
+      "accepted": [
+        "applicable to"
+      ],
+      "explanationRu": "Applicable to — «распространяется на, относится к»."
+    }
+  },
+  {
+    "lemma": "appoint",
+    "pos": "verb",
+    "definitionEn": "to officially choose someone for a job or position of responsibility",
+    "translationsRu": [
+      "назначать (на должность)",
+      "утверждать (в должности)"
+    ],
+    "acceptedAnswers": [
+      "appoint"
+    ],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about a company, government or committee officially giving someone a job, title or role.",
+    "examples": [
+      {
+        "text": "The board has [[appointed]] a new chief executive after months of searching.",
+        "distractors": [
+          "dismissed",
+          "sacked",
+          "demoted"
+        ],
+        "alternatives": [
+          "hired",
+          "named",
+          "chosen",
+          "selected",
+          "recruited"
+        ]
+      },
+      {
+        "text": "She was [[appointed]] as the country's first female ambassador to Japan.",
+        "distractors": [
+          "elected",
+          "fired",
+          "retired"
+        ],
+        "alternatives": [
+          "named",
+          "chosen",
+          "selected",
+          "nominated"
+        ]
+      },
+      {
+        "text": "The school [[appoints]] two older students each year to represent pupils at staff meetings.",
+        "distractors": [
+          "expels",
+          "punishes",
+          "suspends"
+        ],
+        "alternatives": [
+          "chooses",
+          "selects",
+          "names",
+          "picks"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The club [[appointed]] a former player as head coach.",
+        "A judge was [[appointed]] to lead the investigation.",
+        "She has just been [[appointed]] head of marketing."
+      ],
+      "alternatives": [
+        "named",
+        "selected"
+      ]
+    },
+    "collocations": [
+      "[[appoint]] someone as",
+      "be [[appointed]] to the board",
+      "newly [[appointed]]",
+      "[[appoint]] a successor",
+      "[[appoint]] someone to do something"
+    ],
+    "badCollocation": {
+      "text": "[[appoint]] a meeting",
+      "noteRu": "«Назначить встречу» — arrange или schedule a meeting. Appoint — назначать человека на должность."
+    },
+    "collocationTask": {
+      "prompt": "___ someone as head of the department",
+      "answer": "appoint",
+      "distractors": [
+        "set",
+        "put",
+        "place"
+      ],
+      "explanationRu": "Назначить кого-то руководителем — appoint someone as head. Set, put и place значат «поставить» предмет; о должности так не говорят."
+    },
+    "nuance": {
+      "rival": "elect",
+      "text": "Judges in this country are [[appointed]] by the president, not chosen by voters.",
+      "rivalForm": "elected",
+      "explanationRu": "Appoint — назначить: решение принимает руководитель или комиссия. Elect — выбрать голосованием; президент судей не «избирает», а назначает.",
+      "reverse": {
+        "text": "The town [[elected]] a new mayor with sixty per cent of the vote.",
+        "targetForm": "appointed",
+        "explanationRu": "Если было голосование — elect. При назначении голосов и процентов нет, поэтому appointed здесь не подходит."
+      }
+    },
+    "fixIt": {
+      "text": "The company has [[nominated]] a new finance director, who starts work in May.",
+      "answer": [
+        "appointed"
+      ],
+      "explanationRu": "Nominate — выдвинуть кандидатом, а не назначить. Если человек уже получил должность и выходит на работу, нужно appointed."
+    },
+    "wordFormation": {
+      "base": "appoint",
+      "text": "The [[appointment]] of a new head teacher was announced this morning.",
+      "answer": [
+        "appointment"
+      ]
+    },
+    "reply": {
+      "context": "A friend asks: \"I heard your department finally has a new boss?\"",
+      "options": [
+        "Yes, and we appointed a meeting with her for Tuesday at ten.",
+        "Yes, they've appointed someone from outside the company. She starts on Monday.",
+        "Indeed, an appointment has been effected with regard to the vacant managerial position."
+      ],
+      "answer": 1,
+      "explanationRu": "Appoint — назначить на должность. «Назначить встречу» — arrange a meeting, а не appoint. Третий ответ звучит как приказ отдела кадров, а не разговор с другом."
+    },
+    "rewrite": {
+      "original": "They made her the new team leader last week.",
+      "frame": "She ____ the new team leader last week.",
+      "accepted": [
+        "was appointed",
+        "was appointed as",
+        "got appointed"
+      ],
+      "explanationRu": "Нужен пассив: she was appointed (as) team leader."
+    }
+  }
+]

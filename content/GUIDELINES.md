@@ -187,7 +187,9 @@ exists) — "Real-Life Reply": `context` = a short situation (chat message, emai
 debate, job interview, request, film/book discussion). `options` = exactly 3 replies:
 one natural and appropriate reply using the target word correctly; one that misuses the
 target's meaning; one with the wrong register or an unnatural combination. `answer` =
-index of the correct one (vary it: 0, 1 or 2). `explanationRu` ≤ 240 chars.
+index of the correct one (vary it: 0, 1 or 2). `explanationRu` ≤ 240 chars. Vary the
+register mistakes across entries — too casual or slangy, too blunt or rude, too emotional,
+too formal/bureaucratic — instead of always using the same "hereby" style.
 
 **rewrite** (optional, write it for roughly 40% of words where it works naturally) —
 `original`: a sentence WITHOUT the target word; `frame`: the same meaning rewritten with a

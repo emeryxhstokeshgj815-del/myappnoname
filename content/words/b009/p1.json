@@ -1,0 +1,1225 @@
+[
+  {
+    "lemma": "credibility",
+    "pos": "noun",
+    "definitionEn": "the quality that makes people believe and trust someone or something",
+    "translationsRu": [
+      "доверие",
+      "авторитет",
+      "убедительность",
+      "достоверность"
+    ],
+    "acceptedAnswers": [
+      "credibility"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "You judge whether a person, news source or organisation deserves to be trusted and believed.",
+    "examples": [
+      {
+        "text": "After the scandal, the newspaper struggled to rebuild its [[credibility]] with readers.",
+        "distractors": [
+          "hospitality",
+          "complexity",
+          "sensitivity"
+        ],
+        "alternatives": [
+          "reputation",
+          "trust",
+          "standing",
+          "authority"
+        ]
+      },
+      {
+        "text": "Missing three deadlines in a row did little for my [[credibility]] as a project manager.",
+        "distractors": [
+          "generosity",
+          "creativity",
+          "sincerity"
+        ],
+        "alternatives": [
+          "reputation",
+          "image",
+          "standing"
+        ]
+      },
+      {
+        "text": "Relying on outdated statistics seriously undermines the [[credibility]] of your argument.",
+        "distractors": [
+          "legibility",
+          "symmetry",
+          "brevity"
+        ],
+        "alternatives": [
+          "validity",
+          "strength",
+          "persuasiveness",
+          "force"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The witness lost all [[credibility]] when her story changed.",
+        "Support from real doctors gave the campaign instant [[credibility]].",
+        "Constant U-turns have damaged the government's [[credibility]] on the economy."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "lose [[credibility]]",
+      "damage someone's [[credibility]]",
+      "gain [[credibility]]",
+      "[[credibility]] with voters",
+      "lend [[credibility]] to something"
+    ],
+    "badCollocation": {
+      "text": "my [[credibility]] to a friend",
+      "noteRu": "«Моё доверие к другу» — my trust in a friend. Credibility — это то, насколько верят вам самим, а не ваше доверие к другим."
+    },
+    "collocationTask": {
+      "prompt": "lend ___ to a theory",
+      "answer": "credibility",
+      "distractors": [
+        "trust",
+        "belief",
+        "reliance"
+      ],
+      "explanationRu": "Lend credibility to — делать версию или теорию убедительнее. Trust, belief и reliance — чувства того, кто верит; их не «одалживают» теории."
+    },
+    "nuance": {
+      "rival": "credulity",
+      "text": "The minister's [[credibility]] suffered badly after the leaked emails.",
+      "rivalForm": "credulity",
+      "explanationRu": "Credibility — способность вызывать доверие: министру теперь верят меньше. Credulity — излишняя доверчивость, это про того, кто верит, а не про того, кому верят.",
+      "reverse": {
+        "text": "Online scammers rely on the [[credulity]] of their victims.",
+        "targetForm": "credibility",
+        "explanationRu": "Мошенники пользуются доверчивостью жертв — это credulity. Credibility — заслуживает ли доверия сам говорящий."
+      }
+    },
+    "fixIt": {
+      "text": "The fake story seriously damaged the newspaper's [[trust]] among readers.",
+      "answer": [
+        "credibility"
+      ],
+      "explanationRu": "Доверие, которое вызывает газета, — её credibility. The newspaper's trust звучит так, будто это газета кому-то доверяет."
+    },
+    "wordFormation": {
+      "base": "credible",
+      "text": "Several scientists questioned the [[credibility]] of the study's results.",
+      "answer": [
+        "credibility"
+      ]
+    },
+    "reply": {
+      "context": "A colleague asks before a pitch: \"Should we mention that our founder used to run a big bank?\"",
+      "options": [
+        "Yes, investors will value his credibility to take big risks.",
+        "Definitely. It would give us much more credibility with investors.",
+        "Affirmative. Such a fact shall duly augment our credibility in the eyes of investors."
+      ],
+      "answer": 1,
+      "explanationRu": "Credibility — доверие, которое вызывает человек или компания. В первом варианте его спутали со «способностью», третий звучит как канцелярит, а не живая речь коллеги."
+    },
+    "rewrite": {
+      "original": "After the scandal, voters stopped believing anything the mayor said.",
+      "frame": "After the scandal, the mayor ____ with voters.",
+      "accepted": [
+        "lost credibility",
+        "lost all credibility",
+        "lost his credibility",
+        "lost her credibility",
+        "lost all his credibility",
+        "lost all her credibility",
+        "lost all of his credibility",
+        "lost all of her credibility",
+        "had no credibility",
+        "had no credibility left"
+      ],
+      "explanationRu": "Потерять доверие избирателей — lose credibility with voters."
+    }
+  },
+  {
+    "lemma": "credible",
+    "pos": "adjective",
+    "definitionEn": "convincing enough for people to believe or trust",
+    "translationsRu": [
+      "правдоподобный",
+      "убедительный",
+      "заслуживающий доверия",
+      "достоверный"
+    ],
+    "acceptedAnswers": [
+      "credible"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "You decide that a story, a witness or a piece of evidence is convincing enough to accept as true.",
+    "examples": [
+      {
+        "text": "So far there is no [[credible]] evidence that the drug causes memory loss.",
+        "distractors": [
+          "grateful",
+          "punctual",
+          "tender"
+        ],
+        "alternatives": [
+          "reliable",
+          "convincing",
+          "solid",
+          "hard",
+          "compelling"
+        ]
+      },
+      {
+        "text": "We need a [[credible]] plan for cutting costs before we speak to the board.",
+        "distractors": [
+          "vacant",
+          "fluent",
+          "rusty"
+        ],
+        "alternatives": [
+          "realistic",
+          "convincing",
+          "workable",
+          "viable",
+          "solid"
+        ]
+      },
+      {
+        "text": "Honestly, his excuse about the traffic just wasn't very [[credible]].",
+        "distractors": [
+          "sociable",
+          "flexible",
+          "durable"
+        ],
+        "alternatives": [
+          "convincing",
+          "believable",
+          "plausible"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The film's plot is hardly [[credible]], but it's great fun.",
+        "Journalists must check that every source they quote is [[credible]].",
+        "The opposition has failed to offer a [[credible]] alternative."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[credible]] evidence",
+      "a [[credible]] witness",
+      "a [[credible]] alternative",
+      "a [[credible]] threat",
+      "[[credible]] sources"
+    ],
+    "badCollocation": {
+      "text": "a [[credible]] friend",
+      "noteRu": "О надёжном друге говорят reliable или trustworthy friend. Credible — о словах, доказательствах и источниках, которым можно верить."
+    },
+    "collocationTask": {
+      "prompt": "a ___ witness",
+      "answer": "credible",
+      "distractors": [
+        "credulous",
+        "trusting",
+        "believing"
+      ],
+      "explanationRu": "Credible witness — свидетель, словам которого можно верить. Credulous, trusting и believing значат «доверчивый»: так говорят о том, кто сам легко верит."
+    },
+    "nuance": {
+      "rival": "creditable",
+      "text": "After checking every detail, the lawyer found the witness's story perfectly [[credible]].",
+      "rivalForm": "creditable",
+      "explanationRu": "Credible — правдоподобный, заслуживающий доверия. Creditable — достойный похвалы (a creditable performance); о правдивости рассказа так не говорят.",
+      "reverse": {
+        "text": "Finishing fourth against such strong rivals was a [[creditable]] result.",
+        "targetForm": "credible",
+        "explanationRu": "Результат, за который можно похвалить, — creditable. Credible значит «правдоподобный», к спортивному итогу не подходит."
+      }
+    },
+    "fixIt": {
+      "text": "The police did not find the suspect's alibi [[trustful]], so they questioned him again.",
+      "answer": [
+        "credible"
+      ],
+      "explanationRu": "Trustful — «доверчивый», это о человеке. Правдоподобное алиби, которому можно верить, — credible."
+    },
+    "wordFormation": {
+      "base": "credible",
+      "text": "After two failed projects, she can hardly [[credibly]] promise to finish on time.",
+      "answer": [
+        "credibly"
+      ]
+    },
+    "reply": {
+      "context": "Your manager asks: \"What do you make of the supplier's promise to deliver everything by Monday?\"",
+      "options": [
+        "I think they're too credible. They'll believe anything we tell them.",
+        "I hereby state that the supplier's assurance is not deemed credible by myself.",
+        "Honestly, it doesn't sound very credible, given how late they were last time."
+      ],
+      "answer": 2,
+      "explanationRu": "Credible — «правдоподобный», а не «доверчивый» (это credulous), поэтому первый ответ неверен. Второй звучит как протокол, а не как ответ руководителю."
+    }
+  },
+  {
+    "lemma": "creep",
+    "pos": "verb",
+    "definitionEn": "to appear or increase slowly, almost without anyone noticing",
+    "translationsRu": [
+      "закрадываться",
+      "постепенно проникать",
+      "потихоньку расти"
+    ],
+    "acceptedAnswers": [
+      "creep"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — «закрадываться, незаметно появляться или расти» (doubts crept in, prices crept up); буквальное «красться» не рассматривается.",
+    "situation": "A doubt, an error or a rising number appears gradually, before anyone really notices it.",
+    "examples": [
+      {
+        "text": "A few spelling mistakes had [[crept]] into the final version of the report.",
+        "distractors": [
+          "marched",
+          "poured",
+          "flown"
+        ],
+        "alternatives": [
+          "slipped",
+          "found their way"
+        ]
+      },
+      {
+        "text": "As the deadline got closer, doubts began to [[creep]] in about whether we could finish.",
+        "distractors": [
+          "break",
+          "dig",
+          "fit"
+        ],
+        "alternatives": [
+          "set",
+          "slip",
+          "sneak"
+        ]
+      },
+      {
+        "text": "Unemployment has [[crept]] up to its highest level in five years.",
+        "distractors": [
+          "cooled",
+          "washed",
+          "sold"
+        ],
+        "alternatives": [
+          "edged",
+          "inched",
+          "climbed",
+          "moved"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Over the years, a note of bitterness [[crept]] into his letters.",
+        "Costs [[crept]] up month after month until the project was over budget.",
+        "Doubt [[crept]] in the moment she read the contract."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "doubts [[creep]] in",
+      "[[creep]] into someone's voice",
+      "prices [[creep]] up",
+      "mistakes [[creep]] in",
+      "[[creep]] up on someone"
+    ],
+    "badCollocation": {
+      "text": "prices [[creep]] up sharply",
+      "noteRu": "Creep — медленно и незаметно. О резком росте говорят shoot up или soar, а не creep up sharply."
+    },
+    "collocationTask": {
+      "prompt": "doubts began to ___ in",
+      "answer": "creep",
+      "distractors": [
+        "crawl",
+        "step",
+        "walk"
+      ],
+      "explanationRu": "Сомнения «закрадываются» — creep in. Crawl — ползти физически, step и walk — шагать; с сомнениями они не сочетаются."
+    },
+    "nuance": {
+      "rival": "crawl",
+      "text": "Without anyone noticing, a few errors had [[crept]] into the data.",
+      "rivalForm": "crawled",
+      "explanationRu": "Creep into — незаметно проникнуть (об ошибках, сомнениях, нотках в голосе). Crawl — ползти или еле тащиться (о младенцах, пробках); к ошибкам не подходит."
+    },
+    "fixIt": {
+      "text": "Somehow a few serious errors [[penetrated]] into the final report.",
+      "answer": [
+        "crept"
+      ],
+      "explanationRu": "Penetrate — проникать сквозь что-то физически. Об ошибках и сомнениях, которые появляются незаметно, говорят crept in(to)."
+    },
+    "reply": {
+      "context": "A friend texts: \"I felt ready for the exam last week, but now I'm starting to panic.\"",
+      "options": [
+        "That's normal. Doubts always creep in the night before.",
+        "Don't worry, your marks will creep up really fast if you revise tonight.",
+        "It is to be expected that apprehension shall creep in prior to examinations."
+      ],
+      "answer": 0,
+      "explanationRu": "Creep in — о сомнениях, которые незаметно подкрадываются. Creep up значит «медленно расти», поэтому really fast противоречит глаголу. Третий ответ слишком официален для друга."
+    }
+  },
+  {
+    "lemma": "critique",
+    "pos": "noun",
+    "definitionEn": "a detailed assessment that examines the strengths and weaknesses of something",
+    "translationsRu": [
+      "критический разбор",
+      "критический анализ",
+      "рецензия"
+    ],
+    "acceptedAnswers": [
+      "critique"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Someone carefully examines a book, theory, design or policy and explains its strengths and weaknesses in detail.",
+    "examples": [
+      {
+        "text": "Her essay offers a sharp [[critique]] of how social media shapes political debate.",
+        "distractors": [
+          "souvenir",
+          "mixture",
+          "ceremony"
+        ],
+        "alternatives": [
+          "criticism",
+          "analysis",
+          "attack",
+          "examination",
+          "assessment"
+        ]
+      },
+      {
+        "text": "The design workshop ends with a group [[critique]], where everyone comments on each other's work.",
+        "distractors": [
+          "photo",
+          "lottery",
+          "discount"
+        ],
+        "alternatives": [
+          "review",
+          "discussion",
+          "evaluation"
+        ]
+      },
+      {
+        "text": "Two economists have published a fierce [[critique]] of the new tax rules.",
+        "distractors": [
+          "refund",
+          "outbreak",
+          "voucher"
+        ],
+        "alternatives": [
+          "criticism",
+          "analysis",
+          "attack",
+          "assessment"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her book is a powerful [[critique]] of consumer culture.",
+        "Each student must write a 500-word [[critique]] of a published study.",
+        "The architect welcomed the panel's honest [[critique]] of his design."
+      ],
+      "alternatives": [
+        "analysis"
+      ]
+    },
+    "collocations": [
+      "a [[critique]] of something",
+      "a scathing [[critique]]",
+      "offer a [[critique]]",
+      "a detailed [[critique]]",
+      "a feminist [[critique]]"
+    ],
+    "badCollocation": {
+      "text": "make a [[critique]] to someone",
+      "noteRu": "Критиковать человека — criticise someone. Разбор работы или идеи пишут или предлагают: write/offer a critique of something."
+    },
+    "collocationTask": {
+      "prompt": "a ___ critique of the government",
+      "answer": "scathing",
+      "distractors": [
+        "burning",
+        "boiling",
+        "hurting"
+      ],
+      "explanationRu": "Scathing critique — беспощадный, уничтожающий разбор; это устойчивое сочетание. Burning, boiling и hurting с critique не употребляют."
+    },
+    "nuance": {
+      "rival": "criticism",
+      "text": "For homework, write a two-page [[critique]] of the story, covering both its strengths and weaknesses.",
+      "rivalForm": "criticism",
+      "explanationRu": "Critique — развёрнутый разбор с плюсами и минусами, это жанр работы. Criticism — неодобрение и упрёки; написать такой разбор словом criticism не получится.",
+      "reverse": {
+        "text": "The coach faced heavy [[criticism]] after the team's third defeat in a row.",
+        "targetForm": "critique",
+        "explanationRu": "Когда человека ругают, это criticism (face criticism). Critique — разбор работы или идеи, а не упрёки."
+      }
+    },
+    "fixIt": {
+      "text": "Our professor asked us to write a short [[recension]] of the article's methods.",
+      "answer": [
+        "critique"
+      ],
+      "explanationRu": "«Рецензия» — не recension (это редакция старого текста), а critique или review."
+    }
+  },
+  {
+    "lemma": "crude",
+    "pos": "adjective",
+    "definitionEn": "simple and rough, without much detail, skill or accuracy",
+    "translationsRu": [
+      "грубый",
+      "примитивный",
+      "приблизительный"
+    ],
+    "acceptedAnswers": [
+      "crude"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — «грубый, примитивный, приблизительный» (a crude estimate); значения «сырой» (crude oil) и «пошлый» (crude jokes) не рассматриваются.",
+    "situation": "You describe a method, estimate or object that is basic and rough rather than careful or precise.",
+    "examples": [
+      {
+        "text": "This is only a [[crude]] estimate, but the repairs could cost around ten thousand pounds.",
+        "distractors": [
+          "loyal",
+          "fluent",
+          "brave"
+        ],
+        "alternatives": [
+          "rough",
+          "approximate",
+          "quick",
+          "basic"
+        ]
+      },
+      {
+        "text": "Early humans made [[crude]] tools from stone and bone.",
+        "distractors": [
+          "polite",
+          "shy",
+          "eager"
+        ],
+        "alternatives": [
+          "simple",
+          "primitive",
+          "basic",
+          "rough"
+        ]
+      },
+      {
+        "text": "Measuring intelligence with a single test is a rather [[crude]] method.",
+        "distractors": [
+          "jealous",
+          "sleepy",
+          "grateful"
+        ],
+        "alternatives": [
+          "simplistic",
+          "primitive",
+          "blunt",
+          "rough",
+          "basic"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The first prototype was [[crude]], but it worked.",
+        "Even a [[crude]] sketch will help the builders understand your idea.",
+        "Income alone is a [[crude]] measure of how well people actually live."
+      ],
+      "alternatives": [
+        "rough",
+        "basic"
+      ]
+    },
+    "collocations": [
+      "a [[crude]] estimate",
+      "[[crude]] tools",
+      "a [[crude]] attempt to do something",
+      "in [[crude]] terms",
+      "a [[crude]] measure of something"
+    ],
+    "badCollocation": {
+      "text": "be [[crude]] to the waiter",
+      "noteRu": "«Грубить официанту» — be rude to the waiter. Crude не описывает невежливое обращение: это «примитивный» или «пошлый»."
+    },
+    "collocationTask": {
+      "prompt": "a ___ estimate",
+      "answer": "crude",
+      "distractors": [
+        "rude",
+        "harsh",
+        "cruel"
+      ],
+      "explanationRu": "Приблизительная оценка — a crude (или rough) estimate. Rude, harsh и cruel описывают грубое или жестокое обращение с людьми, а не неточность."
+    },
+    "nuance": {
+      "rival": "rude",
+      "text": "The map was [[crude]], but it showed us the way to the lake.",
+      "rivalForm": "rude",
+      "explanationRu": "Crude — сделанный кое-как, примитивный. Rude — невежливый: так говорят о людях и их поведении, а не о картах и методах.",
+      "reverse": {
+        "text": "It was [[rude]] of him to leave without saying goodbye.",
+        "targetForm": "crude",
+        "explanationRu": "Невежливый поступок — rude. Crude о поведении значит «пошлый, вульгарный», а уйти не попрощавшись — просто невежливо."
+      }
+    },
+    "fixIt": {
+      "text": "By a [[coarse]] estimate, about a third of the budget was wasted.",
+      "answer": [
+        "crude"
+      ],
+      "explanationRu": "Coarse — грубый на ощупь (ткань, песок). «Грубая», то есть приблизительная, оценка — a crude estimate."
+    },
+    "wordFormation": {
+      "base": "crude",
+      "text": "The figures were [[crudely]] calculated, so treat them with caution.",
+      "answer": [
+        "crudely"
+      ]
+    }
+  },
+  {
+    "lemma": "crumble",
+    "pos": "verb",
+    "definitionEn": "to gradually lose strength and fall apart or fail",
+    "translationsRu": [
+      "рушиться",
+      "разваливаться",
+      "рассыпаться"
+    ],
+    "acceptedAnswers": [
+      "crumble"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «рушиться, разваливаться» (о планах, союзах, уверенности); буквальное «крошиться» не рассматривается.",
+    "situation": "A plan, a relationship, an organisation or someone's confidence slowly weakens and then collapses completely.",
+    "examples": [
+      {
+        "text": "The empire began to [[crumble]] after decades of war and corruption.",
+        "distractors": [
+          "flourish",
+          "sparkle",
+          "hesitate"
+        ],
+        "alternatives": [
+          "collapse",
+          "decline",
+          "disintegrate",
+          "weaken",
+          "fall apart"
+        ]
+      },
+      {
+        "text": "Her confidence [[crumbled]] when the interviewer asked about the gap in her CV.",
+        "distractors": [
+          "whistled",
+          "rehearsed",
+          "applauded"
+        ],
+        "alternatives": [
+          "collapsed",
+          "vanished",
+          "evaporated",
+          "disappeared",
+          "faded"
+        ]
+      },
+      {
+        "text": "Their twenty-year business partnership is [[crumbling]] under the pressure of constant arguments.",
+        "distractors": [
+          "glowing",
+          "floating",
+          "yawning"
+        ],
+        "alternatives": [
+          "collapsing",
+          "disintegrating",
+          "cracking",
+          "buckling"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The alliance [[crumbled]] after only two years.",
+        "My resolve [[crumbled]] as soon as I smelled the fresh bread.",
+        "All her hopes [[crumbled]] when the second job offer was withdrawn."
+      ],
+      "alternatives": [
+        "collapsed"
+      ]
+    },
+    "collocations": [
+      "begin to [[crumble]]",
+      "[[crumble]] under pressure",
+      "confidence [[crumbles]]",
+      "an empire [[crumbles]]",
+      "a [[crumbling]] economy"
+    ],
+    "badCollocation": {
+      "text": "the glass [[crumbled]] on the floor",
+      "noteRu": "Стакан или чашка разбиваются — break или smash. Crumble — медленно рассыпаться: старые стены, печенье, надежды."
+    },
+    "collocationTask": {
+      "prompt": "___ under pressure",
+      "answer": "crumble",
+      "distractors": [
+        "crush",
+        "crash",
+        "scatter"
+      ],
+      "explanationRu": "Crumble under pressure — сломаться, не выдержать давления. Crush — раздавить что-то, crash — разбиться, scatter — разбежаться в разные стороны."
+    },
+    "nuance": {
+      "rival": "crumple",
+      "text": "Over the next ten years, the old trading empire slowly [[crumbled]].",
+      "rivalForm": "crumpled",
+      "explanationRu": "Crumble — рассыпаться, постепенно разрушаться. Crumple — сминаться (бумага, кузов машины при ударе); к империям и планам не подходит.",
+      "reverse": {
+        "text": "He [[crumpled]] the letter into a ball and threw it away.",
+        "targetForm": "crumbled",
+        "explanationRu": "Бумагу сминают — crumple. Crumble — крошить хлеб или рассыпаться; скомкать письмо так нельзя."
+      }
+    },
+    "fixIt": {
+      "text": "Their marriage slowly [[crushed]] under the weight of money problems.",
+      "answer": [
+        "crumbled"
+      ],
+      "explanationRu": "Crush — раздавить что-то, этому глаголу нужно дополнение. Брак, который постепенно распадается, crumbles."
+    },
+    "reply": {
+      "context": "A friend messages: \"So how's the new startup going?\"",
+      "options": [
+        "Brilliant! Sales have crumbled up to twice what we expected.",
+        "The enterprise is crumbling, as per my previous correspondence.",
+        "Not great, honestly. The team started to crumble after our main investor pulled out."
+      ],
+      "answer": 2,
+      "explanationRu": "Crumble — разваливаться, терять силу, поэтому с ростом продаж оно не сочетается. As per my previous correspondence — канцелярский оборот, другу так не пишут."
+    }
+  },
+  {
+    "lemma": "crush",
+    "pos": "verb",
+    "definitionEn": "to defeat an opponent completely or stop resistance by force",
+    "translationsRu": [
+      "разгромить",
+      "подавить",
+      "сокрушить"
+    ],
+    "acceptedAnswers": [
+      "crush"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «разгромить, подавить» (crush the opposition, crush a protest); буквальное «раздавить, смять» не рассматривается.",
+    "situation": "One side beats its rivals so completely, or ends resistance so forcefully, that the other side has no chance.",
+    "examples": [
+      {
+        "text": "Our local team [[crushed]] last year's champions five goals to nil.",
+        "distractors": [
+          "praised",
+          "greeted",
+          "hired"
+        ],
+        "alternatives": [
+          "thrashed",
+          "beat",
+          "hammered",
+          "trounced",
+          "demolished",
+          "destroyed"
+        ]
+      },
+      {
+        "text": "The giant retailer used low prices to [[crush]] smaller competitors.",
+        "distractors": [
+          "hire",
+          "invite",
+          "admire"
+        ],
+        "alternatives": [
+          "destroy",
+          "eliminate",
+          "defeat",
+          "squeeze out",
+          "wipe out"
+        ]
+      },
+      {
+        "text": "The ruling party was [[crushed]] in the election, losing half its seats.",
+        "distractors": [
+          "elected",
+          "rewarded",
+          "applauded"
+        ],
+        "alternatives": [
+          "defeated",
+          "beaten",
+          "hammered",
+          "trounced",
+          "routed",
+          "thrashed"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Nobody expected the underdogs to [[crush]] the favourites.",
+        "The authorities tried to [[crush]] every sign of protest.",
+        "Big chains can easily [[crush]] a small family business."
+      ],
+      "alternatives": [
+        "destroy"
+      ]
+    },
+    "collocations": [
+      "[[crush]] the opposition",
+      "[[crush]] a rebellion",
+      "[[crush]] a protest",
+      "[[crush]] rivals",
+      "be [[crushed]] in an election"
+    ],
+    "badCollocation": {
+      "text": "[[crush]] a yawn",
+      "noteRu": "«Подавить зевок» — stifle или suppress a yawn. Crush — о полном разгроме соперника или жёстком подавлении протеста."
+    },
+    "collocationTask": {
+      "prompt": "a ___ defeat",
+      "answer": "crushing",
+      "distractors": [
+        "pressing",
+        "breaking",
+        "squeezing"
+      ],
+      "explanationRu": "Crushing defeat — сокрушительное поражение, устойчивое сочетание. Pressing — срочный, breaking — экстренный (о новостях), squeezing с defeat не сочетается."
+    },
+    "nuance": {
+      "rival": "crash",
+      "text": "The champion [[crushed]] her opponent in straight sets.",
+      "rivalForm": "crashed",
+      "explanationRu": "Crush — разгромить соперника. Crash — разбиться или врезаться (crash into something); crash an opponent не говорят.",
+      "reverse": {
+        "text": "A lorry [[crashed]] into the bridge late last night.",
+        "targetForm": "crushed",
+        "explanationRu": "Врезаться — crash into. Crush требует прямого дополнения: раздавить или разгромить кого-то."
+      }
+    },
+    "fixIt": {
+      "text": "In the final, the favourites [[suppressed]] the visitors 6-0.",
+      "answer": [
+        "crushed"
+      ],
+      "explanationRu": "Suppress — подавлять протест, эмоции или информацию. Разгромить соперника в игре — crush."
+    },
+    "reply": {
+      "context": "After the match, a teammate says: \"Can you believe we won 7-1?\"",
+      "options": [
+        "I know! They crushed us so badly that we won easily.",
+        "I know! We absolutely crushed them. They never stood a chance.",
+        "Indeed, our side has comprehensively crushed the opposing party."
+      ],
+      "answer": 1,
+      "explanationRu": "Crush — разгромить. В первом ответе смысл перевёрнут: если разгромили вас, вы не могли легко выиграть. Третий звучит как газетный отчёт, а не как слова товарища по команде."
+    },
+    "rewrite": {
+      "original": "The ruling party lost the election very badly.",
+      "frame": "The ruling party ____ in the election.",
+      "accepted": [
+        "was crushed",
+        "got crushed",
+        "was completely crushed",
+        "got completely crushed"
+      ],
+      "explanationRu": "Нужен пассив: the party was crushed — партию разгромили."
+    }
+  },
+  {
+    "lemma": "crystal",
+    "pos": "noun",
+    "definitionEn": "a small solid piece of a substance with flat sides and a regular shape",
+    "translationsRu": [
+      "кристалл",
+      "кристаллик"
+    ],
+    "acceptedAnswers": [
+      "crystal"
+    ],
+    "register": "neutral",
+    "topic": "science",
+    "ambiguous": true,
+    "senseNote": "Здесь — «кристалл» (кристаллы соли, льда); значение «хрусталь» (crystal glasses) не рассматривается.",
+    "situation": "You describe tiny solid pieces with regular flat sides that form in salt, sugar, ice or snow.",
+    "examples": [
+      {
+        "text": "When seawater evaporates, it leaves behind white [[crystals]] of salt.",
+        "distractors": [
+          "waves",
+          "bubbles",
+          "puddles"
+        ],
+        "alternatives": [
+          "grains",
+          "flakes"
+        ]
+      },
+      {
+        "text": "Under a microscope, you can see that every snowflake is made of tiny ice [[crystals]].",
+        "distractors": [
+          "cubes",
+          "sheets",
+          "drops"
+        ],
+        "alternatives": [
+          "particles"
+        ]
+      },
+      {
+        "text": "If you cool the sugar solution slowly, larger [[crystals]] will form in the jar.",
+        "distractors": [
+          "bottles",
+          "clouds",
+          "shells"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Frost left delicate ice [[crystals]] on the window.",
+        "Some people believe that [[crystals]] have healing powers.",
+        "Geologists found rare purple [[crystals]] inside the rock."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "ice [[crystals]]",
+      "salt [[crystals]]",
+      "[[crystals]] form",
+      "a [[crystal]] structure",
+      "quartz [[crystals]]"
+    ],
+    "badCollocation": {
+      "text": "[[crystal]] water in the lake",
+      "noteRu": "«Кристально чистая вода» — crystal-clear water. Просто crystal water так не говорят."
+    },
+    "collocationTask": {
+      "prompt": "Crystals ___ when the liquid cools slowly.",
+      "answer": "form",
+      "distractors": [
+        "make",
+        "do",
+        "create"
+      ],
+      "explanationRu": "Кристаллы образуются — crystals form (или grow). Make и create требуют дополнения, а do здесь вообще не подходит."
+    },
+    "nuance": {
+      "rival": "grain",
+      "text": "Each snowflake is a six-sided ice [[crystal]] with its own unique pattern.",
+      "rivalForm": "grain",
+      "explanationRu": "Crystal — частица правильной формы с гранями: снежинка — ледяной кристалл. Grain — просто крупинка (песка, соли, риса), форма тут не важна.",
+      "reverse": {
+        "text": "There was a [[grain]] of sand stuck in my eye.",
+        "targetForm": "crystal",
+        "explanationRu": "Песчинка — a grain of sand. Crystal подчёркивает правильную форму с гранями, про песчинку в глазу так не говорят."
+      }
+    },
+    "fixIt": {
+      "text": "On frosty mornings, tiny ice [[floes]] sparkle on every blade of grass.",
+      "answer": [
+        "crystals"
+      ],
+      "explanationRu": "Ice floe — льдина, плавающая в воде. Крошечные льдинки инея на траве — ice crystals."
+    },
+    "wordFormation": {
+      "base": "crystal",
+      "text": "As the water evaporates, the salt slowly begins to [[crystallise]].",
+      "answer": [
+        "crystallise",
+        "crystallize"
+      ]
+    }
+  },
+  {
+    "lemma": "cult",
+    "pos": "adjective",
+    "definitionEn": "extremely popular with a small group of devoted fans rather than with everyone",
+    "translationsRu": [
+      "культовый",
+      "популярный в узких кругах"
+    ],
+    "acceptedAnswers": [
+      "cult"
+    ],
+    "register": "neutral",
+    "topic": "culture",
+    "ambiguous": true,
+    "senseNote": "Прилагательное: a cult film, cult status — «культовый»; существительное cult («секта, культ») не рассматривается.",
+    "situation": "A film, band, book or show is loved passionately by a devoted group of fans, though not by the mass audience.",
+    "examples": [
+      {
+        "text": "The film flopped at the box office but later became a [[cult]] classic.",
+        "distractors": [
+          "rural",
+          "loyal",
+          "brief"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "Decades after it was cancelled, the sci-fi series still has [[cult]] status among fans.",
+        "distractors": [
+          "marital",
+          "fiscal",
+          "tidy"
+        ],
+        "alternatives": [
+          "iconic",
+          "legendary"
+        ]
+      },
+      {
+        "text": "The tiny noodle bar near the station has become a [[cult]] favourite with local chefs.",
+        "distractors": [
+          "frequent",
+          "vacant",
+          "polite"
+        ],
+        "alternatives": [
+          "firm",
+          "huge",
+          "real"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The director is a [[cult]] figure in Korean cinema.",
+        "This odd little podcast has a small but loyal [[cult]] audience.",
+        "Their first album is now a [[cult]] classic among collectors."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "a [[cult]] film",
+      "a [[cult]] classic",
+      "[[cult]] status",
+      "a [[cult]] following",
+      "a [[cult]] figure"
+    ],
+    "badCollocation": {
+      "text": "a [[cult]] place in the city",
+      "noteRu": "«Культовое место» в городе — обычно an iconic или a legendary place. Cult — о фильмах, книгах и группах с преданными поклонниками."
+    },
+    "collocationTask": {
+      "prompt": "achieve ___ status",
+      "answer": "cult",
+      "distractors": [
+        "worship",
+        "sect",
+        "hobby"
+      ],
+      "explanationRu": "Cult status — статус культового фильма или книги. Worship — поклонение, sect — секта, hobby — увлечение; со status в этом смысле не сочетаются."
+    },
+    "nuance": {
+      "rival": "iconic",
+      "text": "Few people saw it in cinemas, but among horror fans the film has [[cult]] status.",
+      "rivalForm": "iconic",
+      "explanationRu": "Cult — культовый в узком кругу преданных фанатов. Iconic — всем известный символ; фильму, который мало кто видел, это не подходит.",
+      "reverse": {
+        "text": "The Eiffel Tower is one of the most [[iconic]] buildings in the world.",
+        "targetForm": "cult",
+        "explanationRu": "Всемирно узнаваемый символ — iconic. Cult описывает то, что обожает узкий круг поклонников, а не то, что знают все."
+      }
+    },
+    "fixIt": {
+      "text": "The show was cancelled after one season, but it has since gained a [[cultural]] following online.",
+      "answer": [
+        "cult"
+      ],
+      "explanationRu": "«Культовый» — cult: a cult following, a cult film. Cultural значит «культурный, связанный с культурой»."
+    },
+    "reply": {
+      "context": "A friend asks: \"Have you heard of the film Night Harbour? Hardly anyone saw it when it came out.\"",
+      "options": [
+        "Yes! It flopped at first, but now it's a real cult classic.",
+        "Yes, it's a cult film. Absolutely everyone in the country has seen it.",
+        "Affirmative. The aforementioned motion picture enjoys cult status among connoisseurs."
+      ],
+      "answer": 0,
+      "explanationRu": "Cult film — фильм, который обожает узкий круг фанатов, а не вся страна, поэтому второй ответ противоречит смыслу. Третий звучит как пародия на официальный отчёт."
+    }
+  },
+  {
+    "lemma": "cultivate",
+    "pos": "verb",
+    "definitionEn": "to deliberately develop a relationship, skill, image or attitude over time",
+    "translationsRu": [
+      "развивать",
+      "культивировать",
+      "налаживать (связи)",
+      "создавать (образ)"
+    ],
+    "acceptedAnswers": [
+      "cultivate"
+    ],
+    "register": "formal",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «развивать, налаживать» (cultivate contacts, an image); базовое «возделывать землю, выращивать» не рассматривается.",
+    "situation": "Someone patiently builds useful contacts, a public image or a habit through steady, deliberate effort.",
+    "examples": [
+      {
+        "text": "She spent years [[cultivating]] contacts in the film industry before starting her own company.",
+        "distractors": [
+          "rehearsing",
+          "measuring",
+          "abandoning"
+        ],
+        "alternatives": [
+          "building",
+          "developing",
+          "making",
+          "nurturing",
+          "establishing"
+        ]
+      },
+      {
+        "text": "The mayor has carefully [[cultivated]] an image as an ordinary person who takes the bus.",
+        "distractors": [
+          "exhausted",
+          "harvested",
+          "invited"
+        ],
+        "alternatives": [
+          "crafted",
+          "built",
+          "created",
+          "developed",
+          "fostered",
+          "constructed"
+        ]
+      },
+      {
+        "text": "Parents can [[cultivate]] a love of reading by sharing books with their children every night.",
+        "distractors": [
+          "prescribe",
+          "rent",
+          "cancel"
+        ],
+        "alternatives": [
+          "foster",
+          "encourage",
+          "nurture",
+          "develop",
+          "instil"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Politicians work hard to [[cultivate]] the support of young voters.",
+        "It takes months to [[cultivate]] a habit of daily exercise.",
+        "Smart startups [[cultivate]] close ties with their first customers."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[cultivate]] an image",
+      "[[cultivate]] relationships",
+      "[[cultivate]] contacts",
+      "[[cultivate]] a habit",
+      "a carefully [[cultivated]] image"
+    ],
+    "badCollocation": {
+      "text": "[[cultivate]] a child",
+      "noteRu": "Ребёнка воспитывают — raise или bring up a child. Cultivate — развивать качества, связи или образ, а не растить детей."
+    },
+    "collocationTask": {
+      "prompt": "___ a public image",
+      "answer": "cultivate",
+      "distractors": [
+        "educate",
+        "raise",
+        "breed"
+      ],
+      "explanationRu": "Cultivate an image — целенаправленно создавать образ. Educate — обучать людей, raise — растить детей или поднимать, breed — разводить животных."
+    },
+    "nuance": {
+      "rival": "grow",
+      "text": "Over the years, the lawyer has [[cultivated]] a reputation as a tough negotiator.",
+      "rivalForm": "grown",
+      "explanationRu": "Cultivate a reputation — сознательно создавать репутацию. Grow — выращивать растения или расти самому; с reputation в этом смысле звучит неестественно.",
+      "reverse": {
+        "text": "Tomatoes [[grow]] best in a warm, sunny spot.",
+        "targetForm": "cultivate",
+        "explanationRu": "Растения растут сами — grow. Cultivate — действие человека: он что-то выращивает или развивает."
+      }
+    },
+    "fixIt": {
+      "text": "It took her years to [[raise]] such a loyal network of clients.",
+      "answer": [
+        "cultivate"
+      ],
+      "explanationRu": "Raise — растить детей или поднимать что-то. Сеть клиентов и полезные связи целенаправленно выстраивают — cultivate."
+    },
+    "reply": {
+      "context": "At a networking event, a new colleague asks: \"How did you win so many clients in your first year?\"",
+      "options": [
+        "I just cultivated them. I sent the same cold email to ten thousand people.",
+        "Mostly by cultivating relationships. I stayed in touch even when there was no deal on the table.",
+        "One endeavours to cultivate one's clientele assiduously, as one ought."
+      ],
+      "answer": 1,
+      "explanationRu": "Cultivate — терпеливо развивать отношения, а массовая рассылка писем — противоположность этому. Третий ответ звучит напыщенно и старомодно."
+    },
+    "rewrite": {
+      "original": "Over many years, he deliberately built up friendships with influential people.",
+      "frame": "Over many years, he ____ friendships with influential people.",
+      "accepted": [
+        "cultivated",
+        "deliberately cultivated",
+        "carefully cultivated"
+      ],
+      "explanationRu": "Cultivate friendships — сознательно выстраивать полезные связи."
+    }
+  }
+]

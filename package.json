@@ -9,9 +9,12 @@
     "build": "node scripts/build_app.mjs",
     "test": "node --test tests/unit/*.test.mjs",
     "test:e2e": "node tests/e2e/run.mjs",
-    "validate": "python3 scripts/validate_dataset.py"
+    "validate": "python3 scripts/validate_dataset.py",
+    "test:a11y": "node tests/e2e/a11y.mjs",
+    "screenshots": "node tests/e2e/screenshots.mjs"
   },
   "devDependencies": {
+    "axe-core": "^4.10.3",
     "esbuild": "0.25.10",
     "playwright": "^1.56.1"
   },

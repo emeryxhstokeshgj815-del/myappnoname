@@ -176,7 +176,7 @@
        "distractors": ["suspicion", "receipt", "top"],
        "alternatives": []},
       {"text": "The actor was ill, so his daughter accepted the award on his [[behalf]].",
-       "distractors": ["part", "feet", "watch"],
+       "distractors": ["part", "watch", "mind"],
        "alternatives": []},
       {"text": "Volunteers collected money on [[behalf]] of a local children's hospital.",
        "distractors": ["penalty", "condition", "pain"],
@@ -237,7 +237,7 @@
        "distractors": ["hostile", "dangerous", "useless"],
        "alternatives": ["much-loved", "cherished", "treasured", "popular"]},
       {"text": "The finale killed off the show's most [[beloved]] character, and fans still haven't forgiven the writers.",
-       "distractors": ["annoying", "boring", "pointless"],
+       "distractors": ["tedious", "boring", "pointless"],
        "alternatives": ["popular", "loved", "adored", "likeable"]}
     ],
     "trio": {

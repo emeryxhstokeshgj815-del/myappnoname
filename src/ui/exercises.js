@@ -169,7 +169,7 @@ export function buildExercise(task, ctx) {
         h('div', { class: 'w', style: { marginTop: '8px' } }, word.lemma, ' ', h('span', { class: 'tiny' }, word.partOfSpeech)),
         h('div', { class: 't', lang: 'ru' }, word.translationsRu.join(', ')),
         h('div', { class: 'd' }, word.definitionEn),
-        h('div', { class: 'ex' }, marked(word.examples[0].text)),
+        h('div', { class: 'ex' }, marked(word.examples[task.contextIndex ?? 0].text)),
         h('div', { class: 'chips', style: { marginTop: '10px' } }, word.collocations.slice(0, 3).map((c) => h('span', { class: 'chip static' }, unmark(c)))),
       );
       const holder = h('div');

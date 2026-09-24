@@ -1,0 +1,1196 @@
+[
+  {
+    "lemma": "ally",
+    "pos": "noun",
+    "definitionEn": "a person, group or country that supports you when others oppose you",
+    "translationsRu": [
+      "союзник",
+      "сторонник",
+      "соратник"
+    ],
+    "acceptedAnswers": [
+      "ally"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about someone who is on your side and helps you in an argument, competition or conflict.",
+    "examples": [
+      {
+        "text": "When the board wanted to close our department, the finance director became our strongest [[ally]] and argued to keep it open.",
+        "distractors": [
+          "critic",
+          "rival",
+          "opponent"
+        ],
+        "alternatives": [
+          "supporter",
+          "defender",
+          "advocate",
+          "champion"
+        ]
+      },
+      {
+        "text": "The two countries have been close [[allies]] since the end of the Second World War.",
+        "distractors": [
+          "enemies",
+          "relatives",
+          "colonies"
+        ],
+        "alternatives": [
+          "partners",
+          "friends"
+        ]
+      },
+      {
+        "text": "Parents of teenagers should see teachers as [[allies]], not enemies.",
+        "distractors": [
+          "opponents",
+          "rivals",
+          "suspects"
+        ],
+        "alternatives": [
+          "partners",
+          "friends",
+          "supporters",
+          "collaborators"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "She found an unexpected [[ally]] in her former boss.",
+        "Regular exercise is your best [[ally]] against stress.",
+        "The senator lost her closest [[ally]] when he retired."
+      ],
+      "alternatives": [
+        "friend"
+      ]
+    },
+    "collocations": [
+      "a close [[ally]]",
+      "a key [[ally]]",
+      "a political [[ally]]",
+      "find an [[ally]] in someone",
+      "a loyal [[ally]]"
+    ],
+    "badCollocation": {
+      "text": "my best [[ally]] from school",
+      "noteRu": "Школьный друг — a school friend. Ally — союзник в борьбе или споре, а не просто приятель."
+    },
+    "collocationTask": {
+      "prompt": "a close ___ of the prime minister",
+      "answer": "ally",
+      "distractors": [
+        "alliance",
+        "union",
+        "partisan"
+      ],
+      "explanationRu": "Соратник политика, который его поддерживает, — a close ally. Alliance и union — союзы, а не люди, а partisan — «партизан» или «ярый сторонник партии»."
+    },
+    "nuance": {
+      "rival": "alliance",
+      "text": "Over the years, the two leaders became close personal [[allies]].",
+      "rivalForm": "alliances",
+      "explanationRu": "Ally — союзник, то есть сторона: человек или страна. Alliance — сам союз, соглашение о сотрудничестве; человек не может быть alliance.",
+      "reverse": {
+        "text": "The treaty created a military [[alliance]] between four states.",
+        "targetForm": "ally",
+        "explanationRu": "Договор создаёт союз — an alliance. Ally — участник союза, а не сам союз."
+      }
+    },
+    "fixIt": {
+      "text": "In the fight to save the local library, the mayor proved a useful [[companion]].",
+      "answer": [
+        "ally"
+      ],
+      "explanationRu": "Companion — спутник, компаньон в поездке или в жизни. Тот, кто помогает в борьбе за общую цель, — an ally."
+    },
+    "reply": {
+      "context": "Your colleague says: \"I want to propose a four-day week at the meeting, but I'm scared nobody will back me.\"",
+      "options": [
+        "Don't worry, I'll be your ally and vote against it with everyone else.",
+        "One must endeavour to secure allies prior to submitting such a proposal.",
+        "Talk to Sam from HR first. She's been pushing for flexible hours, so she'd be a natural ally."
+      ],
+      "answer": 2,
+      "explanationRu": "Ally — тот, кто на вашей стороне, а не голосует против. Второй ответ звучит как учебник по дипломатии, а не дружеский совет."
+    }
+  },
+  {
+    "lemma": "aluminium",
+    "pos": "noun",
+    "definitionEn": "a light, silver-coloured metal used for cans, foil and aircraft parts",
+    "translationsRu": [
+      "алюминий"
+    ],
+    "acceptedAnswers": [
+      "aluminium",
+      "aluminum"
+    ],
+    "register": "neutral",
+    "topic": "world",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about a light metal used for drink cans, kitchen foil, window frames or parts of planes.",
+    "examples": [
+      {
+        "text": "Drinks cans made of [[aluminium]] can be recycled again and again without losing quality.",
+        "distractors": [
+          "porcelain",
+          "leather",
+          "concrete"
+        ],
+        "alternatives": [
+          "steel"
+        ]
+      },
+      {
+        "text": "Car makers are switching from steel to [[aluminium]] to make vehicles lighter.",
+        "distractors": [
+          "lead",
+          "iron",
+          "concrete"
+        ],
+        "alternatives": [
+          "magnesium",
+          "plastic",
+          "carbon fibre"
+        ]
+      },
+      {
+        "text": "We replaced the old wooden window frames with [[aluminium]] ones that never need painting.",
+        "distractors": [
+          "cardboard",
+          "rubber",
+          "cotton"
+        ],
+        "alternatives": [
+          "plastic",
+          "steel",
+          "vinyl"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Wrap the fish in [[aluminium]] foil before putting it on the barbecue.",
+        "The bike's light [[aluminium]] frame makes it easy to carry upstairs.",
+        "Recycling [[aluminium]] uses far less energy than producing it from ore."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[aluminium]] foil",
+      "[[aluminium]] cans",
+      "an [[aluminium]] frame",
+      "recycled [[aluminium]]",
+      "made of [[aluminium]]"
+    ],
+    "badCollocation": {
+      "text": "[[aluminium]] paper",
+      "noteRu": "Тонкая кухонная фольга — aluminium foil (разговорно tin foil). Aluminium paper по-английски не говорят."
+    },
+    "collocationTask": {
+      "prompt": "wrap the sandwiches in ___ foil",
+      "answer": "aluminium",
+      "distractors": [
+        "iron",
+        "copper",
+        "steel"
+      ],
+      "explanationRu": "Кухонная фольга — aluminium foil (разговорно tin foil). Из железа, меди и стали фольгу для еды не делают."
+    },
+    "nuance": {
+      "rival": "tin",
+      "text": "Most drinks cans today are made of [[aluminium]], which is light and easy to recycle.",
+      "rivalForm": "tin",
+      "explanationRu": "Банки для напитков делают из алюминия — aluminium. Tin — олово; в британском английском a tin — ещё и консервная банка, но она из жести, а не из олова.",
+      "reverse": {
+        "text": "Open a [[tin]] of tomatoes and add it to the sauce.",
+        "targetForm": "aluminium",
+        "explanationRu": "Консервная банка в британском английском — a tin (в американском — a can). Aluminium — металл, а не упаковка."
+      }
+    },
+    "fixIt": {
+      "text": "Most modern planes are built mainly from [[tin]] and other light metals.",
+      "answer": [
+        "aluminium",
+        "aluminum"
+      ],
+      "explanationRu": "Tin — олово, для самолётов оно не годится. Лёгкий металл для корпусов самолётов — aluminium."
+    }
+  },
+  {
+    "lemma": "amateur",
+    "pos": "adjective",
+    "definitionEn": "doing an activity for pleasure rather than as a paid job",
+    "translationsRu": [
+      "любительский",
+      "самодеятельный",
+      "непрофессиональный"
+    ],
+    "acceptedAnswers": [
+      "amateur"
+    ],
+    "register": "neutral",
+    "topic": "culture",
+    "ambiguous": true,
+    "senseNote": "Здесь — «любительский, не за деньги»; неодобрительное «дилетантский» чаще передают словом amateurish.",
+    "situation": "Describing people who paint, act, play sport or take photos for fun, not to earn money.",
+    "examples": [
+      {
+        "text": "The play was performed by an [[amateur]] theatre group, but the acting was surprisingly good.",
+        "distractors": [
+          "experienced",
+          "elite",
+          "illustrious"
+        ],
+        "alternatives": [
+          "unpaid"
+        ]
+      },
+      {
+        "text": "He played [[amateur]] football for years before a professional club finally signed him.",
+        "distractors": [
+          "premier",
+          "international",
+          "elite"
+        ],
+        "alternatives": [
+          "local",
+          "grassroots",
+          "non-league",
+          "youth",
+          "semi-professional"
+        ]
+      },
+      {
+        "text": "Two [[amateur]] astronomers, a teacher and a retired plumber, spotted the comet before any observatory did.",
+        "distractors": [
+          "professional",
+          "qualified",
+          "official"
+        ],
+        "alternatives": [
+          "backyard",
+          "keen",
+          "enthusiastic"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "My uncle is a keen [[amateur]] photographer who enters every local competition.",
+        "The race is open to [[amateur]] cyclists of all ages.",
+        "She sings with an [[amateur]] choir that meets every Tuesday evening."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "an [[amateur]] photographer",
+      "[[amateur]] football",
+      "[[amateur]] dramatics",
+      "an [[amateur]] astronomer",
+      "[[amateur]] sport"
+    ],
+    "badCollocation": {
+      "text": "an [[amateur]] of jazz",
+      "noteRu": "«Любитель джаза» — a jazz fan или a jazz lover. Amateur — тот, кто сам занимается делом непрофессионально, а не поклонник."
+    },
+    "collocationTask": {
+      "prompt": "___ dramatics",
+      "answer": "amateur",
+      "distractors": [
+        "hobby",
+        "private",
+        "fan"
+      ],
+      "explanationRu": "Amateur dramatics — любительский театр, «самодеятельность». Hobby, private и fan с dramatics не сочетаются."
+    },
+    "nuance": {
+      "rival": "amateurish",
+      "text": "The club is proud of its [[amateur]] status: nobody, not even the coach, gets paid.",
+      "rivalForm": "amateurish",
+      "explanationRu": "Amateur — нейтральное «любительский, не за деньги». Amateurish — «дилетантский, неумелый», это критика; к статусу клуба без зарплат не подходит."
+    },
+    "fixIt": {
+      "text": "My father is a keen [[amateurish]] photographer who spends every weekend in the hills.",
+      "answer": [
+        "amateur"
+      ],
+      "explanationRu": "Amateurish — «дилетантский, неумелый», это критика. Фотограф-любитель — an amateur photographer."
+    },
+    "wordFormation": {
+      "base": "amateur",
+      "text": "The logo looks rather [[amateurish]], as if someone drew it in five minutes.",
+      "answer": [
+        "amateurish"
+      ]
+    },
+    "reply": {
+      "context": "At a dinner party, someone asks you: \"So, are you a professional musician?\"",
+      "options": [
+        "No, I'm an amateur of classical music: I listen to it every day.",
+        "Negative; my musical engagements are strictly of an amateur nature, madam.",
+        "No, I just play the cello in an amateur orchestra at weekends, for fun."
+      ],
+      "answer": 2,
+      "explanationRu": "Amateur orchestra — любительский оркестр, где играют не за деньги. «Любитель музыки» — music lover, а не amateur of music. Второй ответ слишком чопорный для ужина."
+    },
+    "rewrite": {
+      "original": "She plays golf for fun and doesn't get paid for it.",
+      "frame": "She is ____ golfer.",
+      "accepted": [
+        "an amateur"
+      ],
+      "explanationRu": "An amateur golfer — игрок-любитель, который не получает денег за игру."
+    }
+  },
+  {
+    "lemma": "ambassador",
+    "pos": "noun",
+    "definitionEn": "a well-known person who represents and promotes a company, cause or activity",
+    "translationsRu": [
+      "представитель",
+      "посол (бренда, доброй воли)",
+      "лицо (компании)"
+    ],
+    "acceptedAnswers": [
+      "ambassador"
+    ],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «представитель, лицо» бренда или идеи (brand ambassador); основное значение «посол страны» считаем уже известным.",
+    "situation": "Talking about a famous or respected person chosen to promote a brand, charity, sport or good cause.",
+    "examples": [
+      {
+        "text": "The sportswear company hired a young tennis star as its new brand [[ambassador]].",
+        "distractors": [
+          "loyalty",
+          "identity",
+          "awareness"
+        ],
+        "alternatives": [
+          "representative",
+          "spokesperson"
+        ]
+      },
+      {
+        "text": "The actress became a goodwill [[ambassador]] for a children's charity and visited refugee camps in three countries.",
+        "distractors": [
+          "gesture",
+          "payment",
+          "message"
+        ],
+        "alternatives": [
+          "envoy"
+        ]
+      },
+      {
+        "text": "Our university trains older students as [[ambassadors]] who show new students around the campus.",
+        "distractors": [
+          "tenants",
+          "customers",
+          "spectators"
+        ],
+        "alternatives": [
+          "guides",
+          "mentors",
+          "representatives",
+          "buddies"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The former champion is now an [[ambassador]] for women's football.",
+        "Every satisfied customer becomes an [[ambassador]] for your brand.",
+        "The famous chef acts as an [[ambassador]] for healthy school meals."
+      ],
+      "alternatives": [
+        "advocate"
+      ]
+    },
+    "collocations": [
+      "a brand [[ambassador]]",
+      "a goodwill [[ambassador]]",
+      "an [[ambassador]] for the sport",
+      "act as an [[ambassador]]",
+      "a student [[ambassador]]"
+    ],
+    "badCollocation": {
+      "text": "an [[ambassador]] to the brand",
+      "noteRu": "Посол в стране — ambassador to France, а представитель бренда или идеи — ambassador for the brand или brand ambassador."
+    },
+    "collocationTask": {
+      "prompt": "a brand ___",
+      "answer": "ambassador",
+      "distractors": [
+        "consul",
+        "messenger",
+        "deputy"
+      ],
+      "explanationRu": "Знаменитость, которая представляет бренд, — brand ambassador. Consul, messenger и deputy с brand не сочетаются."
+    },
+    "nuance": {
+      "rival": "sponsor",
+      "text": "The bank pays the tennis player to act as its [[ambassador]] at tournaments.",
+      "rivalForm": "sponsor",
+      "explanationRu": "Ambassador — человек, который представляет компанию и продвигает её имидж. Sponsor — тот, кто даёт деньги; здесь спонсор — сам банк, а не теннисист.",
+      "reverse": {
+        "text": "A local bakery is the main [[sponsor]] of our school's charity run.",
+        "targetForm": "ambassador",
+        "explanationRu": "Кто финансирует мероприятие — sponsor. Ambassador представляет и продвигает его, а не платит."
+      }
+    },
+    "fixIt": {
+      "text": "The famous skier works as an [[embassy]] for a ski-equipment brand.",
+      "answer": [
+        "ambassador"
+      ],
+      "explanationRu": "Embassy — посольство, учреждение. Человек, который представляет бренд, — ambassador."
+    }
+  },
+  {
+    "lemma": "amend",
+    "pos": "verb",
+    "definitionEn": "to make small changes to a law, document or plan to improve it",
+    "translationsRu": [
+      "вносить поправки",
+      "изменять (документ)",
+      "исправлять"
+    ],
+    "acceptedAnswers": [
+      "amend"
+    ],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Changing the wording of a law, contract, report or plan, usually to correct or improve it.",
+    "examples": [
+      {
+        "text": "Parliament voted to [[amend]] the law so that it also covers online shopping.",
+        "distractors": [
+          "repeal",
+          "obey",
+          "enforce"
+        ],
+        "alternatives": [
+          "change",
+          "modify",
+          "revise",
+          "update",
+          "extend"
+        ]
+      },
+      {
+        "text": "We [[amended]] the contract to give freelancers thirty days to submit their invoices.",
+        "distractors": [
+          "cancelled",
+          "printed",
+          "translated"
+        ],
+        "alternatives": [
+          "changed",
+          "modified",
+          "revised",
+          "updated",
+          "altered"
+        ]
+      },
+      {
+        "text": "Please [[amend]] the spelling of my surname on the certificate before it is printed.",
+        "distractors": [
+          "pronounce",
+          "memorise",
+          "praise"
+        ],
+        "alternatives": [
+          "correct",
+          "change",
+          "fix",
+          "alter"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The rules were [[amended]] to allow dogs in the park.",
+        "She [[amended]] her statement after seeing the video evidence.",
+        "The recipe has been [[amended]] to use less sugar."
+      ],
+      "alternatives": [
+        "changed",
+        "altered",
+        "modified",
+        "revised"
+      ]
+    },
+    "collocations": [
+      "[[amend]] the law",
+      "[[amend]] the constitution",
+      "[[amend]] a contract",
+      "[[amend]] a booking",
+      "an [[amended]] version"
+    ],
+    "badCollocation": {
+      "text": "[[amend]] the washing machine",
+      "noteRu": "Технику чинят — repair или fix the washing machine. Amend — вносить правки в текст, закон или план."
+    },
+    "collocationTask": {
+      "prompt": "___ the constitution",
+      "answer": "amend",
+      "distractors": [
+        "repair",
+        "correct",
+        "edit"
+      ],
+      "explanationRu": "Поправки в конституцию или закон вносят глаголом amend. Repair — «чинить», correct — «исправлять ошибку», edit — «редактировать текст»."
+    },
+    "nuance": {
+      "rival": "correct",
+      "text": "The government plans to [[amend]] the tax code to support small farms.",
+      "rivalForm": "correct",
+      "explanationRu": "Amend — официально изменить закон или документ, чтобы улучшить его. Correct — исправить ошибку, а налоговый кодекс здесь не ошибочен: его дополняют.",
+      "reverse": {
+        "text": "The teacher [[corrected]] the spelling mistakes in red ink.",
+        "targetForm": "amended",
+        "explanationRu": "Исправить ошибки — correct mistakes. Amend меняет документ или закон, а не отдельные ошибки учеников."
+      }
+    },
+    "fixIt": {
+      "text": "The club decided to [[repair]] its rules so that members can vote online.",
+      "answer": [
+        "amend"
+      ],
+      "explanationRu": "Repair — «чинить» вещи. Внести изменения в правила — amend the rules."
+    },
+    "reply": {
+      "context": "A customer emails: \"Sorry, I put the wrong delivery address on my order yesterday.\"",
+      "options": [
+        "No problem, I've amended your parcel, so it's now much heavier.",
+        "No problem at all. I've amended the address, so the parcel will go to the right place.",
+        "Yeah whatever, sorted it, chill."
+      ],
+      "answer": 1,
+      "explanationRu": "Amend — исправить или изменить данные, например адрес в заказе. Посылку «исправить» так нельзя, а третий ответ слишком грубый для письма клиенту."
+    },
+    "rewrite": {
+      "original": "The government changed the law slightly last year.",
+      "frame": "The law ____ last year.",
+      "accepted": [
+        "was amended",
+        "was slightly amended",
+        "got amended"
+      ],
+      "explanationRu": "Нужен пассив: the law was amended."
+    }
+  },
+  {
+    "lemma": "amendment",
+    "pos": "noun",
+    "definitionEn": "a change or addition to a law, contract or official document",
+    "translationsRu": [
+      "поправка",
+      "изменение (в документе)"
+    ],
+    "acceptedAnswers": [
+      "amendment"
+    ],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about an official change added to a law, constitution or contract after a vote or agreement.",
+    "examples": [
+      {
+        "text": "The opposition proposed an [[amendment]] that would protect small shops from the new tax.",
+        "distractors": [
+          "apology",
+          "election",
+          "interview"
+        ],
+        "alternatives": [
+          "addition",
+          "exemption",
+          "alternative"
+        ]
+      },
+      {
+        "text": "Any [[amendments]] to this contract must be agreed in writing by both parties.",
+        "distractors": [
+          "copies",
+          "signatures",
+          "witnesses"
+        ],
+        "alternatives": [
+          "changes",
+          "additions",
+          "alterations",
+          "modifications"
+        ]
+      },
+      {
+        "text": "The editor accepted the article after I made a few minor [[amendments]] to the conclusion.",
+        "distractors": [
+          "complaints",
+          "reservations",
+          "compliments"
+        ],
+        "alternatives": [
+          "changes",
+          "corrections",
+          "revisions",
+          "edits",
+          "alterations"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The [[amendment]] was passed by a narrow majority.",
+        "Freedom of speech is protected by the First [[Amendment]] in the United States.",
+        "The tenant asked for an [[amendment]] allowing her to keep a cat."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "propose an [[amendment]]",
+      "pass an [[amendment]]",
+      "an [[amendment]] to the law",
+      "a constitutional [[amendment]]",
+      "minor [[amendments]]"
+    ],
+    "badCollocation": {
+      "text": "an [[amendment]] for the law",
+      "noteRu": "Поправка к закону — an amendment to the law, а не for the law."
+    },
+    "collocationTask": {
+      "prompt": "a constitutional ___",
+      "answer": "amendment",
+      "distractors": [
+        "correction",
+        "repair",
+        "patch"
+      ],
+      "explanationRu": "Поправка к конституции — a constitutional amendment. Correction — исправление ошибки, repair — ремонт, patch — «заплатка»; с constitutional так не говорят."
+    },
+    "nuance": {
+      "rival": "amends",
+      "text": "The council voted to add an [[amendment]] banning cars from the old town.",
+      "rivalForm": "amends",
+      "explanationRu": "Amendment — поправка к закону или документу. Amends (make amends) — «загладить вину», это совсем другое слово.",
+      "reverse": {
+        "text": "He bought her flowers to make [[amends]] for forgetting her birthday.",
+        "targetForm": "amendment",
+        "explanationRu": "Загладить вину — make amends for something. Amendment — поправка к тексту, к извинениям отношения не имеет."
+      }
+    },
+    "fixIt": {
+      "text": "The union asked for two [[corrections]] to the contract guaranteeing paid overtime.",
+      "answer": [
+        "amendments"
+      ],
+      "explanationRu": "Correction — исправление ошибки. Поправки, которые меняют условия договора, — amendments."
+    },
+    "wordFormation": {
+      "base": "amend",
+      "text": "The senator's [[amendment]] would raise the minimum wage for farm workers.",
+      "answer": [
+        "amendment"
+      ]
+    },
+    "reply": {
+      "context": "In a meeting, your boss asks: \"The client has read our proposal. Any news?\"",
+      "options": [
+        "They like it overall, but they've asked for a couple of amendments to the budget section.",
+        "They loved it so much that they sent us an amendment of flowers.",
+        "Affirmative. Amendments have been requested pertaining to the budgetary provisions thereof."
+      ],
+      "answer": 0,
+      "explanationRu": "Amendments — поправки, изменения в документе. «Поправка из цветов» — бессмыслица, а третий ответ звучит как юридическая справка, а не ответ начальнику."
+    }
+  },
+  {
+    "lemma": "amid",
+    "pos": "preposition",
+    "definitionEn": "during or surrounded by, especially a difficult or noisy situation",
+    "translationsRu": [
+      "среди",
+      "на фоне",
+      "в разгар"
+    ],
+    "acceptedAnswers": [
+      "amid",
+      "amidst"
+    ],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Reporting that something happened while there was noise, tension, crisis or strong public feeling around it.",
+    "examples": [
+      {
+        "text": "The company's shares fell sharply [[amid]] fears of a global recession.",
+        "distractors": [
+          "despite",
+          "without",
+          "beyond"
+        ],
+        "alternatives": [
+          "on",
+          "over",
+          "because of",
+          "due to"
+        ]
+      },
+      {
+        "text": "She managed to finish her essay [[amid]] the noise of builders drilling next door.",
+        "distractors": [
+          "towards",
+          "without",
+          "beyond"
+        ],
+        "alternatives": [
+          "despite",
+          "in spite of"
+        ]
+      },
+      {
+        "text": "The team celebrated [[amid]] cheering crowds as the bus drove through the city.",
+        "distractors": [
+          "against",
+          "upon",
+          "beneath"
+        ],
+        "alternatives": [
+          "among",
+          "amongst"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The minister resigned [[amid]] growing criticism of her decisions.",
+        "Flights were cancelled [[amid]] concerns about the approaching storm.",
+        "The talks ended [[amid]] angry scenes outside the building."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[amid]] fears of",
+      "[[amid]] growing concern",
+      "[[amid]] rumours that",
+      "[[amid]] the chaos",
+      "[[amid]] calls for"
+    ],
+    "badCollocation": {
+      "text": "[[amid]] my friends",
+      "noteRu": "«Среди друзей» — among my friends. Amid обычно ставят перед шумом, событиями и настроениями: amid the chaos, amid fears."
+    },
+    "collocationTask": {
+      "prompt": "Prices rose ___ fears of a poor harvest.",
+      "answer": "amid",
+      "distractors": [
+        "between",
+        "inside",
+        "across"
+      ],
+      "explanationRu": "Amid fears of — «на фоне опасений». Between — «между двумя», inside — «внутри», across — «через, по всей»; с fears так не говорят."
+    },
+    "nuance": {
+      "rival": "among",
+      "text": "The festival went ahead [[amid]] heavy rain and strong winds.",
+      "rivalForm": "among",
+      "explanationRu": "Amid — «среди, на фоне» шума, погоды, событий и настроений. Among — «среди» людей или предметов, которых можно посчитать: among friends, among the trees.",
+      "reverse": {
+        "text": "The prize money was shared [[among]] the five winners.",
+        "targetForm": "amid",
+        "explanationRu": "Разделить что-то между несколькими людьми — share among them. Amid с людьми, между которыми что-то делят, не употребляют."
+      }
+    },
+    "fixIt": {
+      "text": "Share prices fell [[among]] fears of a new trade war.",
+      "answer": [
+        "amid",
+        "amidst"
+      ],
+      "explanationRu": "Among ставят перед группой людей или предметов. «На фоне опасений» — amid fears."
+    },
+    "rewrite": {
+      "original": "The festival was cancelled because people were worried about safety.",
+      "frame": "The festival was cancelled ____ safety concerns.",
+      "accepted": [
+        "amid",
+        "amidst"
+      ],
+      "explanationRu": "Amid concerns — «на фоне опасений», типичный оборот новостей."
+    }
+  },
+  {
+    "lemma": "analogy",
+    "pos": "noun",
+    "definitionEn": "a comparison that explains one thing by showing how it resembles another",
+    "translationsRu": [
+      "аналогия",
+      "сравнение",
+      "сопоставление"
+    ],
+    "acceptedAnswers": [
+      "analogy"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Explaining a difficult idea by comparing it to something simpler that works in a similar way.",
+    "examples": [
+      {
+        "text": "Our teacher used the [[analogy]] of a busy motorway to explain how blood flows through arteries.",
+        "distractors": [
+          "argument",
+          "definition",
+          "summary"
+        ],
+        "alternatives": [
+          "example",
+          "image",
+          "comparison",
+          "metaphor",
+          "picture"
+        ]
+      },
+      {
+        "text": "Comparing a start-up to a family is a weak [[analogy]], because employees can be fired.",
+        "distractors": [
+          "contrast",
+          "excuse",
+          "habit"
+        ],
+        "alternatives": [
+          "comparison",
+          "argument",
+          "metaphor",
+          "parallel"
+        ]
+      },
+      {
+        "text": "Journalists often draw an [[analogy]] between the current crisis and the economic collapse of 1929.",
+        "distractors": [
+          "outline",
+          "arrow",
+          "audience"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The author uses a cooking [[analogy]] to explain how computer programs work.",
+        "By [[analogy]] with other planets, scientists expect to find water there.",
+        "I don't think your football [[analogy]] really works for a business meeting."
+      ],
+      "alternatives": [
+        "comparison"
+      ]
+    },
+    "collocations": [
+      "draw an [[analogy]] between",
+      "a useful [[analogy]]",
+      "by [[analogy]] with",
+      "a false [[analogy]]",
+      "use an [[analogy]]"
+    ],
+    "badCollocation": {
+      "text": "a cheaper [[analogy]] of the medicine",
+      "noteRu": "«Дешёвый аналог лекарства» — a cheaper equivalent (или analogue). Analogy — сравнение для объяснения, а не похожий товар."
+    },
+    "collocationTask": {
+      "prompt": "___ an analogy between two things",
+      "answer": "draw",
+      "distractors": [
+        "pull",
+        "do",
+        "put"
+      ],
+      "explanationRu": "Провести аналогию — draw (или make) an analogy. Pull, do и put с analogy не сочетаются."
+    },
+    "nuance": {
+      "rival": "similarity",
+      "text": "The lecturer used an [[analogy]] to explain the idea: the brain as a busy airport.",
+      "rivalForm": "similarity",
+      "explanationRu": "Analogy — сравнение, которое мы специально используем, чтобы объяснить мысль. Similarity — просто сходство между вещами; «использовать сходство для объяснения» так не говорят.",
+      "reverse": {
+        "text": "There is a striking [[similarity]] between the two sisters' voices.",
+        "targetForm": "analogy",
+        "explanationRu": "Сходство голосов — similarity. Analogy — не само сходство, а сравнение, которое кто-то проводит, чтобы что-то объяснить."
+      }
+    },
+    "fixIt": {
+      "text": "The professor drew an interesting [[analogue]] between memory and a library.",
+      "answer": [
+        "analogy"
+      ],
+      "explanationRu": "Analogue — «аналог», похожий предмет или продукт. Провести сравнение для объяснения — draw an analogy."
+    },
+    "wordFormation": {
+      "base": "analogy",
+      "text": "The situation is [[analogous]] to a traffic jam: everyone moves slowly because everyone else does.",
+      "answer": [
+        "analogous"
+      ]
+    },
+    "reply": {
+      "context": "A friend who is learning to code says: \"I still don't understand what a database actually is.\"",
+      "options": [
+        "Here's an analogy: think of it as a huge, well-organised filing cabinet.",
+        "An analogy is when a database stores your passwords.",
+        "Allow me to furnish you with an illustrative analogy of considerable sophistication."
+      ],
+      "answer": 0,
+      "explanationRu": "Analogy — сравнение, которое помогает понять сложное через простое. Во втором ответе слово объяснено неверно, а третий звучит слишком напыщенно для разговора с другом."
+    }
+  },
+  {
+    "lemma": "anchor",
+    "pos": "verb",
+    "definitionEn": "to base something firmly on facts, experience or a fixed point",
+    "translationsRu": [
+      "основывать (на чём-то)",
+      "закреплять",
+      "привязывать (к чему-то)"
+    ],
+    "acceptedAnswers": [
+      "anchor"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «прочно опираться, основываться на чём-то» (be anchored in facts); морское «бросать якорь» — базовое значение.",
+    "situation": "Saying that an idea, story, plan or price is firmly based on or tied to something solid.",
+    "examples": [
+      {
+        "text": "Although it contains magic, the novel is [[anchored]] in real events from the 1930s.",
+        "distractors": [
+          "dressed",
+          "drowned",
+          "lost"
+        ],
+        "alternatives": [
+          "rooted",
+          "grounded",
+          "based"
+        ]
+      },
+      {
+        "text": "A good presentation [[anchors]] every claim in clear evidence from real customers.",
+        "distractors": [
+          "hides",
+          "loses",
+          "denies"
+        ],
+        "alternatives": [
+          "grounds",
+          "roots"
+        ]
+      },
+      {
+        "text": "The central bank has [[anchored]] the currency to the US dollar to keep prices stable.",
+        "distractors": [
+          "compared",
+          "sold",
+          "lent"
+        ],
+        "alternatives": [
+          "pegged",
+          "tied",
+          "linked",
+          "fixed"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her confidence is [[anchored]] in years of hard practice.",
+        "The film's fantasy world feels [[anchored]] in everyday family life.",
+        "Every decision we make is [[anchored]] in the needs of our patients."
+      ],
+      "alternatives": [
+        "rooted",
+        "grounded"
+      ]
+    },
+    "collocations": [
+      "be [[anchored]] in reality",
+      "firmly [[anchored]]",
+      "[[anchor]] something in evidence",
+      "[[anchored]] to the dollar",
+      "[[anchor]] expectations"
+    ],
+    "badCollocation": {
+      "text": "[[anchor]] the material after a lesson",
+      "noteRu": "«Закрепить пройденный материал» — consolidate или reinforce what you've learned. Anchor в этом учебном смысле не употребляют."
+    },
+    "collocationTask": {
+      "prompt": "firmly ___ in reality",
+      "answer": "anchored",
+      "distractors": [
+        "fastened",
+        "nailed",
+        "glued"
+      ],
+      "explanationRu": "О том, что прочно опирается на факты, говорят firmly anchored (или grounded) in reality. Fastened, nailed и glued — о креплении предметов."
+    },
+    "nuance": {
+      "rival": "attach",
+      "text": "Good policy should be [[anchored]] in evidence, not in guesswork.",
+      "rivalForm": "attached",
+      "explanationRu": "Anchored in evidence — «опирается на факты». Attach — «прикреплять» предмет или «привязаться» к человеку; attached in evidence не говорят.",
+      "reverse": {
+        "text": "I've become very [[attached]] to my old car.",
+        "targetForm": "anchored",
+        "explanationRu": "Эмоционально привязаться — become attached to. Anchored говорит об опоре и основании, а не о чувствах."
+      }
+    },
+    "fixIt": {
+      "text": "His arguments are always [[fixed]] in solid data, which makes them hard to dismiss.",
+      "answer": [
+        "anchored"
+      ],
+      "explanationRu": "Fixed — «закреплённый, неподвижный». Опираться на данные — be anchored in data."
+    }
+  },
+  {
+    "lemma": "anonymous",
+    "pos": "adjective",
+    "definitionEn": "with a name that is not known or not made public",
+    "translationsRu": [
+      "анонимный",
+      "неизвестный",
+      "безымянный"
+    ],
+    "acceptedAnswers": [
+      "anonymous"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «анонимный, неназванный»; значение «безликий, невыразительный» (an anonymous hotel room) не тренируем.",
+    "situation": "Describing a person, letter, gift or comment when nobody knows or reveals who it came from.",
+    "examples": [
+      {
+        "text": "The letter was [[anonymous]], so the police had no idea who had sent it.",
+        "distractors": [
+          "official",
+          "urgent",
+          "handwritten"
+        ],
+        "alternatives": [
+          "unsigned"
+        ]
+      },
+      {
+        "text": "The staff survey is completely [[anonymous]], so be honest about your manager.",
+        "distractors": [
+          "compulsory",
+          "public",
+          "optional"
+        ],
+        "alternatives": [
+          "confidential"
+        ]
+      },
+      {
+        "text": "Some people post cruel comments online because they feel safe being [[anonymous]].",
+        "distractors": [
+          "famous",
+          "visible",
+          "polite"
+        ],
+        "alternatives": [
+          "unknown",
+          "unidentified",
+          "invisible"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "A generous [[anonymous]] donor paid for the new library.",
+        "The journalist spoke to an [[anonymous]] source inside the ministry.",
+        "Online reviews can be [[anonymous]], so treat them with caution."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "remain [[anonymous]]",
+      "an [[anonymous]] donor",
+      "an [[anonymous]] letter",
+      "an [[anonymous]] source",
+      "an [[anonymous]] survey"
+    ],
+    "badCollocation": {
+      "text": "I'd like to keep [[anonymous]]",
+      "noteRu": "«Остаться анонимным» — remain или stay anonymous. Keep anonymous без дополнения звучит неестественно."
+    },
+    "collocationTask": {
+      "prompt": "The winner has asked to ___ anonymous.",
+      "answer": "remain",
+      "distractors": [
+        "keep",
+        "hold",
+        "save"
+      ],
+      "explanationRu": "Остаться анонимным — remain (или stay) anonymous. Keep, hold и save в этом значении без дополнения не используют."
+    },
+    "nuance": {
+      "rival": "unknown",
+      "text": "The donor asked to stay [[anonymous]], so the charity cannot reveal his name.",
+      "rivalForm": "unknown",
+      "explanationRu": "Anonymous — человек сознательно не называет своё имя. Unknown — «неизвестный, малоизвестный», и попросить «остаться unknown» по-английски так не говорят.",
+      "reverse": {
+        "text": "The film stars a young actor who was completely [[unknown]] until last year.",
+        "targetForm": "anonymous",
+        "explanationRu": "Никому не известный, не знаменитый — unknown. Anonymous значит, что имя скрыто, а не что человек не знаменит."
+      }
+    },
+    "fixIt": {
+      "text": "The police received an [[incognito]] phone call about the stolen paintings.",
+      "answer": [
+        "anonymous"
+      ],
+      "explanationRu": "Incognito — о человеке, который скрывает, кто он (travel incognito). Звонок от неизвестного — an anonymous call."
+    },
+    "wordFormation": {
+      "base": "anonymous",
+      "text": "Journalists must protect the [[anonymity]] of their sources.",
+      "answer": [
+        "anonymity"
+      ]
+    },
+    "reply": {
+      "context": "Your manager says: \"We're running a survey about workload. Will you fill it in?\"",
+      "options": [
+        "Sure, as long as it's anonymous and has my name and photo on it.",
+        "Affirmative, provided that the anonymity of respondents is duly guaranteed.",
+        "Of course. Will it be anonymous? People might be more honest if it is."
+      ],
+      "answer": 2,
+      "explanationRu": "Anonymous — без имени, поэтому анкета «с именем и фото» анонимной не будет. Второй ответ звучит как договор, а не ответ начальнику."
+    },
+    "rewrite": {
+      "original": "The person who gave the money did not want anyone to know her name.",
+      "frame": "The donor wanted to ____.",
+      "accepted": [
+        "remain anonymous",
+        "stay anonymous",
+        "be anonymous"
+      ],
+      "explanationRu": "Remain anonymous — «остаться анонимным»."
+    }
+  }
+]

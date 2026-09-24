@@ -41,6 +41,7 @@ export function startSession(state, lex, { mode, length = 10, today, voice = fal
     results: {},
     requeued: [],
     usage: {},
+    usedEx: {},
     xp: 0,
     graded: 0,
     correct: 0,
@@ -68,6 +69,7 @@ function envFor(state, lex, session, rng) {
     mode: session.mode,
     voice: session.voice,
     usage: session.usage,
+    usedEx: session.usedEx || (session.usedEx = {}),
     config: session.config,
     pool: Object.keys(state.words),
   };

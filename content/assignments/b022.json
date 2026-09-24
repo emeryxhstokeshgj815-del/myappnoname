@@ -1,0 +1,220 @@
+{
+ "batch": "b022",
+ "words": [
+  {
+   "lemma": "mythology",
+   "pos": "noun",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "namely",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "nationwide",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "naval",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "neglect",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun"
+  },
+  {
+   "lemma": "neighbouring",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "nest",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "newsletter",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "niche",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "noble",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "nod",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "nominate",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "nomination",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "nominee",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "non-profit",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "nonetheless",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "nonsense",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "notable",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "notably",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "notify",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "notorious",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "novel",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "novel_2"
+  },
+  {
+   "lemma": "nursery",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "objection",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "oblige",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "obscure",
+   "pos": "verb",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)",
+   "also_c1_as": "adjective"
+  },
+  {
+   "lemma": "obsess",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "obsession",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "occasional",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "occurrence",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "odds",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "offering",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "offspring",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "operational",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "opt",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "optical",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "optimism",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "oral",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "organizational",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "batch": "b012",
+ "words": [
+  {
+   "lemma": "durable",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "dynamic",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "dynamic_2"
+  },
+  {
+   "lemma": "eager",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "earnings",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "ease",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "verb",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "eccentric",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "echo",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun"
+  },
+  {
+   "lemma": "ecological",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "educator",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "effectiveness",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "efficiency",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "ego",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "elaborate",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "electoral",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "elevate",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "elevation",
+   "pos": "noun",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "eligible",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "elite",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "elite_2",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "elusive",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "embark",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "embarrassment",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "embassy",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "embed",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "embody",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "emergence",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "empirical",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "empower",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "enact",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "encompass",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "encouragement",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "encouraging",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "endeavour",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "endless",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "endorse",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "endorsement",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "endure",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "enforce",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "enforcement",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "engagement",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  }
+ ]
+}

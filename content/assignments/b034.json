@@ -1,0 +1,222 @@
+{
+ "batch": "b034",
+ "words": [
+  {
+   "lemma": "trauma",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "treaty",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "tremendous",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "tribal",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "tribunal",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "tribute",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "trigger",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "trigger_2",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "trio",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "triumph",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "trophy",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "troubled",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "trustee",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "tuition",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "tune",
+   "pos": "verb",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "turmoil",
+   "pos": "noun",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "turnout",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "turnover",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "twist",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "unconventional",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "unconvincing",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "undergraduate",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "underlying",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "undermine",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "undoubtedly",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "uneventful",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "unify",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "unprecedented",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "unveil",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "upcoming",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "upgrade",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "uphold",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "utility",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "utilize",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "utterly",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "vacuum",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "vague",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "validity",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "vanish",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "variable",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun",
+   "oxford_homograph_entry": "variable_2"
+  }
+ ]
+}

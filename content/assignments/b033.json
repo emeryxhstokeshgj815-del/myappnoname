@@ -1,0 +1,224 @@
+{
+ "batch": "b033",
+ "words": [
+  {
+   "lemma": "terrain",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "terrific",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "testify",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "testimony",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "texture",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "thankfully",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "theatrical",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "theology",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "theoretical",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "thereafter",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "thereby",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "thought-provoking",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "thoughtful",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "thread",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "threshold",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "thrilled",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "thrive",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "tide",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "tighten",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "timber",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "timely",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "timid",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "tobacco",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "tolerance",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "tolerate",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "toll",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "toss",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "toxic",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "trace",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "trace_2",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "trademark",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "trail",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "verb",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "trailer",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "transaction",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "transcript",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "transformation",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "transit",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "transmission",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "transparency",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "transparent",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  }
+ ]
+}

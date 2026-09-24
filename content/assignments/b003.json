@@ -1,0 +1,226 @@
+{
+ "batch": "b003",
+ "words": [
+  {
+   "lemma": "appreciation",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "arbitrary",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "architectural",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "archive",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "arena",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "arguably",
+   "pos": "adverb",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "arm",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "oxford_homograph_entry": "arm_2",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "array",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "articulate",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "ash",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "aspiration",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "aspire",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "assault",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "verb",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "assemble",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "assembly",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "assert",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "assertion",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "assurance",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "asylum",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "atmospheric",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "attain",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "attendance",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "attorney",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "attribute",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "also_c1_as": "noun",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "audit",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "authentic",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "authorize",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "autonomy",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "availability",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "avid",
+   "pos": "adjective",
+   "c1_label_source": "Octanove C1/C2 profile (word+POS)"
+  },
+  {
+   "lemma": "await",
+   "pos": "verb",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "backdrop",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "backing",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "backup",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "bail",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "ballot",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B2 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "banner",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)"
+  },
+  {
+   "lemma": "bare",
+   "pos": "adjective",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  },
+  {
+   "lemma": "barrel",
+   "pos": "noun",
+   "c1_label_source": "Oxford 5000 (word+POS)",
+   "lower_label_elsewhere": "CEFR-J lists this word+POS at B1 (probably a more basic sense): prefer the advanced sense"
+  }
+ ]
+}

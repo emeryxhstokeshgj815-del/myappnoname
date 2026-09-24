@@ -1,0 +1,1245 @@
+[
+  {
+    "lemma": "aftermath",
+    "pos": "noun",
+    "definitionEn": "the period following a disaster, war or crisis, and the effects it leaves",
+    "translationsRu": [
+      "последствия",
+      "период после (кризиса, катастрофы)"
+    ],
+    "acceptedAnswers": [
+      "aftermath"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing the difficult period that follows a war, disaster or scandal, when people deal with the damage.",
+    "examples": [
+      {
+        "text": "Thousands of volunteers helped to clear the streets in the [[aftermath]] of the hurricane.",
+        "distractors": [
+          "midst",
+          "absence",
+          "outbreak"
+        ],
+        "alternatives": [
+          "wake"
+        ]
+      },
+      {
+        "text": "We spent Sunday morning cleaning up the [[aftermath]] of Saturday's birthday party.",
+        "distractors": [
+          "highlight",
+          "occasion",
+          "theme"
+        ],
+        "alternatives": [
+          "mess"
+        ]
+      },
+      {
+        "text": "The novel follows three families through the chaotic [[aftermath]] of the revolution, when food and work were scarce.",
+        "distractors": [
+          "anniversary",
+          "celebration",
+          "vision"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Food prices rose sharply in the [[aftermath]] of the drought.",
+        "Counsellors visited the school to support pupils in the [[aftermath]] of the fire.",
+        "The coach refused to speak to reporters in the immediate [[aftermath]] of the defeat."
+      ],
+      "alternatives": [
+        "wake"
+      ]
+    },
+    "collocations": [
+      "in the [[aftermath]] of the crisis",
+      "in the immediate [[aftermath]]",
+      "deal with the [[aftermath]]",
+      "the economic [[aftermath]]",
+      "the [[aftermath]] of the war"
+    ],
+    "badCollocation": {
+      "text": "a positive [[aftermath]]",
+      "noteRu": "Aftermath — всегда о тяжёлом периоде после беды. О хороших результатах говорят positive effects или benefits."
+    },
+    "collocationTask": {
+      "prompt": "in the ___ of the storm",
+      "answer": "aftermath",
+      "distractors": [
+        "result",
+        "outcome",
+        "effect"
+      ],
+      "explanationRu": "In the aftermath of — «после бедствия, когда разбираются с его последствиями». Result, outcome и effect в такой рамке не используют: говорят as a result of."
+    },
+    "nuance": {
+      "rival": "consequence",
+      "text": "Many shops stayed closed for weeks in the [[aftermath]] of the floods.",
+      "rivalForm": "consequence",
+      "explanationRu": "Aftermath — период после беды и обстановка в это время. Consequence — отдельное последствие; оборота in the consequence of нет, говорят as a consequence of.",
+      "reverse": {
+        "text": "Higher bus fares are a direct [[consequence]] of the new fuel tax.",
+        "targetForm": "aftermath",
+        "explanationRu": "Конкретный результат решения — a consequence. Aftermath — не отдельное следствие, а тяжёлый период после события."
+      }
+    },
+    "fixIt": {
+      "text": "Hundreds of families were left homeless in the [[result]] of the flood.",
+      "answer": [
+        "aftermath"
+      ],
+      "explanationRu": "In the result of — калька с «в результате». О периоде после бедствия говорят in the aftermath of, а о причине — as a result of."
+    },
+    "reply": {
+      "context": "A colleague messages you: \"How's the office after last week's big move?\"",
+      "options": [
+        "Brilliant! The aftermath was a lovely surprise party for the whole team.",
+        "Still a bit chaotic. We're dealing with the aftermath: boxes everywhere and no Wi-Fi yet.",
+        "The aftermath of the relocation is hereby being processed by the relevant personnel."
+      ],
+      "answer": 1,
+      "explanationRu": "Aftermath — неприятные последствия события, к празднику это слово не подходит. Третий вариант звучит как казённый отчёт, а не ответ коллеге."
+    },
+    "rewrite": {
+      "original": "The town struggled for years after the factory closed down.",
+      "frame": "The town struggled for years in ____ of the factory closure.",
+      "accepted": [
+        "the aftermath"
+      ],
+      "explanationRu": "In the aftermath of — «после тяжёлого события и в его последствиях»."
+    }
+  },
+  {
+    "lemma": "aggression",
+    "pos": "noun",
+    "definitionEn": "angry, hostile behaviour or feelings that may lead to attacking others",
+    "translationsRu": [
+      "агрессия",
+      "враждебность"
+    ],
+    "acceptedAnswers": [
+      "aggression"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing hostile, threatening behaviour in people or animals, such as shouting, pushing or trying to attack.",
+    "examples": [
+      {
+        "text": "Male deer show more [[aggression]] in the mating season, so photographers keep their distance.",
+        "distractors": [
+          "patience",
+          "gentleness",
+          "tolerance"
+        ],
+        "alternatives": [
+          "hostility",
+          "aggressiveness"
+        ]
+      },
+      {
+        "text": "The manager's constant [[aggression]] in meetings made junior staff afraid to share ideas.",
+        "distractors": [
+          "modesty",
+          "optimism",
+          "generosity"
+        ],
+        "alternatives": [
+          "hostility",
+          "rudeness",
+          "anger"
+        ]
+      },
+      {
+        "text": "Researchers tested whether violent video games make teenagers more prone to [[aggression]].",
+        "distractors": [
+          "gratitude",
+          "charity",
+          "honesty"
+        ],
+        "alternatives": [
+          "violence",
+          "anger",
+          "hostility"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Shouting at children can teach them [[aggression]] instead of respect.",
+        "Boxing helps him channel his [[aggression]] into something useful.",
+        "The treaty was meant to prevent further [[aggression]] between the two states."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "an act of [[aggression]]",
+      "verbal [[aggression]]",
+      "signs of [[aggression]]",
+      "channel your [[aggression]]",
+      "unprovoked [[aggression]]"
+    ],
+    "badCollocation": {
+      "text": "I have [[aggression]] today",
+      "noteRu": "О своём настроении так не говорят. Скажите I feel angry или I'm really irritable today."
+    },
+    "collocationTask": {
+      "prompt": "an unprovoked act of ___",
+      "answer": "aggression",
+      "distractors": [
+        "attack",
+        "fight",
+        "offence"
+      ],
+      "explanationRu": "An act of aggression — устойчивое сочетание: враждебный, агрессивный шаг. Attack и fight уже сами обозначают действие, поэтому act of с ними не говорят."
+    },
+    "nuance": {
+      "rival": "violence",
+      "text": "Her emails were polite, but you could sense the hidden [[aggression]] in every line.",
+      "rivalForm": "violence",
+      "explanationRu": "Aggression — враждебный настрой, который может звучать и в словах, и в тоне. Violence — физическое насилие, в вежливом письме его быть не может.",
+      "reverse": {
+        "text": "The film is not suitable for children because of its graphic [[violence]].",
+        "targetForm": "aggression",
+        "explanationRu": "Сцены насилия в кино — graphic violence. Aggression — враждебное поведение или настрой, а не показанное на экране насилие."
+      }
+    },
+    "fixIt": {
+      "text": "Some dogs show [[violence]] towards strangers when they feel threatened.",
+      "answer": [
+        "aggression"
+      ],
+      "explanationRu": "О враждебном поведении животных говорят show aggression. Violence — физическое насилие, show violence в этом смысле не говорят."
+    },
+    "wordFormation": {
+      "base": "aggression",
+      "text": "Witnesses disagreed about which driver had been the [[aggressor]] in the roadside argument.",
+      "answer": [
+        "aggressor"
+      ]
+    },
+    "reply": {
+      "context": "A friend tells you: \"My neighbour's dog growls and shows its teeth every time I walk past.\"",
+      "options": [
+        "How sweet! It must feel a lot of aggression for you already.",
+        "One is advised to report such canine aggression to the relevant authority forthwith.",
+        "That sounds like real aggression. Maybe mention it to the owner before someone gets bitten."
+      ],
+      "answer": 2,
+      "explanationRu": "Aggression — враждебность, а не нежность, поэтому первый ответ не подходит. Второй звучит как официальное предписание, а не ответ другу."
+    }
+  },
+  {
+    "lemma": "agreeable",
+    "pos": "adjective",
+    "definitionEn": "pleasant and enjoyable, or friendly and easy to like",
+    "translationsRu": [
+      "приятный",
+      "приятный в общении",
+      "милый"
+    ],
+    "acceptedAnswers": [
+      "agreeable"
+    ],
+    "register": "formal",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — «приятный»; значение «согласный на что-то» (if you are agreeable) встречается реже.",
+    "situation": "Describing a pleasant evening, place or person that is easy to enjoy and causes no trouble.",
+    "examples": [
+      {
+        "text": "We spent a truly [[agreeable]] evening on the terrace, chatting, laughing and watching the sunset.",
+        "distractors": [
+          "miserable",
+          "tedious",
+          "stressful"
+        ],
+        "alternatives": [
+          "pleasant",
+          "enjoyable",
+          "lovely",
+          "delightful",
+          "wonderful"
+        ]
+      },
+      {
+        "text": "My new flatmate is very [[agreeable]]: easy-going, tidy and always ready to help.",
+        "distractors": [
+          "arrogant",
+          "hostile",
+          "selfish"
+        ],
+        "alternatives": [
+          "pleasant",
+          "likeable",
+          "nice",
+          "friendly"
+        ]
+      },
+      {
+        "text": "The climate on the coast is [[agreeable]] all year, never too hot or too cold.",
+        "distractors": [
+          "unbearable",
+          "extreme",
+          "oppressive"
+        ],
+        "alternatives": [
+          "pleasant",
+          "mild",
+          "comfortable",
+          "lovely"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The weather stayed [[agreeable]] for the whole of our holiday.",
+        "She found her new colleagues [[agreeable]] and easy to work with.",
+        "The soup had a rich, [[agreeable]] flavour of roasted peppers."
+      ],
+      "alternatives": [
+        "pleasant",
+        "lovely"
+      ]
+    },
+    "collocations": [
+      "an [[agreeable]] surprise",
+      "[[agreeable]] company",
+      "an [[agreeable]] evening",
+      "perfectly [[agreeable]]",
+      "[[agreeable]] weather"
+    ],
+    "badCollocation": {
+      "text": "I am [[agreeable]] with you",
+      "noteRu": "«Я с вами согласен» — I agree with you. Agreeable значит «приятный», и I'm agreeable with you звучит странно."
+    },
+    "collocationTask": {
+      "prompt": "an ___ surprise",
+      "answer": "agreeable",
+      "distractors": [
+        "amiable",
+        "affable",
+        "obliging"
+      ],
+      "explanationRu": "Agreeable описывает и людей, и события: an agreeable surprise. Amiable, affable и obliging говорят только о людях — о приветливом и услужливом характере."
+    },
+    "nuance": {
+      "rival": "likeable",
+      "text": "The spa has a calm, [[agreeable]] atmosphere and a lovely view of the lake.",
+      "rivalForm": "likeable",
+      "explanationRu": "Agreeable описывает и людей, и обстановку, погоду, вкус. Likeable — только о людях или героях, которые вызывают симпатию; likeable atmosphere не говорят."
+    },
+    "fixIt": {
+      "text": "The hotel stood on a quiet, [[sympathetic]] square full of cafés and flower stalls.",
+      "answer": [
+        "agreeable"
+      ],
+      "explanationRu": "Sympathetic — «сочувствующий», а не «симпатичный». Приятное, уютное место описывают словом agreeable."
+    },
+    "wordFormation": {
+      "base": "agree",
+      "text": "Despite the rain, the walk along the cliffs turned out to be surprisingly [[agreeable]].",
+      "answer": [
+        "agreeable"
+      ]
+    }
+  },
+  {
+    "lemma": "agricultural",
+    "pos": "adjective",
+    "definitionEn": "connected with farming, growing crops or raising animals",
+    "translationsRu": [
+      "сельскохозяйственный",
+      "аграрный"
+    ],
+    "acceptedAnswers": [
+      "agricultural"
+    ],
+    "register": "neutral",
+    "topic": "world",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing land, machinery, jobs or policies that have to do with growing crops and keeping animals.",
+    "examples": [
+      {
+        "text": "Much of the forest was cleared to create new [[agricultural]] land for cattle and soya.",
+        "distractors": [
+          "residential",
+          "commercial",
+          "recreational"
+        ],
+        "alternatives": [
+          "farming"
+        ]
+      },
+      {
+        "text": "The region's economy is mainly [[agricultural]], with most families growing olives or grapes.",
+        "distractors": [
+          "industrial",
+          "digital",
+          "financial"
+        ],
+        "alternatives": [
+          "agrarian",
+          "rural"
+        ]
+      },
+      {
+        "text": "Students of [[agricultural]] science learn how soil, water and weather affect crops.",
+        "distractors": [
+          "political",
+          "social",
+          "military"
+        ],
+        "alternatives": [
+          "crop",
+          "soil",
+          "plant"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Heavy rain destroyed large areas of [[agricultural]] land this spring.",
+        "Tractors and other [[agricultural]] machinery are expensive to repair.",
+        "The country exports mostly [[agricultural]] products such as wheat and sugar."
+      ],
+      "alternatives": [
+        "farm"
+      ]
+    },
+    "collocations": [
+      "[[agricultural]] land",
+      "[[agricultural]] products",
+      "[[agricultural]] machinery",
+      "[[agricultural]] policy",
+      "an [[agricultural]] region"
+    ],
+    "badCollocation": {
+      "text": "work in [[agricultural]]",
+      "noteRu": "Agricultural — прилагательное. «Работать в сельском хозяйстве» — work in agriculture или work on a farm."
+    },
+    "collocationTask": {
+      "prompt": "___ machinery",
+      "answer": "agricultural",
+      "distractors": [
+        "rural",
+        "country",
+        "village"
+      ],
+      "explanationRu": "Техника для полей — agricultural machinery. Rural, country и village описывают сельскую местность и жизнь, а не технику."
+    },
+    "nuance": {
+      "rival": "rural",
+      "text": "Rising fuel prices have hit [[agricultural]] exports such as grain and sunflower oil.",
+      "rivalForm": "rural",
+      "explanationRu": "Agricultural — связанный с сельским хозяйством: продукция, техника, земля. Rural — связанный с сельской местностью (rural areas, rural life); rural exports не говорят.",
+      "reverse": {
+        "text": "Buses in [[rural]] Scotland can run as rarely as twice a day.",
+        "targetForm": "agricultural",
+        "explanationRu": "Rural Scotland — сельская глубинка Шотландии. Agricultural относится к фермерству, а не к местности."
+      }
+    },
+    "fixIt": {
+      "text": "The factory produces tractors and other [[rural]] machinery for export.",
+      "answer": [
+        "agricultural"
+      ],
+      "explanationRu": "Rural — «сельский» о местности и жизни. Техника для полей — agricultural machinery."
+    },
+    "wordFormation": {
+      "base": "agriculture",
+      "text": "Nearly half of the country's [[agricultural]] output comes from small family farms.",
+      "answer": [
+        "agricultural"
+      ]
+    }
+  },
+  {
+    "lemma": "aide",
+    "pos": "noun",
+    "definitionEn": "a person who assists a senior official or politician in their work",
+    "translationsRu": [
+      "помощник",
+      "советник",
+      "референт"
+    ],
+    "acceptedAnswers": [
+      "aide"
+    ],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about the assistants who work closely with a president, minister or other senior official.",
+    "examples": [
+      {
+        "text": "The president arrived with two [[aides]] who carried his papers and managed his schedule.",
+        "distractors": [
+          "rivals",
+          "critics",
+          "opponents"
+        ],
+        "alternatives": [
+          "assistants",
+          "advisers",
+          "staffers",
+          "secretaries",
+          "helpers"
+        ]
+      },
+      {
+        "text": "A former [[aide]] has written a revealing book about life inside the mayor's office.",
+        "distractors": [
+          "outsider",
+          "stranger",
+          "visitor"
+        ],
+        "alternatives": [
+          "adviser",
+          "assistant",
+          "staffer",
+          "employee",
+          "insider"
+        ]
+      },
+      {
+        "text": "Her grandmother has a home-care [[aide]] who visits every morning to help her wash and dress.",
+        "distractors": [
+          "inspector",
+          "salesman",
+          "consultant"
+        ],
+        "alternatives": [
+          "worker",
+          "assistant",
+          "nurse"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The senator's [[aides]] worked through the night to finish the speech.",
+        "Two presidential [[aides]] were questioned about the missing documents.",
+        "Nursing [[aides]] help patients eat, wash and move around the ward."
+      ],
+      "alternatives": [
+        "assistants"
+      ]
+    },
+    "collocations": [
+      "a senior [[aide]]",
+      "a close [[aide]]",
+      "a former [[aide]]",
+      "a presidential [[aide]]",
+      "an [[aide]] to the minister"
+    ],
+    "badCollocation": {
+      "text": "humanitarian [[aide]]",
+      "noteRu": "Aide — человек-помощник. Помощь как ресурс — aid: humanitarian aid, first aid."
+    },
+    "collocationTask": {
+      "prompt": "a senior ___ to the president",
+      "answer": "aide",
+      "distractors": [
+        "aid",
+        "helper",
+        "worker"
+      ],
+      "explanationRu": "Помощника политика называют aide. Aid — это помощь, а не человек; helper и worker звучат слишком просто для такой должности."
+    },
+    "nuance": {
+      "rival": "aid",
+      "text": "A former [[aide]] to the governor has agreed to give evidence in court.",
+      "rivalForm": "aid",
+      "explanationRu": "Aide — человек, помощник чиновника или политика. Aid — помощь (деньги, еда, лекарства), человеком быть не может.",
+      "reverse": {
+        "text": "The charity sends medical [[aid]] to areas hit by floods.",
+        "targetForm": "aide",
+        "explanationRu": "Медицинская или гуманитарная помощь — aid. Aide — человек-помощник, а не ресурс."
+      }
+    },
+    "fixIt": {
+      "text": "A senior [[helper]] to the mayor was dismissed for leaking confidential documents.",
+      "answer": [
+        "aide"
+      ],
+      "explanationRu": "Helper — просто «тот, кто помогает». Помощник мэра или министра — aide."
+    }
+  },
+  {
+    "lemma": "albeit",
+    "pos": "conjunction",
+    "definitionEn": "used to add a fact that limits what was just said; although",
+    "translationsRu": [
+      "хотя",
+      "хоть и",
+      "пусть и"
+    ],
+    "acceptedAnswers": [
+      "albeit"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Adding a small contrast or limitation to a statement, usually in formal writing, before an adjective or short phrase.",
+    "examples": [
+      {
+        "text": "The project was a success, [[albeit]] a rather expensive one.",
+        "distractors": [
+          "namely",
+          "moreover",
+          "therefore"
+        ],
+        "alternatives": [
+          "although",
+          "though",
+          "but",
+          "if",
+          "yet"
+        ]
+      },
+      {
+        "text": "The economy is growing again, [[albeit]] more slowly than the government had hoped.",
+        "distractors": [
+          "hence",
+          "thus",
+          "consequently"
+        ],
+        "alternatives": [
+          "although",
+          "though",
+          "but",
+          "if",
+          "even if"
+        ]
+      },
+      {
+        "text": "After a long discussion, my father agreed to lend us the car, [[albeit]] rather reluctantly.",
+        "distractors": [
+          "therefore",
+          "hence",
+          "likewise"
+        ],
+        "alternatives": [
+          "although",
+          "though",
+          "but",
+          "if"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The hotel was comfortable, [[albeit]] a little far from the beach.",
+        "He apologised, [[albeit]] only after his manager insisted.",
+        "The band's new album is enjoyable, [[albeit]] less original than their first."
+      ],
+      "alternatives": [
+        "although",
+        "though"
+      ]
+    },
+    "collocations": [
+      "[[albeit]] slowly",
+      "[[albeit]] briefly",
+      "[[albeit]] reluctantly",
+      "[[albeit]] on a smaller scale",
+      "[[albeit]] with some reservations"
+    ],
+    "badCollocation": {
+      "text": "[[albeit]] it was raining",
+      "noteRu": "После albeit обычно не ставят целое предложение с подлежащим: albeit slowly, albeit small. С полным предложением — although: although it was raining."
+    },
+    "collocationTask": {
+      "prompt": "she smiled, ___ briefly",
+      "answer": "albeit",
+      "distractors": [
+        "despite",
+        "whereas",
+        "because"
+      ],
+      "explanationRu": "Albeit ставят перед наречием или короткой фразой: albeit briefly. После despite нужно существительное, а после whereas и because — целое предложение."
+    },
+    "nuance": {
+      "rival": "despite",
+      "text": "The team finished third, [[albeit]] with a much smaller budget than its rivals.",
+      "rivalForm": "despite",
+      "explanationRu": "Albeit вводит уступку перед фразой: albeit with a smaller budget. Despite — предлог, после него сразу существительное (despite a smaller budget), с with он не сочетается.",
+      "reverse": {
+        "text": "The match went ahead [[despite]] the heavy rain.",
+        "targetForm": "albeit",
+        "explanationRu": "Перед существительным нужен предлог despite. Albeit не работает как предлог: albeit the heavy rain — ошибка."
+      }
+    },
+    "fixIt": {
+      "text": "The new policy is a step forward, [[despite]] a small one.",
+      "answer": [
+        "albeit"
+      ],
+      "explanationRu": "Despite значит «несмотря на» и здесь бессмысленно. Чтобы добавить оговорку «хоть и небольшой», нужно albeit a small one."
+    },
+    "reply": {
+      "context": "Your manager asks in a meeting: \"So, did the new booking system work over the weekend?\"",
+      "options": [
+        "It did, albeit with a few delays on Saturday morning.",
+        "It did, albeit it crashed and we lost every single booking.",
+        "Albeit, like, it kinda worked, I guess?"
+      ],
+      "answer": 0,
+      "explanationRu": "Albeit добавляет небольшую оговорку перед фразой. Во втором ответе «оговорка» перечёркивает весь смысл, а в третьем albeit стоит не к месту в небрежной разговорной фразе."
+    },
+    "rewrite": {
+      "original": "Sales rose last month, although the rise was very small.",
+      "frame": "Sales rose last month, ____ slightly.",
+      "accepted": [
+        "albeit",
+        "albeit only",
+        "albeit very"
+      ],
+      "explanationRu": "Albeit + наречие: albeit slightly — «хоть и незначительно»."
+    }
+  },
+  {
+    "lemma": "alert",
+    "pos": "adjective",
+    "definitionEn": "quick to notice things and ready to react, especially to danger",
+    "translationsRu": [
+      "бдительный",
+      "внимательный",
+      "настороже"
+    ],
+    "acceptedAnswers": [
+      "alert"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Прилагательное «бдительный, собранный»; существительное alert (сигнал тревоги) здесь не тренируем.",
+    "situation": "Describing someone who is wide awake, watching carefully and ready to notice danger or react quickly.",
+    "examples": [
+      {
+        "text": "Long-distance drivers should take regular breaks to stay [[alert]] at the wheel.",
+        "distractors": [
+          "drowsy",
+          "asleep",
+          "idle"
+        ],
+        "alternatives": [
+          "awake",
+          "focused",
+          "attentive",
+          "sharp",
+          "vigilant"
+        ]
+      },
+      {
+        "text": "Although he is ninety, my grandfather is still mentally [[alert]] and does the crossword every day.",
+        "distractors": [
+          "confused",
+          "frail",
+          "weary"
+        ],
+        "alternatives": [
+          "sharp",
+          "agile",
+          "active"
+        ]
+      },
+      {
+        "text": "Staff have been told to remain [[alert]] to suspicious emails asking for passwords.",
+        "distractors": [
+          "indifferent",
+          "open",
+          "blind"
+        ],
+        "alternatives": [
+          "alive",
+          "attentive"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "A strong coffee keeps me [[alert]] during long afternoon meetings.",
+        "The guard dog was instantly [[alert]] when it heard footsteps.",
+        "Cyclists must stay [[alert]] to cars opening their doors."
+      ],
+      "alternatives": [
+        "attentive"
+      ]
+    },
+    "collocations": [
+      "stay [[alert]]",
+      "mentally [[alert]]",
+      "[[alert]] to the danger",
+      "fully [[alert]]",
+      "keep someone [[alert]]"
+    ],
+    "badCollocation": {
+      "text": "be [[alert]] of the risks",
+      "noteRu": "С alert используют предлог to: alert to the risks. Предлог of сюда по ошибке переносят из aware of."
+    },
+    "collocationTask": {
+      "prompt": "mentally ___",
+      "answer": "alert",
+      "distractors": [
+        "careful",
+        "watchful",
+        "cautious"
+      ],
+      "explanationRu": "Mentally alert — «с ясной головой, сообразительный». Careful, watchful и cautious описывают осторожное поведение, с mentally их не сочетают."
+    },
+    "nuance": {
+      "rival": "careful",
+      "text": "After three espressos, I felt wide awake and [[alert]].",
+      "rivalForm": "careful",
+      "explanationRu": "Alert — «бодрый, собранный, всё замечающий». Careful — «осторожный, аккуратный» в действиях: кофе делает человека бодрым, а не осторожным.",
+      "reverse": {
+        "text": "Be [[careful]] with that pan — the handle is very hot.",
+        "targetForm": "alert",
+        "explanationRu": "Осторожно обращаться с чем-то — be careful with. Alert — про внимание и готовность заметить опасность, а не про аккуратность."
+      }
+    },
+    "fixIt": {
+      "text": "After a sleepless night, I found it hard to stay [[careful]] during the afternoon meeting.",
+      "answer": [
+        "alert"
+      ],
+      "explanationRu": "Careful — «осторожный». Не клевать носом и сохранять ясную голову на встрече — stay alert."
+    },
+    "wordFormation": {
+      "base": "alert",
+      "text": "Lack of sleep reduces your [[alertness]] more than you might think.",
+      "answer": [
+        "alertness"
+      ]
+    },
+    "reply": {
+      "context": "Your flatmate says: \"I've got a job interview at 8 a.m. tomorrow and I'm completely exhausted.\"",
+      "options": [
+        "Great, being that tired will make you nice and alert for it.",
+        "Go to bed early, then. You'll want to be alert when they ask the tricky questions.",
+        "It is imperative that you maintain maximum alertness, my dear colleague."
+      ],
+      "answer": 1,
+      "explanationRu": "Alert — «собранный, с ясной головой», а усталость этому мешает, так что первый ответ нелогичен. Третий звучит как приказ начальника, а не совет соседу."
+    },
+    "rewrite": {
+      "original": "Guards must watch carefully for anything unusual during the night shift.",
+      "frame": "Guards must stay ____ anything unusual during the night shift.",
+      "accepted": [
+        "alert to",
+        "alert for",
+        "on the alert for"
+      ],
+      "explanationRu": "Быть начеку, внимательно следить за чем-то — stay alert to."
+    }
+  },
+  {
+    "lemma": "alien",
+    "pos": "adjective",
+    "definitionEn": "strange, unfamiliar and not part of your normal experience or character",
+    "translationsRu": [
+      "чуждый",
+      "чужой",
+      "непривычный"
+    ],
+    "acceptedAnswers": [
+      "alien"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — «чуждый, непривычный» (alien to someone), а не «инопланетный».",
+    "situation": "Describing an idea, place or way of behaving that feels completely strange and unlike what you know.",
+    "examples": [
+      {
+        "text": "Having grown up in a tiny village, he found city life noisy, crowded and completely [[alien]].",
+        "distractors": [
+          "familiar",
+          "ordinary",
+          "homely"
+        ],
+        "alternatives": [
+          "strange",
+          "foreign",
+          "unfamiliar",
+          "bewildering"
+        ]
+      },
+      {
+        "text": "Lying is so [[alien]] to her nature that she can't even keep a birthday surprise secret.",
+        "distractors": [
+          "central",
+          "close",
+          "essential"
+        ],
+        "alternatives": [
+          "foreign",
+          "contrary"
+        ]
+      },
+      {
+        "text": "Many international students find British humour baffling and totally [[alien]] at first.",
+        "distractors": [
+          "obvious",
+          "intuitive",
+          "transparent"
+        ],
+        "alternatives": [
+          "foreign",
+          "strange",
+          "unfamiliar",
+          "incomprehensible"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Working from home felt [[alien]] to him after twenty years in an office.",
+        "Such rudeness is quite [[alien]] to the local culture.",
+        "Under the red sky, the desert landscape looked [[alien]] and hostile."
+      ],
+      "alternatives": [
+        "foreign"
+      ]
+    },
+    "collocations": [
+      "[[alien]] to someone's nature",
+      "completely [[alien]] to",
+      "an [[alien]] environment",
+      "an [[alien]] culture",
+      "feel [[alien]]"
+    ],
+    "badCollocation": {
+      "text": "an [[alien]] phone",
+      "noteRu": "«Чужой телефон» — someone else's phone. Alien значит «чуждый, непривычный», а не «принадлежащий другому»."
+    },
+    "collocationTask": {
+      "prompt": "Dishonesty was completely ___ to his nature.",
+      "answer": "alien",
+      "distractors": [
+        "odd",
+        "unknown",
+        "distant"
+      ],
+      "explanationRu": "Alien to someone's nature — «совершенно не свойственно». Odd, unknown и distant в сочетании to his nature в этом смысле не употребляют."
+    },
+    "nuance": {
+      "rival": "strange",
+      "text": "Such selfishness is [[alien]] to everything she believes in.",
+      "rivalForm": "strange",
+      "explanationRu": "Alien to — «чуждо чему-то»: убеждениям, характеру, культуре. Strange в такой конструкции не работает: strange to everything she believes in звучит неестественно.",
+      "reverse": {
+        "text": "It's [[strange]] that nobody called to tell us about the delay.",
+        "targetForm": "alien",
+        "explanationRu": "«Странно, что» — it's strange that. Alien описывает что-то чуждое и непривычное, а не удивительный факт."
+      }
+    },
+    "fixIt": {
+      "text": "The strict hierarchy at the bank felt completely [[alienated]] to me at first.",
+      "answer": [
+        "alien"
+      ],
+      "explanationRu": "Alienated описывает человека, который чувствует себя отчуждённым. Непривычные, чуждые правила — alien to me."
+    },
+    "reply": {
+      "context": "A colleague who has just moved from Madrid to Oslo says: \"People here eat dinner at five o'clock. Can you imagine?\"",
+      "options": [
+        "I can't! Eating that early would feel completely alien to me.",
+        "Wow, so Oslo must be full of alien people from Madrid now!",
+        "Indeed, such customs may be regarded as alien by persons of Iberian origin."
+      ],
+      "answer": 0,
+      "explanationRu": "Alien to me — «мне чуждо, непривычно». Во втором ответе alien ошибочно значит «приезжий», а третий звучит как научный отчёт, а не разговор с коллегой."
+    },
+    "rewrite": {
+      "original": "Being late for meetings is completely unlike his character.",
+      "frame": "Being late for meetings is completely ____ his nature.",
+      "accepted": [
+        "alien to"
+      ],
+      "explanationRu": "Alien to someone's nature — «совершенно не свойственно кому-то»."
+    }
+  },
+  {
+    "lemma": "alienate",
+    "pos": "verb",
+    "definitionEn": "to make people feel unfriendly towards you or stop supporting you",
+    "translationsRu": [
+      "отталкивать",
+      "настраивать против себя",
+      "отдалять"
+    ],
+    "acceptedAnswers": [
+      "alienate"
+    ],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "When someone's words or decisions make friends, customers or voters turn away from them.",
+    "examples": [
+      {
+        "text": "The company [[alienated]] loyal customers by suddenly doubling the subscription price.",
+        "distractors": [
+          "attracted",
+          "rewarded",
+          "reassured"
+        ],
+        "alternatives": [
+          "upset",
+          "angered",
+          "annoyed",
+          "lost",
+          "frustrated",
+          "antagonised"
+        ]
+      },
+      {
+        "text": "The party risks [[alienating]] older voters if it cuts pensions.",
+        "distractors": [
+          "reassuring",
+          "delighting",
+          "flattering"
+        ],
+        "alternatives": [
+          "losing",
+          "angering",
+          "upsetting",
+          "antagonising"
+        ]
+      },
+      {
+        "text": "Her habit of correcting everyone's grammar [[alienates]] even her closest friends.",
+        "distractors": [
+          "comforts",
+          "charms",
+          "soothes"
+        ],
+        "alternatives": [
+          "annoys",
+          "irritates",
+          "upsets"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Aggressive pop-up ads can [[alienate]] visitors to your website.",
+        "Try not to [[alienate]] your colleagues during your first week.",
+        "The director didn't want to [[alienate]] fans of the original book."
+      ],
+      "alternatives": [
+        "annoy",
+        "upset",
+        "antagonise"
+      ]
+    },
+    "collocations": [
+      "[[alienate]] voters",
+      "[[alienate]] customers",
+      "risk [[alienating]]",
+      "further [[alienate]]",
+      "[[alienate]] your supporters"
+    ],
+    "badCollocation": {
+      "text": "[[alienate]] from your parents",
+      "noteRu": "Alienate — переходный глагол: alienate someone. «Отдалиться от родителей» — grow apart from или drift away from your parents."
+    },
+    "collocationTask": {
+      "prompt": "risk ___ voters",
+      "answer": "alienating",
+      "distractors": [
+        "distancing",
+        "rejecting",
+        "removing"
+      ],
+      "explanationRu": "Настроить людей против себя — alienate. Distance употребляют как distance yourself from, reject — «отвергать», remove — «убирать»."
+    },
+    "nuance": {
+      "rival": "offend",
+      "text": "Years of broken promises had slowly [[alienated]] the town's residents.",
+      "rivalForm": "offended",
+      "explanationRu": "Alienate — постепенно оттолкнуть людей, лишиться их доверия и поддержки. Offend — задеть, обидеть в конкретный момент; «медленно обидеть» звучит странно.",
+      "reverse": {
+        "text": "I hope I didn't [[offend]] you with that joke about your accent.",
+        "targetForm": "alienate",
+        "explanationRu": "Задеть человека одной шуткой — offend. Alienate — оттолкнуть, отдалить от себя, обычно постепенно или целую группу людей."
+      }
+    },
+    "fixIt": {
+      "text": "The new manager's rudeness quickly [[distanced]] most of the team.",
+      "answer": [
+        "alienated"
+      ],
+      "explanationRu": "Distance обычно употребляют как distance yourself from. Оттолкнуть людей своим поведением — alienate them."
+    },
+    "wordFormation": {
+      "base": "alienate",
+      "text": "Many teenagers go through a period of [[alienation]] from their parents and teachers.",
+      "answer": [
+        "alienation"
+      ]
+    },
+    "reply": {
+      "context": "Your manager asks: \"Should we email our customers five special offers a week?\"",
+      "options": [
+        "I'd be careful. That many emails might alienate people rather than win them back.",
+        "Yes, five a week would alienate them in a good way: they'd feel really valued.",
+        "Such a frequency would inevitably precipitate the alienation of our esteemed clientele."
+      ],
+      "answer": 0,
+      "explanationRu": "Alienate — оттолкнуть, и «в хорошем смысле» оттолкнуть нельзя. Третий ответ звучит напыщенно и канцелярски для обычного обсуждения."
+    },
+    "rewrite": {
+      "original": "The new rules made many long-time members turn against the club.",
+      "frame": "The new rules ____ many long-time members.",
+      "accepted": [
+        "alienated",
+        "have alienated"
+      ],
+      "explanationRu": "Alienate someone — оттолкнуть, настроить против себя."
+    }
+  },
+  {
+    "lemma": "align",
+    "pos": "verb",
+    "definitionEn": "to adjust plans or ideas so that they match or support others",
+    "translationsRu": [
+      "приводить в соответствие",
+      "согласовывать",
+      "увязывать"
+    ],
+    "acceptedAnswers": [
+      "align"
+    ],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «приводить в соответствие, согласовывать», а не буквально «выравнивать в линию».",
+    "situation": "Talking about making plans, goals or rules fit together or match something else, often at work.",
+    "examples": [
+      {
+        "text": "We need to [[align]] our marketing strategy with the company's new sustainability goals.",
+        "distractors": [
+          "confuse",
+          "clutter",
+          "overload"
+        ],
+        "alternatives": [
+          "coordinate",
+          "harmonise",
+          "integrate"
+        ]
+      },
+      {
+        "text": "The new textbooks are [[aligned]] with the national curriculum, so teachers can use them immediately.",
+        "distractors": [
+          "burdened",
+          "crowded",
+          "flooded"
+        ],
+        "alternatives": [
+          "linked",
+          "harmonised",
+          "integrated"
+        ]
+      },
+      {
+        "text": "Before accepting the job, make sure the company's values [[align]] with your own.",
+        "distractors": [
+          "collide",
+          "compete",
+          "interfere"
+        ],
+        "alternatives": [
+          "fit",
+          "coincide",
+          "correspond",
+          "agree"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The central bank tried to [[align]] interest rates with those in neighbouring countries.",
+        "Couples need to [[align]] their expectations before planning a wedding.",
+        "Engineers must [[align]] the software update with the new hardware."
+      ],
+      "alternatives": [
+        "coordinate"
+      ]
+    },
+    "collocations": [
+      "[[align]] something with something",
+      "closely [[aligned]] with",
+      "[[align]] your goals",
+      "[[align]] with the strategy",
+      "[[align]] yourself with"
+    ],
+    "badCollocation": {
+      "text": "[[align]] a meeting with the client",
+      "noteRu": "«Согласовать встречу» — arrange или schedule a meeting. Align — приводить планы и цели в соответствие друг другу."
+    },
+    "collocationTask": {
+      "prompt": "___ your goals with the company's strategy",
+      "answer": "align",
+      "distractors": [
+        "equal",
+        "level",
+        "straighten"
+      ],
+      "explanationRu": "Привести цели в соответствие со стратегией — align them with it. Equal, level и straighten значат «равняться», «выравнивать поверхность», «выпрямлять»."
+    },
+    "nuance": {
+      "rival": "coordinate",
+      "text": "Every project we fund must be [[aligned]] with our mission of reducing plastic waste.",
+      "rivalForm": "coordinated",
+      "explanationRu": "Aligned with our mission — «соответствует миссии». Coordinate — организовать совместные действия людей или отделов; с миссией или ценностями его не сочетают.",
+      "reverse": {
+        "text": "A project manager [[coordinates]] the work of designers, writers and developers.",
+        "targetForm": "aligns",
+        "explanationRu": "Организовать совместную работу людей — coordinate. Align — сверять цели и планы с чем-то, а не руководить работой."
+      }
+    },
+    "fixIt": {
+      "text": "Our sales targets should be [[equalled]] with the company's long-term strategy.",
+      "answer": [
+        "aligned"
+      ],
+      "explanationRu": "Equal — «равняться, сравняться» по величине. Привести цели в соответствие со стратегией — align them with it."
+    },
+    "reply": {
+      "context": "Before a product launch, your boss asks the team: \"Is there anything we still need to check?\"",
+      "options": [
+        "We should align the launch party with some balloons and loud music.",
+        "We should make sure the adverts align with our new brand guidelines.",
+        "Gotta align, like, all the stuff, innit?"
+      ],
+      "answer": 1,
+      "explanationRu": "Align with — «соответствовать»: реклама должна соответствовать фирменному стилю. «Согласовать вечеринку с шарами» — бессмыслица, а третий ответ слишком небрежен для рабочей встречи."
+    },
+    "rewrite": {
+      "original": "Our budget needs to match the goals we set for next year.",
+      "frame": "Our budget needs to ____ the goals we set for next year.",
+      "accepted": [
+        "align with",
+        "be aligned with",
+        "align to",
+        "be aligned to"
+      ],
+      "explanationRu": "Align with — «соответствовать, быть согласованным с»."
+    }
+  }
+]

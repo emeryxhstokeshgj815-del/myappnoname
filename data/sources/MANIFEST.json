@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-09-24T15:06:36+00:00",
+  "sources": [
+    {
+      "id": "efllex",
+      "name": "EFLLex (NLP4J POS) - CEFRLex project, CENTAL UCLouvain",
+      "license": "CC BY-NC-SA 4.0",
+      "citation": "Dürlich, L. and François, T. (2018). EFLLex: A Graded Lexical Resource for Learners of English as a Foreign Language. LREC 2018, Miyazaki, Japan.",
+      "landing_page": "https://cental.uclouvain.be/cefrlex/efllex/download/",
+      "official_url": "https://cental.uclouvain.be/cefrlex/static/resources/en/EFLLex.tsv",
+      "downloaded_from": "https://raw.githubusercontent.com/mo1ein/BeforePlay/edcdd9df3c0356f139fb9ed4110167fcde8fc461/EFLLex.tsv",
+      "retrieved_at": "2026-09-24T15:06:37+00:00",
+      "bytes": 7155559,
+      "sha256": "d046ce406ce1dbe23292b2d7e0a18e36c6d2f490b7e09edf3173ca8b5f019645",
+      "sha256_matches_independent_record": true,
+      "sha256_record": "https://raw.githubusercontent.com/GliteTech/research-ace-cefr/9bfb46a582dfd8df62e4db0c7e5382594a735d64/tasks/t0010_download_efllex_lexicon/assets/dataset/efllex-2018/files/checksums.json",
+      "unreachable_urls": [
+        "https://cental.uclouvain.be/cefrlex/static/resources/en/EFLLex.tsv: <urlopen error Tunnel connection failed: 403 Forbidden>"
+      ],
+      "path": "data/sources/raw/efllex/EFLLex.tsv"
+    },
+    {
+      "id": "oxford5000_nalgeon",
+      "name": "Oxford 3000/5000 word list with CEFR labels (scraped copy)",
+      "license": "Word list (c) Oxford University Press. Used only to check word+POS CEFR labels; definitions, examples and audio in some mirrors are NOT used.",
+      "official_url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+      "downloaded_from": "https://raw.githubusercontent.com/nalgeon/words/8321a7a12cc56dffc4ef5bc3b69fdc31256a74f7/data/oxford-5k.csv",
+      "retrieved_at": "2026-09-24T15:06:37+00:00",
+      "bytes": 1114693,
+      "sha256": "7ca8ebfb1469724c789294fac8c2a5f9c6bcd6d384eb02d55a03f8fc80485bb7",
+      "path": "data/sources/raw/oxford/nalgeon_oxford-5k.csv"
+    },
+    {
+      "id": "oxford5000_tyypgzl",
+      "name": "Oxford 3000/5000 word list with CEFR labels (scraped copy)",
+      "license": "Word list (c) Oxford University Press. Used only to check word+POS CEFR labels; definitions, examples and audio in some mirrors are NOT used.",
+      "official_url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+      "downloaded_from": "https://raw.githubusercontent.com/tyypgzl/Oxford-5000-words/aac2d2a195f4659c7ec3899252c8b9092ceb41a0/full-word.json",
+      "retrieved_at": "2026-09-24T15:06:38+00:00",
+      "bytes": 7889418,
+      "sha256": "4c61573ad95a83c54ecc9ee7a11d69801e8e28d644ea2c048c07768ed31fb3ed",
+      "path": "data/sources/raw/oxford/tyypgzl_full-word.json"
+    },
+    {
+      "id": "oxford5000_winterdl",
+      "name": "Oxford 3000/5000 word list with CEFR labels (scraped copy)",
+      "license": "Word list (c) Oxford University Press. Used only to check word+POS CEFR labels; definitions, examples and audio in some mirrors are NOT used.",
+      "official_url": "https://www.oxfordlearnersdictionaries.com/wordlists/oxford3000-5000",
+      "downloaded_from": "https://raw.githubusercontent.com/winterdl/oxford-5000-vocabulary-audio-definition/37a976d918b36db66510cfa0b1244de2de7bcf1c/data/oxford_5000.csv",
+      "retrieved_at": "2026-09-24T15:06:38+00:00",
+      "bytes": 1138758,
+      "sha256": "f78571b1e0a01ad5844d3ea03e500d4bfd70d52ace89f825648509e5cc299695",
+      "path": "data/sources/raw/oxford/winterdl_oxford_5000.csv"
+    },
+    {
+      "id": "olp:octanove-vocabulary-profile-c1c2-1.0.csv",
+      "license": "CC BY-SA 4.0 (Octanove Labs)",
+      "downloaded_from": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/octanove-vocabulary-profile-c1c2-1.0.csv",
+      "official_url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "retrieved_at": "2026-09-24T15:06:38+00:00",
+      "bytes": 46462,
+      "sha256": "18c33a407f2f89f7b8de9671c6d45fe3ea0bce45e7d2d7dcaab48d73e0f7b380",
+      "path": "data/sources/raw/olp/octanove-vocabulary-profile-c1c2-1.0.csv"
+    },
+    {
+      "id": "olp:cefrj-vocabulary-profile-1.5.csv",
+      "license": "CEFR-J terms: free for research and commercial use with citation (Tono Laboratory, TUFS)",
+      "downloaded_from": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/cefrj-vocabulary-profile-1.5.csv",
+      "official_url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "retrieved_at": "2026-09-24T15:06:38+00:00",
+      "bytes": 233214,
+      "sha256": "b0dd3c635f1c9a4fdf1490c7e5b7c48e8bbe55b652ad0c9860a95f98e10ae498",
+      "path": "data/sources/raw/olp/cefrj-vocabulary-profile-1.5.csv"
+    },
+    {
+      "id": "olp:README.md",
+      "license": "repository README (terms of use)",
+      "downloaded_from": "https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/d4e45b75b38f27b30dfc5c44d8c571aec7e7092f/README.md",
+      "official_url": "https://github.com/openlanguageprofiles/olp-en-cefrj",
+      "retrieved_at": "2026-09-24T15:06:38+00:00",
+      "bytes": 1956,
+      "sha256": "8b69f7366fa3c7be328cb9ba02ceb7b3725697f36125bb75b85131d664b5e359",
+      "path": "data/sources/raw/olp/README.md"
+    },
+    {
+      "id": "wordnet30",
+      "license": "WordNet 3.0 license (Princeton University), permissive",
+      "downloaded_from": "https://raw.githubusercontent.com/nltk/nltk_data/550b6625bcef1f2abff2ff770a5a0d272c9c6b2a/packages/corpora/wordnet.zip",
+      "retrieved_at": "2026-09-24T15:06:39+00:00",
+      "bytes": 10775600,
+      "sha256": "cbda5ea6eef7f36a97a43d4a75f85e07fccbb4f23657d27b4ccbc93e2646ab59",
+      "path": "data/sources/raw/wordnet/wordnet.zip"
+    }
+  ],
+  "oxford_crosscheck": {
+    "mirrors": [
+      "oxford5000_nalgeon",
+      "oxford5000_tyypgzl",
+      "oxford5000_winterdl"
+    ],
+    "identical_word_pos_level_sets": true,
+    "c1_entries": 1404,
+    "c1_unique_lemmas": 1314,
+    "official_pdf_excerpt": {
+      "checked": 261,
+      "matched": 261,
+      "mismatched": []
+    }
+  }
+}

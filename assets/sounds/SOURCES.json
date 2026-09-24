@@ -1,0 +1,89 @@
+{
+  "pack": "Interface Sounds 1.0 by Kenney (www.kenney.nl)",
+  "license": "CC0 1.0 Universal",
+  "official_pages": [
+    "https://kenney.nl/assets/interface-sounds",
+    "https://opengameart.org/content/interface-sounds"
+  ],
+  "official_archives": [
+    "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+    "https://opengameart.org/sites/default/files/kenney_interfaceSounds.zip"
+  ],
+  "downloaded_from": "https://raw.githubusercontent.com/Calinou/kenney-interface-sounds/4596a49eaf5a533948d49a47467f606bcdea70ff/",
+  "retrieved_at": "2026-09-24T15:19:23+00:00",
+  "license_file_sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+  "fidelity_check": {
+    "pluck_001": {
+      "original_ogg_sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4",
+      "mirror_wav_sha256": "7d676b0b09b56f7e5964ad274feb7e7307a4e552bed8cd98e1e3cecfb9c10c36",
+      "correlation": 0.999969
+    },
+    "pluck_002": {
+      "original_ogg_sha256": "c977fe249ff42d1c93a552b33abc13a8399df3879fa510475426e5c4bbac1da9",
+      "mirror_wav_sha256": "f8ad032b27cb79a66aec1d5994c88167e5fa87ccbb9dbab2f1658f8fcb06413e",
+      "correlation": 1.0
+    }
+  },
+  "files": {
+    "tap": {
+      "original_name": "Audio/select_002.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/select_002.wav",
+      "source_sha256": "9f15b5f93716a3ff8842cff73ef932e81beac2d19972066f690154c1f9322f2b",
+      "output": "assets/sounds/tap.wav",
+      "output_sha256": "11eae6a6b1fb448d9b24cc20019b1f1afc26d689e8f1cb6e4005ec0c4ba14c7d",
+      "sample_rate": 44100,
+      "duration_ms": 45,
+      "bytes": 4000
+    },
+    "correct": {
+      "original_name": "Audio/confirmation_001.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/confirmation_001.wav",
+      "source_sha256": "f9d0ef5a5c740c2ac250ac3876db9e4340669044a5bf78ae09192918db3e2ebc",
+      "output": "assets/sounds/correct.wav",
+      "output_sha256": "fabcfb727afbe78b1010d9c5ede557e62b5e4cafd02cbfeb71b4c48a08a0a535",
+      "sample_rate": 44100,
+      "duration_ms": 287,
+      "bytes": 25362
+    },
+    "incorrect": {
+      "original_name": "Audio/question_004.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/question_004.wav",
+      "source_sha256": "88ebbd044bbaf716003ec4fea8314027d6d409cf6700b19fe553b48c9e88e2c1",
+      "output": "assets/sounds/incorrect.wav",
+      "output_sha256": "f88ae29d73c0c33e0f0e4537477368aa3fbdba82a5e8ca66b1abc0e55651de3f",
+      "sample_rate": 44100,
+      "duration_ms": 328,
+      "bytes": 28934
+    },
+    "complete": {
+      "original_name": "Audio/confirmation_004.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/confirmation_004.wav",
+      "source_sha256": "b96886d049331b30203658b72278572cd9078d25ab9a88aedf872d0383a40d8c",
+      "output": "assets/sounds/complete.wav",
+      "output_sha256": "c70e75326e8d739c59ab2561d7aa876863a852404314d5a59a3856efd9760841",
+      "sample_rate": 44100,
+      "duration_ms": 484,
+      "bytes": 42742
+    },
+    "achievement": {
+      "original_name": "Audio/confirmation_002.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/confirmation_002.wav",
+      "source_sha256": "b23339f3fdcd9f54520ca73caa3a9ae93ecfb3675acdaf1468990feb5d55d5fa",
+      "output": "assets/sounds/achievement.wav",
+      "output_sha256": "81da3af67ba6c79780d7aecf3e883c13860d02528e4bfac90c3067e538e3ef94",
+      "sample_rate": 44100,
+      "duration_ms": 526,
+      "bytes": 46468
+    },
+    "levelup": {
+      "original_name": "Audio/confirmation_003.ogg",
+      "mirror_file": "addons/kenney_interface_sounds/confirmation_003.wav",
+      "source_sha256": "d9b3719731a409c8109c5a049aceffbff9ff6c0ffe074a02fe52664393139b79",
+      "output": "assets/sounds/levelup.wav",
+      "output_sha256": "2491afbc6f36eee74e2ae2fa98d8554afaf3bed691e77e07f5be7f43afac4afd",
+      "sample_rate": 44100,
+      "duration_ms": 317,
+      "bytes": 27962
+    }
+  }
+}

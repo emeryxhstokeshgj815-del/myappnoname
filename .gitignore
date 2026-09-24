@@ -1,0 +1,14 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# Raw third-party downloads are re-fetched by scripts/fetch_sources.py.
+# Only redistributable, openly licensed files are committed (see data/sources/README.md).
+data/sources/raw/efllex/
+data/sources/raw/oxford/
+data/sources/raw/sounds/
+test-results/
+playwright-report/
+data/sources/raw/wordnet/
+data/sources/raw/nltk_data/
+data/sources/raw/catvar/

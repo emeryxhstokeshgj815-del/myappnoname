@@ -1,0 +1,733 @@
+{
+ "stats": {
+  "oxford_c1_entries": 1404,
+  "octanove_c1_entries": 1104,
+  "octanove_skipped_no_B2C1_corpus_attestation": 733,
+  "octanove_skipped_labelled_elsewhere": 188,
+  "excluded_editorial": 90,
+  "excluded_cefrj_lower_label_same_pos": 23,
+  "excluded_oxford_lower_label_same_pos": 1
+ },
+ "selected_unique_lemmas": 1384,
+ "selected_by_source": {
+  "oxford5000": 1250,
+  "octanove": 134
+ },
+ "selected_by_corpus": {
+  "efllex:lemma+pos": 946,
+  "wordfreq:": 424,
+  "efllex:lemma": 14
+ },
+ "selected_by_pos": {
+  "verb": 317,
+  "noun": 703,
+  "adjective": 317,
+  "adverb": 42,
+  "conjunction": 2,
+  "preposition": 3
+ },
+ "cefrj_disagreements": 652,
+ "merged_spelling_variants": [
+  {
+   "variant": "characterisation",
+   "kept": "characterization",
+   "pos": "noun"
+  },
+  {
+   "variant": "maneuver",
+   "kept": "manoeuvre",
+   "pos": "verb"
+  },
+  {
+   "variant": "scrutinise",
+   "kept": "scrutinize",
+   "pos": "verb"
+  }
+ ],
+ "excluded": [
+  {
+   "lemma": "abortion",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "acre",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:imperial unit, low value"
+  },
+  {
+   "lemma": "angel",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "assassination",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "atrocity",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "auto",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:US informal for 'car', low value"
+  },
+  {
+   "lemma": "bass",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph (music vs fish)"
+  },
+  {
+   "lemma": "bat",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:sports homograph of animal noun"
+  },
+  {
+   "lemma": "bay",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "bench",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "bonus",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "bow",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph (bend vs weapon)"
+  },
+  {
+   "lemma": "bow",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph (bend vs weapon)"
+  },
+  {
+   "lemma": "buck",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:slang/animal homograph"
+  },
+  {
+   "lemma": "casino",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:transparent cognate"
+  },
+  {
+   "lemma": "cocktail",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:transparent cognate"
+  },
+  {
+   "lemma": "congressional",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:US-specific"
+  },
+  {
+   "lemma": "content",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of B1 noun"
+  },
+  {
+   "lemma": "cop",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A1"
+  },
+  {
+   "lemma": "crown",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "dam",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "fine",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 adjective"
+  },
+  {
+   "lemma": "fine",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 adjective"
+  },
+  {
+   "lemma": "fit",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A2/B1 words"
+  },
+  {
+   "lemma": "foreigner",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A1"
+  },
+  {
+   "lemma": "gallon",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:US unit, low value"
+  },
+  {
+   "lemma": "genocide",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "grace",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "grave",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:noun/adjective homographs"
+  },
+  {
+   "lemma": "grave",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:noun/adjective homographs"
+  },
+  {
+   "lemma": "harmony",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "harvest",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "inspiration",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "just",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 adverb"
+  },
+  {
+   "lemma": "kingdom",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "laser",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:transparent cognate"
+  },
+  {
+   "lemma": "lesbian",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:identity term, unsuitable for drills"
+  },
+  {
+   "lemma": "liberty",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "license",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "log",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph (wood/record)"
+  },
+  {
+   "lemma": "log",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph (wood/record)"
+  },
+  {
+   "lemma": "march",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "oxford_lower_label_same_pos:a1,c1"
+  },
+  {
+   "lemma": "march",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of month name"
+  },
+  {
+   "lemma": "massacre",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "minute",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 noun"
+  },
+  {
+   "lemma": "net",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "noon",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "parish",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:narrow religious term"
+  },
+  {
+   "lemma": "pastor",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:narrow religious term"
+  },
+  {
+   "lemma": "pop",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A2 noun"
+  },
+  {
+   "lemma": "radar",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:transparent cognate"
+  },
+  {
+   "lemma": "rape",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "rape",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "ray",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "rock",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A2 noun"
+  },
+  {
+   "lemma": "rumour",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "sake",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "say",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 verb"
+  },
+  {
+   "lemma": "screw",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A2"
+  },
+  {
+   "lemma": "screw",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:vulgar informal senses dominate"
+  },
+  {
+   "lemma": "senator",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:US-specific"
+  },
+  {
+   "lemma": "sexuality",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:sensitive topic, low value for drills"
+  },
+  {
+   "lemma": "shoot",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of B1 verb"
+  },
+  {
+   "lemma": "sound",
+   "pos": "adjective",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A2 noun"
+  },
+  {
+   "lemma": "spell",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A1"
+  },
+  {
+   "lemma": "spy",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "cefrj_lower_label_same_pos:A1"
+  },
+  {
+   "lemma": "suicide",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "top",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 noun"
+  },
+  {
+   "lemma": "torture",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "torture",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:distressing topic"
+  },
+  {
+   "lemma": "total",
+   "pos": "verb",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A2 adjective"
+  },
+  {
+   "lemma": "well",
+   "pos": "noun",
+   "verified_by": "oxford5000",
+   "reason": "editorial:homograph of A1 adverb"
+  },
+  {
+   "lemma": "aboard",
+   "pos": "preposition",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "acidic",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:see acid"
+  },
+  {
+   "lemma": "aimlessly",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "anthropologist",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:see anthropology"
+  },
+  {
+   "lemma": "bald",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:verb use is marginal"
+  },
+  {
+   "lemma": "carpenter",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "chilly",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "cleverness",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "closeness",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "con",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:informal homograph ('pros and cons')"
+  },
+  {
+   "lemma": "conscientiously",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "domesticate",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "ethically",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "fiercely",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "geological",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "gourmet",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "hanging",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:execution sense, distressing"
+  },
+  {
+   "lemma": "hibernate",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "hibernation",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "hostess",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "intuitively",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "lust",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:sexual connotation, low value"
+  },
+  {
+   "lemma": "marginally",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "midwife",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "munch",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "mythological",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value (see mythology)"
+  },
+  {
+   "lemma": "paternalistic",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "phenomenally",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "pigeon",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "profoundly",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "prohibitively",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "reluctantly",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "repute",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:used almost only as 'reputed', marginal as a verb"
+  },
+  {
+   "lemma": "rustle",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "stiffen",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "structurally",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "tailor",
+   "pos": "noun",
+   "verified_by": "octanove",
+   "reason": "editorial:level doubtful: common word"
+  },
+  {
+   "lemma": "tangle",
+   "pos": "verb",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "unmanned",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "unoccupied",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  },
+  {
+   "lemma": "victoriously",
+   "pos": "adverb",
+   "verified_by": "octanove",
+   "reason": "editorial:adjective taught"
+  },
+  {
+   "lemma": "wooded",
+   "pos": "adjective",
+   "verified_by": "octanove",
+   "reason": "editorial:low value"
+  }
+ ]
+}

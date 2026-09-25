@@ -1,0 +1,13 @@
+{
+ "dropped": [],
+ "skipped_by_authors": [],
+ "removed_in_review": [],
+ "item_errors": [],
+ "counts": {
+  "words": 199,
+  "dropped": 0,
+  "skipped": 0,
+  "removed_in_review": 0,
+  "optional_items_removed": 0
+ }
+}

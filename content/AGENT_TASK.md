@@ -11,8 +11,11 @@ other than the batch files named in your instructions).
    For the part of speech and CEFR hints of each word, read the batch assignment
    `content/assignments/bNNN.json` (hints are enough; do not research sources).
 2. Write entries ONLY for the words listed in your instructions, as NEW files in the batch
-   folder (`content/words/bNNN/pK.json`, K = the next free number; about 10 entries per
+   folder (`content/words/bNNN/pK.json`, K = the next free number; about 8 entries per
    file; each file is a JSON array). Do not rewrite files written earlier by others.
+   Write each file with the Write tool as soon as its entries are composed (never build
+   JSON through a helper script, never hold many entries unwritten): if you are
+   interrupted, finished files are kept and the next author continues from them.
 3. After each file: `python3 scripts/validate_batch.py content/words/bNNN --assignment content/assignments/bNNN.json`
    Errors saying another assigned word "has no entry" are expected until you finish.
    Fix every other ERROR in your files; read each WARNING and fix it unless it is a false

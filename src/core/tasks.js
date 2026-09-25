@@ -294,6 +294,7 @@ export function buildTask(mech, word, ctx) {
         wrongText: target,
         accepted: f.answer,
         answer: f.answer[0],
+        alternatives: f.alternatives || [],
         forms: word.forms || [],
         explanationRu: f.explanationRu,
         corrected: f.text.replace(MARK, f.answer[0]),

@@ -1,0 +1,817 @@
+[
+  {
+    "lemma": "inappropriate",
+    "pos": "adjective",
+    "definitionEn": "not suitable or acceptable for a particular situation or occasion",
+    "translationsRu": ["неуместный", "неподобающий", "неприемлемый", "неподходящий"],
+    "acceptedAnswers": ["inappropriate"],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Criticising behaviour, clothes, jokes or comments that do not fit the rules or expectations of a particular situation.",
+    "examples": [
+      {
+        "text": "Posting photos of patients online is [[inappropriate]] for a nurse, even if their faces are hidden.",
+        "distractors": ["compulsory", "typical", "essential"],
+        "alternatives": ["unprofessional", "unacceptable", "wrong", "improper"]
+      },
+      {
+        "text": "Some parents think the film is [[inappropriate]] for children under twelve because of its violence.",
+        "distractors": ["essential", "educational", "affordable"],
+        "alternatives": ["unsuitable", "unfit"]
+      },
+      {
+        "text": "The comedian apologised for making an [[inappropriate]] joke about the victims of the flood.",
+        "distractors": ["affectionate", "innocent", "educational"],
+        "alternatives": ["insensitive", "offensive", "unfortunate", "ill-judged"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "It would be [[inappropriate]] for me to comment on the case.",
+        "Flip-flops are [[inappropriate]] footwear for a mountain hike.",
+        "The teacher was fired for sending [[inappropriate]] messages to students."
+      ],
+      "alternatives": ["improper"]
+    },
+    "collocations": [
+      "[[inappropriate]] behaviour",
+      "[[inappropriate]] comments",
+      "[[inappropriate]] for children",
+      "it would be [[inappropriate]] to",
+      "deeply [[inappropriate]]"
+    ],
+    "badCollocation": {
+      "text": "an [[inappropriate]] size",
+      "noteRu": "Если одежда не подошла по размеру, говорят the wrong size. Inappropriate — «неуместный» с точки зрения норм и приличий."
+    },
+    "collocationTask": {
+      "prompt": "It would be ___ for me to comment on an ongoing investigation.",
+      "answer": "inappropriate",
+      "distractors": ["inadequate", "unsuitable", "incorrect"],
+      "explanationRu": "It would be inappropriate for me to comment — вежливое «мне не подобает комментировать». Inadequate — «недостаточный», unsuitable — «неподходящий по свойствам», incorrect — «неверный»."
+    },
+    "nuance": {
+      "rival": "unsuitable",
+      "text": "Checking your phone during a minute's silence is deeply [[inappropriate]].",
+      "rivalForm": "unsuitable",
+      "explanationRu": "Inappropriate — неуместный с точки зрения норм и приличий. Unsuitable — неподходящий по практическим качествам (обувь, квартира, кандидат); о поведении так не говорят, и deeply unsuitable звучит странно."
+    },
+    "fixIt": {
+      "text": "His [[inadequate]] behaviour at the office party got him into trouble with HR.",
+      "answer": ["inappropriate"],
+      "explanationRu": "Inadequate — «недостаточный», а не русское «неадекватный». Неуместное, неприличное поведение — inappropriate behaviour."
+    },
+    "reply": {
+      "context": "Your friend asks: \"Is it OK to wear jeans to my cousin's wedding? The invitation says 'black tie'.\"",
+      "options": [
+        "Sure, jeans are totally inappropriate, so go for it!",
+        "Jeans are deemed inappropriate attire pursuant to the stated dress code.",
+        "I'd say jeans would be pretty inappropriate if it's black tie."
+      ],
+      "answer": 2,
+      "explanationRu": "Inappropriate — «неуместный»: джинсы на свадьбе с дресс-кодом black tie. В первом ответе inappropriate ошибочно звучит как одобрение, а второй слишком официален для разговора с другом."
+    }
+  },
+  {
+    "lemma": "incidence",
+    "pos": "noun",
+    "definitionEn": "how often something, especially a disease or crime, happens in a group or area",
+    "translationsRu": ["частота (случаев)", "распространённость", "уровень (заболеваемости, преступности)"],
+    "acceptedAnswers": ["incidence"],
+    "register": "formal",
+    "topic": "science",
+    "ambiguous": false,
+    "senseNote": "Не путайте с incident — «происшествие». Incidence — частота, с которой что-то случается.",
+    "situation": "Reporting how common a disease, crime or problem is among a particular group of people or in a place.",
+    "examples": [
+      {
+        "text": "There is a high [[incidence]] of asthma among children living near busy roads.",
+        "distractors": ["incident", "absence", "standard"],
+        "alternatives": ["rate", "risk", "level", "prevalence", "frequency"]
+      },
+      {
+        "text": "Since the new street lights were installed, the [[incidence]] of burglary in the area has fallen sharply.",
+        "distractors": ["reward", "shortage", "legality"],
+        "alternatives": ["rate", "level", "frequency"]
+      },
+      {
+        "text": "The study found a lower [[incidence]] of heart disease among people who ate fish twice a week.",
+        "distractors": ["reputation", "temperature", "priority"],
+        "alternatives": ["rate", "risk", "prevalence", "frequency", "level"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Doctors are alarmed by the rising [[incidence]] of diabetes in teenagers.",
+        "The [[incidence]] of road accidents drops sharply in summer.",
+        "Coastal towns report a higher [[incidence]] of skin cancer."
+      ],
+      "alternatives": ["rate", "frequency"]
+    },
+    "collocations": [
+      "a high [[incidence]] of",
+      "a low [[incidence]] of",
+      "the [[incidence]] of crime",
+      "reduce the [[incidence]] of",
+      "the rising [[incidence]] of"
+    ],
+    "badCollocation": {
+      "text": "a big [[incidence]] of crime",
+      "noteRu": "С incidence говорят high или low, а не big и small: a high incidence of crime."
+    },
+    "collocationTask": {
+      "prompt": "a high ___ of heart disease",
+      "answer": "incidence",
+      "distractors": ["incident", "quantity", "amount"],
+      "explanationRu": "A high incidence of — «высокая частота (заболевания)». Incident — отдельное происшествие, а quantity и amount о болезнях так не употребляют."
+    },
+    "nuance": {
+      "rival": "incident",
+      "text": "Researchers have recorded a sharp rise in the [[incidence]] of food allergies.",
+      "rivalForm": "incident",
+      "explanationRu": "Incidence — частота, с которой что-то случается (болезни, преступления). Incident — одно конкретное происшествие, и «рост происшествия аллергии» — бессмыслица.",
+      "reverse": {
+        "text": "Police are investigating an [[incident]] outside the stadium last night.",
+        "targetForm": "incidence",
+        "explanationRu": "Отдельное событие, происшествие — an incident. Incidence — статистическая частота, её нельзя «расследовать»."
+      }
+    },
+    "fixIt": {
+      "text": "The [[spread]] of diabetes is much higher in cities than in rural areas.",
+      "answer": ["incidence"],
+      "explanationRu": "Spread — процесс распространения, он не бывает «выше». Чтобы сравнить, как часто встречается болезнь, говорят incidence (или prevalence)."
+    },
+    "rewrite": {
+      "original": "Lung cancer is much more common among smokers.",
+      "frame": "There is a much higher ____ lung cancer among smokers.",
+      "accepted": ["incidence of"],
+      "explanationRu": "A higher incidence of — «более высокая частота случаев»."
+    }
+  },
+  {
+    "lemma": "inclined",
+    "pos": "adjective",
+    "definitionEn": "wanting to do something, or leaning towards a particular opinion",
+    "translationsRu": ["склонный", "расположенный", "настроенный (сделать что-то)"],
+    "acceptedAnswers": ["inclined"],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — «склонный, расположенный что-то сделать или думать»: I'm inclined to agree. Не «наклонный» и не «с задатками» (musically inclined).",
+    "situation": "Saying that you feel like doing something, or that you tend to believe one opinion more than another.",
+    "examples": [
+      {
+        "text": "Having heard both sides, I'm [[inclined]] to agree with Maria, although I'd like to see the figures first.",
+        "distractors": ["ashamed", "forbidden", "sorry"],
+        "alternatives": ["tempted", "minded", "disposed", "prepared"]
+      },
+      {
+        "text": "It was such a lovely evening that nobody felt [[inclined]] to go home early.",
+        "distractors": ["unable", "fortunate", "unfit"],
+        "alternatives": ["tempted", "keen", "eager"]
+      },
+      {
+        "text": "If you're so [[inclined]], the museum also offers late-night tours on Fridays.",
+        "distractors": ["exhausted", "offended", "unlucky"],
+        "alternatives": ["minded", "disposed"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "I'm [[inclined]] to believe her story, strange as it sounds.",
+        "The committee seems [[inclined]] to accept the proposal.",
+        "Few people are [[inclined]] to argue with a hungry toddler."
+      ],
+      "alternatives": ["disposed", "minded", "willing", "prepared"]
+    },
+    "collocations": [
+      "[[inclined]] to agree",
+      "feel [[inclined]] to",
+      "if you're so [[inclined]]",
+      "I'm [[inclined]] to think",
+      "strongly [[inclined]] to"
+    ],
+    "badCollocation": {
+      "text": "[[inclined]] for talking",
+      "noteRu": "После inclined ставят инфинитив: inclined to talk. Inclined for + -ing не говорят; о настроении — in the mood for talking."
+    },
+    "collocationTask": {
+      "prompt": "I'm ___ to agree with you on this point.",
+      "answer": "inclined",
+      "distractors": ["liable", "leaning", "capable"],
+      "explanationRu": "I'm inclined to agree — вежливое «склонен согласиться». Liable to — о вероятности неприятного, с leaning нужно towards, а после capable — of + -ing."
+    },
+    "nuance": {
+      "rival": "willing",
+      "text": "I'm [[inclined]] to think the second candidate is stronger, but I haven't decided yet.",
+      "rivalForm": "willing",
+      "explanationRu": "Inclined to think — «склоняюсь к мнению», осторожная оценка. Willing — «готов сделать что-то, если попросят»; willing to think звучит так, будто вас уговаривают подумать.",
+      "reverse": {
+        "text": "Are you [[willing]] to work weekends if necessary?",
+        "targetForm": "inclined",
+        "explanationRu": "На собеседовании спрашивают о готовности выполнить требование — willing. Inclined выражает внутреннее желание или мнение, а не согласие."
+      }
+    },
+    "fixIt": {
+      "text": "Having read the report, I'm [[prone]] to agree with the critics, but I'd like to hear your view.",
+      "answer": ["inclined"],
+      "explanationRu": "Prone to — склонность к чему-то плохому (prone to accidents, prone to colds). Осторожно выразить мнение — I'm inclined to agree."
+    },
+    "wordFormation": {
+      "base": "inclined",
+      "text": "I have no [[inclination]] to move back to my home town.",
+      "answer": ["inclination"]
+    },
+    "reply": {
+      "context": "In a meeting, your manager asks: \"Should we hire the candidate with more experience or the one with better ideas?\"",
+      "options": [
+        "I'm inclined to go with the one with better ideas, but it's a close call.",
+        "I'm inclined to hire them both, because the law says we must.",
+        "Yeah, whatever, I'm inclined or something, dunno."
+      ],
+      "answer": 0,
+      "explanationRu": "I'm inclined to — «склоняюсь к…», осторожное мнение. Inclined не значит «обязан» (это required или obliged), а третий ответ слишком небрежен для рабочей встречи."
+    },
+    "rewrite": {
+      "original": "I tend to agree with you, although I'm not completely sure.",
+      "frame": "I'm ____ agree with you, although I'm not completely sure.",
+      "accepted": ["inclined to"],
+      "explanationRu": "I'm inclined to agree — «склонен согласиться»."
+    }
+  },
+  {
+    "lemma": "inclusion",
+    "pos": "noun",
+    "definitionEn": "the act of adding someone or something to a group, list or collection",
+    "translationsRu": ["включение", "внесение (в список)", "попадание (в состав)"],
+    "acceptedAnswers": ["inclusion"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «включение в состав, список, книгу». В значении «инклюзия» (равные возможности для всех) слово тоже встречается: social inclusion.",
+    "situation": "Talking about someone or something being added to a team, list, report or collection, often as a surprise or a decision.",
+    "examples": [
+      {
+        "text": "Fans were delighted by the [[inclusion]] of two local teenagers in the national squad.",
+        "distractors": ["exclusion", "absence", "injury"],
+        "alternatives": ["selection", "presence", "addition"]
+      },
+      {
+        "text": "The [[inclusion]] of older patients in the trial made the results more reliable.",
+        "distractors": ["retirement", "complaint", "disappearance"],
+        "alternatives": ["participation", "involvement", "presence", "enrolment"]
+      },
+      {
+        "text": "The dictionary's [[inclusion]] of slang words like 'selfie' annoyed some traditional readers.",
+        "distractors": ["invention", "prohibition", "abolition"],
+        "alternatives": ["addition", "acceptance", "recognition"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Her [[inclusion]] on the shortlist came as a complete surprise.",
+        "The editor questioned the [[inclusion]] of so many photographs.",
+        "The coach defended his [[inclusion]] of an untested young goalkeeper."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[inclusion]] in the squad",
+      "[[inclusion]] on the shortlist",
+      "the [[inclusion]] of extra material",
+      "criteria for [[inclusion]]",
+      "justify the [[inclusion]] of"
+    ],
+    "badCollocation": {
+      "text": "the [[inclusion]] of the light",
+      "noteRu": "«Включение света или прибора» — switching on (turning on) the light. Inclusion — включение в состав, список или группу."
+    },
+    "collocationTask": {
+      "prompt": "Her ___ in the Olympic team was announced yesterday.",
+      "answer": "inclusion",
+      "distractors": ["insertion", "enclosure", "incorporation"],
+      "explanationRu": "Включение человека в команду или список — inclusion. Insertion — вставка предмета, enclosure — вложение (в письмо), incorporation — объединение, слияние."
+    },
+    "nuance": {
+      "rival": "involvement",
+      "text": "The [[inclusion]] of her poem in the school textbook made her briefly famous.",
+      "rivalForm": "involvement",
+      "explanationRu": "Inclusion — включение в состав, в список, в книгу. Involvement — участие, причастность; стихотворение не может «участвовать» в учебнике.",
+      "reverse": {
+        "text": "Police are investigating his [[involvement]] in the robbery.",
+        "targetForm": "inclusion",
+        "explanationRu": "Причастность к преступлению — involvement in. Inclusion — когда кого-то включают в список или команду, а не участие в событии."
+      }
+    },
+    "fixIt": {
+      "text": "The [[including]] of breakfast in the price makes this hotel excellent value.",
+      "answer": ["inclusion"],
+      "explanationRu": "Перед of нужно существительное: the inclusion of breakfast. Форма the including of — ошибка."
+    },
+    "wordFormation": {
+      "base": "include",
+      "text": "The [[inclusion]] of a map at the start of the novel helps readers follow the journey.",
+      "answer": ["inclusion"]
+    },
+    "reply": {
+      "context": "A friend who follows football texts: \"Did you see who's in the squad for the World Cup?\"",
+      "options": [
+        "Affirmative; the squad inclusions have been duly noted.",
+        "Yes! The goalkeeper's inclusion is a huge surprise; he's only eighteen.",
+        "Yes, but the inclusion of my TV failed, so I missed the announcement."
+      ],
+      "answer": 1,
+      "explanationRu": "The goalkeeper's inclusion — «то, что вратаря включили в состав». В третьем ответе inclusion ошибочно значит «включение телевизора» (это switching on), а первый звучит как официальный протокол."
+    }
+  },
+  {
+    "lemma": "inclusive",
+    "pos": "adjective",
+    "definitionEn": "welcoming and treating fairly people of all backgrounds, abilities and identities",
+    "translationsRu": ["инклюзивный", "открытый для всех", "учитывающий интересы всех"],
+    "acceptedAnswers": ["inclusive"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — «открытый для всех, никого не исключающий». О цене inclusive значит «включая всё»: inclusive of VAT, all-inclusive.",
+    "situation": "Describing a place, group or policy that makes sure nobody is left out because of who they are.",
+    "examples": [
+      {
+        "text": "The school prides itself on being [[inclusive]], with lifts, sign-language classes and support for every learner.",
+        "distractors": ["exclusive", "selective", "elitist"],
+        "alternatives": ["welcoming", "accessible", "open"]
+      },
+      {
+        "text": "The company rewrote its job adverts in more [[inclusive]] language to attract a wider range of applicants.",
+        "distractors": ["technical", "aggressive", "complicated"],
+        "alternatives": ["neutral", "accessible", "welcoming", "gender-neutral"]
+      },
+      {
+        "text": "Our running club is fully [[inclusive]]: beginners, older runners and wheelchair users all train together.",
+        "distractors": ["competitive", "professional", "private"],
+        "alternatives": ["open", "accessible", "welcoming"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The festival aims to be [[inclusive]] and affordable for families.",
+        "Good design should be [[inclusive]], not an afterthought for disabled users.",
+        "The new textbook uses more [[inclusive]] examples from different cultures."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "an [[inclusive]] society",
+      "[[inclusive]] language",
+      "[[inclusive]] education",
+      "[[inclusive]] design",
+      "fully [[inclusive]]"
+    ],
+    "badCollocation": {
+      "text": "an [[inclusive]] child",
+      "noteRu": "«Инклюзивный ребёнок» — калька. По-английски: a child with special educational needs. Inclusive описывает школу, класс или политику, а не самого ребёнка."
+    },
+    "collocationTask": {
+      "prompt": "___ language avoids words that might exclude or offend people.",
+      "answer": "inclusive",
+      "distractors": ["comprehensive", "collective", "integral"],
+      "explanationRu": "Inclusive language — язык, который никого не исключает и не задевает. Comprehensive — «всеобъемлющий», collective — «коллективный», integral — «неотъемлемый»."
+    },
+    "nuance": {
+      "rival": "tolerant",
+      "text": "The new playground is fully [[inclusive]], with swings that wheelchair users can enjoy too.",
+      "rivalForm": "tolerant",
+      "explanationRu": "Inclusive — устроенный так, чтобы участвовать могли все (о месте, дизайне, политике). Tolerant — терпимый, это черта человека; площадка не может быть «терпимой».",
+      "reverse": {
+        "text": "My grandparents are surprisingly [[tolerant]] of my loud music.",
+        "targetForm": "inclusive",
+        "explanationRu": "Терпимо относиться к чему-то — be tolerant of. Inclusive описывает, открыто ли место или сообщество для всех, а не терпение к шуму."
+      }
+    },
+    "fixIt": {
+      "text": "Our office is now fully [[included]], with ramps and quiet rooms for staff who need them.",
+      "answer": ["inclusive"],
+      "explanationRu": "Included — «включённый» (в список, в цену). О месте, которое открыто и удобно для всех, говорят inclusive."
+    },
+    "wordFormation": {
+      "base": "include",
+      "text": "Teachers are trained to make their lessons more [[inclusive]] for children with dyslexia.",
+      "answer": ["inclusive"]
+    },
+    "reply": {
+      "context": "Your colleague asks: \"How can we make the office party better for everyone this year?\"",
+      "options": [
+        "Let's make it more inclusive: only managers should come this time.",
+        "Inclusivity parameters shall be operationalised forthwith.",
+        "Let's make it more inclusive. Not everyone drinks, so we need proper alcohol-free options."
+      ],
+      "answer": 2,
+      "explanationRu": "Inclusive — такой, чтобы всем было комфортно, в том числе тем, кто не пьёт. «Только для менеджеров» — наоборот, исключает людей, а второй ответ звучит как канцелярский жаргон."
+    }
+  },
+  {
+    "lemma": "incur",
+    "pos": "verb",
+    "definitionEn": "to have to pay or suffer something unpleasant because of your own actions",
+    "translationsRu": ["нести (расходы, убытки)", "навлекать (на себя)", "влезать (в долги)"],
+    "acceptedAnswers": ["incur"],
+    "register": "formal",
+    "topic": "work",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Explaining that costs, debts, fines or someone's anger result from a decision you made or something you did.",
+    "examples": [
+      {
+        "text": "The airline [[incurred]] huge losses when it had to ground its entire fleet for a month.",
+        "distractors": ["avoided", "prevented", "celebrated"],
+        "alternatives": ["suffered", "made", "recorded", "posted", "sustained"]
+      },
+      {
+        "text": "You will [[incur]] a fee of £50 if you change your flight less than a day before departure.",
+        "distractors": ["earn", "collect", "refund"],
+        "alternatives": ["pay", "be charged", "face"]
+      },
+      {
+        "text": "By criticising the chef in front of the guests, she [[incurred]] his lasting anger.",
+        "distractors": ["soothed", "forgave", "ignored"],
+        "alternatives": ["earned", "provoked", "aroused", "attracted", "drew"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Late payments may [[incur]] an extra charge of ten per cent.",
+        "Try not to [[incur]] the wrath of the head chef.",
+        "Students often [[incur]] large debts during their studies."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[incur]] costs",
+      "[[incur]] debts",
+      "[[incur]] a penalty",
+      "[[incur]] losses",
+      "[[incur]] the wrath of"
+    ],
+    "badCollocation": {
+      "text": "[[incur]] a profit",
+      "noteRu": "Incur — только о неприятном: расходах, долгах, штрафах. Прибыль получают: make a profit."
+    },
+    "collocationTask": {
+      "prompt": "incur heavy ___",
+      "answer": "losses",
+      "distractors": ["profits", "gains", "savings"],
+      "explanationRu": "Incur — нести что-то неприятное: incur losses («нести убытки»). Прибыль и доходы (profits, gains, savings) не incur, а make или earn."
+    },
+    "nuance": {
+      "rival": "cause",
+      "text": "The company [[incurred]] heavy losses after the factory fire.",
+      "rivalForm": "caused",
+      "explanationRu": "Incur — понести расходы или убытки самому. Caused heavy losses значило бы, что компания нанесла убытки кому-то другому, а смысл здесь противоположный.",
+      "reverse": {
+        "text": "The storm [[caused]] serious damage to the harbour.",
+        "targetForm": "incurred",
+        "explanationRu": "Шторм сам ничего не «несёт» и не платит, он причиняет ущерб: caused damage. Incur говорят о том, кто несёт расходы."
+      }
+    },
+    "fixIt": {
+      "text": "Passengers who change their booking online will [[receive]] a small administration fee.",
+      "answer": ["incur"],
+      "explanationRu": "Receive a fee — «получить деньги», то есть наоборот. Если придётся заплатить сбор, говорят incur a fee."
+    },
+    "reply": {
+      "context": "Your manager emails: \"Can we move the conference from February to March?\"",
+      "options": [
+        "Sure, and we'd incur a nice discount from the hotel too!",
+        "We can, but we'd incur a cancellation fee of about £2,000 from the hotel.",
+        "Nah, fees and stuff, dunno, kinda pricey."
+      ],
+      "answer": 1,
+      "explanationRu": "Incur a fee — «понести расходы, заплатить сбор». Скидку не incur — её get или receive, а третий ответ слишком небрежен для письма начальнику."
+    },
+    "rewrite": {
+      "original": "If you pay late, you will have to pay an extra charge.",
+      "frame": "Late payment will ____ an extra charge.",
+      "accepted": ["incur"],
+      "explanationRu": "Incur a charge — «повлечь за собой дополнительный сбор»."
+    }
+  },
+  {
+    "lemma": "indicator",
+    "pos": "noun",
+    "definitionEn": "a sign or measurement that shows the state of something or how it is changing",
+    "translationsRu": ["показатель", "индикатор", "признак"],
+    "acceptedAnswers": ["indicator"],
+    "register": "neutral",
+    "topic": "work",
+    "ambiguous": true,
+    "senseNote": "Здесь — «показатель, признак». В британской машине indicator — ещё и «поворотник».",
+    "situation": "Talking about a figure or sign, such as unemployment or blood pressure, that helps you judge a situation.",
+    "examples": [
+      {
+        "text": "Unemployment is one of the most important [[indicators]] of how healthy an economy is.",
+        "distractors": ["ingredients", "consequences", "rewards"],
+        "alternatives": ["measures", "signs", "gauges", "barometers"]
+      },
+      {
+        "text": "Blood pressure is a useful [[indicator]] of your general heart health.",
+        "distractors": ["remedy", "substitute", "enemy"],
+        "alternatives": ["measure", "sign", "guide", "gauge", "marker"]
+      },
+      {
+        "text": "Attendance is not always a reliable [[indicator]] of how much students are actually learning.",
+        "distractors": ["reward", "obstacle", "excuse"],
+        "alternatives": ["measure", "sign", "guide", "gauge", "predictor"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Rising house prices are often seen as a reliable [[indicator]] of confidence.",
+        "A child's vocabulary is a good [[indicator]] of how much they read.",
+        "Falling sales can be an early [[indicator]] of trouble."
+      ],
+      "alternatives": ["sign"]
+    },
+    "collocations": [
+      "a key [[indicator]]",
+      "economic [[indicators]]",
+      "a reliable [[indicator]] of",
+      "an early [[indicator]] of",
+      "performance [[indicators]]"
+    ],
+    "badCollocation": {
+      "text": "high sales [[indicators]]",
+      "noteRu": "«Высокие показатели продаж» — strong sales figures. Indicator — признак или измеритель, а не результат, который бывает «высоким»."
+    },
+    "collocationTask": {
+      "prompt": "Unemployment is a key economic ___.",
+      "answer": "indicator",
+      "distractors": ["indication", "sign", "symptom"],
+      "explanationRu": "Economic indicator — «экономический показатель», устойчивое сочетание. Indication — намёк, признак того, что что-то вероятно; sign и symptom с economic так не употребляют."
+    },
+    "nuance": {
+      "rival": "indication",
+      "text": "Inflation and unemployment are the two [[indicators]] that investors watch most closely.",
+      "rivalForm": "indications",
+      "explanationRu": "Indicator — измеримый показатель, за которым следят (инфляция, безработица). Indication — намёк или признак того, что что-то вероятно; за «намёками» так не следят.",
+      "reverse": {
+        "text": "There is every [[indication]] that the talks will succeed.",
+        "targetForm": "indicator",
+        "explanationRu": "There is every indication that — «всё говорит о том, что». Это устойчивое выражение, indicator сюда не подходит."
+      }
+    },
+    "fixIt": {
+      "text": "Life expectancy is a key [[exponent]] of a nation's health.",
+      "answer": ["indicator"],
+      "explanationRu": "Exponent — «показатель степени» в математике или «сторонник идеи». Показатель, по которому судят о ситуации, — indicator."
+    },
+    "wordFormation": {
+      "base": "indicate",
+      "text": "Test scores are only one [[indicator]] of a school's success.",
+      "answer": ["indicator"]
+    },
+    "rewrite": {
+      "original": "The number of job adverts shows quite reliably how the economy is doing.",
+      "frame": "The number of job adverts is a reliable ____ how the economy is doing.",
+      "accepted": ["indicator of"],
+      "explanationRu": "A reliable indicator of — «надёжный показатель»."
+    }
+  },
+  {
+    "lemma": "indictment",
+    "pos": "noun",
+    "definitionEn": "something that shows clearly how bad or unfair a system or situation is",
+    "translationsRu": ["обвинение (в адрес системы)", "свидетельство провала", "приговор (перен.)"],
+    "acceptedAnswers": ["indictment"],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «убийственное свидетельство провала»: a damning indictment of the system. Юридическое «обвинительный акт» (в основном в США) встречается реже.",
+    "situation": "Commenting that a situation, report or fact clearly shows the failure of an institution, system or society.",
+    "examples": [
+      {
+        "text": "The number of children living in poverty is a damning [[indictment]] of the city's housing policy.",
+        "distractors": ["tribute", "celebration", "vindication"],
+        "alternatives": ["condemnation", "criticism"]
+      },
+      {
+        "text": "The fact that nurses need food banks is a shocking [[indictment]] of how we value care work.",
+        "distractors": ["compliment", "credit", "boast"],
+        "alternatives": ["reflection", "condemnation"]
+      },
+      {
+        "text": "The documentary is a powerful [[indictment]] of the way the fashion industry exploits factory workers.",
+        "distractors": ["celebration", "endorsement", "promotion"],
+        "alternatives": ["condemnation", "critique", "attack"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "The report is a damning [[indictment]] of the prison system.",
+        "Such long waiting lists are a sad [[indictment]] of the health service.",
+        "The novel is a bitter [[indictment]] of small-town gossip and hypocrisy."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "a damning [[indictment]] of",
+      "a sad [[indictment]] of",
+      "a scathing [[indictment]]",
+      "a powerful [[indictment]] of",
+      "an [[indictment]] of the system"
+    ],
+    "badCollocation": {
+      "text": "a heavy [[indictment]]",
+      "noteRu": "«Тяжёлое обвинение» в этом смысле — a damning или scathing indictment. Heavy с indictment не сочетается."
+    },
+    "collocationTask": {
+      "prompt": "a ___ indictment of the system",
+      "answer": "damning",
+      "distractors": ["heavy", "hard", "rough"],
+      "explanationRu": "Damning indictment — «убийственное свидетельство провала». Heavy, hard и rough с indictment не сочетаются: это кальки с «тяжёлый, жёсткий»."
+    },
+    "nuance": {
+      "rival": "criticism",
+      "text": "It is a sad [[indictment]] of modern society that so many old people feel lonely.",
+      "rivalForm": "criticism",
+      "explanationRu": "Indictment — факт, который сам по себе обличает систему: «печальное свидетельство». Criticism — чья-то критика, высказанное мнение; a sad criticism of society that… так не говорят.",
+      "reverse": {
+        "text": "Thank you for the constructive [[criticism]]: it really helped me improve the essay.",
+        "targetForm": "indictment",
+        "explanationRu": "Конструктивная критика — constructive criticism. Indictment — суровое обличение, оно не бывает «конструктивным»."
+      }
+    },
+    "fixIt": {
+      "text": "The film is a damning [[accusation]] of the way big cities treat homeless people.",
+      "answer": ["indictment"],
+      "explanationRu": "Accusation of — обвинение человека в конкретном проступке (accusation of theft). Обличение системы или общества — an indictment of."
+    },
+    "reply": {
+      "context": "In a debate, someone says: \"Our city has three new luxury hotels but no public swimming pool.\"",
+      "options": [
+        "Exactly, and I'd say that's a sad indictment of the council's priorities.",
+        "Yes, what a wonderful indictment of the council's generosity!",
+        "lol yeah, total indictment vibes, whatever."
+      ],
+      "answer": 0,
+      "explanationRu": "A sad indictment of — «печальное свидетельство» провала или неправильных приоритетов. Indictment не бывает похвалой, а третий ответ слишком небрежен для дебатов."
+    }
+  },
+  {
+    "lemma": "indigenous",
+    "pos": "adjective",
+    "definitionEn": "belonging to a place naturally, rather than coming from somewhere else",
+    "translationsRu": ["коренной (о народе)", "местный", "исконный", "аборигенный"],
+    "acceptedAnswers": ["indigenous"],
+    "register": "formal",
+    "topic": "world",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing peoples, languages, plants or animals that have always lived in a region, not arrived from elsewhere.",
+    "examples": [
+      {
+        "text": "Gardeners are encouraged to plant [[indigenous]] trees, which support more local wildlife than imported species.",
+        "distractors": ["artificial", "foreign", "exotic"],
+        "alternatives": ["native", "local", "endemic"]
+      },
+      {
+        "text": "The university offers courses in several [[indigenous]] languages of South America.",
+        "distractors": ["fictional", "invented", "digital"],
+        "alternatives": ["native", "local"]
+      },
+      {
+        "text": "The dam was stopped after [[indigenous]] communities proved the land had belonged to them for centuries.",
+        "distractors": ["temporary", "recent", "foreign"],
+        "alternatives": ["native", "local", "tribal"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Koalas are [[indigenous]] to the forests of eastern Australia.",
+        "The museum displays [[indigenous]] art from across the Pacific.",
+        "Many [[indigenous]] languages have fewer than a thousand speakers."
+      ],
+      "alternatives": ["native"]
+    },
+    "collocations": [
+      "[[indigenous]] peoples",
+      "[[indigenous]] communities",
+      "[[indigenous]] to",
+      "[[indigenous]] species",
+      "[[indigenous]] languages"
+    ],
+    "badCollocation": {
+      "text": "an [[indigenous]] Muscovite",
+      "noteRu": "«Коренной москвич» — a native Muscovite или born and bred in Moscow. Indigenous говорят о коренных народах, растениях и животных, а не о горожанах."
+    },
+    "collocationTask": {
+      "prompt": "The kiwi is ___ to New Zealand.",
+      "answer": "indigenous",
+      "distractors": ["local", "original", "domestic"],
+      "explanationRu": "Indigenous to (или native to) — «исконно обитает в». Local, original и domestic с to в этом значении не употребляют."
+    },
+    "nuance": {
+      "rival": "local",
+      "text": "Potatoes are [[indigenous]] to South America and only reached Europe in the sixteenth century.",
+      "rivalForm": "local",
+      "explanationRu": "Indigenous — исконно происходящий из этого места (о видах, народах). Local — просто местный, из ближайшей округи; local to South America о растениях не говорят.",
+      "reverse": {
+        "text": "We bought fresh cheese and bread at the [[local]] market.",
+        "targetForm": "indigenous",
+        "explanationRu": "Рынок рядом с домом — local market. Indigenous говорят о народах, языках, растениях и животных, а не о магазинах и рынках."
+      }
+    },
+    "fixIt": {
+      "text": "The island is home to more than forty [[original]] species of bird that live nowhere else.",
+      "answer": ["indigenous"],
+      "explanationRu": "Original — «первоначальный, оригинальный». Виды, которые исконно обитают на острове, — indigenous (или native) species."
+    },
+    "rewrite": {
+      "original": "This plant grows naturally only in the mountains of Chile.",
+      "frame": "This plant is ____ the mountains of Chile.",
+      "accepted": ["indigenous to"],
+      "explanationRu": "Indigenous to — «исконно растущий, обитающий в»."
+    }
+  },
+  {
+    "lemma": "individuality",
+    "pos": "noun",
+    "definitionEn": "the qualities that make a person or thing different from all others",
+    "translationsRu": ["индивидуальность", "своеобразие", "неповторимость"],
+    "acceptedAnswers": ["individuality"],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": false,
+    "senseNote": "Individuality — качество, а не человек: «он яркая индивидуальность» — he has a strong personality.",
+    "situation": "Talking about the special character, style or way of thinking that makes someone clearly different from other people.",
+    "examples": [
+      {
+        "text": "Strict uniform rules leave pupils very little room to express their [[individuality]].",
+        "distractors": ["obedience", "uniformity", "gratitude"],
+        "alternatives": ["personality", "identity", "creativity", "uniqueness", "originality"]
+      },
+      {
+        "text": "Critics admire the [[individuality]] of her paintings: you can recognise one from across the room.",
+        "distractors": ["price", "popularity", "fragility"],
+        "alternatives": ["originality", "distinctiveness", "uniqueness", "style"]
+      },
+      {
+        "text": "A good manager encourages teamwork without crushing each employee's [[individuality]].",
+        "distractors": ["salary", "punctuality", "schedule"],
+        "alternatives": ["creativity", "personality", "independence", "originality"]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Every child's [[individuality]] should be respected in the classroom.",
+        "The old town has lost much of its [[individuality]] to chain stores.",
+        "Her singing voice has real [[individuality]] and warmth."
+      ],
+      "alternatives": ["character"]
+    },
+    "collocations": [
+      "express your [[individuality]]",
+      "a sense of [[individuality]]",
+      "lose your [[individuality]]",
+      "respect [[individuality]]",
+      "stifle [[individuality]]"
+    ],
+    "badCollocation": {
+      "text": "a bright [[individuality]]",
+      "noteRu": "«Яркая индивидуальность» (о человеке) — a strong personality. Individuality — качество, а не человек, и с bright не сочетается."
+    },
+    "collocationTask": {
+      "prompt": "Teenagers often use fashion to express their ___.",
+      "answer": "individuality",
+      "distractors": ["singularity", "identification", "particularity"],
+      "explanationRu": "Express your individuality — «выражать свою индивидуальность». Singularity — термин науки, identification — опознание или удостоверение, particularity — редкое книжное слово."
+    },
+    "nuance": {
+      "rival": "individualism",
+      "text": "Each hand-made cup has its own [[individuality]], so no two are exactly alike.",
+      "rivalForm": "individualism",
+      "explanationRu": "Individuality — неповторимость конкретного человека или вещи. Individualism — идеология, убеждение, что личная независимость важнее общих интересов; у чашки её быть не может."
+    },
+    "fixIt": {
+      "text": "The designer wanted every room of the hotel to have its own [[individual]] style and feel.",
+      "answer": ["individuality"],
+      "explanationRu": "Individual — «отдельный человек» или «отдельный». Своеобразие, неповторимость — individuality."
+    },
+    "wordFormation": {
+      "base": "individual",
+      "text": "Mass production leaves little room for [[individuality]] in furniture design.",
+      "answer": ["individuality"]
+    },
+    "reply": {
+      "context": "Your friend says: \"I'm thinking of dyeing my hair bright blue. Is that too much?\"",
+      "options": [
+        "Go for it! It'll really show off your individuality.",
+        "Go for it! Individuality means looking exactly like everybody else.",
+        "Your proposal to alter your hair colour is approved in the interests of individuality."
+      ],
+      "answer": 0,
+      "explanationRu": "Show off your individuality — «подчеркнуть свою индивидуальность». Индивидуальность — как раз непохожесть на других, а третий ответ звучит как официальное разрешение, а не совет другу."
+    }
+  }
+]

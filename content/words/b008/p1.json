@@ -3,278 +3,1253 @@
     "lemma": "contend",
     "pos": "verb",
     "definitionEn": "to state firmly that something is true, especially in an argument or debate",
-    "translationsRu": ["утверждать", "заявлять", "доказывать (в споре)"],
-    "acceptedAnswers": ["contend"],
+    "translationsRu": [
+      "утверждать",
+      "заявлять",
+      "доказывать (в споре)"
+    ],
+    "acceptedAnswers": [
+      "contend"
+    ],
     "register": "formal",
     "topic": "thinking",
     "ambiguous": true,
     "senseNote": "Also 'contend with' (справляться с трудностями) and 'contend for' (бороться за что-то); here — to claim something in an argument.",
     "situation": "Someone states in a debate, lawsuit or academic paper that something is true and is ready to defend that view.",
     "examples": [
-      {"text": "The author [[contends]] that loneliness harms health as much as smoking, and backs this up with solid research.",
-       "distractors": ["forgets", "hopes", "pretends"],
-       "alternatives": ["argues", "claims", "maintains", "asserts", "suggests", "shows"]},
-      {"text": "Although tests suggest otherwise, the manufacturers still [[contend]] that their heaters are completely safe.",
-       "distractors": ["regret", "admit", "apologise"],
-       "alternatives": ["insist", "maintain", "claim", "argue", "assert"]},
-      {"text": "Speaking for the motion, she [[contended]] that exams test memory rather than real understanding.",
-       "distractors": ["promised", "guaranteed", "boasted"],
-       "alternatives": ["argued", "claimed", "maintained", "asserted", "insisted", "suggested"]}
+      {
+        "text": "The author [[contends]] that loneliness harms health as much as smoking, and backs this up with solid research.",
+        "distractors": [
+          "forgets",
+          "hopes",
+          "pretends"
+        ],
+        "alternatives": [
+          "argues",
+          "claims",
+          "maintains",
+          "asserts",
+          "suggests",
+          "shows"
+        ]
+      },
+      {
+        "text": "Although tests suggest otherwise, the manufacturers still [[contend]] that their heaters are completely safe.",
+        "distractors": [
+          "regret",
+          "admit",
+          "apologise"
+        ],
+        "alternatives": [
+          "insist",
+          "maintain",
+          "claim",
+          "argue",
+          "assert"
+        ]
+      },
+      {
+        "text": "Speaking for the motion, she [[contended]] that exams test memory rather than real understanding.",
+        "distractors": [
+          "promised",
+          "guaranteed",
+          "boasted"
+        ],
+        "alternatives": [
+          "argued",
+          "claimed",
+          "maintained",
+          "asserted",
+          "insisted",
+          "suggested"
+        ]
+      }
     ],
     "trio": {
-      "texts": ["Some economists [[contend]] that higher wages actually create jobs.",
-                "Many historians [[contend]] that the treaty made another war almost inevitable.",
-                "The tenants [[contend]] that the landlord never repaired the heating."],
-      "alternatives": ["argue", "claim", "maintain", "insist"]
+      "texts": [
+        "Some economists [[contend]] that higher wages actually create jobs.",
+        "Many historians [[contend]] that the treaty made another war almost inevitable.",
+        "The tenants [[contend]] that the landlord never repaired the heating."
+      ],
+      "alternatives": [
+        "argue",
+        "claim",
+        "maintain",
+        "insist"
+      ]
     },
-    "collocations": ["critics [[contend]] that", "opponents [[contend]] that", "I would [[contend]] that", "it could be [[contended]] that"],
-    "badCollocation": {"text": "he [[contended]] me that",
-                       "noteRu": "После contend не ставят дополнение-человека: говорят he contended that, а не he contended me that. Сравните: he assured me that."},
-    "collocationTask": {"prompt": "Opponents of the plan ___ that it will do more harm than good.", "answer": "contend",
-                        "distractors": ["pretend", "intend", "extend"],
-                        "explanationRu": "Contend that — утверждать, отстаивая позицию. Pretend — притворяться, intend — намереваться, extend — продлевать; здесь они не подходят."},
+    "collocations": [
+      "critics [[contend]] that",
+      "opponents [[contend]] that",
+      "I would [[contend]] that",
+      "it could be [[contended]] that"
+    ],
+    "badCollocation": {
+      "text": "he [[contended]] me that",
+      "noteRu": "После contend не ставят дополнение-человека: говорят he contended that, а не he contended me that. Сравните: he assured me that."
+    },
+    "collocationTask": {
+      "prompt": "Opponents of the plan ___ that it will do more harm than good.",
+      "answer": "contend",
+      "distractors": [
+        "pretend",
+        "intend",
+        "extend"
+      ],
+      "explanationRu": "Contend that — утверждать, отстаивая позицию. Pretend — притворяться, intend — намереваться, extend — продлевать; здесь они не подходят."
+    },
     "nuance": {
       "rival": "pretend",
       "text": "In court, the defence will [[contend]] that the contract was never legally valid.",
       "rivalForm": "pretend",
       "explanationRu": "Contend — утверждать и отстаивать позицию в споре. Pretend — «притворяться», а не «претендовать»: адвокат не притворяется, а доказывает.",
-      "reverse": {"text": "The children [[pretended]] to be asleep when their parents came in.", "targetForm": "contended",
-                  "explanationRu": "Pretend — притворяться, делать вид. Contend значит «утверждать в споре» и к детям, изображающим сон, не подходит."}
+      "reverse": {
+        "text": "The children [[pretended]] to be asleep when their parents came in.",
+        "targetForm": "contended",
+        "explanationRu": "Pretend — притворяться, делать вид. Contend значит «утверждать в споре» и к детям, изображающим сон, не подходит."
+      }
     },
-    "fixIt": {"text": "Several scientists [[approve]] that the fossil is much older than first thought.",
-              "answer": ["contend"],
-              "explanationRu": "«Утверждать» в смысле «заявлять в споре» — contend. Approve значит «одобрять», например план или решение."},
-    "wordFormation": {"base": "contend", "text": "Our main [[contention]] is that the project was never properly funded.",
-                      "answer": ["contention"]},
-    "reply": {"context": "In a seminar, your tutor asks: \"So what is the main argument of the article?\"",
-              "options": ["The author contends that city centres should be completely car-free.",
-                          "The author contends the cars in city centres, mostly.",
-                          "So basically she contends, like, cars are super bad and stuff."],
-              "answer": 0,
-              "explanationRu": "После contend нужно придаточное с that. Во втором ответе дополнение без that невозможно, а третий слишком разговорный для семинара."}
+    "fixIt": {
+      "text": "Several scientists [[approve]] that the fossil is much older than first thought.",
+      "answer": [
+        "contend"
+      ],
+      "explanationRu": "«Утверждать» в смысле «заявлять в споре» — contend. Approve значит «одобрять», например план или решение."
+    },
+    "wordFormation": {
+      "base": "contend",
+      "text": "Our main [[contention]] is that the project was never properly funded.",
+      "answer": [
+        "contention"
+      ]
+    },
+    "reply": {
+      "context": "In a seminar, your tutor asks: \"So what is the main argument of the article?\"",
+      "options": [
+        "The author contends that city centres should be completely car-free.",
+        "The author contends the cars in city centres, mostly.",
+        "So basically she contends, like, cars are super bad and stuff."
+      ],
+      "answer": 0,
+      "explanationRu": "После contend нужно придаточное с that. Во втором ответе дополнение без that невозможно, а третий слишком разговорный для семинара."
+    }
   },
   {
     "lemma": "contender",
     "pos": "noun",
     "definitionEn": "a person, team or thing with a real chance of winning a competition or prize",
-    "translationsRu": ["претендент", "соперник", "кандидат (на победу)"],
-    "acceptedAnswers": ["contender"],
+    "translationsRu": [
+      "претендент",
+      "соперник",
+      "кандидат (на победу)"
+    ],
+    "acceptedAnswers": [
+      "contender"
+    ],
     "register": "neutral",
     "topic": "culture",
     "ambiguous": false,
     "senseNote": "",
     "situation": "Commentators discuss which athletes, films or candidates have a realistic chance of taking first place.",
     "examples": [
-      {"text": "After three straight wins, the team is now a serious [[contender]] for the league title.",
-       "distractors": ["outsider", "sponsor", "spectator"],
-       "alternatives": ["challenger", "candidate", "competitor"]},
-      {"text": "The young director is now a strong [[contender]] for the festival's top prize.",
-       "distractors": ["judge", "critic", "presenter"],
-       "alternatives": ["candidate", "favourite", "challenger"]},
-      {"text": "With fifteen years' experience, Tom is the leading [[contender]] for the manager's job.",
-       "distractors": ["colleague", "reference", "employer"],
-       "alternatives": ["candidate", "applicant"]}
+      {
+        "text": "After three straight wins, the team is now a serious [[contender]] for the league title.",
+        "distractors": [
+          "outsider",
+          "sponsor",
+          "spectator"
+        ],
+        "alternatives": [
+          "challenger",
+          "candidate",
+          "competitor"
+        ]
+      },
+      {
+        "text": "The young director is now a strong [[contender]] for the festival's top prize.",
+        "distractors": [
+          "judge",
+          "critic",
+          "presenter"
+        ],
+        "alternatives": [
+          "candidate",
+          "favourite",
+          "challenger"
+        ]
+      },
+      {
+        "text": "With fifteen years' experience, Tom is the leading [[contender]] for the manager's job.",
+        "distractors": [
+          "colleague",
+          "reference",
+          "employer"
+        ],
+        "alternatives": [
+          "candidate",
+          "applicant"
+        ]
+      }
     ],
     "trio": {
-      "texts": ["Few experts saw the small club as a title [[contender]] in August.",
-                "This quiet novel has become an unexpected [[contender]] for the national book prize.",
-                "The former governor is seen as a likely presidential [[contender]]."],
-      "alternatives": ["candidate", "challenger"]
+      "texts": [
+        "Few experts saw the small club as a title [[contender]] in August.",
+        "This quiet novel has become an unexpected [[contender]] for the national book prize.",
+        "The former governor is seen as a likely presidential [[contender]]."
+      ],
+      "alternatives": [
+        "candidate",
+        "challenger"
+      ]
     },
-    "collocations": ["a serious [[contender]] for", "a leading [[contender]]", "a title [[contender]]", "a strong [[contender]] for the job", "a presidential [[contender]]"],
-    "badCollocation": {"text": "a [[contender]] on the title",
-                       "noteRu": "Претендент «на» что-то — contender for: a contender for the title. Предлог on здесь неверен."},
-    "collocationTask": {"prompt": "a serious contender ___ the title", "answer": "for",
-                        "distractors": ["on", "of", "at"],
-                        "explanationRu": "Претендент на титул или приз — contender for. Предлоги on, of и at в этом сочетании не используются."},
+    "collocations": [
+      "a serious [[contender]] for",
+      "a leading [[contender]]",
+      "a title [[contender]]",
+      "a strong [[contender]] for the job",
+      "a presidential [[contender]]"
+    ],
+    "badCollocation": {
+      "text": "a [[contender]] on the title",
+      "noteRu": "Претендент «на» что-то — contender for: a contender for the title. Предлог on здесь неверен."
+    },
+    "collocationTask": {
+      "prompt": "a serious contender ___ the title",
+      "answer": "for",
+      "distractors": [
+        "on",
+        "of",
+        "at"
+      ],
+      "explanationRu": "Претендент на титул или приз — contender for. Предлоги on, of и at в этом сочетании не используются."
+    },
     "nuance": {
       "rival": "competitor",
       "text": "Twenty runners started the race, but only three were genuine [[contenders]] for gold.",
       "rivalForm": "competitors",
       "explanationRu": "Competitor — любой участник соревнования, contender — тот, у кого реальный шанс победить. Здесь противопоставлены все бегуны и настоящие претенденты.",
-      "reverse": {"text": "More than two hundred [[competitors]] took part in the city marathon.", "targetForm": "contenders",
-                  "explanationRu": "Речь обо всех участниках забега — competitors. Contender — только тот, кто реально может выиграть."}
+      "reverse": {
+        "text": "More than two hundred [[competitors]] took part in the city marathon.",
+        "targetForm": "contenders",
+        "explanationRu": "Речь обо всех участниках забега — competitors. Contender — только тот, кто реально может выиграть."
+      }
     },
-    "fixIt": {"text": "After five wins in a row, the young player is now a real [[pretender]] for the title.",
-              "answer": ["contender"],
-              "explanationRu": "Претендент на победу — contender. Pretender — ложный друг: «самозванец» или претендент на престол."},
-    "wordFormation": {"base": "contend", "text": "Five years ago, nobody saw her as a serious [[contender]] for a place in the national team.",
-                      "answer": ["contender"]},
-    "reply": {"context": "A friend messages: \"Who do you think will win the baking show this year?\"",
-              "options": ["In my considered assessment, the principal contender is the retired teacher.",
-                          "Hard to say, but the retired teacher looks like the strongest contender.",
-                          "The judges are definitely the strongest contenders this year."],
-              "answer": 1,
-              "explanationRu": "Contender — участник с реальным шансом на победу, поэтому судьи им быть не могут. Первый ответ слишком официальный для переписки с другом."},
-    "rewrite": {"original": "She has a real chance of winning the award.",
-                "frame": "She is a real ____ the award.",
-                "accepted": ["contender for", "contender to win"],
-                "explanationRu": "Иметь реальный шанс на победу — be a contender for something."}
+    "fixIt": {
+      "text": "After five wins in a row, the young player is now a real [[pretender]] for the title.",
+      "answer": [
+        "contender"
+      ],
+      "explanationRu": "Претендент на победу — contender. Pretender — ложный друг: «самозванец» или претендент на престол."
+    },
+    "wordFormation": {
+      "base": "contend",
+      "text": "Five years ago, nobody saw her as a serious [[contender]] for a place in the national team.",
+      "answer": [
+        "contender"
+      ]
+    },
+    "reply": {
+      "context": "A friend messages: \"Who do you think will win the baking show this year?\"",
+      "options": [
+        "In my considered assessment, the principal contender is the retired teacher.",
+        "Hard to say, but the retired teacher looks like the strongest contender.",
+        "The judges are definitely the strongest contenders this year."
+      ],
+      "answer": 1,
+      "explanationRu": "Contender — участник с реальным шансом на победу, поэтому судьи им быть не могут. Первый ответ слишком официальный для переписки с другом."
+    },
+    "rewrite": {
+      "original": "She has a real chance of winning the award.",
+      "frame": "She is a real ____ the award.",
+      "accepted": [
+        "contender for",
+        "contender to win"
+      ],
+      "explanationRu": "Иметь реальный шанс на победу — be a contender for something."
+    }
   },
   {
     "lemma": "contention",
     "pos": "noun",
     "definitionEn": "strong disagreement or argument between people or groups about something",
-    "translationsRu": ["разногласия", "спор", "раздор"],
-    "acceptedAnswers": ["contention"],
+    "translationsRu": [
+      "разногласия",
+      "спор",
+      "раздор"
+    ],
+    "acceptedAnswers": [
+      "contention"
+    ],
     "register": "formal",
     "topic": "thinking",
     "ambiguous": true,
     "senseNote": "Also 'a claim in an argument' (It is our contention that the plan will fail) and 'in contention' (with a chance to win); here — disagreement.",
     "situation": "Two sides keep arguing about an issue, such as money, land or rules, and cannot agree.",
     "examples": [
-      {"text": "Who should care for their elderly mother became a constant source of [[contention]] between the two brothers.",
-       "distractors": ["inspiration", "income", "comfort"],
-       "alternatives": ["conflict", "tension", "disagreement", "friction"]},
-      {"text": "Overtime pay is still the main point of [[contention]], so the talks have been postponed again.",
-       "distractors": ["agreement", "reference", "departure"],
-       "alternatives": ["disagreement", "dispute"]},
-      {"text": "Whether the painting is really by the famous artist remains a matter of [[contention]] among experts.",
-       "distractors": ["taste", "record", "pride"],
-       "alternatives": ["debate", "dispute", "controversy", "disagreement"]}
+      {
+        "text": "Who should care for their elderly mother became a constant source of [[contention]] between the two brothers.",
+        "distractors": [
+          "inspiration",
+          "income",
+          "comfort"
+        ],
+        "alternatives": [
+          "conflict",
+          "tension",
+          "disagreement",
+          "friction"
+        ]
+      },
+      {
+        "text": "Overtime pay is still the main point of [[contention]], so the talks have been postponed again.",
+        "distractors": [
+          "agreement",
+          "reference",
+          "departure"
+        ],
+        "alternatives": [
+          "disagreement",
+          "dispute"
+        ]
+      },
+      {
+        "text": "Whether the painting is really by the famous artist remains a matter of [[contention]] among experts.",
+        "distractors": [
+          "taste",
+          "record",
+          "pride"
+        ],
+        "alternatives": [
+          "debate",
+          "dispute",
+          "controversy",
+          "disagreement"
+        ]
+      }
     ],
     "trio": {
-      "texts": ["Parking spaces are a constant bone of [[contention]] between the neighbours.",
-                "The new bonus system caused considerable [[contention]] within the sales team.",
-                "Water rights have long been a source of [[contention]] between the two regions."],
+      "texts": [
+        "Parking spaces are a constant bone of [[contention]] between the neighbours.",
+        "The new bonus system caused considerable [[contention]] within the sales team.",
+        "Water rights have long been a source of [[contention]] between the two regions."
+      ],
       "alternatives": []
     },
-    "collocations": ["a bone of [[contention]]", "a point of [[contention]]", "a source of [[contention]]", "a matter of [[contention]]", "cause [[contention]]"],
-    "badCollocation": {"text": "an apple of [[contention]]",
-                       "noteRu": "«Яблоко раздора» по-английски — a bone of contention или the apple of discord. Смешивать их нельзя: apple of contention не говорят."},
-    "collocationTask": {"prompt": "a ___ of contention", "answer": "bone",
-                        "distractors": ["apple", "stone", "seed"],
-                        "explanationRu": "Идиома — a bone of contention («яблоко раздора»). Apple, stone и seed в ней не используются."},
+    "collocations": [
+      "a bone of [[contention]]",
+      "a point of [[contention]]",
+      "a source of [[contention]]",
+      "a matter of [[contention]]",
+      "cause [[contention]]"
+    ],
+    "badCollocation": {
+      "text": "an apple of [[contention]]",
+      "noteRu": "«Яблоко раздора» по-английски — a bone of contention или the apple of discord. Смешивать их нельзя: apple of contention не говорят."
+    },
+    "collocationTask": {
+      "prompt": "a ___ of contention",
+      "answer": "bone",
+      "distractors": [
+        "apple",
+        "stone",
+        "seed"
+      ],
+      "explanationRu": "Идиома — a bone of contention («яблоко раздора»). Apple, stone и seed в ней не используются."
+    },
     "nuance": {
       "rival": "conflict",
       "text": "The inheritance quickly became a bone of [[contention]] in the family.",
       "rivalForm": "conflict",
       "explanationRu": "В идиоме a bone of contention («яблоко раздора») слово не заменяют: bone of conflict не говорят. Conflict — более общее слово: конфликт, столкновение.",
-      "reverse": {"text": "Because the judge's son works for the company, there is a clear [[conflict]] of interest.", "targetForm": "contention",
-                  "explanationRu": "Устойчивое выражение — conflict of interest («конфликт интересов»). Contention в нём не используется."}
+      "reverse": {
+        "text": "Because the judge's son works for the company, there is a clear [[conflict]] of interest.",
+        "targetForm": "contention",
+        "explanationRu": "Устойчивое выражение — conflict of interest («конфликт интересов»). Contention в нём не используется."
+      }
     },
-    "fixIt": {"text": "Working hours remain the main point of [[contradiction]] between the union and management.",
-              "answer": ["contention"],
-              "explanationRu": "Спорный вопрос — a point of contention. Contradiction — логическое противоречие между фактами, а не разногласия сторон."},
-    "wordFormation": {"base": "contention", "text": "Whether to allow dogs in the office has become a surprisingly [[contentious]] issue.",
-                      "answer": ["contentious"]},
-    "reply": {"context": "At a team meeting, your manager asks: \"Is there anything in the budget we still haven't agreed on?\"",
-              "options": ["Yes, we've finally reached full contention on every item.",
-                          "Contention-wise, the travel stuff is kinda the big thing, yeah.",
-                          "Yes, travel costs are still a point of contention."],
-              "answer": 2,
-              "explanationRu": "Contention — разногласия, а не согласие: a point of contention — спорный вопрос. Второй ответ слишком небрежный для совещания."}
+    "fixIt": {
+      "text": "Working hours remain the main point of [[contradiction]] between the union and management.",
+      "answer": [
+        "contention"
+      ],
+      "explanationRu": "Спорный вопрос — a point of contention. Contradiction — логическое противоречие между фактами, а не разногласия сторон."
+    },
+    "wordFormation": {
+      "base": "contention",
+      "text": "Whether to allow dogs in the office has become a surprisingly [[contentious]] issue.",
+      "answer": [
+        "contentious"
+      ]
+    },
+    "reply": {
+      "context": "At a team meeting, your manager asks: \"Is there anything in the budget we still haven't agreed on?\"",
+      "options": [
+        "Yes, we've finally reached full contention on every item.",
+        "Contention-wise, the travel stuff is kinda the big thing, yeah.",
+        "Yes, travel costs are still a point of contention."
+      ],
+      "answer": 2,
+      "explanationRu": "Contention — разногласия, а не согласие: a point of contention — спорный вопрос. Второй ответ слишком небрежный для совещания."
+    }
   },
   {
     "lemma": "continually",
     "pos": "adverb",
     "definitionEn": "again and again over a period of time, often in an annoying way",
-    "translationsRu": ["постоянно", "то и дело", "беспрестанно"],
-    "acceptedAnswers": ["continually"],
+    "translationsRu": [
+      "постоянно",
+      "то и дело",
+      "беспрестанно"
+    ],
+    "acceptedAnswers": [
+      "continually"
+    ],
     "register": "neutral",
     "topic": "people",
     "ambiguous": false,
     "senseNote": "Здесь — повторяющиеся (часто раздражающие) действия, в отличие от continuously — «без перерыва».",
     "situation": "Something keeps happening over and over, with short breaks, and it starts to annoy or tire you.",
     "examples": [
-      {"text": "My flatmate [[continually]] borrows my things without asking, and it's starting to annoy me.",
-       "distractors": ["rarely", "politely", "never"],
-       "alternatives": ["constantly", "repeatedly", "always"]},
-      {"text": "The office printer [[continually]] jams, so we've asked IT to replace it.",
-       "distractors": ["seldom", "neatly", "quietly"],
-       "alternatives": ["constantly", "repeatedly", "always", "regularly", "frequently"]},
-      {"text": "The final was [[continually]] interrupted by rain and didn't finish until after midnight.",
-       "distractors": ["barely", "gently", "safely"],
-       "alternatives": ["repeatedly", "constantly", "frequently"]}
+      {
+        "text": "My flatmate [[continually]] borrows my things without asking, and it's starting to annoy me.",
+        "distractors": [
+          "rarely",
+          "politely",
+          "never"
+        ],
+        "alternatives": [
+          "constantly",
+          "repeatedly",
+          "always"
+        ]
+      },
+      {
+        "text": "The office printer [[continually]] jams, so we've asked IT to replace it.",
+        "distractors": [
+          "seldom",
+          "neatly",
+          "quietly"
+        ],
+        "alternatives": [
+          "constantly",
+          "repeatedly",
+          "always",
+          "regularly",
+          "frequently"
+        ]
+      },
+      {
+        "text": "The final was [[continually]] interrupted by rain and didn't finish until after midnight.",
+        "distractors": [
+          "barely",
+          "gently",
+          "safely"
+        ],
+        "alternatives": [
+          "repeatedly",
+          "constantly",
+          "frequently"
+        ]
+      }
     ],
     "trio": {
-      "texts": ["She [[continually]] checks her phone during dinner.",
-                "The rules are [[continually]] changing, which confuses new staff.",
-                "He was [[continually]] late for work and eventually lost his job."],
-      "alternatives": ["constantly", "always"]
+      "texts": [
+        "She [[continually]] checks her phone during dinner.",
+        "The rules are [[continually]] changing, which confuses new staff.",
+        "He was [[continually]] late for work and eventually lost his job."
+      ],
+      "alternatives": [
+        "constantly",
+        "always"
+      ]
     },
-    "collocations": ["[[continually]] complain about something", "[[continually]] interrupt someone", "be [[continually]] changing", "[[continually]] updated"],
-    "badCollocation": {"text": "[[continually]] live abroad",
-                       "noteRu": "«Постоянно живу за границей» — I live abroad permanently. Continually — «то и дело», про повторяющиеся действия."},
-    "collocationTask": {"prompt": "She is ___ changing her mind.", "answer": "continually",
-                        "distractors": ["continual", "continuous", "continued"],
-                        "explanationRu": "Перед причастием changing нужно наречие — continually. Continual, continuous и continued — прилагательные и здесь не подходят."},
+    "collocations": [
+      "[[continually]] complain about something",
+      "[[continually]] interrupt someone",
+      "be [[continually]] changing",
+      "[[continually]] updated"
+    ],
+    "badCollocation": {
+      "text": "[[continually]] live abroad",
+      "noteRu": "«Постоянно живу за границей» — I live abroad permanently. Continually — «то и дело», про повторяющиеся действия."
+    },
+    "collocationTask": {
+      "prompt": "She is ___ changing her mind.",
+      "answer": "continually",
+      "distractors": [
+        "continual",
+        "continuous",
+        "continued"
+      ],
+      "explanationRu": "Перед причастием changing нужно наречие — continually. Continual, continuous и continued — прилагательные и здесь не подходят."
+    },
     "nuance": {
       "rival": "continuously",
       "text": "On the long drive, the kids [[continually]] asked if we were nearly there.",
       "rivalForm": "continuously",
       "explanationRu": "Continually — снова и снова, с перерывами: дети задают вопрос раз за разом. Continuously — без малейшей паузы, как течёт вода или работает мотор.",
-      "reverse": {"text": "The factory runs [[continuously]], twenty-four hours a day.", "targetForm": "continually",
-                  "explanationRu": "Работа без остановки, круглые сутки — continuously. Continually предполагает повторение с перерывами."}
+      "reverse": {
+        "text": "The factory runs [[continuously]], twenty-four hours a day.",
+        "targetForm": "continually",
+        "explanationRu": "Работа без остановки, круглые сутки — continuously. Continually предполагает повторение с перерывами."
+      }
     },
-    "fixIt": {"text": "My boss is [[permanently]] asking me to stay late, and I'm exhausted.",
-              "answer": ["continually"],
-              "explanationRu": "«Постоянно» в смысле «то и дело» — continually. Permanently значит «навсегда, на постоянной основе»."},
-    "wordFormation": {"base": "continue", "text": "Our team leader [[continually]] reminds us to back up our files.",
-                      "answer": ["continually"]},
-    "reply": {"context": "A colleague asks: \"How are you finding the new open-plan office?\"",
-              "options": ["Not bad. I'd like to work here continually, until I retire.",
-                          "Honestly, I'm continually interrupted, so it's hard to concentrate.",
-                          "It is characterised by continually recurring disruptive occurrences, regrettably."],
-              "answer": 1,
-              "explanationRu": "Continually — «то и дело»: меня постоянно отвлекают. В первом ответе нужно permanently («навсегда»), а третий звучит как канцелярский отчёт."},
-    "rewrite": {"original": "My neighbour complains about the noise again and again.",
-                "frame": "My neighbour ____ about the noise.",
-                "accepted": ["continually complains", "is continually complaining", "complains continually"],
-                "explanationRu": "Again and again можно передать наречием continually."}
+    "fixIt": {
+      "text": "My boss is [[permanently]] asking me to stay late, and I'm exhausted.",
+      "answer": [
+        "continually"
+      ],
+      "explanationRu": "«Постоянно» в смысле «то и дело» — continually. Permanently значит «навсегда, на постоянной основе»."
+    },
+    "wordFormation": {
+      "base": "continue",
+      "text": "Our team leader [[continually]] reminds us to back up our files.",
+      "answer": [
+        "continually"
+      ]
+    },
+    "reply": {
+      "context": "A colleague asks: \"How are you finding the new open-plan office?\"",
+      "options": [
+        "Not bad. I'd like to work here continually, until I retire.",
+        "Honestly, I'm continually interrupted, so it's hard to concentrate.",
+        "It is characterised by continually recurring disruptive occurrences, regrettably."
+      ],
+      "answer": 1,
+      "explanationRu": "Continually — «то и дело»: меня постоянно отвлекают. В первом ответе нужно permanently («навсегда»), а третий звучит как канцелярский отчёт."
+    },
+    "rewrite": {
+      "original": "My neighbour complains about the noise again and again.",
+      "frame": "My neighbour ____ about the noise.",
+      "accepted": [
+        "continually complains",
+        "is continually complaining",
+        "complains continually"
+      ],
+      "explanationRu": "Again and again можно передать наречием continually."
+    }
   },
   {
     "lemma": "contractor",
     "pos": "noun",
     "definitionEn": "a person or company paid to do a specific job, especially building work",
-    "translationsRu": ["подрядчик", "исполнитель (работ)", "подрядная организация"],
-    "acceptedAnswers": ["contractor"],
+    "translationsRu": [
+      "подрядчик",
+      "исполнитель (работ)",
+      "подрядная организация"
+    ],
+    "acceptedAnswers": [
+      "contractor"
+    ],
     "register": "neutral",
     "topic": "work",
     "ambiguous": false,
     "senseNote": "",
     "situation": "A firm or tradesperson is hired and paid to build, repair or provide something for a client.",
     "examples": [
-      {"text": "We hired a local [[contractor]] to build the extension, and the work took four months.",
-       "distractors": ["tenant", "surveyor", "buyer"],
-       "alternatives": ["builder", "firm", "company"]},
-      {"text": "The ministry paid a private [[contractor]] millions to run the new visa system.",
-       "distractors": ["donor", "auditor", "investor"],
-       "alternatives": ["company", "firm", "supplier", "operator"]},
-      {"text": "As an independent [[contractor]], she sets her own hours but gets no paid holiday.",
-       "distractors": ["employee", "pensioner", "shareholder"],
-       "alternatives": ["freelancer", "consultant"]}
+      {
+        "text": "We hired a local [[contractor]] to build the extension, and the work took four months.",
+        "distractors": [
+          "tenant",
+          "surveyor",
+          "buyer"
+        ],
+        "alternatives": [
+          "builder",
+          "firm",
+          "company"
+        ]
+      },
+      {
+        "text": "The ministry paid a private [[contractor]] millions to run the new visa system.",
+        "distractors": [
+          "donor",
+          "auditor",
+          "investor"
+        ],
+        "alternatives": [
+          "company",
+          "firm",
+          "supplier",
+          "operator"
+        ]
+      },
+      {
+        "text": "As an independent [[contractor]], she sets her own hours but gets no paid holiday.",
+        "distractors": [
+          "employee",
+          "pensioner",
+          "shareholder"
+        ],
+        "alternatives": [
+          "freelancer",
+          "consultant"
+        ]
+      }
     ],
     "trio": {
-      "texts": ["The [[contractor]] promised the roof would be finished by Friday.",
-                "The hospital uses an outside [[contractor]] for cleaning.",
-                "I work as a [[contractor]] for several software firms."],
+      "texts": [
+        "The [[contractor]] promised the roof would be finished by Friday.",
+        "The hospital uses an outside [[contractor]] for cleaning.",
+        "I work as a [[contractor]] for several software firms."
+      ],
       "alternatives": []
     },
-    "collocations": ["a building [[contractor]]", "a private [[contractor]]", "an independent [[contractor]]", "hire a [[contractor]]", "a defence [[contractor]]"],
-    "badCollocation": {"text": "take a [[contractor]]",
-                       "noteRu": "Подрядчика нанимают: hire, use или bring in a contractor. Take a contractor по-английски не говорят."},
-    "collocationTask": {"prompt": "___ a contractor to do the work", "answer": "hire",
-                        "distractors": ["rent", "order", "attract"],
-                        "explanationRu": "Подрядчика нанимают: hire (или use, bring in) a contractor. Rent — арендовать, order — заказывать товар, attract — привлекать."},
+    "collocations": [
+      "a building [[contractor]]",
+      "a private [[contractor]]",
+      "an independent [[contractor]]",
+      "hire a [[contractor]]",
+      "a defence [[contractor]]"
+    ],
+    "badCollocation": {
+      "text": "take a [[contractor]]",
+      "noteRu": "Подрядчика нанимают: hire, use или bring in a contractor. Take a contractor по-английски не говорят."
+    },
+    "collocationTask": {
+      "prompt": "___ a contractor to do the work",
+      "answer": "hire",
+      "distractors": [
+        "rent",
+        "order",
+        "attract"
+      ],
+      "explanationRu": "Подрядчика нанимают: hire (или use, bring in) a contractor. Rent — арендовать, order — заказывать товар, attract — привлекать."
+    },
     "nuance": {
       "rival": "employee",
       "text": "She isn't on the payroll; she's a [[contractor]] who sends us an invoice every month.",
       "rivalForm": "employee",
       "explanationRu": "Contractor работает по договору и выставляет счета, employee — штатный сотрудник на зарплате. Счёт каждый месяц указывает на подрядчика.",
-      "reverse": {"text": "As a full-time [[employee]], he gets paid holidays and a company pension.", "targetForm": "contractor",
-                  "explanationRu": "Оплачиваемый отпуск и пенсию от компании получает штатный сотрудник — employee. У подрядчика таких гарантий обычно нет."}
+      "reverse": {
+        "text": "As a full-time [[employee]], he gets paid holidays and a company pension.",
+        "targetForm": "contractor",
+        "explanationRu": "Оплачиваемый отпуск и пенсию от компании получает штатный сотрудник — employee. У подрядчика таких гарантий обычно нет."
+      }
     },
-    "fixIt": {"text": "The [[executor]] has promised to finish the new roof by the end of June.",
-              "answer": ["contractor"],
-              "explanationRu": "Подрядчик, выполняющий работы, — contractor. Executor — исполнитель завещания; «Исполнитель» в договорах тоже переводят как contractor."},
-    "wordFormation": {"base": "contract", "text": "The [[contractor]] who built our garage went out of business a year later.",
-                      "answer": ["contractor"]},
-    "reply": {"context": "Your friend texts: \"The kitchen renovation is a nightmare. Nothing's finished and they've stopped answering my calls!\"",
-              "options": ["That's awful! Don't pay the contractor anything else until the work is done.",
-                          "Have you read the contractor? It should say when they have to finish.",
-                          "Please accept my sincere condolences regarding the contractor-related difficulties."],
-              "answer": 0,
-              "explanationRu": "Contractor — подрядчик (фирма или мастер), а не сам договор (contract). Третий ответ слишком официальный для переписки с другом."}
+    "fixIt": {
+      "text": "The [[executor]] has promised to finish the new roof by the end of June.",
+      "answer": [
+        "contractor"
+      ],
+      "explanationRu": "Подрядчик, выполняющий работы, — contractor. Executor — исполнитель завещания; «Исполнитель» в договорах тоже переводят как contractor."
+    },
+    "wordFormation": {
+      "base": "contract",
+      "text": "The [[contractor]] who built our garage went out of business a year later.",
+      "answer": [
+        "contractor"
+      ]
+    },
+    "reply": {
+      "context": "Your friend texts: \"The kitchen renovation is a nightmare. Nothing's finished and they've stopped answering my calls!\"",
+      "options": [
+        "That's awful! Don't pay the contractor anything else until the work is done.",
+        "Have you read the contractor? It should say when they have to finish.",
+        "Please accept my sincere condolences regarding the contractor-related difficulties."
+      ],
+      "answer": 0,
+      "explanationRu": "Contractor — подрядчик (фирма или мастер), а не сам договор (contract). Третий ответ слишком официальный для переписки с другом."
+    }
+  },
+  {
+    "lemma": "contradiction",
+    "pos": "noun",
+    "definitionEn": "a situation in which two statements, facts or ideas are opposed and cannot both be true",
+    "translationsRu": [
+      "противоречие",
+      "несоответствие"
+    ],
+    "acceptedAnswers": [
+      "contradiction"
+    ],
+    "register": "neutral",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "Here — a clash between facts, words or ideas (a contradiction between words and actions), not just 'disagreeing with someone'.",
+    "situation": "What someone says does not match what they do, or two reports give opposite facts.",
+    "examples": [
+      {
+        "text": "There is an obvious [[contradiction]] between the firm's green image and its rising carbon emissions.",
+        "distractors": [
+          "similarity",
+          "harmony",
+          "agreement"
+        ],
+        "alternatives": [
+          "mismatch",
+          "inconsistency",
+          "conflict",
+          "discrepancy",
+          "gap"
+        ]
+      },
+      {
+        "text": "You say you trust me but check my phone every night. Isn't that a [[contradiction]]?",
+        "distractors": [
+          "compliment",
+          "coincidence",
+          "guarantee"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "The report is full of [[contradictions]], so nobody knows which figures to trust.",
+        "distractors": [
+          "footnotes",
+          "illustrations",
+          "recommendations"
+        ],
+        "alternatives": [
+          "inconsistencies",
+          "discrepancies",
+          "errors",
+          "mistakes"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Is healthy fast food a [[contradiction]] in terms?",
+        "There's no [[contradiction]] between being ambitious and being kind.",
+        "The witness's second statement was a clear [[contradiction]] of his first."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "a [[contradiction]] in terms",
+      "a [[contradiction]] between words and actions",
+      "in direct [[contradiction]] to",
+      "full of [[contradictions]]",
+      "an apparent [[contradiction]]"
+    ],
+    "badCollocation": {
+      "text": "[[contradictions]] between the two countries",
+      "noteRu": "Разногласия между странами или людьми — differences, disagreements или tensions. Contradiction — противоречие между фактами или утверждениями."
+    },
+    "collocationTask": {
+      "prompt": "a contradiction ___ terms",
+      "answer": "in",
+      "distractors": [
+        "of",
+        "on",
+        "with"
+      ],
+      "explanationRu": "Устойчивое выражение — a contradiction in terms («взаимоисключающие понятия»). Предлоги of, on и with здесь не используются."
+    },
+    "nuance": {
+      "rival": "contrast",
+      "text": "Saying you want to save money while buying a new phone every year is a [[contradiction]].",
+      "rivalForm": "contrast",
+      "explanationRu": "Contradiction — когда слова и поступки или два утверждения исключают друг друга. Contrast — просто заметная разница, например в цвете или характере.",
+      "reverse": {
+        "text": "The bright red sofa makes a nice [[contrast]] with the grey walls.",
+        "targetForm": "contradiction",
+        "explanationRu": "Разница в цвете — contrast. Contradiction касается утверждений и идей, которые не могут быть верны одновременно."
+      }
+    },
+    "fixIt": {
+      "text": "There is an obvious [[controversy]] between what he promises and what he actually does.",
+      "answer": [
+        "contradiction"
+      ],
+      "explanationRu": "Несоответствие между словами и делами — contradiction. Controversy — общественный спор, полемика вокруг какой-то темы."
+    },
+    "wordFormation": {
+      "base": "contradiction",
+      "text": "The two witnesses gave [[contradictory]] accounts of the accident.",
+      "answer": [
+        "contradictory"
+      ]
+    },
+    "reply": {
+      "context": "Your friend says: \"I'm on a strict diet, so I'll just have the chocolate cake and a large cola.\"",
+      "options": [
+        "What a contradiction! I love chocolate cake too.",
+        "I must draw attention to the logical contradiction inherent in your dietary declaration.",
+        "A strict diet and chocolate cake? Isn't that a bit of a contradiction?"
+      ],
+      "answer": 2,
+      "explanationRu": "Contradiction — противоречие между словами и поступками: диета и торт. В первом ответе речь о совпадении вкусов, а второй слишком официальный для разговора с другом."
+    },
+    "rewrite": {
+      "original": "What she says and what she does do not match at all.",
+      "frame": "There is a complete ____ what she says and what she does.",
+      "accepted": [
+        "contradiction between"
+      ],
+      "explanationRu": "Несоответствие между двумя вещами — a contradiction between X and Y."
+    }
+  },
+  {
+    "lemma": "contrary",
+    "pos": "adjective",
+    "definitionEn": "completely different from or opposed to something, such as a belief, rule or expectation",
+    "translationsRu": [
+      "противоположный",
+      "противоречащий",
+      "обратный"
+    ],
+    "acceptedAnswers": [
+      "contrary"
+    ],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": false,
+    "senseNote": "Also (of a person) 'deliberately awkward'; here — opposite or going against something (contrary to popular belief).",
+    "situation": "A fact, opinion or action goes against what most people believe, expect or allow.",
+    "examples": [
+      {
+        "text": "[[Contrary]] to popular belief, most sharks pose little danger to humans.",
+        "distractors": [
+          "similar",
+          "faithful",
+          "equal"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "The committee took a decision [[contrary]] to the advice of its own experts, which angered many members.",
+        "distractors": [
+          "identical",
+          "loyal",
+          "sensitive"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "The team ignored all [[contrary]] evidence and stuck to their original theory.",
+        "distractors": [
+          "supporting",
+          "consistent",
+          "confirming"
+        ],
+        "alternatives": [
+          "opposing",
+          "conflicting",
+          "contradictory"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "[[Contrary]] to expectations, the new product sold out in a week.",
+        "Acting [[contrary]] to the rules can get you disqualified.",
+        "Nobody dared to express a [[contrary]] opinion at the meeting."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[contrary]] to popular belief",
+      "[[contrary]] to expectations",
+      "[[contrary]] evidence",
+      "a [[contrary]] view",
+      "[[contrary]] to the rules"
+    ],
+    "badCollocation": {
+      "text": "[[contrary]] of what he said",
+      "noteRu": "Правильно contrary to: contrary to what he said. Предлог of после прилагательного contrary не используется."
+    },
+    "collocationTask": {
+      "prompt": "___ to popular belief",
+      "answer": "contrary",
+      "distractors": [
+        "opposite",
+        "different",
+        "reverse"
+      ],
+      "explanationRu": "Устойчивое выражение — contrary to popular belief («вопреки распространённому мнению»). Opposite, different и reverse в нём не используются."
+    },
+    "nuance": {
+      "rival": "opposite",
+      "text": "The results were [[contrary]] to what the researchers had predicted.",
+      "rivalForm": "opposite",
+      "explanationRu": "Contrary to — «вопреки, в противоречие с» ожиданиями, правилами, мнением. Opposite чаще описывает место напротив или стоит в конструкции the opposite of.",
+      "reverse": {
+        "text": "The bank is on the [[opposite]] side of the street.",
+        "targetForm": "contrary",
+        "explanationRu": "Расположение «напротив, на другой стороне» — opposite. Contrary относится к мнениям, фактам и правилам, а не к месту."
+      }
+    },
+    "fixIt": {
+      "text": "[[Opposite]] to what many tourists expect, the city is very quiet at night.",
+      "answer": [
+        "contrary"
+      ],
+      "explanationRu": "«Вопреки тому, что думают» — contrary to what people think. Opposite описывает место напротив или противоположность (the opposite of), а не «вопреки»."
+    },
+    "reply": {
+      "context": "A colleague says: \"I read that coffee is really bad for your heart.\"",
+      "options": [
+        "Yes, coffee is very contrary for your heart, I agree.",
+        "Actually, contrary to what many people think, a few cups a day seem to be fine.",
+        "On the contrary, esteemed colleague, empirical findings indicate otherwise."
+      ],
+      "answer": 1,
+      "explanationRu": "Contrary to what people think — «вопреки распространённому мнению». Contrary не значит «вредный», а третий ответ слишком высокопарный для разговора с коллегой."
+    },
+    "rewrite": {
+      "original": "Most people think goldfish have a three-second memory, but in fact they can remember things for months.",
+      "frame": "____ popular belief, goldfish can remember things for months.",
+      "accepted": [
+        "Contrary to"
+      ],
+      "explanationRu": "«Вопреки распространённому мнению» — contrary to popular belief."
+    }
+  },
+  {
+    "lemma": "contributor",
+    "pos": "noun",
+    "definitionEn": "something or someone that is one of the causes of a result, often a problem",
+    "translationsRu": [
+      "фактор",
+      "источник (проблемы)",
+      "одна из причин"
+    ],
+    "acceptedAnswers": [
+      "contributor"
+    ],
+    "register": "neutral",
+    "topic": "science",
+    "ambiguous": true,
+    "senseNote": "Also 'a person who writes for a magazine' or 'a donor'; here — a cause that adds to a result (a major contributor to pollution).",
+    "situation": "Experts explain which factors help to cause a problem such as pollution, illness or rising prices.",
+    "examples": [
+      {
+        "text": "Road traffic is the single biggest [[contributor]] to air pollution in the city.",
+        "distractors": [
+          "obstacle",
+          "exception",
+          "solution"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "Doctors believe poor sleep is a major [[contributor]] to weight gain in teenagers.",
+        "distractors": [
+          "remedy",
+          "alternative",
+          "barrier"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "Rising energy costs were one of the biggest [[contributors]] to inflation last year.",
+        "distractors": [
+          "answers",
+          "responses",
+          "threats"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "Stress is a known [[contributor]] to heart disease.",
+        "Aviation is a growing [[contributor]] to global emissions.",
+        "Poor communication was a key [[contributor]] to the project's failure."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "a major [[contributor]] to something",
+      "the single biggest [[contributor]]",
+      "a significant [[contributor]] to climate change",
+      "a key [[contributor]] to success"
+    ],
+    "badCollocation": {
+      "text": "a [[contributor]] of pollution",
+      "noteRu": "В значении «один из факторов» после contributor нужен предлог to: a contributor to pollution. Of здесь не используется."
+    },
+    "collocationTask": {
+      "prompt": "a major contributor ___ climate change",
+      "answer": "to",
+      "distractors": [
+        "of",
+        "for",
+        "in"
+      ],
+      "explanationRu": "Contributor в значении «один из факторов» требует предлога to: a contributor to climate change. Of, for и in здесь не используются."
+    },
+    "nuance": {
+      "rival": "contribution",
+      "text": "Diesel cars are a major [[contributor]] to smog in winter.",
+      "rivalForm": "contribution",
+      "explanationRu": "Contributor — тот, кто или что вносит вклад, здесь источник проблемы. Contribution — сам вклад, например пожертвование. Машины — источник, а не вклад.",
+      "reverse": {
+        "text": "Thank you for your generous [[contribution]] to our charity.",
+        "targetForm": "contributor",
+        "explanationRu": "Пожертвование — это сам вклад, contribution. Contributor — тот, кто его сделал."
+      }
+    },
+    "fixIt": {
+      "text": "Heavy traffic is the biggest [[contribution]] to noise levels in our street.",
+      "answer": [
+        "contributor"
+      ],
+      "explanationRu": "Источник проблемы — contributor. Contribution — сам вклад; с ним говорят иначе: traffic makes the biggest contribution to noise."
+    },
+    "wordFormation": {
+      "base": "contribute",
+      "text": "Scientists say cattle farming is a significant [[contributor]] to greenhouse gas emissions.",
+      "answer": [
+        "contributor"
+      ]
+    },
+    "rewrite": {
+      "original": "Stress is one of the main causes of heart disease.",
+      "frame": "Stress is a major ____ heart disease.",
+      "accepted": [
+        "contributor to"
+      ],
+      "explanationRu": "Одна из главных причин — a major contributor to something."
+    }
+  },
+  {
+    "lemma": "conversion",
+    "pos": "noun",
+    "definitionEn": "the act of changing something so that it has a different form, system or use",
+    "translationsRu": [
+      "преобразование",
+      "переоборудование",
+      "перевод (в другую систему)",
+      "конвертация"
+    ],
+    "acceptedAnswers": [
+      "conversion"
+    ],
+    "register": "neutral",
+    "topic": "world",
+    "ambiguous": true,
+    "senseNote": "Also religious conversion (обращение в веру); here — changing form or use (a loft conversion, conversion to solar power).",
+    "situation": "An old building, system or measurement is changed so that it works in a new way or serves a new purpose.",
+    "examples": [
+      {
+        "text": "The [[conversion]] of the old textile mill into flats took almost three years.",
+        "distractors": [
+          "demolition",
+          "collapse",
+          "inspection"
+        ],
+        "alternatives": [
+          "transformation",
+          "redevelopment"
+        ]
+      },
+      {
+        "text": "The school saved thousands of pounds after its [[conversion]] to solar power.",
+        "distractors": [
+          "objection",
+          "reaction",
+          "resistance"
+        ],
+        "alternatives": [
+          "switch",
+          "move",
+          "transition",
+          "change"
+        ]
+      },
+      {
+        "text": "The recipe was American, so I had to do a quick [[conversion]] from cups to grams.",
+        "distractors": [
+          "comparison",
+          "revision",
+          "reduction"
+        ],
+        "alternatives": []
+      }
+    ],
+    "trio": {
+      "texts": [
+        "They're planning a loft [[conversion]] to create an extra bedroom.",
+        "The bank charges a fee for currency [[conversion]].",
+        "The [[conversion]] of the church into a library divided the village."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "a loft [[conversion]]",
+      "currency [[conversion]]",
+      "the [[conversion]] of a barn into a house",
+      "[[conversion]] to solar power",
+      "a [[conversion]] rate"
+    ],
+    "badCollocation": {
+      "text": "the [[conversion]] of dollars in euros",
+      "noteRu": "Во что-то переводят с предлогом into или to: the conversion of dollars into euros. Предлог in здесь неверен."
+    },
+    "collocationTask": {
+      "prompt": "the conversion of the old warehouse ___ offices",
+      "answer": "into",
+      "distractors": [
+        "in",
+        "on",
+        "for"
+      ],
+      "explanationRu": "Превращение во что-то — conversion into (или to): the conversion of a warehouse into offices. In, on и for здесь не подходят."
+    },
+    "nuance": {
+      "rival": "renovation",
+      "text": "The [[conversion]] of the garage into a home office cost less than we expected.",
+      "rivalForm": "renovation",
+      "explanationRu": "Conversion — переделка под новое назначение (гараж становится кабинетом), поэтому into. Renovation — ремонт и обновление без смены назначения.",
+      "reverse": {
+        "text": "The hotel is closed for [[renovation]] until the spring.",
+        "targetForm": "conversion",
+        "explanationRu": "«Закрыт на ремонт» — closed for renovation. Conversion означает смену назначения, а отель просто обновляют."
+      }
+    },
+    "fixIt": {
+      "text": "The [[reconstruction]] of the barn into a holiday cottage took two years.",
+      "answer": [
+        "conversion"
+      ],
+      "explanationRu": "Переделка здания под новое назначение — conversion into. Reconstruction — восстановление разрушенного; это ложный друг русской «реконструкции»."
+    },
+    "wordFormation": {
+      "base": "convert",
+      "text": "The [[conversion]] of our old van into a camper took all summer.",
+      "answer": [
+        "conversion"
+      ]
+    },
+    "reply": {
+      "context": "Your neighbour says: \"We're thinking of turning our attic into a guest room. Is it worth it?\"",
+      "options": [
+        "Definitely. Our loft conversion added a lot of value to the house.",
+        "Definitely. We had a long conversion with our builder about the weather.",
+        "Affirmative; the conversion of said attic shall enhance the valuation of the property."
+      ],
+      "answer": 0,
+      "explanationRu": "Loft conversion — переделка чердака в жилую комнату. Conversion не значит «разговор» (это conversation), а третий ответ звучит как юридический документ."
+    }
+  },
+  {
+    "lemma": "convict",
+    "pos": "verb",
+    "definitionEn": "to officially decide in a court of law that someone is guilty of a crime",
+    "translationsRu": [
+      "осуждать (в суде)",
+      "признавать виновным"
+    ],
+    "acceptedAnswers": [
+      "convict"
+    ],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "At the end of a trial, a jury or judge decides that the accused person really committed the crime.",
+    "examples": [
+      {
+        "text": "The former manager was [[convicted]] of fraud and sentenced to four years in prison.",
+        "distractors": [
+          "accused",
+          "suspected",
+          "informed"
+        ],
+        "alternatives": [
+          "found guilty"
+        ]
+      },
+      {
+        "text": "Without stronger evidence, the jury is unlikely to [[convict]] him.",
+        "distractors": [
+          "arrest",
+          "acquit",
+          "interview"
+        ],
+        "alternatives": []
+      },
+      {
+        "text": "She spent ten years in prison before DNA evidence proved she had been wrongly [[convicted]].",
+        "distractors": [
+          "released",
+          "rewarded",
+          "promoted"
+        ],
+        "alternatives": [
+          "jailed",
+          "imprisoned",
+          "sentenced"
+        ]
+      }
+    ],
+    "trio": {
+      "texts": [
+        "He was [[convicted]] of drink-driving last year.",
+        "No one has ever been [[convicted]] of the theft.",
+        "Politicians [[convicted]] of corruption should not be allowed to stand again."
+      ],
+      "alternatives": [
+        "found guilty"
+      ]
+    },
+    "collocations": [
+      "be [[convicted]] of fraud",
+      "wrongly [[convicted]]",
+      "a [[convicted]] criminal",
+      "enough evidence to [[convict]] someone",
+      "[[convicted]] and sentenced"
+    ],
+    "badCollocation": {
+      "text": "[[convicted]] to five years in prison",
+      "noteRu": "Срок назначают глаголом sentence: sentenced to five years. Convict — признать виновным: convicted of theft."
+    },
+    "collocationTask": {
+      "prompt": "convicted ___ fraud",
+      "answer": "of",
+      "distractors": [
+        "in",
+        "with",
+        "at"
+      ],
+      "explanationRu": "Признать виновным в чём-то — convict of: convicted of fraud. In, with и at здесь не используются."
+    },
+    "nuance": {
+      "rival": "condemn",
+      "text": "The court [[convicted]] him of tax evasion after a six-week trial.",
+      "rivalForm": "condemned",
+      "explanationRu": "Convict — признать виновным в суде (convicted of). Condemn — осуждать морально, публично порицать: condemn a decision. Здесь речь о приговоре суда.",
+      "reverse": {
+        "text": "The union [[condemned]] the company's decision to cut wages.",
+        "targetForm": "convicted",
+        "explanationRu": "Публично осудить, выразить неодобрение — condemn. Convict — только решение суда о виновности."
+      }
+    },
+    "fixIt": {
+      "text": "The jury [[accused]] him of fraud after a two-week trial.",
+      "answer": [
+        "convicted"
+      ],
+      "explanationRu": "После суда присяжные не обвиняют, а признают виновным — convict. Accuse — выдвигать обвинение, это происходит до суда."
+    },
+    "wordFormation": {
+      "base": "convict",
+      "text": "After his [[conviction]] for fraud, he lost his licence to practise law.",
+      "answer": [
+        "conviction"
+      ]
+    },
+    "reply": {
+      "context": "A friend texts: \"Did you hear? The man who robbed the corner shop has been caught!\"",
+      "options": [
+        "Pleasing news. One trusts the judiciary will convict the individual forthwith.",
+        "Good! Let's hope there's enough evidence to convict him.",
+        "Good! I hope they convict him a nice long holiday somewhere."
+      ],
+      "answer": 1,
+      "explanationRu": "Convict — признать виновным в суде: enough evidence to convict him. В третьем ответе смысл перепутан, а первый слишком официальный для сообщения другу."
+    },
+    "rewrite": {
+      "original": "The court found her guilty of fraud.",
+      "frame": "She ____ of fraud.",
+      "accepted": [
+        "was convicted",
+        "got convicted"
+      ],
+      "explanationRu": "Found guilty = was convicted (пассив)."
+    }
   }
 ]

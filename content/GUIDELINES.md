@@ -174,7 +174,8 @@ that must be replaced by the target word in the right form (`answer`: list of ac
 corrections, forms of the target only). The mistake should be realistic for a Russian
 speaker (near-synonym, false friend, wrong collocation, wrong register). Everything else
 must be correct and natural so that nothing else could reasonably be "fixed". The target
-word must not appear elsewhere in the sentence.
+word must not appear elsewhere in the sentence. Optional `alternatives`: other corrections
+that would also be acceptable in that slot (accepted as "also possible").
 
 **wordFormation** (optional; only with a genuine, dictionary-established derivational
 link) — classic exam item: `base` is shown in capitals, `text` has `[[answer]]`.

@@ -27,7 +27,8 @@ there still apply.
 8. **Nuance duel.** In `text` the target is clearly best and the rival wrong or clearly
    worse; `reverse` (if any) the opposite; explanations accurate and short.
 9. **Fix It.** Exactly one mistake; realistic for a Russian speaker; nothing else in the
-   sentence invites a correction; the answer is the target in the right form.
+   sentence invites a correction; the answer is the target in the right form. If another
+   word would also be a valid correction, list it in the optional `alternatives` array.
 10. **Word formation.** Real derived word, correct form for the sentence.
 11. **Real-Life Reply.** Only one option is appropriate; the misuse and the register
     mistake are unmistakable; the correct option sounds like a real person.

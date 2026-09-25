@@ -18,6 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import lexutil as L  # noqa: E402
 
 PLACEHOLDER = re.compile(r"\b(TODO|TBD|lorem|placeholder|xxx)\b|\.\.\.|…|\betc\b", re.I)
+# Russian explanations may quote an unfinished phrase («склоняюсь к…»), so only real placeholders count there
+PLACEHOLDER_RU = re.compile(r"\b(TODO|TBD|lorem|placeholder|xxx)\b", re.I)
 
 
 class Report:
@@ -88,8 +90,8 @@ def check_ru(r, where, text, maxlen, name="explanationRu"):
         return
     if len(text) > maxlen:
         r.warn(where, f"{name} is long ({len(text)} chars > {maxlen})")
-    if PLACEHOLDER.search(text):
-        r.err(where, f"{name} contains a placeholder/ellipsis")
+    if PLACEHOLDER_RU.search(text):
+        r.err(where, f"{name} contains a placeholder")
 
 
 def one_mark(r, where, text, name="text"):
@@ -118,6 +120,7 @@ def validate_entry(r, e, lemma_forms_all):
 
     def has_form(text):
         toks = set(L.tokens(text))
+        toks |= {part for t in toks if "-" in t for part in t.split("-")}  # long-awaited -> awaited
         return bool(toks & F)
 
     # definition / translations / meta ---------------------------------------

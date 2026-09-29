@@ -1,13 +1,45 @@
 {
- "dropped": [],
+ "dropped": [
+  {
+   "lemma": "enthusiast",
+   "pos": "noun",
+   "reason": "trio must use the identical form in all three sentences, got ['enthusiast', 'enthusiasts']"
+  }
+ ],
  "skipped_by_authors": [],
  "removed_in_review": [],
- "item_errors": [],
+ "item_errors": [
+  {
+   "lemma": "circulation",
+   "removed": "nuance.reverse",
+   "reason": "nuance.reverse: the target appears in the sentence"
+  },
+  {
+   "lemma": "entitle",
+   "removed": "rewrite",
+   "reason": "explanationRu must be Russian text"
+  },
+  {
+   "lemma": "entity",
+   "removed": "rewrite",
+   "reason": "explanationRu must be Russian text"
+  },
+  {
+   "lemma": "equality",
+   "removed": "rewrite",
+   "reason": "explanationRu must be Russian text"
+  },
+  {
+   "lemma": "equation",
+   "removed": "rewrite",
+   "reason": "explanationRu must be Russian text"
+  }
+ ],
  "counts": {
-  "words": 199,
-  "dropped": 0,
+  "words": 469,
+  "dropped": 1,
   "skipped": 0,
   "removed_in_review": 0,
-  "optional_items_removed": 0
+  "optional_items_removed": 5
  }
 }

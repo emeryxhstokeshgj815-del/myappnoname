@@ -1,0 +1,142 @@
+{
+ "file": "/home/user/myappnoname/index.html",
+ "when": "2026-09-29T00:48:45.356Z",
+ "browser": "Chromium (Playwright 1.56.1)",
+ "results": [
+  {
+   "name": "first launch: home renders, no errors, no network requests",
+   "ok": true,
+   "ms": 368
+  },
+  {
+   "name": "daily mix: new word card, correct answer, wrong answer with Russian explanation and example",
+   "ok": true,
+   "ms": 1458
+  },
+  {
+   "name": "hints: first letter, then half; hinted answer is not counted as recall",
+   "ok": true,
+   "ms": 2028
+  },
+  {
+   "name": "mistake: the word comes back later in the session with a different exercise",
+   "ok": true,
+   "ms": 4078
+  },
+  {
+   "name": "all exercise types render and can be answered",
+   "ok": true,
+   "ms": 9007
+  },
+  {
+   "name": "session end, summary with one clear next action, and a new session starts",
+   "ok": true,
+   "ms": 3623
+  },
+  {
+   "name": "progress survives reload; an unfinished session can be resumed",
+   "ok": true,
+   "ms": 1862
+  },
+  {
+   "name": "no duplicate XP: double taps and reload after answering",
+   "ok": true,
+   "ms": 842
+  },
+  {
+   "name": "achievement unlocks with a short non-blocking toast",
+   "ok": true,
+   "ms": 7421
+  },
+  {
+   "name": "study day follows the local date across midnight",
+   "ok": true,
+   "ms": 1423
+  },
+  {
+   "name": "streak needs real study, not app opening",
+   "ok": true,
+   "ms": 3829
+  },
+  {
+   "name": "library: search English and Russian, filters, empty result",
+   "ok": true,
+   "ms": 903
+  },
+  {
+   "name": "favorites and Anki/Quizlet export",
+   "ok": true,
+   "ms": 1528
+  },
+  {
+   "name": "export JSON, corrupted import is rejected without losing progress, valid import restores",
+   "ok": true,
+   "ms": 4844
+  },
+  {
+   "name": "reset asks for confirmation inline (no modal)",
+   "ok": true,
+   "ms": 836
+  },
+  {
+   "name": "sound: switch off stops effects; settings persist",
+   "ok": true,
+   "ms": 1793
+  },
+  {
+   "name": "works offline (network disabled)",
+   "ok": true,
+   "ms": 3428
+  },
+  {
+   "name": "sprint: 60-second timer ends the round; old timers never touch the next session",
+   "ok": true,
+   "ms": 6771
+  },
+  {
+   "name": "leaving the task page and coming back keeps the same task",
+   "ok": true,
+   "ms": 1822
+  },
+  {
+   "name": "keyboard: digits choose, Enter checks and continues, focus is visible",
+   "ok": true,
+   "ms": 807
+  },
+  {
+   "name": "listen & type is switched off without an offline English voice",
+   "ok": true,
+   "ms": 267
+  },
+  {
+   "name": "layout at 320px: no horizontal scroll, touch targets, readable text",
+   "ok": true,
+   "ms": 3949
+  },
+  {
+   "name": "layout at 390px: no horizontal scroll, touch targets, readable text",
+   "ok": true,
+   "ms": 3920
+  },
+  {
+   "name": "layout at 768px: no horizontal scroll, touch targets, readable text",
+   "ok": true,
+   "ms": 4065
+  },
+  {
+   "name": "layout at 1280px: no horizontal scroll, touch targets, readable text",
+   "ok": true,
+   "ms": 3957
+  },
+  {
+   "name": "reduced motion is respected",
+   "ok": true,
+   "ms": 335
+  },
+  {
+   "name": "storage unavailable: clear warning, learning still works",
+   "ok": true,
+   "ms": 923
+  }
+ ]
+}

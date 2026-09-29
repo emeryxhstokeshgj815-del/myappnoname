@@ -59,9 +59,9 @@ export function renderWord(app, params) {
     const vals = Object.values(ce.freqPerMillionByLevel);
     const max = Math.max(...vals, 0.0001);
     corpusBlock = h(
-      'div',
+      'dd',
       null,
-      h('dd', null, `Frequency per million words in EFL teaching materials by level (${ce.match === 'lemma' ? 'attested as ' + ce.efllexPos : 'same part of speech'}). A signal for selection, not a level label.`),
+      h('p', null, `Frequency per million words in EFL teaching materials by level (${ce.match === 'lemma' ? 'attested as ' + ce.efllexPos : 'same part of speech'}). A signal for selection, not a level label.`),
       h('div', { class: 'freq', 'aria-hidden': 'true' }, vals.map((v, i) => h('i', { class: 'b' + (i === 4 ? ' on' : ''), style: { height: Math.max(2, Math.round((v / max) * 100)) + '%' } }))),
       h('div', { class: 'freq-l' }, ['A1', 'A2', 'B1', 'B2', 'C1'].map((l, i) => h('span', null, `${l} ${vals[i]}`))),
     );

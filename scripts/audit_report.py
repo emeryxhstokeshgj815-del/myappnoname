@@ -127,6 +127,8 @@ def main():
     w("")
     w("Structural (automatic, `scripts/validate_batch.py` + `scripts/validate_dataset.py`): schema, one marked target per sentence, the marked word is a form of the lemma, the word never appears twice in a sentence, definitions do not contain the word, distractors distinct and of the same grammatical form, alternatives not listed as distractors, identical form in all three trio sentences, fix-it answers are forms of the target, rewrite answers contain the target, derivations verified, no duplicate sentences across the whole bank, no placeholders, sources and evidence present for every word.")
     w("")
+    if not reviews:
+        w("Editorial (language) review by a second editor: **not done**. The planned second pass (`content/REVIEW.md`) could not be run before delivery; every entry was only self-checked by its author and by the automatic validators.")
     if reviews:
         w(f"Editorial (language) review: {len(reviews)} batch reviews by a second editor; {rv['reviewed']} entries reviewed, {rv['changed']} entries changed, {rv['fixed']} items fixed, {rv['deleted']} optional items deleted, {rv['removed']} entries removed. Logs: `content/reviews/`.")
     w("")
@@ -146,7 +148,7 @@ def main():
     w(f"* {by_ver.get('octanove-c1c2-1.0', 0)} words rely on the Octanove list, whose compilation method is not documented in detail.")
     w(f"* {rep['by_corpus'].get('wordfreq', 0)} Oxford-verified words are absent from EFLLex's small textbook corpus; their corpus evidence is general frequency (wordfreq).")
     w(f"* {rep['lower_label_elsewhere']} words have a lower label in CEFR-J for the same word+POS (list disagreement, usually because of a basic sense).")
-    w("* All learning content was written with AI assistance and checked by automatic validators and a second AI editorial pass; it has not been reviewed by a human native-speaker editor. Some sentences may still sound less natural than a professional course book, and a few distractors may be arguable.")
+    w("* All learning content was written with AI assistance and checked by automatic validators and the author's own self-review (no independent second editorial pass was run); it has not been reviewed by a human native-speaker editor. Some sentences may still sound less natural than a professional course book, and a few distractors may be arguable.")
     w("* Translations cover the taught sense only.")
     w("")
     open(os.path.join(ROOT, "CONTENT_AUDIT.md"), "w", encoding="utf-8").write("\n".join(L))

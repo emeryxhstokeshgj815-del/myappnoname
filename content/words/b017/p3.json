@@ -1,0 +1,662 @@
+[
+  {
+    "lemma": "induce",
+    "pos": "verb",
+    "definitionEn": "to persuade or influence someone to do something",
+    "translationsRu": ["побуждать", "склонять к чему-либо", "уговаривать"],
+    "acceptedAnswers": ["induce"],
+    "register": "formal",
+    "topic": "thinking",
+    "ambiguous": true,
+    "senseNote": "Здесь — «убедить, побудить к действию» (обычно через стимул или уговоры). Медицинское «вызывать» (induce labour) — другое употребление.",
+    "situation": "Explaining that someone was persuaded, often by a reward or clever argument, to do something they might not otherwise have done.",
+    "examples": [
+      {"text": "Generous discounts [[induced]] thousands of shoppers to sign up before the deadline.",
+       "distractors": ["forced", "reminded", "allowed"],
+       "alternatives": ["persuaded", "encouraged", "prompted", "tempted"]},
+      {"text": "The company offered a generous bonus to [[induce]] senior staff not to join the strike.",
+       "distractors": ["warn", "allow", "expect"],
+       "alternatives": ["persuade", "encourage", "tempt"]},
+      {"text": "Fear of failing the exam [[induced]] many students to start revising weeks earlier than usual.",
+       "distractors": ["recruited", "trained", "permitted"],
+       "alternatives": ["led", "prompted", "encouraged"]}
+    ],
+    "trio": {
+      "texts": [
+        "A small deposit is often enough to [[induce]] customers to commit to a purchase.",
+        "The manager used flattery to [[induce]] junior staff to work through the weekend.",
+        "Lawyers argued that the email was designed to [[induce]] readers to click a fraudulent link."
+      ],
+      "alternatives": ["persuade", "get"]
+    },
+    "collocations": [
+      "[[induce]] someone to resign",
+      "[[induced]] by the offer of a bonus",
+      "enough to [[induce]] cooperation",
+      "[[induce]] a change of heart"
+    ],
+    "badCollocation": {
+      "text": "[[induce]] someone into signing",
+      "noteRu": "После induce ставится инфинитив с to: induce someone to sign. Induce into (+ -ing) не говорят — это калька с «склонить к»."
+    },
+    "collocationTask": {
+      "prompt": "The company offered shares to ___ managers to stay.",
+      "answer": "induce",
+      "distractors": ["instruct", "expect", "warn"],
+      "explanationRu": "Induce — «побудить» через стимул, как в этом предложении с акциями. Instruct — «дать указание», expect — «ожидать», warn — «предупредить»: не про склонение обещанием."
+    },
+    "nuance": {
+      "rival": "force",
+      "text": "A tax rebate [[induced]] many households to install solar panels last year.",
+      "rivalForm": "forced",
+      "explanationRu": "Induce — побудить выбором, обычно через стимул или выгоду. Force — заставить, лишив выбора; здесь люди сами решили ради выгоды, поэтому force не подходит.",
+      "reverse": {
+        "text": "The dictator [[forced]] farmers to hand over their entire harvest.",
+        "targetForm": "induced",
+        "explanationRu": "Если человека принуждают без всякого стимула и выбора — force. Induce предполагает, что решение всё же добровольное, пусть и под влиянием стимула."
+      }
+    },
+    "fixIt": {
+      "text": "A free trial period [[provoked]] thousands of users to upgrade to the paid version.",
+      "answer": ["induced"],
+      "explanationRu": "Provoke — вызвать реакцию, обычно негативную (спор, гнев). Здесь бесплатный период именно побудил людей выбрать платную версию — нужен induce."
+    },
+    "wordFormation": {
+      "base": "induce",
+      "text": "The company's [[induction]] programme for new staff lasts a full week.",
+      "answer": ["induction"]
+    },
+    "reply": {
+      "context": "A colleague messages: \"Why did so many people suddenly switch to the new software?\"",
+      "options": [
+        "Mostly the free storage upgrade. It induced almost everyone to switch within a week.",
+        "It induced a huge storm that crashed half our servers.",
+        "The free storage upgrade did induce people into switching, innit, dunno why though."
+      ],
+      "answer": 0,
+      "explanationRu": "Induce someone to do something — «побудить сделать что-то» (через стимул). Во втором ответе induce ошибочно значит «вызвать событие», а третий слишком развязный для рабочего чата."
+    },
+    "rewrite": {
+      "original": "A big discount persuaded her to buy the more expensive model.",
+      "frame": "A big discount ____ her to buy the more expensive model.",
+      "accepted": ["induced"],
+      "explanationRu": "Induce someone to do something — официальный синоним persuade."
+    }
+  },
+  {
+    "lemma": "indulge",
+    "pos": "verb",
+    "definitionEn": "to let someone have or do what they want, especially as a favour",
+    "translationsRu": ["потакать", "баловать", "идти навстречу (просьбе)"],
+    "acceptedAnswers": ["indulge"],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — «потакать, идти навстречу» (indulge someone / indulge me for a moment). Более частое indulge in something («побаловать себя») — другое значение.",
+    "situation": "Agreeing to let someone do or have something they want, often as a kind favour or because you find it hard to refuse.",
+    "examples": [
+      {"text": "Just this once, [[indulge]] me and let's take the scenic route instead of the motorway.",
+       "distractors": ["correct", "warn", "forgive"],
+       "alternatives": ["humour", "allow"]},
+      {"text": "Grandparents often [[indulge]] their grandchildren with treats that parents would normally forbid.",
+       "distractors": ["surprise", "supply", "burden"],
+       "alternatives": ["spoil", "pamper"]},
+      {"text": "The waiter offered to [[indulge]] our request for a table by the window, even though we hadn't booked.",
+       "distractors": ["deny", "delay", "record"],
+       "alternatives": ["grant", "accommodate"]}
+    ],
+    "trio": {
+      "texts": [
+        "Please [[indulge]] me for a moment while I explain the whole plan.",
+        "The hotel is happy to [[indulge]] unusual requests from long-standing guests.",
+        "A good manager will sometimes [[indulge]] a colleague's need to vent before offering advice."
+      ],
+      "alternatives": ["humour"]
+    },
+    "collocations": [
+      "[[indulge]] someone's whims",
+      "[[indulge]] me for a second",
+      "happy to [[indulge]] a request",
+      "[[indulged]] his every demand"
+    ],
+    "badCollocation": {
+      "text": "[[indulge]] to your friend's request",
+      "noteRu": "Indulge — переходный глагол без предлога перед человеком или просьбой: indulge your friend's request. To здесь лишнее."
+    },
+    "collocationTask": {
+      "prompt": "The teacher decided to ___ the children's request for extra playtime.",
+      "answer": "indulge",
+      "distractors": ["induce", "introduce", "instruct"],
+      "explanationRu": "Indulge — «потакать, идти навстречу желанию». Induce — «побудить сделать что-то», introduce — «представить, ввести», instruct — «дать указание»: не подходят по смыслу."
+    },
+    "nuance": {
+      "rival": "tolerate",
+      "text": "Her uncle always [[indulged]] her love of dramatic stories, however unlikely they sounded.",
+      "rivalForm": "tolerated",
+      "explanationRu": "Indulge — охотно потакать, поддерживать чьё-то желание. Tolerate — просто мириться с чем-то, не обязательно одобряя. Дядя здесь именно потакает, а не просто терпит.",
+      "reverse": {
+        "text": "He merely [[tolerated]] his neighbour's loud parties, without ever actually enjoying them.",
+        "targetForm": "indulged",
+        "explanationRu": "Tolerate — мириться, не обязательно с удовольствием. Indulge подразумевает более тёплое, снисходительное отношение, а сосед его явно не одобряет."
+      }
+    },
+    "fixIt": {
+      "text": "To keep the peace, he usually [[obeyed]] his sister's constant requests for favours.",
+      "answer": ["indulged"],
+      "explanationRu": "Obey — подчиняться, выполнять приказ. Родственник, который просто уступает капризам, indulges их, не «подчиняется» им."
+    },
+    "wordFormation": {
+      "base": "indulge",
+      "text": "[[Indulgent]] parents sometimes find it hard to say no, even when they know they should.",
+      "answer": ["indulgent"]
+    },
+    "reply": {
+      "context": "Your roommate says: \"I know it's late, but could we watch just one more episode?\"",
+      "options": [
+        "Sure, let's indulge you tonight. One more, then bed.",
+        "Sure, I'll indulge the TV so it doesn't overheat.",
+        "Your request for extended viewing shall be indulged, madam."
+      ],
+      "answer": 0,
+      "explanationRu": "Indulge someone — «уступить, потакать» чьей-то просьбе. Indulge the TV — бессмыслица, а третий ответ звучит как объявление дворецкого, а не разговор соседей."
+    },
+    "rewrite": {
+      "original": "The waiter kindly agreed to our unusual request for a corner table.",
+      "frame": "The waiter kindly ____ our unusual request for a corner table.",
+      "accepted": ["indulged"],
+      "explanationRu": "Indulge a request — «пойти навстречу просьбе»."
+    }
+  },
+  {
+    "lemma": "inequality",
+    "pos": "noun",
+    "definitionEn": "an unfair difference between groups of people in wealth, opportunity or treatment",
+    "translationsRu": ["неравенство", "несправедливое различие"],
+    "acceptedAnswers": ["inequality"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Discussing unfair gaps between rich and poor, or between different groups, in income, education or opportunities.",
+    "examples": [
+      {"text": "Growing [[inequality]] between rich and poor neighbourhoods worries many city planners.",
+       "distractors": ["equality", "harmony", "prosperity"],
+       "alternatives": ["disparity", "gap"]},
+      {"text": "The report highlights [[inequality]] in access to healthcare across different regions.",
+       "distractors": ["equality", "stability", "efficiency"],
+       "alternatives": ["disparity", "imbalance"]},
+      {"text": "Campaigners marched to protest against gender [[inequality]] in the tech industry.",
+       "distractors": ["diversity", "unemployment", "seniority"],
+       "alternatives": ["discrimination", "imbalance"]}
+    ],
+    "trio": {
+      "texts": [
+        "Economists warn that rising [[inequality]] could slow long-term growth.",
+        "The novel explores class [[inequality]] in a small English village.",
+        "Reducing [[inequality]] between regions remains a key government promise."
+      ],
+      "alternatives": ["disparity"]
+    },
+    "collocations": [
+      "income [[inequality]]",
+      "gender [[inequality]]",
+      "tackle [[inequality]]",
+      "widening [[inequality]]",
+      "[[inequality]] of opportunity"
+    ],
+    "badCollocation": {
+      "text": "an [[inequality]] between two friends",
+      "noteRu": "Inequality — про группы, доходы, возможности в масштабе общества. Разница между двумя конкретными людьми — просто a difference, не inequality."
+    },
+    "collocationTask": {
+      "prompt": "The report focuses on income ___ between men and women.",
+      "answer": "inequality",
+      "distractors": ["unfairness", "dissimilarity", "irregularity"],
+      "explanationRu": "Устойчивое сочетание — income inequality. Unfairness, dissimilarity и irregularity с income так не говорят."
+    },
+    "nuance": {
+      "rival": "diversity",
+      "text": "Critics say the pay gap reflects deep-seated [[inequality]], not simply diversity of roles.",
+      "rivalForm": "diversity",
+      "explanationRu": "Inequality — несправедливое неравенство (в доходах, правах). Diversity — просто разнообразие, различие, не обязательно несправедливое. Разрыв в зарплате — именно inequality, а не diversity ролей.",
+      "reverse": {
+        "text": "The company is proud of the cultural [[diversity]] within its design team.",
+        "targetForm": "inequality",
+        "explanationRu": "Просто разнообразие культур внутри команды — diversity, это не про несправедливость. Inequality говорит именно о неравенстве, а не о разнообразии."
+      }
+    },
+    "fixIt": {
+      "text": "The UN report warns that global [[difference]] in vaccine access could cost millions of lives.",
+      "answer": ["inequality"],
+      "explanationRu": "Difference — нейтральное «различие». Несправедливый разрыв в доступе к вакцинам — inequality."
+    },
+    "reply": {
+      "context": "A classmate says: \"Why does our economics class spend so much time on the wealth gap?\"",
+      "options": [
+        "Because inequality shapes almost everything else in the economy, from health to education.",
+        "Because inequality means everyone earns exactly the same amount.",
+        "One must acknowledge that inequality remains a subject of considerable academic import."
+      ],
+      "answer": 0,
+      "explanationRu": "Inequality — «неравенство», а не «равенство» (это было бы противоположным смыслом), как ошибочно во втором ответе. Третий звучит как отрывок из научной статьи, а не реплика однокурснику."
+    },
+    "rewrite": {
+      "original": "Poor children in this country have far fewer opportunities than rich ones.",
+      "frame": "There is significant ____ of opportunity between poor and rich children in this country.",
+      "accepted": ["inequality"],
+      "explanationRu": "Inequality of opportunity — «неравенство возможностей»."
+    }
+  },
+  {
+    "lemma": "infamous",
+    "pos": "adjective",
+    "definitionEn": "widely known because of something bad, shocking or criminal",
+    "translationsRu": ["печально известный", "пресловутый", "имеющий дурную славу"],
+    "acceptedAnswers": ["infamous"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing a person, place or event that is very well known, but for doing something wrong, criminal or shocking.",
+    "examples": [
+      {"text": "The hotel became [[infamous]] after three separate scandals in a single year.",
+       "distractors": ["forgotten", "empty", "profitable"],
+       "alternatives": ["notorious"]},
+      {"text": "He remains [[infamous]] for insulting three world leaders at the same dinner.",
+       "distractors": ["celebrated", "anonymous", "promoted"],
+       "alternatives": ["notorious"]},
+      {"text": "The prison is [[infamous]] for its harsh conditions and frequent escapes.",
+       "distractors": ["praised", "blamed", "responsible"],
+       "alternatives": ["notorious", "known"]}
+    ],
+    "trio": {
+      "texts": [
+        "The area was once [[infamous]] for street crime, though it has changed a lot.",
+        "She became [[infamous]] overnight after the leaked recording went viral.",
+        "The castle is [[infamous]] for the ghost stories attached to it."
+      ],
+      "alternatives": ["notorious"]
+    },
+    "collocations": [
+      "[[infamous]] for something",
+      "become [[infamous]]",
+      "an [[infamous]] scandal",
+      "[[infamous]] throughout the region"
+    ],
+    "badCollocation": {
+      "text": "a very good but [[infamous]] restaurant",
+      "noteRu": "Infamous значит «печально известный», а не просто «известный». Хороший ресторан с хорошей репутацией — famous или well-known, не infamous."
+    },
+    "collocationTask": {
+      "prompt": "The gang leader became ___ for his cruelty.",
+      "answer": "infamous",
+      "distractors": ["renowned", "respected", "admired"],
+      "explanationRu": "Infamous — «печально известный» специально о плохом. Renowned, respected и admired — с положительным оттенком, с cruelty («жестокость») не сочетаются."
+    },
+    "nuance": {
+      "rival": "famous",
+      "text": "The building is [[infamous]] for the tragic fire that killed twelve workers in 1911.",
+      "rivalForm": "famous",
+      "explanationRu": "Infamous — известен именно из-за чего-то плохого. Famous нейтрально или положительно, и «знаменитое из-за трагического пожара» с ним звучит нелепо-жизнерадостно.",
+      "reverse": {
+        "text": "The chef is [[famous]] for his delicate seafood dishes.",
+        "targetForm": "infamous",
+        "explanationRu": "Известность за хорошее — famous. Infamous предполагает дурную славу, а изысканные блюда — явно не она."
+      }
+    },
+    "fixIt": {
+      "text": "The building is now [[popular]] for the fire that killed several workers a century ago.",
+      "answer": ["infamous"],
+      "explanationRu": "Popular — про то, что нравится людям. Печальная известность из-за трагедии — infamous."
+    },
+    "wordFormation": {
+      "base": "infamous",
+      "text": "The town's [[infamy]] as a smugglers' haven drew curious visitors for generations.",
+      "answer": ["infamy"]
+    },
+    "reply": {
+      "context": "A tourist asks: \"I heard this old prison has a strange reputation. What happened here?\"",
+      "options": [
+        "It's infamous, actually — dozens of prisoners tried to escape through that very tunnel.",
+        "It's infamous for its beautiful gardens and friendly staff.",
+        "The premises are widely regarded as infamous, as documented in the official gazette."
+      ],
+      "answer": 0,
+      "explanationRu": "Infamous — известность из-за плохого, как побеги из тюрьмы. Красивые сады не делают место infamous, а третий ответ звучит как официальный документ, а не ответ туристу."
+    },
+    "rewrite": {
+      "original": "Everyone in the country knows the senator's name because of the corruption scandal.",
+      "frame": "The senator is ____ throughout the country because of the corruption scandal.",
+      "accepted": ["infamous"],
+      "explanationRu": "Infamous — «печально известный» из-за плохого поступка."
+    }
+  },
+  {
+    "lemma": "infant",
+    "pos": "noun",
+    "definitionEn": "a baby or very young child, especially in official, medical or legal language",
+    "translationsRu": ["младенец", "грудной ребёнок", "дитя (офиц.)"],
+    "acceptedAnswers": ["infant"],
+    "register": "formal",
+    "topic": "science",
+    "ambiguous": true,
+    "senseNote": "Формальное/официальное слово для «младенца»: infant mortality, infant welfare. В обычном разговоре о своём ребёнке чаще говорят baby.",
+    "situation": "Talking about babies or very young children in official statistics, medical reports or laws, rather than in everyday family conversation.",
+    "examples": [
+      {"text": "The clinic offers free vaccinations for [[infants]] under one year old.",
+       "distractors": ["volunteers", "tourists", "teachers"],
+       "alternatives": ["babies", "newborns"]},
+      {"text": "Studies show that reading aloud to [[infants]] helps their language development later on.",
+       "distractors": ["adults", "athletes", "retirees"],
+       "alternatives": ["babies", "toddlers"]},
+      {"text": "The report tracks [[infant]] mortality rates across different regions of the country.",
+       "distractors": ["worker", "prisoner", "veteran"],
+       "alternatives": []}
+    ],
+    "trio": {
+      "texts": [
+        "The charity funds nutrition programmes for [[infant]] health in rural areas.",
+        "Doctors recommend delaying solid food until an [[infant]] is around six months old.",
+        "The museum has a small exhibit on [[infant]] care in Victorian times."
+      ],
+      "alternatives": []
+    },
+    "collocations": [
+      "[[infant]] mortality",
+      "[[infant]] welfare",
+      "an [[infant]] school",
+      "[[infant]] formula",
+      "care for an [[infant]]"
+    ],
+    "badCollocation": {
+      "text": "my [[infant]] is crying all night",
+      "noteRu": "О своём ребёнке в быту говорят my baby, а не my infant — infant звучит слишком официально или по-медицински для разговора о своей семье."
+    },
+    "collocationTask": {
+      "prompt": "The country has one of the lowest ___ mortality rates in the world.",
+      "answer": "infant",
+      "distractors": ["young", "junior", "minor"],
+      "explanationRu": "Устойчивый термин статистики — infant mortality rate. Young, junior и minor с mortality rate не сочетаются."
+    },
+    "nuance": {
+      "rival": "baby",
+      "text": "The report focuses on [[infant]] nutrition programmes funded by the ministry of health.",
+      "rivalForm": "baby",
+      "explanationRu": "Infant — официальное, статистическое слово. Baby — обычное, бытовое: baby nutrition в официальном докладе звучит слишком неформально.",
+      "reverse": {
+        "text": "She spent the whole afternoon playing with her sister's new [[baby]].",
+        "targetForm": "infant",
+        "explanationRu": "В быту, о своём или чужом ребёнке, говорят baby. Infant в этой фразе звучало бы неестественно официально."
+      }
+    },
+    "fixIt": {
+      "text": "The government report on [[baby]] mortality rates was published this week.",
+      "answer": ["infant"],
+      "explanationRu": "В официальных отчётах и статистике используется infant, а не бытовое baby: infant mortality rate."
+    },
+    "wordFormation": {
+      "base": "infant",
+      "text": "The recycling programme is still in its [[infancy]], but early results look promising.",
+      "answer": ["infancy"]
+    },
+    "reply": {
+      "context": "A friend asks: \"Why does this article keep saying 'infant' instead of just 'baby'?\"",
+      "options": [
+        "It's a medical article, and infant is the more formal, technical word for baby.",
+        "Infant means a much older child, like a teenager.",
+        "Infant refers strictly to baby animals, never humans."
+      ],
+      "answer": 0,
+      "explanationRu": "Infant — формальный синоним baby, обычно в официальных и медицинских текстах. Оно не значит «подросток» и относится именно к людям."
+    }
+  },
+  {
+    "lemma": "infect",
+    "pos": "verb",
+    "definitionEn": "to spread a feeling, mood or attitude to the people around you, often quickly",
+    "translationsRu": ["заражать (настроением)", "передаваться (о чувстве)"],
+    "acceptedAnswers": ["infect"],
+    "register": "neutral",
+    "topic": "people",
+    "ambiguous": true,
+    "senseNote": "Здесь — переносное «заражать» настроением или чувством. Буквальное «заражать вирусом, бактерией» — более базовое значение.",
+    "situation": "Describing how one person's mood, enthusiasm or laughter quickly spreads to everyone around them.",
+    "examples": [
+      {"text": "Her excitement about the trip soon [[infected]] the rest of the office.",
+       "distractors": ["bored", "annoyed", "confused"],
+       "alternatives": ["spread through", "affected"]},
+      {"text": "The captain's calm confidence [[infected]] the whole team before the final.",
+       "distractors": ["worried", "weakened", "embarrassed"],
+       "alternatives": ["spread through", "inspired"]},
+      {"text": "Panic quickly [[infected]] the crowd when the fire alarm went off.",
+       "distractors": ["bypassed", "silenced", "organised"],
+       "alternatives": ["spread through", "gripped"]}
+    ],
+    "trio": {
+      "texts": [
+        "A single cynical remark can [[infect]] an entire meeting with negativity.",
+        "Good humour can [[infect]] even the most stressful workplace.",
+        "One person's fear can [[infect]] a whole crowd within minutes."
+      ],
+      "alternatives": ["spread through"]
+    },
+    "collocations": [
+      "[[infect]] the whole team",
+      "enthusiasm [[infected]] everyone in the room",
+      "[[infect]] your friends with your excitement",
+      "panic began to [[infect]] the crowd"
+    ],
+    "badCollocation": {
+      "text": "the excitement [[infected]] into the whole stadium",
+      "noteRu": "После infect не нужен предлог into: the excitement infected the whole stadium (без into). Есть другое слово, spread, которое действительно берёт into/through."
+    },
+    "collocationTask": {
+      "prompt": "Her enthusiasm for the project quickly ___ the rest of the team.",
+      "answer": "infected",
+      "distractors": ["injected", "infested", "inflicted"],
+      "explanationRu": "Infect — «заражать» (в том числе настроением). Inject нужен предлог with (inject enthusiasm INTO), infest — про вредителей и паразитов, inflict — «причинять» (обычно боль) с предлогом on."
+    },
+    "nuance": {
+      "rival": "affect",
+      "text": "His nervousness before the interview [[infected]] the whole waiting room.",
+      "rivalForm": "affected",
+      "explanationRu": "Infect (переносное) — заразить чувством так, что оно распространяется на всех вокруг. Affect — просто повлиять, необязательно передать то же чувство другим.",
+      "reverse": {
+        "text": "The delay [[affected]] everyone's plans for the evening.",
+        "targetForm": "infected",
+        "explanationRu": "Просто повлиять на что-то — affect. Infect в переносном смысле — именно «заразить» своим настроением, а не просто повлиять."
+      }
+    },
+    "fixIt": {
+      "text": "Her nervous energy [[affected]] the entire cast right before opening night, and soon everyone was pacing backstage.",
+      "answer": ["infected"],
+      "explanationRu": "Affect — нейтрально «повлиять». Если нервозность буквально передалась всем, как зараза, — infected."
+    },
+    "wordFormation": {
+      "base": "infect",
+      "text": "Her [[infectious]] enthusiasm made even the shyest students want to join in.",
+      "answer": ["infectious"]
+    },
+    "reply": {
+      "context": "A colleague says: \"Why is everyone in the office suddenly so obsessed with this new game?\"",
+      "options": [
+        "Sam started playing it, and honestly, his enthusiasm just infected the whole team.",
+        "The game infected everyone's laptops with a virus over the weekend.",
+        "Enthusiasm for said game has evidently infected the workforce, as per observation."
+      ],
+      "answer": 0,
+      "explanationRu": "Infect — переносно «заразить» настроением, как в первом ответе. Во втором это буквальный компьютерный вирус, а третий звучит как канцелярский отчёт, а не разговор с коллегой."
+    },
+    "rewrite": {
+      "original": "Her laughter spread through the room until everyone was giggling.",
+      "frame": "Her laughter ____ the whole room until everyone was giggling.",
+      "accepted": ["infected"],
+      "explanationRu": "Infect (переносное) — «заразить» смехом или настроением всех вокруг."
+    }
+  },
+  {
+    "lemma": "inflict",
+    "pos": "verb",
+    "definitionEn": "to make someone suffer something unpleasant, such as pain, damage or punishment",
+    "translationsRu": ["причинять (боль, ущерб)", "наносить (урон)", "подвергать (наказанию)"],
+    "acceptedAnswers": ["inflict"],
+    "register": "formal",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Talking about someone or something causing pain, damage or punishment to a person, usually deliberately or as a result of carelessness.",
+    "examples": [
+      {"text": "The storm [[inflicted]] serious damage on dozens of coastal towns overnight.",
+       "distractors": ["prevented", "repaired", "reported"],
+       "alternatives": ["caused", "did"]},
+      {"text": "The judge can [[inflict]] a heavier sentence if the crime involved a weapon.",
+       "distractors": ["avoid", "request", "announce"],
+       "alternatives": ["impose", "hand down"]},
+      {"text": "Years of neglect had [[inflicted]] lasting damage on the historic building.",
+       "distractors": ["excused", "masked", "limited"],
+       "alternatives": ["caused", "done"]}
+    ],
+    "trio": {
+      "texts": [
+        "A single mistake here could [[inflict]] lasting damage on the company's reputation.",
+        "The court has the power to [[inflict]] fines of up to ten thousand pounds.",
+        "Poor planning can [[inflict]] real hardship on ordinary families."
+      ],
+      "alternatives": ["cause", "impose"]
+    },
+    "collocations": [
+      "[[inflict]] damage on",
+      "[[inflict]] pain",
+      "[[inflict]] a defeat on",
+      "[[inflict]] punishment",
+      "[[inflicted]] on innocent people"
+    ],
+    "badCollocation": {
+      "text": "[[inflict]] a favour on someone",
+      "noteRu": "Inflict — только про что-то плохое или неприятное: боль, ущерб, наказание. Об одолжении так не говорят; правильно — do someone a favour."
+    },
+    "collocationTask": {
+      "prompt": "The defeat ___ serious damage on the team's confidence.",
+      "answer": "inflicted",
+      "distractors": ["afflicted", "inflated", "conflicted"],
+      "explanationRu": "Inflict damage on — «причинить ущерб». Afflict обычно значит «поражать» (болезнью, бедой) и не сочетается с on в этом смысле, inflate — «раздувать», conflicted — «испытывающий противоречивые чувства»."
+    },
+    "nuance": {
+      "rival": "suffer",
+      "text": "The dictator's army [[inflicted]] terrible suffering on the civilian population.",
+      "rivalForm": "suffered",
+      "explanationRu": "Inflict — причинять страдание кому-то другому (inflict something ON someone). Suffer — самому испытывать страдание; здесь именно армия причиняет, а не переносит.",
+      "reverse": {
+        "text": "Thousands of civilians [[suffered]] terrible hardship during the siege.",
+        "targetForm": "inflicted",
+        "explanationRu": "Suffer — переносить страдания на себе. Inflict — причинять их кому-то другому; здесь именно мирные жители страдают, а не причиняют страдания."
+      }
+    },
+    "fixIt": {
+      "text": "The referee's harsh decision [[suffered]] real damage on the team's morale.",
+      "answer": ["inflicted"],
+      "explanationRu": "Suffer — испытывать страдание самому. Причинить ущерб кому-то другому — inflict damage on someone."
+    },
+    "reply": {
+      "context": "A friend says: \"The final scene of that film was so brutal, I could barely watch.\"",
+      "options": [
+        "I know — the director really doesn't hold back when it comes to inflicting pain on the characters.",
+        "I know — the characters really inflicted a lovely afternoon on each other.",
+        "Indeed, considerable suffering was inflicted upon the viewership, as critics duly noted."
+      ],
+      "answer": 0,
+      "explanationRu": "Inflict — причинять что-то плохое, как боль в первом ответе. «Причинить приятный день» бессмысленно, а третий ответ звучит как театральная рецензия, а не разговор с другом."
+    },
+    "rewrite": {
+      "original": "The scandal caused serious harm to the company's reputation.",
+      "frame": "The scandal ____ serious harm on the company's reputation.",
+      "accepted": ["inflicted"],
+      "explanationRu": "Inflict harm on — «причинить вред»."
+    }
+  },
+  {
+    "lemma": "influential",
+    "pos": "adjective",
+    "definitionEn": "having a lot of power to affect how people think, behave or make decisions",
+    "translationsRu": ["влиятельный", "имеющий влияние"],
+    "acceptedAnswers": ["influential"],
+    "register": "neutral",
+    "topic": "society",
+    "ambiguous": false,
+    "senseNote": "",
+    "situation": "Describing a person, idea or organisation with the power to change how other people think, behave or make important decisions.",
+    "examples": [
+      {"text": "She is one of the most [[influential]] scientists working on climate change today.",
+       "distractors": ["forgettable", "obedient", "reluctant"],
+       "alternatives": ["prominent", "powerful", "leading"]},
+      {"text": "The magazine remains hugely [[influential]] among young fashion designers.",
+       "distractors": ["unpopular", "outdated", "harmless"],
+       "alternatives": ["powerful", "respected"]},
+      {"text": "His early mentor proved [[influential]] in shaping his entire career.",
+       "distractors": ["irrelevant", "forgettable", "unhelpful"],
+       "alternatives": ["important", "significant", "instrumental"]}
+    ],
+    "trio": {
+      "texts": [
+        "Social media has become [[influential]] in shaping political opinion.",
+        "Her grandmother was a quietly [[influential]] figure in the local community.",
+        "The report proved [[influential]], leading to changes in national policy."
+      ],
+      "alternatives": ["important"]
+    },
+    "collocations": [
+      "[[influential]] figure",
+      "highly [[influential]]",
+      "[[influential]] in shaping",
+      "one of the most [[influential]] people in",
+      "[[influential]] role"
+    ],
+    "badCollocation": {
+      "text": "an [[influential]] cold",
+      "noteRu": "Influential — про людей, идеи и организации с реальным влиянием. Сильную простуду по-английски называют a bad/heavy cold, не influential."
+    },
+    "collocationTask": {
+      "prompt": "She is widely regarded as one of the most ___ economists of her generation.",
+      "answer": "influential",
+      "distractors": ["influenced", "influencing", "influence"],
+      "explanationRu": "После most нужно прилагательное — influential. Influenced и influencing — формы глагола, influence — существительное; они не подходят после most economists."
+    },
+    "nuance": {
+      "rival": "famous",
+      "text": "The professor is far more [[influential]] in the field than many better-known writers.",
+      "rivalForm": "famous",
+      "explanationRu": "Influential — реально меняющий взгляды и решения других. Famous — просто известный, необязательно оказывающий влияние на идеи. Здесь именно противопоставляются известность и реальное влияние.",
+      "reverse": {
+        "text": "The actor is [[famous]] worldwide, even though critics rarely take his films seriously.",
+        "targetForm": "influential",
+        "explanationRu": "Famous — просто известный многим. Influential предполагает реальное влияние на мысли или решения, а не просто узнаваемость."
+      }
+    },
+    "fixIt": {
+      "text": "Although she avoided the spotlight, her ideas were quietly [[famous]] in shaping how a generation of teachers taught reading.",
+      "answer": ["influential"],
+      "explanationRu": "Famous — просто известный. «Влиять на что-то, формировать» — это influential, а не famous."
+    },
+    "wordFormation": {
+      "base": "influence",
+      "text": "Few people outside the industry have ever heard of her, yet she remains hugely [[influential]] behind the scenes.",
+      "answer": ["influential"]
+    },
+    "reply": {
+      "context": "A student asks: \"Why do we have to study this philosopher? Nobody's heard of him.\"",
+      "options": [
+        "True, he's not famous, but he was hugely influential — modern ethics wouldn't exist without his ideas.",
+        "Good point, he wasn't influential at all, so let's skip the whole chapter.",
+        "His influential status has been duly certified by three separate academic committees."
+      ],
+      "answer": 0,
+      "explanationRu": "Influential — реально повлиявший на дальнейшие идеи, даже если не «раскручен». Второй ответ противоречит смыслу вопроса, а третий звучит как бюрократическая справка, а не ответ студенту."
+    },
+    "rewrite": {
+      "original": "This book changed the way an entire generation of writers thought about fiction.",
+      "frame": "This book was extremely ____ in shaping how an entire generation of writers thought about fiction.",
+      "accepted": ["influential"],
+      "explanationRu": "Influential in shaping — «оказавший влияние на формирование»."
+    }
+  }
+]

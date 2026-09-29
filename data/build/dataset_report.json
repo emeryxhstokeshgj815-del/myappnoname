@@ -1,0 +1,67 @@
+{
+ "unique_lemmas": 469,
+ "confirmed_c1_lemmas": 469,
+ "senses": 469,
+ "by_verification": {
+  "oxford-5000": 421,
+  "octanove-c1c2-1.0": 48
+ },
+ "by_corpus": {
+  "efllex-2018:lemma+pos": 315,
+  "wordfreq": 149,
+  "efllex-2018:lemma": 5
+ },
+ "lower_label_elsewhere": 220,
+ "by_pos": {
+  "verb": 121,
+  "noun": 239,
+  "adjective": 96,
+  "adverb": 10,
+  "conjunction": 1,
+  "preposition": 2
+ },
+ "by_topic": {
+  "society": 134,
+  "thinking": 57,
+  "world": 34,
+  "education": 7,
+  "work": 84,
+  "culture": 34,
+  "people": 81,
+  "science": 38
+ },
+ "by_register": {
+  "formal": 122,
+  "neutral": 325,
+  "literary": 4,
+  "technical": 7,
+  "informal": 11
+ },
+ "examples": 1407,
+ "trio_sentences": 1407,
+ "collocations": 2319,
+ "unique_context_sentences": 5068,
+ "items": {
+  "quickpick_words": 469,
+  "recall_words": 469,
+  "gap_sentences": 1407,
+  "collocation_tasks": 469,
+  "odd_one_out_tasks": 469,
+  "nuance_duels": 910,
+  "fix_it": 469,
+  "trio": 469,
+  "word_formation": 299,
+  "real_life_reply": 345,
+  "rewrite": 231
+ },
+ "mechanics_per_word_min": 9,
+ "mechanics_per_word_avg": 10.87,
+ "failures": [
+  "only 469 confirmed C1 lemmas (< 1000)",
+  "'blessing' is a form/variant of both bless and blessing",
+  "'compelling' is a form/variant of both compel and compelling",
+  "'diagnoses' is a form/variant of both diagnose and diagnosis"
+ ],
+ "warnings": [],
+ "warning_count": 0
+}

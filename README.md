@@ -4,7 +4,11 @@ Crux is a small, offline vocabulary trainer for adult learners at C1 level. It i
 single file, `index.html`: open it in a browser and study. No account, no server, no
 paid API, no network requests.
 
-* **Words:** __WORDS__ C1 words (unique lemmas), each confirmed as C1 for the same part of
+> **Status: delivered as is, incomplete.** The dictionary has 469 words, below the
+> 1000-word target; the independent editorial review was not done. See `QA.md` for
+> test results and known problems.
+
+* **Words:** 469 C1 words (unique lemmas), each confirmed as C1 for the same part of
   speech by a CEFR-labelled list and backed by corpus evidence — see `CONTENT_AUDIT.md`.
 * **12 exercise types:** Quick Pick, Recall, Context Gap, Collocation Builder, Word
   Formation, Nuance Duel, Fix It, One Word Three Contexts, Real-Life Reply, Match,
